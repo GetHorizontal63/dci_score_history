@@ -4,10 +4,15 @@
 .standings-table-container {
     height: calc(100vh - 14.4vh - 220px);
     overflow-y: auto;
-    background: #2a2a2a;
+    background: transparent !important;
     border-radius: 8px;
-    border: 1px solid #444444;
+    border: none;
     margin-top: 20px;
+}
+
+/* Override scores-content background for standings page */
+.scores-content {
+    background: transparent !important;
 }
 
 /* Custom scrollbar for standings table container */
@@ -32,7 +37,7 @@
 .standings-table {
     width: 100%;
     border-collapse: collapse;
-    background: #2a2a2a;
+    background: transparent;
     color: #ffffff;
     font-size: 14px;
 }
