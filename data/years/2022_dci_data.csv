@@ -1,25 +1,25 @@
 Date,City,State,Place,Corps,Class,Score,Year
 06/24,Oceanside,CA,1,Vanguard,World Class,69.95,2022
-06/25,Bridgeport,CT,1,Hawthorne Caballeros,World Class,74.95,2022
+06/25,Bridgeport,CT,1,Hawthorne Caballeros,DCA World Class,74.95,2022
 06/25,Pasadena,CA,1,Blue Devils,World Class,72.3,2022
 06/26,San Bernardino,CA,1,Blue Devils,World Class,73.5,2022
 06/24,Oceanside,CA,2,Mandarins,World Class,65.3,2022
-06/25,Bridgeport,CT,2,Bushwackers,World Class,70.85,2022
+06/25,Bridgeport,CT,2,Bushwackers,DCA World Class,70.85,2022
 06/25,Pasadena,CA,2,Vanguard,World Class,70.9,2022
 06/26,San Bernardino,CA,2,Vanguard,World Class,71.85,2022
 06/24,Oceanside,CA,3,Academy,World Class,61.45,2022
 06/25,Pasadena,CA,3,Mandarins,World Class,66.45,2022
 06/26,San Bernardino,CA,3,Mandarins,World Class,67.65,2022
 06/24,Oceanside,CA,4,Pacific Crest,World Class,57.75,2022
-06/25,Bridgeport,CT,1,Connecticut Hurricanes,World Class,68.35,2022
+06/25,Bridgeport,CT,1,Connecticut Hurricanes,DCA Open Class,68.35,2022
 06/25,Pasadena,CA,4,Academy,World Class,62.15,2022
 06/26,San Bernardino,CA,4,Academy,World Class,63.65,2022
 06/25,Pasadena,CA,5,Pacific Crest,World Class,57.35,2022
 06/26,San Bernardino,CA,5,Pacific Crest,World Class,58.25,2022
-06/24,Oceanside,CA,2,Golden Empire,World Class,46.75,2022
+06/24,Oceanside,CA,2,Golden Empire,Open Class,46.75,2022
 06/25,Pasadena,CA,1,Gold,Open Class,54.6,2022
 06/26,San Bernardino,CA,1,Gold,Open Class,56.35,2022
-06/24,Oceanside,CA,3,Impulse,World Class,33.95,2022
+06/24,Oceanside,CA,3,Impulse,Open Class,33.95,2022
 06/25,Pasadena,CA,2,Golden Empire,Open Class,46.75,2022
 06/26,San Bernardino,CA,2,Golden Empire,Open Class,47.05,2022
 06/25,Pasadena,CA,3,Impulse,Open Class,37.5,2022
@@ -45,13 +45,13 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/01,Muncie,IN,4,Blue Stars,World Class,67.4,2022
 07/02,Madison,WI,4,Madison Scouts,World Class,64.5,2022
 07/01,Muncie,IN,5,Crossmen,World Class,63.15,2022
-07/02,Quincy,MA,1,Spartans,World Class,58.3,2022
-07/02,Kent,OH,1,Cincinnati Tradition,World Class,64.35,2022
+07/02,Quincy,MA,1,Spartans,Open Class,58.3,2022
+07/02,Kent,OH,1,Cincinnati Tradition,DCA Open Class,64.35,2022
 07/01,Muncie,IN,6,Colts,World Class,62.35,2022
-07/02,Quincy,MA,2,7th Regiment,World Class,46.75,2022
-07/02,Madison,WI,1,River City Rhythm,World Class,48.45,2022
-07/02,Kent,OH,1,Columbus Saints,World Class,49.7,2022
-07/02,Madison,WI,2,Colt Cadets,World Class,47.75,2022
+07/02,Quincy,MA,2,7th Regiment,Open Class,46.75,2022
+07/02,Madison,WI,1,River City Rhythm,Open Class,48.45,2022
+07/02,Kent,OH,1,Columbus Saints,DCA A Class,49.7,2022
+07/02,Madison,WI,2,Colt Cadets,Open Class,47.75,2022
 07/02,Tempe,AZ,1,Blue Devils,World Class,75.45,2022
 07/03,Lynn,MA,1,Boston Crusaders,World Class,74.75,2022
 07/03,Lisle,IL,1,Cavaliers,World Class,73.4,2022
@@ -65,11 +65,11 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/03,Lisle,IL,3,Colts,World Class,65.4,2022
 07/02,Tempe,AZ,4,Academy,World Class,63.5,2022
 07/03,Lisle,IL,4,Music City,World Class,64.15,2022
-07/03,Cedarburg,WI,1,Colt Cadets,World Class,49.85,2022
+07/03,Cedarburg,WI,1,Colt Cadets,Open Class,49.85,2022
 07/02,Tempe,AZ,5,Pacific Crest,World Class,59.9,2022
-07/03,Lynn,MA,1,Spartans,World Class,60.6,2022
-07/03,Cedarburg,WI,2,River City Rhythm,World Class,49.75,2022
-07/03,Lynn,MA,2,7th Regiment,World Class,48.8,2022
+07/03,Lynn,MA,1,Spartans,Open Class,60.6,2022
+07/03,Cedarburg,WI,2,River City Rhythm,Open Class,49.75,2022
+07/03,Lynn,MA,2,7th Regiment,Open Class,48.8,2022
 07/05,Fresno,CA,1,Blue Devils,World Class,77.6,2022
 07/06,Dover,DE,1,Boston Crusaders,World Class,78.15,2022
 07/06,Mason,OH,1,Bluecoats,World Class,76.3,2022
@@ -85,15 +85,15 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/05,Fresno,CA,4,Blue Knights,World Class,68.3,2022
 07/06,Ankeny,IA,4,Madison Scouts,World Class,65.7,2022
 07/05,Fresno,CA,5,Academy,World Class,65.35,2022
-07/06,Dover,DE,1,Spartans,World Class,61.05,2022
-07/06,Mason,OH,1,Cincinnati Tradition,World Class,64.9,2022
-07/06,Dover,DE,2,Raiders,World Class,43.1,2022
-07/06,Ankeny,IA,1,Colt Cadets,World Class,52.45,2022
-07/05,Fresno,CA,1,Gold,World Class,61.1,2022
-07/06,Mason,OH,1,Columbus Saints,World Class,50.9,2022
-07/05,Fresno,CA,2,Blue Devils B,World Class,60.9,2022
-07/05,Fresno,CA,3,Vanguard Cadets,World Class,56.4,2022
-07/05,Fresno,CA,4,Golden Empire,World Class,49.9,2022
+07/06,Dover,DE,1,Spartans,Open Class,61.05,2022
+07/06,Mason,OH,1,Cincinnati Tradition,DCA Open Class,64.9,2022
+07/06,Dover,DE,2,Raiders,Open Class,43.1,2022
+07/06,Ankeny,IA,1,Colt Cadets,Open Class,52.45,2022
+07/05,Fresno,CA,1,Gold,Open Class,61.1,2022
+07/06,Mason,OH,1,Columbus Saints,DCA A Class,50.9,2022
+07/05,Fresno,CA,2,Blue Devils B,Open Class,60.9,2022
+07/05,Fresno,CA,3,Vanguard Cadets,Open Class,56.4,2022
+07/05,Fresno,CA,4,Golden Empire,Open Class,49.9,2022
 07/07,Evansville,IN,1,Bluecoats,World Class,78.6,2022
 07/08,Dubuque,IA,1,Blue Stars,World Class,75.1,2022
 07/08,Sacramento,CA,1,Blue Devils,World Class,79.6,2022
@@ -108,30 +108,30 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/08,Camas,WA,3,Troopers,World Class,65.75,2022
 07/07,Evansville,IN,4,Music City,World Class,66.6,2022
 07/08,Sacramento,CA,4,Pacific Crest,World Class,62.7,2022
-07/08,Dubuque,IA,1,Colt Cadets,World Class,56.25,2022
-07/08,Camas,WA,1,Columbians,World Class,54.7,2022
-07/08,Sacramento,CA,1,Gold,World Class,60.95,2022
-07/08,Sacramento,CA,2,Blue Devils B,World Class,60.85,2022
-07/08,Sacramento,CA,3,Vanguard Cadets,World Class,58.4,2022
-07/08,Sacramento,CA,4,Golden Empire,World Class,41.9,2022
-07/09,Clifton,NJ,1,Reading Buccaneers,World Class,75.55,2022
+07/08,Dubuque,IA,1,Colt Cadets,Open Class,56.25,2022
+07/08,Camas,WA,1,Columbians,Open Class,54.7,2022
+07/08,Sacramento,CA,1,Gold,Open Class,60.95,2022
+07/08,Sacramento,CA,2,Blue Devils B,Open Class,60.85,2022
+07/08,Sacramento,CA,3,Vanguard Cadets,Open Class,58.4,2022
+07/08,Sacramento,CA,4,Golden Empire,Open Class,41.9,2022
+07/09,Clifton,NJ,1,Reading Buccaneers,DCA World Class,75.55,2022
 07/09,Lexington,SC,1,Carolina Crown,World Class,81.85,2022
 07/09,DeKalb,IL,1,Bluecoats,World Class,80.45,2022
 07/09,Renton,WA,1,Blue Knights,World Class,71.45,2022
-07/09,Clifton,NJ,2,Hawthorne Caballeros,World Class,74.95,2022
+07/09,Clifton,NJ,2,Hawthorne Caballeros,DCA World Class,74.95,2022
 07/09,Lexington,SC,2,Boston Crusaders,World Class,80.85,2022
 07/09,DeKalb,IL,2,Blue Stars,World Class,75.75,2022
 07/09,Renton,WA,2,Academy,World Class,68.1,2022
-07/09,Clifton,NJ,3,Bushwackers,World Class,70.75,2022
+07/09,Clifton,NJ,3,Bushwackers,DCA World Class,70.75,2022
 07/09,Lexington,SC,3,Cadets,World Class,76.9,2022
 07/09,DeKalb,IL,3,Phantom Regiment,World Class,73.6,2022
 07/09,Renton,WA,3,Troopers,World Class,65.65,2022
 07/09,Lexington,SC,4,Crossmen,World Class,73.2,2022
 07/09,DeKalb,IL,4,Colts,World Class,70.05,2022
-07/09,Clifton,NJ,1,Connecticut Hurricanes,World Class,64.95,2022
+07/09,Clifton,NJ,1,Connecticut Hurricanes,DCA Open Class,64.95,2022
 07/09,Lexington,SC,5,Music City,World Class,68.35,2022
 07/09,DeKalb,IL,5,Madison Scouts,World Class,68.75,2022
-07/09,Renton,WA,1,Columbians,World Class,56.15,2022
+07/09,Renton,WA,1,Columbians,Open Class,56.15,2022
 07/09,Lexington,SC,1,Spartans,Open Class,62.45,2022
 07/09,DeKalb,IL,1,River City Rhythm,Open Class,57.95,2022
 07/09,Lexington,SC,2,Heat Wave,Open Class,52.15,2022
@@ -147,32 +147,32 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/11,Tri Cities,WA,3,Troopers,World Class,67.55,2022
 07/10,La Crosse,WI,4,Madison Scouts,World Class,69.4,2022
 07/10,Stanford,CA,4,Pacific Crest,World Class,63.6,2022
-07/11,Tri Cities,WA,1,Columbians,World Class,58.35,2022
-07/10,La Crosse,WI,1,River City Rhythm,World Class,56.75,2022
-07/10,Stanford,CA,1,Blue Devils B,World Class,62.55,2022
-07/10,La Crosse,WI,2,Colt Cadets,World Class,55.55,2022
-07/10,Stanford,CA,2,Gold,World Class,62.4,2022
-07/10,Stanford,CA,3,Vanguard Cadets,World Class,60.7,2022
-07/10,Stanford,CA,4,Blue Devils C,World Class,44.65,2022
+07/11,Tri Cities,WA,1,Columbians,Open Class,58.35,2022
+07/10,La Crosse,WI,1,River City Rhythm,Open Class,56.75,2022
+07/10,Stanford,CA,1,Blue Devils B,Open Class,62.55,2022
+07/10,La Crosse,WI,2,Colt Cadets,Open Class,55.55,2022
+07/10,Stanford,CA,2,Gold,Open Class,62.4,2022
+07/10,Stanford,CA,3,Vanguard Cadets,Open Class,60.7,2022
+07/10,Stanford,CA,4,Blue Devils C,Open Class,44.65,2022
 07/12,Atlanta,GA,1,Carolina Crown,World Class,83.45,2022
 07/12,Mankato,MN,1,Phantom Regiment,World Class,76.45,2022
 07/12,Boise,ID,1,Mandarins,World Class,77.35,2022
-07/13,Tri Cities,WA,1,White Sabers,World Class,72.45,2022
+07/13,Tri Cities,WA,1,White Sabers,DCA World Class,72.45,2022
 07/12,Atlanta,GA,2,Cadets,World Class,79.15,2022
 07/12,Mankato,MN,2,Colts,World Class,71.85,2022
 07/12,Boise,ID,2,Blue Knights,World Class,73.45,2022
 07/12,Atlanta,GA,3,Crossmen,World Class,73.8,2022
 07/12,Mankato,MN,3,Madison Scouts,World Class,69.05,2022
 07/12,Boise,ID,3,Troopers,World Class,69.05,2022
-07/13,Tri Cities,WA,1,Cincinnati Tradition,World Class,63.9,2022
+07/13,Tri Cities,WA,1,Cincinnati Tradition,DCA Open Class,63.9,2022
 07/12,Atlanta,GA,4,Music City,World Class,69.75,2022
 07/12,Boise,ID,4,Academy,World Class,68.6,2022
-07/13,Tri Cities,WA,2,Atlanta CV,World Class,61.55,2022
+07/13,Tri Cities,WA,2,Atlanta CV,DCA Open Class,61.55,2022
 07/12,Atlanta,GA,1,Heat Wave,Open Class,52.25,2022
-07/12,Mankato,MN,2,Colt Cadets,World Class,57.6,2022
+07/12,Mankato,MN,2,Colt Cadets,Open Class,57.6,2022
 07/12,Boise,ID,1,Columbians,Open Class,61.3,2022
-07/13,Tri Cities,WA,1,Govenaires,DCA Class A,60.45,2022
-07/12,Mankato,MN,1,Govenaires,World Class,71.8,2022
+07/13,Tri Cities,WA,1,Govenaires,DCA A Class,60.45,2022
+07/12,Mankato,MN,1,Govenaires,DCA A Class,71.8,2022
 07/13,Eau Claire,WI,1,Blue Stars,World Class,79.45,2022
 07/13,Ogden,UT,1,Blue Devils,World Class,84.55,2022
 07/14,Tupelo,MS,1,Boston Crusaders,World Class,84.0,2022
@@ -186,28 +186,28 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/13,Ogden,UT,4,Blue Knights,World Class,74.35,2022
 07/14,Tupelo,MS,4,Music City,World Class,71.75,2022
 07/13,Ogden,UT,5,Troopers,World Class,70.85,2022
-07/13,Eau Claire,WI,1,River City Rhythm,World Class,60.35,2022
+07/13,Eau Claire,WI,1,River City Rhythm,Open Class,60.35,2022
 07/13,Ogden,UT,6,Academy,World Class,69.2,2022
-07/14,Tupelo,MS,1,Louisiana Stars,World Class,57.15,2022
-07/13,Eau Claire,WI,2,Colt Cadets,World Class,58.3,2022
-07/13,Ogden,UT,1,Columbians,World Class,62.5,2022
-07/13,Ogden,UT,2,Battalion,World Class,60.25,2022
+07/14,Tupelo,MS,1,Louisiana Stars,Open Class,57.15,2022
+07/13,Eau Claire,WI,2,Colt Cadets,Open Class,58.3,2022
+07/13,Ogden,UT,1,Columbians,Open Class,62.5,2022
+07/13,Ogden,UT,2,Battalion,Open Class,60.25,2022
 07/15,Riverside,CA,1,Blue Devils B,Open Class,68.7,2022
-07/16,Landisville,PA,1,Reading Buccaneers,World Class,78.4,2022
+07/16,Landisville,PA,1,Reading Buccaneers,DCA World Class,78.4,2022
 07/16,Memphis,TN,1,Carolina Crown,World Class,86.1,2022
 07/15,Riverside,CA,2,Columbians,Open Class,64.2,2022
-07/16,Landisville,PA,2,Hawthorne Caballeros,World Class,76.7,2022
+07/16,Landisville,PA,2,Hawthorne Caballeros,DCA World Class,76.7,2022
 07/16,Memphis,TN,2,Boston Crusaders,World Class,85.7,2022
 07/15,Riverside,CA,3,Golden Empire,Open Class,61.6,2022
-07/16,Landisville,PA,3,Bushwackers,World Class,73.45,2022
+07/16,Landisville,PA,3,Bushwackers,DCA World Class,73.45,2022
 07/16,Memphis,TN,3,Cadets,World Class,82.05,2022
 07/15,Riverside,CA,4,Les Stentors,Open Class,54.35,2022
-07/16,Landisville,PA,4,White Sabers,World Class,73.1,2022
+07/16,Landisville,PA,4,White Sabers,DCA World Class,73.1,2022
 07/16,Memphis,TN,4,Crossmen,World Class,75.9,2022
 07/15,Riverside,CA,5,Blue Devils C,Open Class,50.35,2022
 07/16,Memphis,TN,5,Music City,World Class,72.1,2022
 07/15,Riverside,CA,6,Impulse,Open Class,49.05,2022
-07/16,Landisville,PA,1,Skyliners,World Class,60.9,2022
+07/16,Landisville,PA,1,Skyliners,DCA A Class,60.9,2022
 07/16,Whitewater,WI,1,Bluecoats,World Class,85.0,2022
 07/16,Denver,CO,1,Blue Devils,World Class,85.95,2022
 07/16,Vista,CA,1,Vanguard Cadets,Open Class,71.8,2022
@@ -227,7 +227,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/16,Vista,CA,6,Blue Devils C,Open Class,52.55,2022
 07/16,Denver,CO,7,Genesis,World Class,65.45,2022
 07/16,Vista,CA,7,Impulse,Open Class,49.9,2022
-07/16,Denver,CO,1,Battalion,World Class,60.0,2022
+07/16,Denver,CO,1,Battalion,Open Class,60.0,2022
 07/17,Bellflower,CA,1,Vanguard Cadets,Open Class,72.55,2022
 07/18,Olathe,KS,1,Blue Stars,World Class,82.2,2022
 07/18,Canyon,TX,1,Mandarins,World Class,81.1,2022
@@ -246,8 +246,8 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/17,Bellflower,CA,6,Blue Devils C,Open Class,52.55,2022
 07/18,Canyon,TX,6,Genesis,World Class,67.1,2022
 07/17,Bellflower,CA,7,Impulse,Open Class,51.2,2022
-07/18,Olathe,KS,1,Colt Cadets,World Class,60.15,2022
-07/18,Canyon,TX,1,Guardians,World Class,60.55,2022
+07/18,Olathe,KS,1,Colt Cadets,Open Class,60.15,2022
+07/18,Canyon,TX,1,Guardians,Open Class,60.55,2022
 07/19,Broken Arrow,OK,1,Blue Devils,World Class,89.2,2022
 07/21,Round Rock,TX,1,Cavaliers,World Class,82.45,2022
 07/21,Denton,TX,1,Carolina Crown,World Class,88.55,2022
@@ -271,7 +271,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/21,Denton,TX,7,Phantom Regiment,World Class,81.15,2022
 07/19,Broken Arrow,OK,8,Blue Knights,World Class,77.5,2022
 07/21,Denton,TX,8,Blue Knights,World Class,77.95,2022
-07/21,Round Rock,TX,1,Guardians,World Class,62.4,2022
+07/21,Round Rock,TX,1,Guardians,Open Class,62.4,2022
 07/21,Denton,TX,9,Colts,World Class,77.75,2022
 07/21,Denton,TX,10,Academy,World Class,73.8,2022
 07/22,Houston,TX,1,Blue Devils,World Class,91.75,2022
@@ -283,22 +283,22 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/23,San Antonio,TX,2,Boston Crusaders,World Class,90.7,2022
 07/22,Houston,TX,3,Bluecoats,World Class,89.65,2022
 07/22,Bakersfield,CA,3,Columbians,Open Class,69.15,2022
-07/23,Sewell,NJ,1,Spartans,World Class,70.05,2022
+07/23,Sewell,NJ,1,Spartans,Open Class,70.05,2022
 07/23,San Antonio,TX,3,Carolina Crown,World Class,90.425,2022
 07/22,Houston,TX,4,Cadets,World Class,84.75,2022
 07/22,Bakersfield,CA,4,Golden Empire,Open Class,65.3,2022
-07/23,Sewell,NJ,2,Southwind,World Class,63.95,2022
+07/23,Sewell,NJ,2,Southwind,Open Class,63.95,2022
 07/23,San Antonio,TX,4,Bluecoats,World Class,89.9,2022
 07/22,Houston,TX,5,Blue Stars,World Class,84.55,2022
 07/22,Bakersfield,CA,5,Les Stentors,Open Class,57.75,2022
-07/23,Sewell,NJ,3,7th Regiment,World Class,58.65,2022
+07/23,Sewell,NJ,3,7th Regiment,Open Class,58.65,2022
 07/23,San Antonio,TX,5,Vanguard,World Class,88.75,2022
 07/22,Houston,TX,6,Cavaliers,World Class,83.45,2022
-07/23,Sewell,NJ,4,Raiders,World Class,57.4,2022
+07/23,Sewell,NJ,4,Raiders,Open Class,57.4,2022
 07/23,San Antonio,TX,6,Cadets,World Class,86.025,2022
 07/22,Houston,TX,7,Mandarins,World Class,83.35,2022
 07/23,San Antonio,TX,7,Blue Stars,World Class,84.6125,2022
-07/23,Sewell,NJ,1,Reading Buccaneers,World Class,79.1,2022
+07/23,Sewell,NJ,1,Reading Buccaneers,DCA World Class,79.1,2022
 07/23,San Antonio,TX,8,Mandarins,World Class,83.8125,2022
 07/23,San Antonio,TX,9,Cavaliers,World Class,83.25,2022
 07/23,San Antonio,TX,10,Phantom Regiment,World Class,82.175,2022
@@ -311,7 +311,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/23,San Antonio,TX,17,Music City,World Class,72.175,2022
 07/23,San Antonio,TX,18,Pacific Crest,World Class,70.95,2022
 07/23,San Antonio,TX,19,Genesis,World Class,69.25,2022
-07/23,San Antonio,TX,1,Guardians,World Class,64.475,2022
+07/23,San Antonio,TX,1,Guardians,Open Class,64.475,2022
 07/23,Fresno,CA,1,Vanguard Cadets,Open Class,75.35,2022
 07/24,Nashua,NH,1,Spartans,Open Class,71.85,2022
 07/24,Union City,CA,1,Vanguard Cadets,Open Class,75.75,2022
@@ -361,22 +361,22 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/25,Mesquite,TX,9,Genesis,World Class,68.25,2022
 07/29,Sheffield,PA,1,Spartans,Open Class,72.4,2022
 07/29,Murfreesboro,TN,1,Blue Devils,World Class,93.55,2022
-07/30,Williamsport,PA,1,Hawthorne Caballeros,World Class,84.15,2022
+07/30,Williamsport,PA,1,Hawthorne Caballeros,DCA World Class,84.15,2022
 07/29,Sheffield,PA,2,Southwind,Open Class,68.0,2022
 07/29,Murfreesboro,TN,2,Boston Crusaders,World Class,92.35,2022
-07/30,Williamsport,PA,2,Reading Buccaneers,World Class,83.45,2022
+07/30,Williamsport,PA,2,Reading Buccaneers,DCA World Class,83.45,2022
 07/29,Sheffield,PA,3,Legends,Open Class,67.3,2022
 07/29,Murfreesboro,TN,3,Bluecoats,World Class,91.725,2022
-07/30,Williamsport,PA,3,White Sabers,World Class,77.65,2022
+07/30,Williamsport,PA,3,White Sabers,DCA World Class,77.65,2022
 07/29,Sheffield,PA,4,Raiders,Open Class,59.1,2022
 07/29,Murfreesboro,TN,4,Carolina Crown,World Class,91.425,2022
 07/29,Murfreesboro,TN,5,Blue Stars,World Class,87.1,2022
-07/30,Williamsport,PA,1,Rogues Hollow Regiment,World Class,67.4,2022
+07/30,Williamsport,PA,1,Rogues Hollow Regiment,DCA Open Class,67.4,2022
 07/29,Murfreesboro,TN,6,Cavaliers,World Class,86.1,2022
 07/29,Murfreesboro,TN,7,Blue Knights,World Class,82.0,2022
-07/30,Williamsport,PA,1,Fusion Core,World Class,69.5,2022
+07/30,Williamsport,PA,1,Fusion Core,DCA A Class,69.5,2022
 07/29,Murfreesboro,TN,8,Music City,World Class,76.4,2022
-07/30,Williamsport,PA,2,Skyliners,World Class,61.9,2022
+07/30,Williamsport,PA,2,Skyliners,DCA A Class,61.9,2022
 07/30,Atlanta,GA,1,Blue Devils,World Class,94.05,2022
 07/30,White Lake,MI,1,Spartans,Open Class,72.75,2022
 07/30,Normal,IL,1,Guardians,Open Class,72.55,2022
@@ -410,9 +410,9 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/31,Winston-Salem,NC,11,Jersey Surf,World Class,67.6,2022
 07/30,Atlanta,GA,12,Music City,World Class,75.85,2022
 07/30,Atlanta,GA,13,Genesis,World Class,72.45,2022
-07/30,Atlanta,GA,1,Gold,World Class,70.3,2022
-07/30,Atlanta,GA,2,Heat Wave,World Class,59.3,2022
-07/30,Atlanta,GA,1,Atlanta CV,World Class,72.9,2022
+07/30,Atlanta,GA,1,Gold,Open Class,70.3,2022
+07/30,Atlanta,GA,2,Heat Wave,Open Class,59.3,2022
+07/30,Atlanta,GA,1,Atlanta CV,DCA Open Class,72.9,2022
 08/01,Huntington,WV,1,Phantom Regiment,World Class,87.2,2022
 08/01,Sun Prairie,WI,1,Spartans,Open Class,74.05,2022
 08/02,Annapolis,MD,1,Blue Devils,World Class,94.975,2022
@@ -432,33 +432,33 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/01,Sun Prairie,WI,5,Louisiana Stars,Open Class,66.5,2022
 08/02,Annapolis,MD,5,Troopers,World Class,80.45,2022
 08/02,Sevierville,TN,5,Music City,World Class,77.7,2022
-08/01,Huntington,WV,1,Gold,World Class,70.0,2022
+08/01,Huntington,WV,1,Gold,Open Class,70.0,2022
 08/01,Sun Prairie,WI,6,Colt Cadets,Open Class,62.05,2022
 08/02,Annapolis,MD,6,Academy,World Class,76.5,2022
-08/01,Huntington,WV,2,Legends,World Class,67.75,2022
+08/01,Huntington,WV,2,Legends,Open Class,67.75,2022
 08/01,Sun Prairie,WI,7,Les Stentors,Open Class,61.2,2022
 08/02,Annapolis,MD,7,Genesis,World Class,73.65,2022
 08/02,Annapolis,MD,8,Jersey Surf,World Class,68.7,2022
 08/02,Salem,VA,1,Carolina Crown,World Class,94.4,2022
 08/02,Lima,OH,1,Gold,Open Class,74.55,2022
-08/03,Annapolis,MD,1,Bushwackers,World Class,78.5,2022
+08/03,Annapolis,MD,1,Bushwackers,DCA World Class,78.5,2022
 08/03,Glassboro,NJ,1,Boston Crusaders,World Class,95.2,2022
 08/02,Salem,VA,2,Vanguard,World Class,92.85,2022
 08/02,Lima,OH,2,Southwind,Open Class,71.9,2022
 08/03,Glassboro,NJ,2,Bluecoats,World Class,93.8,2022
 08/02,Salem,VA,3,Colts,World Class,84.9,2022
 08/02,Lima,OH,3,Legends,Open Class,69.95,2022
-08/03,Annapolis,MD,1,Connecticut Hurricanes,World Class,72.1,2022
+08/03,Annapolis,MD,1,Connecticut Hurricanes,DCA Open Class,72.1,2022
 08/03,Glassboro,NJ,3,Cadets,World Class,90.45,2022
 08/02,Salem,VA,4,Pacific Crest,World Class,74.85,2022
 08/02,Lima,OH,4,Louisiana Stars,Open Class,67.9,2022
-08/03,Annapolis,MD,2,Atlanta CV,World Class,70.85,2022
+08/03,Annapolis,MD,2,Atlanta CV,DCA Open Class,70.85,2022
 08/03,Glassboro,NJ,4,Blue Knights,World Class,84.65,2022
 08/02,Lima,OH,5,Raiders,Open Class,64.6,2022
 08/03,Glassboro,NJ,5,Crossmen,World Class,84.15,2022
-08/03,Annapolis,MD,1,Govenaires,World Class,65.8,2022
+08/03,Annapolis,MD,1,Govenaires,DCA A Class,65.8,2022
 08/03,Glassboro,NJ,6,Troopers,World Class,80.9,2022
-08/02,Lima,OH,1,Cincinnati Tradition,Open Class,73.1,2022
+08/02,Lima,OH,1,Cincinnati Tradition,DCA Open Class,73.1,2022
 08/03,Glassboro,NJ,7,Academy,World Class,76.85,2022
 08/03,Glassboro,NJ,8,Jersey Surf,World Class,69.0,2022
 08/03,Centerville,OH,1,Blue Stars,World Class,90.7,2022
@@ -483,10 +483,10 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/05,Cedar Rapids,IA,5,River City Rhythm,Open Class,71.15,2022
 08/05,Portage,MI,6,Louisiana Stars,Open Class,64.05,2022
 08/05,Cedar Rapids,IA,6,Les Stentors,Open Class,65.8,2022
-08/03,Centerville,OH,1,Spartans,World Class,75.4,2022
-08/03,Apple Valley,MN,1,Govenaires,Open Class,62.95,2022
+08/03,Centerville,OH,1,Spartans,Open Class,75.4,2022
+08/03,Apple Valley,MN,1,Govenaires,DCA A Class,62.95,2022
 08/05,Cedar Rapids,IA,7,Colt Cadets,Open Class,65.7,2022
-08/03,Centerville,OH,1,Cincinnati Tradition,World Class,73.4,2022
+08/03,Centerville,OH,1,Cincinnati Tradition,DCA Open Class,73.4,2022
 08/05,Allentown,PA,1,Blue Devils,World Class,96.05,2022
 08/06,Allentown,PA,1,Carolina Crown,World Class,95.075,2022
 08/06,Avon Lake,OH,1,Spartans,Open Class,79.45,2022
@@ -516,32 +516,32 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/06,Charleston,IL,7,Les Stentors,Open Class,65.5,2022
 08/05,Allentown,PA,8,Academy,World Class,78.45,2022
 08/06,Allentown,PA,8,Madison Scouts,World Class,80.95,2022
-08/06,Avon Lake,OH,1,Cincinnati Tradition,Open Class,77.55,2022
+08/06,Avon Lake,OH,1,Cincinnati Tradition,DCA Open Class,77.55,2022
 08/06,Charleston,IL,8,Colt Cadets,Open Class,65.35,2022
 08/05,Allentown,PA,9,Music City,World Class,78.0,2022
 08/06,Allentown,PA,9,Pacific Crest,World Class,77.1,2022
 08/06,Avon Lake,OH,2,Rouges Hollow Regiment,Open Class,75.3,2022
 08/06,Allentown,PA,10,Genesis,World Class,75.05,2022
 08/06,Allentown,PA,11,Jersey Surf,World Class,72.7,2022
-08/06,Avon Lake,OH,1,Columbus Saints,Open Class,64.6,2022
-08/06,Allentown,PA,1,Reading Buccaneers,World Class,81.8,2022
-08/06,Kingston,NY,1,Hawthorne Caballeros,World Class,86.6,2022
+08/06,Avon Lake,OH,1,Columbus Saints,DCA A Class,64.6,2022
+08/06,Allentown,PA,1,Reading Buccaneers,DCA World Class,81.8,2022
+08/06,Kingston,NY,1,Hawthorne Caballeros,DCA World Class,86.6,2022
 08/07,Pittsburgh,PA,1,Cadets,World Class,92.3,2022
 08/08,Cincinnati,OH,1,Vanguard,World Class,93.05,2022
-08/06,Kingston,NY,2,Bushwackers,World Class,81.6,2022
+08/06,Kingston,NY,2,Bushwackers,DCA World Class,81.6,2022
 08/07,Pittsburgh,PA,2,Mandarins,World Class,88.9,2022
 08/08,Cincinnati,OH,2,Cadets,World Class,91.7,2022
-08/06,Kingston,NY,3,White Sabers,World Class,77.5,2022
+08/06,Kingston,NY,3,White Sabers,DCA World Class,77.5,2022
 08/07,Pittsburgh,PA,3,Blue Knights,World Class,84.5,2022
 08/08,Cincinnati,OH,3,Troopers,World Class,84.95,2022
 08/07,Pittsburgh,PA,4,Troopers,World Class,83.55,2022
 08/08,Cincinnati,OH,4,Blue Knights,World Class,84.8,2022
-08/06,Kingston,NY,1,Connecticut Hurricanes,World Class,77.0,2022
+08/06,Kingston,NY,1,Connecticut Hurricanes,DCA Open Class,77.0,2022
 08/07,Pittsburgh,PA,5,Pacific Crest,World Class,76.65,2022
 08/08,Cincinnati,OH,5,Music City,World Class,78.85,2022
 08/08,Cincinnati,OH,6,Jersey Surf,World Class,73.05,2022
-08/06,Kingston,NY,1,Fusion Core,World Class,73.0,2022
-08/08,Cincinnati,OH,1,Cincinnati Tradition,World Class,73.5,2022
+08/06,Kingston,NY,1,Fusion Core,DCA A Class,73.0,2022
+08/08,Cincinnati,OH,1,Cincinnati Tradition,DCA Open Class,73.5,2022
 08/08,Marion,IN,1,Vanguard Cadets,Open Class,82.925,2022
 08/09,Marion,IN,1,Vanguard Cadets,Open Class,83.55,2022
 08/08,Marion,IN,2,Gold,Open Class,81.675,2022
@@ -568,8 +568,8 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/09,Marion,IN,12,Les Stentors,Open Class,69.5,2022
 08/08,Marion,IN,13,Raiders,Open Class,67.625,2022
 08/08,Marion,IN,14,Colt Cadets,Open Class,67.15,2022
-08/09,Marion,IN,1,Calgary Stampede Band,Open Class,78.475,2022
-08/08,Marion,IN,1,Calgary Stampede Band,Open Class,76.925,2022
+08/09,Marion,IN,1,Calgary Stampede Band,International Class,78.475,2022
+08/08,Marion,IN,1,Calgary Stampede Band,International Class,76.925,2022
 08/11,Indianapolis,IN,1,Blue Devils,World Class,97.45,2022
 08/12,Indianapolis,IN,1,Blue Devils,World Class,98.3,2022
 08/13,Indianapolis,IN,1,Blue Devils,World Class,98.75,2022
@@ -616,75 +616,75 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/12,Indianapolis,IN,16,Academy,World Class,82.2,2022
 08/11,Indianapolis,IN,17,Music City,World Class,81.7125,2022
 08/12,Indianapolis,IN,17,Music City,World Class,81.7625,2022
-08/11,Indianapolis,IN,18,Vanguard Cadets,World Class,81.525,2022
-08/12,Indianapolis,IN,18,Vanguard Cadets,World Class,81.05,2022
+08/11,Indianapolis,IN,18,Vanguard Cadets,Open Class,81.525,2022
+08/12,Indianapolis,IN,18,Vanguard Cadets,Open Class,81.05,2022
 08/11,Indianapolis,IN,19,Pacific Crest,World Class,79.8125,2022
 08/12,Indianapolis,IN,19,Pacific Crest,World Class,80.25,2022
-08/11,Indianapolis,IN,20,Gold,World Class,79.7125,2022
-08/12,Indianapolis,IN,20,Gold,World Class,79.025,2022
+08/11,Indianapolis,IN,20,Gold,Open Class,79.7125,2022
+08/12,Indianapolis,IN,20,Gold,Open Class,79.025,2022
 08/11,Indianapolis,IN,21,Genesis,World Class,79.2625,2022
 08/12,Indianapolis,IN,21,Genesis,World Class,78.8125,2022
-08/11,Indianapolis,IN,22,Blue Devils B,World Class,78.8125,2022
-08/12,Indianapolis,IN,22,Blue Devils B,World Class,78.375,2022
-08/11,Indianapolis,IN,23,Spartans,World Class,77.55,2022
-08/12,Indianapolis,IN,23,Spartans,World Class,76.6,2022
-08/11,Indianapolis,IN,24,Guardians,World Class,76.2125,2022
-08/12,Indianapolis,IN,24,Guardians,World Class,73.925,2022
+08/11,Indianapolis,IN,22,Blue Devils B,Open Class,78.8125,2022
+08/12,Indianapolis,IN,22,Blue Devils B,Open Class,78.375,2022
+08/11,Indianapolis,IN,23,Spartans,Open Class,77.55,2022
+08/12,Indianapolis,IN,23,Spartans,Open Class,76.6,2022
+08/11,Indianapolis,IN,24,Guardians,Open Class,76.2125,2022
+08/12,Indianapolis,IN,24,Guardians,Open Class,73.925,2022
 08/11,Indianapolis,IN,25,Jersey Surf,World Class,74.825,2022
 08/12,Indianapolis,IN,25,Jersey Surf,World Class,73.875,2022
-08/11,Indianapolis,IN,26,Calgary Stampede Band,World Class,74.15,2022
-08/11,Indianapolis,IN,27,Battalion,World Class,73.1625,2022
-08/11,Indianapolis,IN,28,Southwind,World Class,73.125,2022
-08/11,Indianapolis,IN,29,Legends,World Class,72.975,2022
-08/11,Indianapolis,IN,30,Louisiana Stars,World Class,70.025,2022
-08/11,Indianapolis,IN,31,River City Rhythm,World Class,69.95,2022
-08/11,Indianapolis,IN,32,Les Stentors,World Class,67.525,2022
-08/11,Indianapolis,IN,33,7th Regiment,World Class,66.1875,2022
-08/11,Indianapolis,IN,34,Raiders,World Class,65.825,2022
-08/11,Indianapolis,IN,35,Colt Cadets,World Class,65.225,2022
-08/20,Flanders,NJ,1,Hawthorne Caballeros,World Class,91.6,2022
-08/24,Indianapolis,IN,1,Atlanta CV,Open Class,81.7,2022
-08/27,Reading,PA,1,Reading Buccaneers,World Class,93.5,2022
-08/27,Seymour,CT,1,Hawthorne Caballeros,World Class,93.55,2022
-08/20,Flanders,NJ,2,Reading Buccaneers,World Class,90.65,2022
-08/24,Indianapolis,IN,2,Connecticut Hurricanes,Open Class,81.25,2022
-08/27,Reading,PA,2,Bushwackers,World Class,89.75,2022
-08/20,Flanders,NJ,3,Bushwackers,World Class,84.6,2022
-08/24,Indianapolis,IN,3,Cincinnati Tradition,Open Class,78.85,2022
-08/27,Reading,PA,3,White Sabers,World Class,85.85,2022
-08/27,Seymour,CT,1,Connecticut Hurricanes,World Class,83.1,2022
-08/20,Flanders,NJ,4,White Sabers,World Class,81.8,2022
-08/24,Indianapolis,IN,4,Rogues Hollow Regiment,Open Class,76.0,2022
-08/27,Reading,PA,1,Skyliners,World Class,75.75,2022
-08/27,Seymour,CT,1,Fusion Core,World Class,80.85,2022
-08/20,Flanders,NJ,1,Fusion Core,World Class,77.45,2022
-08/24,Indianapolis,IN,1,Govenaires,Open Class,73.6,2022
-08/24,Indianapolis,IN,2,Columbus Saints,Open Class,60.85,2022
-08/20,Flanders,NJ,1,Atlanta CV,World Class,84.05,2022
-08/20,Flanders,NJ,2,Rogues Hollow Regiment,World Class,80.25,2022
-08/20,Flanders,NJ,3,Cincinnati Tradition,World Class,79.7,2022
-08/20,Flanders,NJ,1,Columbus Saints,World Class,64.7,2022
-09/03,Rochester,NY,1,Reading Buccaneers,World Class,96.875,2022
-09/04,Rochester,NY,1,Reading Buccaneers,World Class,97.6,2022
-09/03,Rochester,NY,2,Hawthorne Caballeros,World Class,96.325,2022
-09/04,Rochester,NY,2,Hawthorne Caballeros,World Class,96.725,2022
-09/03,Rochester,NY,3,Bushwackers,World Class,92.525,2022
-09/04,Rochester,NY,3,Bushwackers,World Class,94.6,2022
-09/03,Rochester,NY,4,White Sabers,World Class,90.325,2022
-09/04,Rochester,NY,4,White Sabers,World Class,90.8,2022
-09/03,Rochester,NY,1,Connecticut Hurricanes,Open Class,88.1,2022
-09/04,Rochester,NY,1,Connecticut Hurricanes,Open Class,89.45,2022
-09/03,Rochester,NY,2,Atlanta CV,Open Class,87.725,2022
-09/04,Rochester,NY,2,Atlanta CV,Open Class,87.75,2022
-09/03,Rochester,NY,3,Cincinnati Tradition,Open Class,83.725,2022
-09/04,Rochester,NY,3,Cincinnati Tradition,Open Class,83.35,2022
-09/03,Rochester,NY,4,Rogues Hollow Regiment,Open Class,81.9,2022
-09/04,Rochester,NY,4,Rogues Hollow Regiment,Open Class,81.475,2022
-09/03,Rochester,NY,1,Fusion Core,DCA Class A,84.5,2022
-09/04,Rochester,NY,1,Fusion Core,DCA Class A,85.275,2022
-09/03,Rochester,NY,2,Skyliners,DCA Class A,79.8,2022
-09/04,Rochester,NY,2,Skyliners,DCA Class A,80.95,2022
-09/03,Rochester,NY,3,Govenaires,DCA Class A,78.85,2022
-09/04,Rochester,NY,3,Govenaires,DCA Class A,78.975,2022
-09/03,Rochester,NY,4,Columbus Saints,DCA Class A,70.975,2022
-09/04,Rochester,NY,4,Columbus Saints,DCA Class A,71.675,2022
+08/11,Indianapolis,IN,26,Calgary Stampede Band,International Class,74.15,2022
+08/11,Indianapolis,IN,27,Battalion,Open Class,73.1625,2022
+08/11,Indianapolis,IN,28,Southwind,Open Class,73.125,2022
+08/11,Indianapolis,IN,29,Legends,Open Class,72.975,2022
+08/11,Indianapolis,IN,30,Louisiana Stars,Open Class,70.025,2022
+08/11,Indianapolis,IN,31,River City Rhythm,Open Class,69.95,2022
+08/11,Indianapolis,IN,32,Les Stentors,Open Class,67.525,2022
+08/11,Indianapolis,IN,33,7th Regiment,Open Class,66.1875,2022
+08/11,Indianapolis,IN,34,Raiders,Open Class,65.825,2022
+08/11,Indianapolis,IN,35,Colt Cadets,Open Class,65.225,2022
+08/20,Flanders,NJ,1,Hawthorne Caballeros,DCA World Class,91.6,2022
+08/24,Indianapolis,IN,1,Atlanta CV,DCA Open Class,81.7,2022
+08/27,Reading,PA,1,Reading Buccaneers,DCA World Class,93.5,2022
+08/27,Seymour,CT,1,Hawthorne Caballeros,DCA World Class,93.55,2022
+08/20,Flanders,NJ,2,Reading Buccaneers,DCA World Class,90.65,2022
+08/24,Indianapolis,IN,2,Connecticut Hurricanes,DCA Open Class,81.25,2022
+08/27,Reading,PA,2,Bushwackers,DCA World Class,89.75,2022
+08/20,Flanders,NJ,3,Bushwackers,DCA World Class,84.6,2022
+08/24,Indianapolis,IN,3,Cincinnati Tradition,DCA Open Class,78.85,2022
+08/27,Reading,PA,3,White Sabers,DCA World Class,85.85,2022
+08/27,Seymour,CT,1,Connecticut Hurricanes,DCA Open Class,83.1,2022
+08/20,Flanders,NJ,4,White Sabers,DCA World Class,81.8,2022
+08/24,Indianapolis,IN,4,Rogues Hollow Regiment,DCA Open Class,76.0,2022
+08/27,Reading,PA,1,Skyliners,DCA A Class,75.75,2022
+08/27,Seymour,CT,1,Fusion Core,DCA A Class,80.85,2022
+08/20,Flanders,NJ,1,Fusion Core,DCA A Class,77.45,2022
+08/24,Indianapolis,IN,1,Govenaires,DCA A Class,73.6,2022
+08/24,Indianapolis,IN,2,Columbus Saints,DCA A Class,60.85,2022
+08/20,Flanders,NJ,1,Atlanta CV,DCA Open Class,84.05,2022
+08/20,Flanders,NJ,2,Rogues Hollow Regiment,DCA Open Class,80.25,2022
+08/20,Flanders,NJ,3,Cincinnati Tradition,DCA Open Class,79.7,2022
+08/20,Flanders,NJ,1,Columbus Saints,DCA A Class,64.7,2022
+09/03,Rochester,NY,1,Reading Buccaneers,DCA World Class,96.875,2022
+09/04,Rochester,NY,1,Reading Buccaneers,DCA World Class,97.6,2022
+09/03,Rochester,NY,2,Hawthorne Caballeros,DCA World Class,96.325,2022
+09/04,Rochester,NY,2,Hawthorne Caballeros,DCA World Class,96.725,2022
+09/03,Rochester,NY,3,Bushwackers,DCA World Class,92.525,2022
+09/04,Rochester,NY,3,Bushwackers,DCA World Class,94.6,2022
+09/03,Rochester,NY,4,White Sabers,DCA World Class,90.325,2022
+09/04,Rochester,NY,4,White Sabers,DCA World Class,90.8,2022
+09/03,Rochester,NY,1,Connecticut Hurricanes,DCA Open Class,88.1,2022
+09/04,Rochester,NY,1,Connecticut Hurricanes,DCA Open Class,89.45,2022
+09/03,Rochester,NY,2,Atlanta CV,DCA Open Class,87.725,2022
+09/04,Rochester,NY,2,Atlanta CV,DCA Open Class,87.75,2022
+09/03,Rochester,NY,3,Cincinnati Tradition,DCA Open Class,83.725,2022
+09/04,Rochester,NY,3,Cincinnati Tradition,DCA Open Class,83.35,2022
+09/03,Rochester,NY,4,Rogues Hollow Regiment,DCA Open Class,81.9,2022
+09/04,Rochester,NY,4,Rogues Hollow Regiment,DCA Open Class,81.475,2022
+09/03,Rochester,NY,1,Fusion Core,DCA A Class,84.5,2022
+09/04,Rochester,NY,1,Fusion Core,DCA A Class,85.275,2022
+09/03,Rochester,NY,2,Skyliners,DCA A Class,79.8,2022
+09/04,Rochester,NY,2,Skyliners,DCA A Class,80.95,2022
+09/03,Rochester,NY,3,Govenaires,DCA A Class,78.85,2022
+09/04,Rochester,NY,3,Govenaires,DCA A Class,78.975,2022
+09/03,Rochester,NY,4,Columbus Saints,DCA A Class,70.975,2022
+09/04,Rochester,NY,4,Columbus Saints,DCA A Class,71.675,2022

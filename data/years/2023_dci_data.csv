@@ -8,24 +8,24 @@ Date,City,State,Place,Corps,Class,Score,Year
 06/28,Rockford,MI,4,Colts,World Class,65.3,2023
 06/30,Muncie,IN,4,Cavaliers,World Class,70.1,2023
 06/30,Muncie,IN,6,Colts,World Class,65.85,2023
-07/01,Bridgeport,CT,1,Hawthorne Caballeros,World Class,74.1,2023
+07/01,Bridgeport,CT,1,Hawthorne Caballeros,DCA World Class,74.1,2023
 07/01,Lynn,MA,1,Boston Crusaders,World Class,77.15,2023
 07/01,Madison,WI,1,Blue Stars,World Class,70.6,2023
 07/01,Vista,CA,1,Blue Devils,World Class,77.3,2023
-07/01,Bridgeport,CT,2,Bushwackers,World Class,68.45,2023
+07/01,Bridgeport,CT,2,Bushwackers,DCA World Class,68.45,2023
 07/01,Lynn,MA,2,Cadets,World Class,73.75,2023
 07/01,Madison,WI,2,Troopers,World Class,67.35,2023
 07/01,Vista,CA,2,Mandarins,World Class,71.2,2023
 07/01,Madison,WI,3,Colts,World Class,66.2,2023
 07/01,Vista,CA,3,Academy,World Class,65.55,2023
-07/01,Bridgeport,CT,1,Connecticut Hurricanes,World Class,68.85,2023
-07/01,Lynn,MA,1,Spartans,World Class,61.4,2023
+07/01,Bridgeport,CT,1,Connecticut Hurricanes,DCA Open Class,68.85,2023
+07/01,Lynn,MA,1,Spartans,Open Class,61.4,2023
 07/01,Madison,WI,4,Madison Scouts,World Class,64.8,2023
 07/01,Vista,CA,4,Pacific Crest,World Class,64.05,2023
 07/01,Madison,WI,1,Colt Cadets,Open Class,47.9,2023
 07/01,Vista,CA,1,Blue Devils B,Open Class,62.1,2023
 07/01,Vista,CA,2,Gold,Open Class,61.65,2023
-07/01,Madison,WI,1,Govenaires,Open Class,56.05,2023
+07/01,Madison,WI,1,Govenaires,DCA A Class,56.05,2023
 07/01,Vista,CA,3,Golden Empire,Open Class,56.75,2023
 07/01,Vista,CA,4,Vessel,Open Class,52.75,2023
 07/01,Vista,CA,5,Impulse,Open Class,52.65,2023
@@ -41,20 +41,20 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/02,Lisle,IL,3,Cavaliers,World Class,72.05,2023
 07/02,San Bernardino,CA,3,Academy,World Class,65.35,2023
 07/03,Cedarburg,WI,3,Cavaliers,World Class,73.5,2023
-07/02,Quincy,MA,1,Spartans,World Class,62.3,2023
+07/02,Quincy,MA,1,Spartans,Open Class,62.3,2023
 07/02,Lisle,IL,4,Colts,World Class,69.25,2023
 07/02,San Bernardino,CA,4,Pacific Crest,World Class,64.15,2023
 07/03,Cedarburg,WI,4,Troopers,World Class,72.55,2023
-07/02,Quincy,MA,2,7th Regiment,World Class,53.8,2023
+07/02,Quincy,MA,2,7th Regiment,Open Class,53.8,2023
 07/02,Lisle,IL,5,Madison Scouts,World Class,66.95,2023
 07/03,Cedarburg,WI,5,Madison Scouts,World Class,69.7,2023
 07/02,Lisle,IL,1,Colt Cadets,Open Class,52.0,2023
-07/02,San Bernardino,CA,2,Gold,World Class,61.55,2023
+07/02,San Bernardino,CA,2,Gold,Open Class,61.55,2023
 07/03,Cedarburg,WI,1,Colt Cadets,Open Class,52.65,2023
-07/02,San Bernardino,CA,3,Golden Empire,World Class,55.6,2023
-07/02,San Bernardino,CA,4,Vessel,World Class,53.8,2023
-07/02,San Bernardino,CA,5,Impulse,World Class,52.2,2023
-07/02,San Bernardino,CA,6,Blue Devils C,World Class,49.5,2023
+07/02,San Bernardino,CA,3,Golden Empire,Open Class,55.6,2023
+07/02,San Bernardino,CA,4,Vessel,Open Class,53.8,2023
+07/02,San Bernardino,CA,5,Impulse,Open Class,52.2,2023
+07/02,San Bernardino,CA,6,Blue Devils C,Open Class,49.5,2023
 07/03,Mesa,AZ,1,Blue Devils,World Class,80.1,2023
 07/05,Mason,OH,1,Carolina Crown,World Class,80.15,2023
 07/07,DeKalb,IL,1,Boston Crusaders,World Class,81.3,2023
@@ -73,48 +73,48 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/05,Mason,OH,5,Music City,World Class,66.25,2023
 07/07,DeKalb,IL,5,Troopers,World Class,74.6,2023
 07/07,DeKalb,IL,6,Colts,World Class,73.65,2023
-07/07,Fresno,CA,1,Blue Devils B,World Class,65.3,2023
-07/05,Mason,OH,1,Cincinnati Tradition,World Class,71.1,2023
+07/07,Fresno,CA,1,Blue Devils B,Open Class,65.3,2023
+07/05,Mason,OH,1,Cincinnati Tradition,DCA Open Class,71.1,2023
 07/07,DeKalb,IL,7,Madison Scouts,World Class,70.9,2023
-07/07,Fresno,CA,2,Gold,World Class,63.85,2023
+07/07,Fresno,CA,2,Gold,Open Class,63.85,2023
 07/07,DeKalb,IL,8,Crossmen,World Class,70.65,2023
-07/07,Fresno,CA,3,Golden Empire,World Class,58.75,2023
-07/05,Mason,OH,1,Columbus Saints,World Class,62.0,2023
+07/07,Fresno,CA,3,Golden Empire,Open Class,58.75,2023
+07/05,Mason,OH,1,Columbus Saints,DCA A Class,62.0,2023
 07/07,DeKalb,IL,9,Genesis,World Class,65.4,2023
-07/08,Clifton,NJ,1,Reading Buccaneers,World Class,81.15,2023
+07/08,Clifton,NJ,1,Reading Buccaneers,DCA World Class,81.15,2023
 07/08,Lexington,SC,1,Carolina Crown,World Class,81.7,2023
 07/08,Whitewater,WI,1,Boston Crusaders,World Class,82.55,2023
 07/08,Pasadena,CA,1,Blue Devils,World Class,84.1,2023
-07/08,Clifton,NJ,2,Hawthorne Caballeros,World Class,78.65,2023
+07/08,Clifton,NJ,2,Hawthorne Caballeros,DCA World Class,78.65,2023
 07/08,Lexington,SC,2,Bluecoats,World Class,81.25,2023
 07/08,Whitewater,WI,2,Phantom Regiment,World Class,80.0,2023
 07/08,Pasadena,CA,2,Mandarins,World Class,78.05,2023
-07/08,Clifton,NJ,3,Bushwackers,World Class,72.2,2023
+07/08,Clifton,NJ,3,Bushwackers,DCA World Class,72.2,2023
 07/08,Lexington,SC,3,Cadets,World Class,76.45,2023
 07/08,Whitewater,WI,3,Cavaliers,World Class,77.65,2023
 07/08,Pasadena,CA,3,Blue Knights,World Class,72.45,2023
 07/08,Lexington,SC,4,Spirit of Atlanta,World Class,70.5,2023
 07/08,Whitewater,WI,4,Blue Stars,World Class,77.05,2023
 07/08,Pasadena,CA,4,Academy,World Class,71.1,2023
-07/08,Clifton,NJ,1,Connecticut Hurricanes,World Class,72.25,2023
+07/08,Clifton,NJ,1,Connecticut Hurricanes,DCA Open Class,72.25,2023
 07/08,Lexington,SC,5,Music City,World Class,68.0,2023
 07/08,Whitewater,WI,5,Troopers,World Class,75.95,2023
 07/08,Pasadena,CA,4,Pacific Crest,World Class,71.1,2023
-07/08,Clifton,NJ,2,Fusion Core,World Class,68.15,2023
+07/08,Clifton,NJ,2,Fusion Core,DCA Open Class,68.15,2023
 07/08,Whitewater,WI,6,Colts,World Class,75.1,2023
-07/08,Lexington,SC,1,Spartans,World Class,63.35,2023
+07/08,Lexington,SC,1,Spartans,Open Class,63.35,2023
 07/08,Whitewater,WI,7,Madison Scouts,World Class,71.85,2023
-07/08,Pasadena,CA,1,Gold,World Class,65.7,2023
-07/08,Clifton,NJ,1,Rogues Hollow Regiment,World Class,66.45,2023
-07/08,Lexington,SC,2,Heat Wave,World Class,53.45,2023
+07/08,Pasadena,CA,1,Gold,Open Class,65.7,2023
+07/08,Clifton,NJ,1,Rogues Hollow Regiment,DCA A Class,66.45,2023
+07/08,Lexington,SC,2,Heat Wave,Open Class,53.45,2023
 07/08,Whitewater,WI,8,Crossmen,World Class,70.95,2023
-07/08,Pasadena,CA,2,Golden Empire,World Class,60.85,2023
-07/08,Clifton,NJ,2,Skyliners,World Class,63.45,2023
+07/08,Pasadena,CA,2,Golden Empire,Open Class,60.85,2023
+07/08,Clifton,NJ,2,Skyliners,DCA A Class,63.45,2023
 07/08,Whitewater,WI,9,Genesis,World Class,66.45,2023
-07/08,Pasadena,CA,3,Impulse,World Class,59.15,2023
-07/08,Pasadena,CA,4,Vessel,World Class,56.7,2023
-07/08,Whitewater,WI,1,River City Rhythm,World Class,58.2,2023
-07/08,Whitewater,WI,2,Colt Cadets,World Class,54.1,2023
+07/08,Pasadena,CA,3,Impulse,Open Class,59.15,2023
+07/08,Pasadena,CA,4,Vessel,Open Class,56.7,2023
+07/08,Whitewater,WI,1,River City Rhythm,Open Class,58.2,2023
+07/08,Whitewater,WI,2,Colt Cadets,Open Class,54.1,2023
 07/09,Macon,GA,1,Carolina Crown,World Class,83.1,2023
 07/09,LaCrosse,WI,1,Boston Crusaders,World Class,83.85,2023
 07/09,Stanford,CA,1,Blue Devils,World Class,85.15,2023
@@ -170,8 +170,8 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/12,Eau Claire,WI,1,River City Rhythm,Open Class,62.05,2023
 07/11,Douglasville,GA,2,Heat Wave,Open Class,55.15,2023
 07/11,Mankato,MN,2,Colt Cadets,Open Class,57.2,2023
-07/11,Douglasville,GA,1,Atlanta CV,World Class,75.8,2023
-07/11,Mankato,MN,1,Govenaires,DCA Class A,70.55,2023
+07/11,Douglasville,GA,1,Atlanta CV,DCA World Class,75.8,2023
+07/11,Mankato,MN,1,Govenaires,DCA A Class,70.55,2023
 07/12,Ankeny,IA,1,Boston Crusaders,World Class,84.6,2023
 07/12,Salt Lake City,UT,1,Blue Devils,World Class,87.35,2023
 07/13,Tupelo,MS,1,Cadets,World Class,81.0,2023
@@ -190,40 +190,40 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/14,Dubuque,IA,4,Crossmen,World Class,75.4,2023
 07/12,Salt Lake City,UT,5,Academy,World Class,73.9,2023
 07/14,Dubuque,IA,5,Madison Scouts,World Class,74.95,2023
-07/12,Ankeny,IA,1,Colt Cadets,World Class,57.25,2023
+07/12,Ankeny,IA,1,Colt Cadets,Open Class,57.25,2023
 07/12,Salt Lake City,UT,6,Seattle Cascades,World Class,62.8,2023
-07/13,Tupelo,MS,1,Spartans,World Class,68.7,2023
+07/13,Tupelo,MS,1,Spartans,Open Class,68.7,2023
 07/14,Dubuque,IA,6,Genesis,World Class,70.8,2023
 07/12,Salt Lake City,UT,1,Battalion,Open Class,59.65,2023
-07/13,Tupelo,MS,3,Heat Wave,World Class,56.55,2023
+07/13,Tupelo,MS,3,Heat Wave,Open Class,56.55,2023
 07/14,Dubuque,IA,1,River City Rhythm,Open Class,62.8,2023
 07/14,Dubuque,IA,2,Colt Cadets,Open Class,58.65,2023
 07/14,Cheyenne,WY,1,Troopers,World Class,79.1,2023
 07/14,Riverside,CA,1,Blue Devils B,Open Class,72.75,2023
-07/15,Landisville,PA,1,Reading Buccaneers,World Class,83.2,2023
+07/15,Landisville,PA,1,Reading Buccaneers,DCA World Class,83.2,2023
 07/15,Little Rock,AR,1,Bluecoats,World Class,86.7,2023
 07/14,Cheyenne,WY,2,Pacific Crest,World Class,76.9,2023
 07/14,Riverside,CA,2,Gold,Open Class,70.8,2023
-07/15,Landisville,PA,2,Hawthorne Caballeros,World Class,80.9,2023
+07/15,Landisville,PA,2,Hawthorne Caballeros,DCA World Class,80.9,2023
 07/15,Little Rock,AR,2,Carolina Crown,World Class,86.2,2023
 07/14,Cheyenne,WY,3,Academy,World Class,74.0,2023
 07/14,Riverside,CA,3,Golden Empire,Open Class,66.75,2023
-07/15,Landisville,PA,3,Bushwackers,World Class,72.95,2023
+07/15,Landisville,PA,3,Bushwackers,DCA World Class,72.95,2023
 07/15,Little Rock,AR,3,Cadets,World Class,82.6,2023
 07/14,Cheyenne,WY,4,Seattle Cascades,World Class,64.85,2023
 07/14,Riverside,CA,4,Impulse,Open Class,63.2,2023
 07/15,Little Rock,AR,4,Cavaliers,World Class,81.05,2023
 07/14,Riverside,CA,5,Vessel,Open Class,62.4,2023
-07/15,Landisville,PA,1,White Sabers,World Class,70.05,2023
+07/15,Landisville,PA,1,White Sabers,DCA Open Class,70.05,2023
 07/15,Little Rock,AR,5,Spirit of Atlanta,World Class,75.3,2023
-07/14,Cheyenne,WY,1,Battalion,World Class,61.9,2023
+07/14,Cheyenne,WY,1,Battalion,Open Class,61.9,2023
 07/14,Riverside,CA,6,Blue Devils C,Open Class,56.95,2023
 07/15,Little Rock,AR,6,Music City,World Class,73.1,2023
-07/15,Landisville,PA,1,Skyliners,World Class,59.1,2023
-07/15,Landisville,PA,2,Columbus Saints,World Class,53.1,2023
-07/15,Little Rock,AR,1,Guardians,World Class,60.6,2023
+07/15,Landisville,PA,1,Skyliners,DCA A Class,59.1,2023
+07/15,Landisville,PA,2,Columbus Saints,DCA A Class,53.1,2023
+07/15,Little Rock,AR,1,Guardians,Open Class,60.6,2023
 07/15,Landisville,PA,1,Jersey Surf,World Class,68.9,2023
-07/15,Landisville,PA,1,Raiders,World Class,56.35,2023
+07/15,Landisville,PA,1,Raiders,Open Class,56.35,2023
 07/15,Wetumpka,AL,1,Spartans,Open Class,71.7,2023
 07/15,Rockford,IL,1,Phantom Regiment,World Class,83.25,2023
 07/15,Fort Collins,CO,1,Blue Devils,World Class,89.6,2023
@@ -239,7 +239,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/15,Rockford,IL,4,Crossmen,World Class,75.9,2023
 07/15,Fort Collins,CO,4,Troopers,World Class,80.9,2023
 07/15,Vista,CA,4,Impulse,Open Class,64.9,2023
-07/15,Wetumpka,AL,1,Atlanta CV,Open Class,74.75,2023
+07/15,Wetumpka,AL,1,Atlanta CV,DCA World Class,74.75,2023
 07/15,Rockford,IL,5,Madison Scouts,World Class,75.05,2023
 07/15,Fort Collins,CO,5,Pacific Crest,World Class,78.15,2023
 07/15,Vista,CA,5,Vessel,Open Class,63.2,2023
@@ -247,10 +247,10 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/15,Fort Collins,CO,6,Academy,World Class,76.15,2023
 07/15,Vista,CA,6,Blue Devils C,Open Class,58.55,2023
 07/15,Fort Collins,CO,7,Blue Knights,World Class,75.45,2023
-07/15,Rockford,IL,1,River City Rhythm,World Class,63.5,2023
+07/15,Rockford,IL,1,River City Rhythm,Open Class,63.5,2023
 07/15,Fort Collins,CO,8,Seattle Cascades,World Class,65.3,2023
-07/15,Rockford,IL,2,Colt Cadets,World Class,60.3,2023
-07/15,Fort Collins,CO,1,Battalion,World Class,62.1,2023
+07/15,Rockford,IL,2,Colt Cadets,Open Class,60.3,2023
+07/15,Fort Collins,CO,1,Battalion,Open Class,62.1,2023
 07/16,Duarte,CA,1,Blue Devils B,Open Class,75.5,2023
 07/17,Canyon,TX,1,Mandarins,World Class,84.6,2023
 07/17,Olathe,KS,1,Phantom Regiment,World Class,83.9,2023
@@ -274,62 +274,62 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/16,Duarte,CA,6,Blue Devils C,Open Class,59.95,2023
 07/17,Canyon,TX,6,Seattle Cascades,World Class,65.4,2023
 07/18,Abilene,TX,6,Music City,World Class,74.65,2023
-07/17,Olathe,KS,1,Colt Cadets,World Class,59.1,2023
+07/17,Olathe,KS,1,Colt Cadets,Open Class,59.1,2023
 07/18,Abilene,TX,7,Seattle Cascades,World Class,64.75,2023
-07/17,Canyon,TX,1,Guardians,World Class,61.2,2023
-07/18,Abilene,TX,1,Guardians,World Class,62.1,2023
+07/17,Canyon,TX,1,Guardians,Open Class,61.2,2023
+07/18,Abilene,TX,1,Guardians,Open Class,62.1,2023
 07/18,Broken Arrow,OK,1,Blue Devils,World Class,90.45,2023
-07/20,Canyon,TX,1,Reading Buccaneers,World Class,84.25,2023
+07/20,Canyon,TX,1,Reading Buccaneers,DCA World Class,84.25,2023
 07/20,Austin,TX,1,Cadets,World Class,86.4,2023
 07/20,Denton,TX,1,Boston Crusaders,World Class,90.65,2023
 07/18,Broken Arrow,OK,2,Boston Crusaders,World Class,88.9,2023
-07/20,Canyon,TX,2,Hawthorne Caballeros,World Class,82.1,2023
+07/20,Canyon,TX,2,Hawthorne Caballeros,DCA World Class,82.1,2023
 07/20,Austin,TX,2,Cavaliers,World Class,83.3,2023
 07/20,Denton,TX,2,Carolina Crown,World Class,89.55,2023
 07/18,Broken Arrow,OK,3,Bluecoats,World Class,88.65,2023
-07/20,Canyon,TX,3,Atlanta CV,World Class,76.6,2023
+07/20,Canyon,TX,3,Atlanta CV,DCA World Class,76.6,2023
 07/20,Austin,TX,3,Blue Knights,World Class,79.55,2023
 07/20,Denton,TX,3,Bluecoats,World Class,89.45,2023
 07/18,Broken Arrow,OK,4,Carolina Crown,World Class,88.1,2023
 07/20,Austin,TX,4,Spirit of Atlanta,World Class,77.25,2023
 07/20,Denton,TX,4,Phantom Regiment,World Class,86.35,2023
 07/18,Broken Arrow,OK,5,Cadets,World Class,84.8,2023
-07/20,Canyon,TX,1,Connecticut Hurricanes,World Class,72.95,2023
+07/20,Canyon,TX,1,Connecticut Hurricanes,DCA Open Class,72.95,2023
 07/20,Austin,TX,5,Academy,World Class,76.75,2023
 07/20,Denton,TX,5,Pacific Crest,World Class,79.85,2023
 07/18,Broken Arrow,OK,6,Blue Stars,World Class,83.25,2023
-07/20,Canyon,TX,2,White Sabers,World Class,71.45,2023
+07/20,Canyon,TX,2,White Sabers,DCA Open Class,71.45,2023
 07/20,Austin,TX,6,Music City,World Class,75.8,2023
 07/20,Denton,TX,6,Crossmen,World Class,77.15,2023
 07/20,Austin,TX,8,Seattle Cascades,World Class,65.35,2023
-07/20,Canyon,TX,1,Rogues Hollow Regiment,World Class,68.1,2023
-07/20,Denton,TX,1,Guardians,World Class,64.25,2023
-07/20,Canyon,TX,2,Skyliners,World Class,62.9,2023
-07/20,Canyon,TX,3,Columbus Saints,World Class,51.65,2023
+07/20,Canyon,TX,1,Rogues Hollow Regiment,DCA A Class,68.1,2023
+07/20,Denton,TX,1,Guardians,Open Class,64.25,2023
+07/20,Canyon,TX,2,Skyliners,DCA A Class,62.9,2023
+07/20,Canyon,TX,3,Columbus Saints,DCA A Class,51.65,2023
 07/21,Dover,PA,1,Jersey Surf,World Class,68.0,2023
 07/21,Houston,TX,1,Blue Devils,World Class,91.05,2023
 07/22,Sewell,NJ,1,Jersey Surf,World Class,69.25,2023
 07/22,San Antonio,TX,1,Blue Devils,World Class,92.6,2023
 07/21,Houston,TX,2,Carolina Crown,World Class,89.45,2023
 07/22,San Antonio,TX,2,Boston Crusaders,World Class,91.6,2023
-07/21,Dover,PA,1,Spartans,World Class,74.5,2023
+07/21,Dover,PA,1,Spartans,Open Class,74.5,2023
 07/21,Houston,TX,3,Bluecoats,World Class,89.35,2023
-07/22,Sewell,NJ,1,Spartans,World Class,75.05,2023
+07/22,Sewell,NJ,1,Spartans,Open Class,75.05,2023
 07/22,San Antonio,TX,3,Bluecoats,World Class,90.95,2023
-07/21,Dover,PA,2,Southwind,World Class,69.8,2023
+07/21,Dover,PA,2,Southwind,Open Class,69.8,2023
 07/21,Houston,TX,4,Mandarins,World Class,86.35,2023
-07/22,Sewell,NJ,2,Southwind,World Class,70.5,2023
+07/22,Sewell,NJ,2,Southwind,Open Class,70.5,2023
 07/22,San Antonio,TX,4,Carolina Crown,World Class,90.563,2023
-07/21,Dover,PA,3,Raiders,World Class,57.8,2023
+07/21,Dover,PA,3,Raiders,Open Class,57.8,2023
 07/21,Houston,TX,5,Cavaliers,World Class,84.75,2023
-07/22,Sewell,NJ,3,Raiders,World Class,60.75,2023
+07/22,Sewell,NJ,3,Raiders,Open Class,60.75,2023
 07/22,San Antonio,TX,5,Phantom Regiment,World Class,87.675,2023
-07/21,Dover,PA,4,Les Stentors,World Class,57.5,2023
+07/21,Dover,PA,4,Les Stentors,Open Class,57.5,2023
 07/21,Houston,TX,6,Blue Stars,World Class,83.95,2023
-07/22,Sewell,NJ,4,Les Stentors,World Class,60.25,2023
+07/22,Sewell,NJ,4,Les Stentors,Open Class,60.25,2023
 07/22,San Antonio,TX,5,Mandarins,World Class,87.675,2023
 07/21,Houston,TX,7,Colts,World Class,82.1,2023
-07/22,Sewell,NJ,5,7th Regiment,World Class,57.65,2023
+07/22,Sewell,NJ,5,7th Regiment,Open Class,57.65,2023
 07/22,San Antonio,TX,7,Cadets,World Class,87.375,2023
 07/21,Houston,TX,8,Seattle Cascades,World Class,66.05,2023
 07/22,San Antonio,TX,8,Cavaliers,World Class,85.513,2023
@@ -345,86 +345,86 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/22,San Antonio,TX,18,Music City,World Class,75.4,2023
 07/22,San Antonio,TX,19,Genesis,World Class,72.05,2023
 07/22,San Antonio,TX,20,Seattle Cascades,World Class,67.475,2023
-07/22,San Antonio,TX,1,Guardians,World Class,65.475,2023
+07/22,San Antonio,TX,1,Guardians,Open Class,65.475,2023
 07/23,Fairfield,CT,1,Jersey Surf,World Class,71.85,2023
 07/24,Mesquite,TX,1,Carolina Crown,World Class,92.25,2023
 07/25,Manchester,NH,1,Jersey Surf,World Class,73.8,2023
 07/25,McKinney,TX,1,Carolina Crown,World Class,92.4,2023
 07/24,Mesquite,TX,2,Boston Crusaders,World Class,92.15,2023
 07/25,McKinney,TX,2,Cadets,World Class,88.2,2023
-07/23,Fairfield,CT,1,Spartans,World Class,79.1,2023
+07/23,Fairfield,CT,1,Spartans,Open Class,79.1,2023
 07/24,Mesquite,TX,3,Blue Stars,World Class,86.0,2023
-07/25,Manchester,NH,1,Spartans,World Class,81.4,2023
+07/25,Manchester,NH,1,Spartans,Open Class,81.4,2023
 07/25,McKinney,TX,3,Mandarins,World Class,87.75,2023
-07/23,Fairfield,CT,2,Gold,World Class,77.25,2023
+07/23,Fairfield,CT,2,Gold,Open Class,77.25,2023
 07/24,Mesquite,TX,4,Colts,World Class,84.4,2023
-07/25,Manchester,NH,2,Gold,World Class,79.35,2023
+07/25,Manchester,NH,2,Gold,Open Class,79.35,2023
 07/25,McKinney,TX,4,Troopers,World Class,83.2,2023
-07/23,Fairfield,CT,3,Southwind,World Class,73.75,2023
+07/23,Fairfield,CT,3,Southwind,Open Class,73.75,2023
 07/24,Mesquite,TX,5,Crossmen,World Class,81.05,2023
-07/25,Manchester,NH,3,Southwind,World Class,75.1,2023
+07/25,Manchester,NH,3,Southwind,Open Class,75.1,2023
 07/25,McKinney,TX,5,Crossmen,World Class,81.4,2023
-07/23,Fairfield,CT,4,7th Regiment,World Class,62.05,2023
+07/23,Fairfield,CT,4,7th Regiment,Open Class,62.05,2023
 07/24,Mesquite,TX,6,Blue Knights,World Class,80.725,2023
-07/25,Manchester,NH,4,Raiders,World Class,63.2,2023
+07/25,Manchester,NH,4,Raiders,Open Class,63.2,2023
 07/25,McKinney,TX,6,Academy,World Class,78.55,2023
-07/23,Fairfield,CT,5,Raiders,World Class,61.9,2023
+07/23,Fairfield,CT,5,Raiders,Open Class,61.9,2023
 07/24,Mesquite,TX,7,Pacific Crest,World Class,80.475,2023
-07/25,Manchester,NH,5,Les Stentors,World Class,61.15,2023
+07/25,Manchester,NH,5,Les Stentors,Open Class,61.15,2023
 07/25,McKinney,TX,7,Seattle Cascades,World Class,68.05,2023
-07/23,Fairfield,CT,6,Les Stentors,World Class,59.75,2023
+07/23,Fairfield,CT,6,Les Stentors,Open Class,59.75,2023
 07/24,Mesquite,TX,8,Madison Scouts,World Class,78.65,2023
 07/24,Mesquite,TX,9,Spirit of Atlanta,World Class,77.3,2023
-07/25,Manchester,NH,1,Calgary Stampede,World Class,75.65,2023
-07/23,Fairfield,CT,1,Connecticut Hurricanes,World Class,76.15,2023
+07/25,Manchester,NH,1,Calgary Stampede,International Class,75.65,2023
+07/23,Fairfield,CT,1,Connecticut Hurricanes,DCA Open Class,76.15,2023
 07/24,Mesquite,TX,10,Genesis,World Class,71.9,2023
 07/26,Syracuse,NY,1,Jersey Surf,World Class,74.9,2023
 07/26,Monroe,LA,1,Mandarins,World Class,88.0,2023
 07/26,Hattiesburg,MS,1,Blue Devils,World Class,93.1,2023
 07/26,Monroe,LA,2,Cadets,World Class,87.95,2023
 07/26,Hattiesburg,MS,2,Boston Crusaders,World Class,92.1,2023
-07/26,Syracuse,NY,1,Spartans,World Class,81.45,2023
+07/26,Syracuse,NY,1,Spartans,Open Class,81.45,2023
 07/26,Monroe,LA,3,Troopers,World Class,83.7,2023
 07/26,Hattiesburg,MS,3,Phantom Regiment,World Class,87.85,2023
-07/26,Syracuse,NY,2,Gold,World Class,79.75,2023
+07/26,Syracuse,NY,2,Gold,Open Class,79.75,2023
 07/26,Monroe,LA,4,Blue Knights,World Class,80.8,2023
 07/26,Hattiesburg,MS,4,Cavaliers,World Class,85.45,2023
-07/26,Syracuse,NY,3,Southwind,World Class,76.55,2023
+07/26,Syracuse,NY,3,Southwind,Open Class,76.55,2023
 07/26,Monroe,LA,5,Academy,World Class,77.5,2023
 07/26,Hattiesburg,MS,5,Madison Scouts,World Class,80.2,2023
-07/26,Syracuse,NY,4,Raiders,World Class,64.2,2023
+07/26,Syracuse,NY,4,Raiders,Open Class,64.2,2023
 07/26,Monroe,LA,6,Music City,World Class,76.35,2023
-07/26,Syracuse,NY,5,Les Stentors,World Class,62.1,2023
+07/26,Syracuse,NY,5,Les Stentors,Open Class,62.1,2023
 07/26,Monroe,LA,7,Genesis,World Class,73.25,2023
-07/26,Syracuse,NY,1,Calgary Stampede,World Class,75.4,2023
+07/26,Syracuse,NY,1,Calgary Stampede,International Class,75.4,2023
 07/28,Trussville,AL,1,Cavaliers,World Class,87.2,2023
 07/28,Murfreesboro,TN,1,Blue Devils,World Class,92.9,2023
-07/29,Williamsport,PA,1,Reading Buccaneers,World Class,87.65,2023
+07/29,Williamsport,PA,1,Reading Buccaneers,DCA World Class,87.65,2023
 07/29,Bellbrook,OH,1,Spartans,Open Class,81.55,2023
 07/28,Trussville,AL,2,Colts,World Class,85.35,2023
 07/28,Murfreesboro,TN,2,Boston Crusaders,World Class,92.05,2023
-07/29,Williamsport,PA,2,Hawthorne Caballeros,World Class,86.05,2023
+07/29,Williamsport,PA,2,Hawthorne Caballeros,DCA World Class,86.05,2023
 07/29,Bellbrook,OH,2,Gold,Open Class,79.75,2023
 07/28,Trussville,AL,2,Troopers,World Class,85.35,2023
 07/28,Murfreesboro,TN,3,Carolina Crown,World Class,91.7,2023
 07/29,Bellbrook,OH,3,Southwind,Open Class,76.35,2023
 07/28,Trussville,AL,4,Crossmen,World Class,81.9,2023
 07/28,Murfreesboro,TN,4,Phantom Regiment,World Class,88.7,2023
-07/29,Williamsport,PA,1,White Sabers,World Class,79.5,2023
+07/29,Williamsport,PA,1,White Sabers,DCA Open Class,79.5,2023
 07/29,Bellbrook,OH,4,Columbians,Open Class,74.7,2023
 07/28,Trussville,AL,5,Pacific Crest,World Class,81.75,2023
 07/28,Murfreesboro,TN,5,Cadets,World Class,88.3,2023
-07/29,Williamsport,PA,2,Fusion Core,World Class,78.2,2023
+07/29,Williamsport,PA,2,Fusion Core,DCA Open Class,78.2,2023
 07/29,Bellbrook,OH,5,Les Stentors,Open Class,62.7,2023
 07/28,Trussville,AL,6,Blue Knights,World Class,81.7,2023
 07/28,Murfreesboro,TN,6,Blue Stars,World Class,85.95,2023
 07/28,Trussville,AL,7,Spirit of Atlanta,World Class,79.65,2023
 07/28,Murfreesboro,TN,7,Music City,World Class,77.15,2023
-07/29,Williamsport,PA,1,Skyliners,World Class,68.85,2023
-07/29,Bellbrook,OH,1,Rogues Hollow Regiment,Open Class,74.25,2023
+07/29,Williamsport,PA,1,Skyliners,DCA A Class,68.85,2023
+07/29,Bellbrook,OH,1,Rogues Hollow Regiment,DCA A Class,74.25,2023
 07/28,Trussville,AL,8,Seattle Cascades,World Class,69.7,2023
-07/29,Bellbrook,OH,2,Columbus Saints,Open Class,65.35,2023
-07/29,Williamsport,PA,1,Raiders,World Class,69.7,2023
+07/29,Bellbrook,OH,2,Columbus Saints,DCA A Class,65.35,2023
+07/29,Williamsport,PA,1,Raiders,Open Class,69.7,2023
 07/29,Atlanta,GA,1,Blue Devils,World Class,94.325,2023
 07/30,Winston-Salem,NC,1,Blue Devils,World Class,94.275,2023
 07/31,Huntington,WV,1,Phantom Regiment,World Class,90.9,2023
@@ -444,13 +444,13 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/30,Winston-Salem,NC,6,Blue Stars,World Class,86.375,2023
 07/29,Atlanta,GA,7,Cavaliers,World Class,88.1,2023
 07/30,Winston-Salem,NC,7,Colts,World Class,85.725,2023
-07/31,Huntington,WV,1,Spartans,World Class,79.95,2023
+07/31,Huntington,WV,1,Spartans,Open Class,79.95,2023
 07/29,Atlanta,GA,8,Troopers,World Class,82.725,2023
 07/30,Winston-Salem,NC,8,Crossmen,World Class,81.675,2023
-07/31,Huntington,WV,2,Gold,World Class,78.15,2023
+07/31,Huntington,WV,2,Gold,Open Class,78.15,2023
 07/29,Atlanta,GA,9,Blue Knights,World Class,82.4,2023
 07/30,Winston-Salem,NC,9,Academy,World Class,79.5,2023
-07/31,Huntington,WV,3,Columbians,World Class,74.1,2023
+07/31,Huntington,WV,3,Columbians,Open Class,74.1,2023
 07/29,Atlanta,GA,10,Pacific Crest,World Class,81.475,2023
 07/30,Winston-Salem,NC,10,Genesis,World Class,75.7,2023
 07/29,Atlanta,GA,11,Spirit of Atlanta,World Class,79.85,2023
@@ -458,8 +458,8 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/29,Atlanta,GA,12,Madison Scouts,World Class,79.8,2023
 07/30,Winston-Salem,NC,12,Seattle Cascades,World Class,70.95,2023
 07/29,Atlanta,GA,13,Music City,World Class,79.25,2023
-07/29,Atlanta,GA,1,Heat Wave,World Class,60.55,2023
-07/29,Atlanta,GA,1,Atlanta CV,World Class,77.05,2023
+07/29,Atlanta,GA,1,Heat Wave,Open Class,60.55,2023
+07/29,Atlanta,GA,1,Atlanta CV,DCA World Class,77.05,2023
 08/01,Annapolis,MD,1,Blue Devils,World Class,95.2,2023
 08/01,Salem,VA,1,Carolina Crown,World Class,93.75,2023
 08/01,Sevierville,TN,1,Cavaliers,World Class,89.1,2023
@@ -482,8 +482,8 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/02,Centerville,OH,5,Academy,World Class,81.6,2023
 08/01,Sevierville,TN,6,Music City,World Class,79.65,2023
 08/02,Centerville,OH,6,Music City,World Class,79.85,2023
-08/02,Centerville,OH,1,Spartans,World Class,77.9,2023
-08/02,Centerville,OH,1,Cincinnati Tradition,World Class,72.55,2023
+08/02,Centerville,OH,1,Spartans,Open Class,77.9,2023
+08/02,Centerville,OH,1,Cincinnati Tradition,DCA Open Class,72.55,2023
 08/02,Glassboro,NJ,1,Bluecoats,World Class,95.25,2023
 08/02,Apple Valley,MN,1,Southwind,Open Class,75.9,2023
 08/03,Lawrence,MA,1,Boston Crusaders,World Class,95.05,2023
@@ -503,10 +503,10 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/02,Glassboro,NJ,5,Madison Scouts,World Class,82.4,2023
 08/02,Apple Valley,MN,5,Colt Cadets,Open Class,62.85,2023
 08/02,Glassboro,NJ,6,Genesis,World Class,78.0,2023
-08/04,Orrville,OH,1,Rogues Hollow Regiment,Open Class,65.485,2023
+08/04,Orrville,OH,1,Rogues Hollow Regiment,DCA A Class,65.485,2023
 08/02,Glassboro,NJ,7,Jersey Surf,World Class,73.6,2023
-08/02,Apple Valley,MN,1,Govenaires,Open Class,69.75,2023
-08/02,Glassboro,NJ,1,Raiders,World Class,66.3,2023
+08/02,Apple Valley,MN,1,Govenaires,DCA A Class,69.75,2023
+08/02,Glassboro,NJ,1,Raiders,Open Class,66.3,2023
 08/04,Cedar Rapids,IA,1,Gold,Open Class,79.15,2023
 08/04,Allentown,PA,1,Blue Devils,World Class,95.775,2023
 08/05,Allentown,PA,1,Boston Crusaders,World Class,95.475,2023
@@ -532,19 +532,19 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/05,Allentown,PA,6,Colts,World Class,88.162,2023
 08/04,Allentown,PA,7,Pacific Crest,World Class,83.825,2023
 08/05,Allentown,PA,7,Crossmen,World Class,85.388,2023
-08/05,Avon Lake,OH,1,Rogues Hollow Regiment,Open Class,70.9,2023
+08/05,Avon Lake,OH,1,Rogues Hollow Regiment,DCA A Class,70.9,2023
 08/04,Allentown,PA,8,Academy,World Class,82.025,2023
 08/05,Allentown,PA,8,Spirit of Atlanta,World Class,83.938,2023
-08/05,Avon Lake,OH,2,Columbus Saints,Open Class,57.2,2023
+08/05,Avon Lake,OH,2,Columbus Saints,DCA A Class,57.2,2023
 08/04,Allentown,PA,9,Genesis,World Class,78.275,2023
 08/05,Allentown,PA,9,Madison Scouts,World Class,81.912,2023
 08/04,Allentown,PA,10,Seattle Cascades,World Class,74.025,2023
 08/05,Allentown,PA,10,Music City,World Class,80.25,2023
 08/05,Allentown,PA,11,Jersey Surf,World Class,74.975,2023
-08/04,Allentown,PA,1,Bushwackers,World Class,79.85,2023
-08/05,Allentown,PA,1,Reading Buccaneers,World Class,85.1,2023
-08/04,Allentown,PA,1,Fusion Core,World Class,75.65,2023
-08/05,Allentown,PA,2,Hawthorne Caballeros,World Class,83.25,2023
+08/04,Allentown,PA,1,Bushwackers,DCA World Class,79.85,2023
+08/05,Allentown,PA,1,Reading Buccaneers,DCA World Class,85.1,2023
+08/04,Allentown,PA,1,Fusion Core,DCA Open Class,75.65,2023
+08/05,Allentown,PA,2,Hawthorne Caballeros,DCA World Class,83.25,2023
 08/05,Mattoon,IL,1,Gold,Open Class,79.85,2023
 08/06,Pittsburgh,PA,1,Blue Devils,World Class,96.125,2023
 08/07,Cincinnati,OH,1,Mandarins,World Class,92.225,2023
@@ -563,7 +563,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/05,Mattoon,IL,6,Les Stentors,Open Class,64.8,2023
 08/06,Pittsburgh,PA,6,Seattle Cascades,World Class,74.75,2023
 08/07,Cincinnati,OH,6,Academy,World Class,82.65,2023
-08/07,Cincinnati,OH,1,Cincinnati Tradition,World Class,76.45,2023
+08/07,Cincinnati,OH,1,Cincinnati Tradition,DCA Open Class,76.45,2023
 08/07,Marion,IN,1,Spartans,Open Class,82.25,2023
 08/08,Marion,IN,1,Spartans,Open Class,82.263,2023
 08/07,Marion,IN,2,Gold,Open Class,80.3,2023
@@ -634,74 +634,74 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/11,Indianapolis,IN,17,Music City,World Class,82.875,2023
 08/10,Indianapolis,IN,17,Music City,World Class,82.588,2023
 08/11,Indianapolis,IN,18,Academy,World Class,82.5,2023
-08/10,Indianapolis,IN,19,Spartans,World Class,81.913,2023
-08/11,Indianapolis,IN,19,Spartans,World Class,81.275,2023
-08/10,Indianapolis,IN,20,Gold,World Class,79.25,2023
-08/11,Indianapolis,IN,20,Gold,World Class,79.913,2023
+08/10,Indianapolis,IN,19,Spartans,Open Class,81.913,2023
+08/11,Indianapolis,IN,19,Spartans,Open Class,81.275,2023
+08/10,Indianapolis,IN,20,Gold,Open Class,79.25,2023
+08/11,Indianapolis,IN,20,Gold,Open Class,79.913,2023
 08/10,Indianapolis,IN,21,Genesis,World Class,79.088,2023
 08/11,Indianapolis,IN,21,Genesis,World Class,78.775,2023
-08/10,Indianapolis,IN,22,Southwind,World Class,77.438,2023
-08/11,Indianapolis,IN,22,Southwind,World Class,77.45,2023
+08/10,Indianapolis,IN,22,Southwind,Open Class,77.438,2023
+08/11,Indianapolis,IN,22,Southwind,Open Class,77.45,2023
 08/10,Indianapolis,IN,23,Jersey Surf,World Class,76.238,2023
 08/11,Indianapolis,IN,23,Jersey Surf,World Class,75.488,2023
-08/10,Indianapolis,IN,24,Columbians,World Class,76.088,2023
-08/11,Indianapolis,IN,24,Columbians,World Class,74.6,2023
+08/10,Indianapolis,IN,24,Columbians,Open Class,76.088,2023
+08/11,Indianapolis,IN,24,Columbians,Open Class,74.6,2023
 08/10,Indianapolis,IN,25,Seattle Cascades,World Class,76.05,2023
 08/11,Indianapolis,IN,25,Seattle Cascades,World Class,73.925,2023
-08/10,Indianapolis,IN,26,Battalion,World Class,74.725,2023
-08/10,Indianapolis,IN,27,Guardians,World Class,74.575,2023
-08/10,Indianapolis,IN,28,River City Rhythm,World Class,71.175,2023
-08/10,Indianapolis,IN,29,7th Regiment,World Class,70.075,2023
-08/10,Indianapolis,IN,30,Colt Cadets,World Class,68.55,2023
-08/10,Indianapolis,IN,31,Raiders,World Class,67.175,2023
-08/10,Indianapolis,IN,32,Les Stentors,World Class,65.5,2023
-08/19,Mount Olive,NJ,1,Reading Buccaneers,World Class,92.2,2023
-08/19,Mount Vernon,OH,1,Cincinnati Tradition,Open Class,78.55,2023
-08/26,Reading,PA,1,Reading Buccaneers,World Class,94.55,2023
-08/30,Edinboro,PA,1,Reading Buccaneers,World Class,94.9,2023
-08/19,Mount Olive,NJ,2,Hawthorne Caballeros,World Class,90.9,2023
-08/26,Reading,PA,2,Hawthorne Caballeros,World Class,93.35,2023
-08/30,Edinboro,PA,2,Hawthorne Caballeros,World Class,93.6,2023
-08/19,Mount Olive,NJ,3,Bushwackers,World Class,86.05,2023
-08/19,Mount Vernon,OH,1,Rogues Hollow Regiment,Open Class,75.35,2023
-08/26,Reading,PA,3,Bushwackers,World Class,89.0,2023
-08/30,Edinboro,PA,3,Atlanta CV,World Class,88.8,2023
-08/19,Mount Vernon,OH,2,Columbus Saints,Open Class,64.65,2023
-08/30,Edinboro,PA,4,Bushwackers,World Class,88.75,2023
-08/19,Mount Olive,NJ,1,White Sabers,World Class,80.85,2023
-08/26,Reading,PA,1,White Sabers,World Class,84.9,2023
-08/19,Mount Olive,NJ,2,Connecticut Hurricanes,World Class,80.65,2023
-08/26,Reading,PA,2,Fusion Core,World Class,84.5,2023
-08/30,Edinboro,PA,1,Connecticut Hurricanes,World Class,86.5,2023
-08/19,Mount Olive,NJ,3,Fusion Core,World Class,79.95,2023
-08/30,Edinboro,PA,2,White Sabers,World Class,85.0,2023
-08/26,Reading,PA,1,Skyliners,World Class,75.5,2023
-08/30,Edinboro,PA,3,Fusion Core,World Class,84.75,2023
-08/30,Edinboro,PA,4,Cincinnati Tradition,World Class,81.85,2023
-08/30,Edinboro,PA,1,Rogues Hollow Regiment,World Class,79.25,2023
-08/30,Edinboro,PA,2,Skyliners,World Class,75.4,2023
-08/30,Edinboro,PA,3,Columbus Saints,World Class,70.0,2023
-09/02,Rochester,NY,1,Reading Buccaneers,World Class,97.7,2023
-09/03,Rochester,NY,1,Reading Buccaneers,World Class,99.0,2023
-09/02,Rochester,NY,2,Hawthorne Caballeros,World Class,95.25,2023
-09/03,Rochester,NY,2,Hawthorne Caballeros,World Class,97.0,2023
-09/02,Rochester,NY,3,Bushwackers,World Class,91.2,2023
-09/03,Rochester,NY,3,Bushwackers,World Class,92.2,2023
-09/02,Rochester,NY,4,Atlanta CV,World Class,89.825,2023
-09/03,Rochester,NY,4,Atlanta CV,World Class,91.275,2023
-09/02,Rochester,NY,1,Connecticut Hurricanes,Open Class,88.9,2023
-09/03,Rochester,NY,1,Connecticut Hurricanes,Open Class,89.4,2023
-09/02,Rochester,NY,2,White Sabers,Open Class,88.6,2023
-09/03,Rochester,NY,2,White Sabers,Open Class,89.15,2023
-09/02,Rochester,NY,3,Fusion Core,Open Class,85.375,2023
-09/03,Rochester,NY,3,Fusion Core,Open Class,86.55,2023
-09/02,Rochester,NY,4,Cincinnati Tradition,Open Class,83.05,2023
-09/03,Rochester,NY,4,Cincinnati Tradition,Open Class,84.625,2023
-09/02,Rochester,NY,1,Rogues Hollow Regiment,DCA Class A,82.625,2023
-09/03,Rochester,NY,1,Rogues Hollow Regiment,DCA Class A,83.2,2023
-09/02,Rochester,NY,2,Skyliners,DCA Class A,78.825,2023
-09/03,Rochester,NY,2,Skyliners,DCA Class A,80.2,2023
-09/02,Rochester,NY,3,Govenaires,DCA Class A,77.125,2023
-09/03,Rochester,NY,3,Govenaires,DCA Class A,77.325,2023
-09/02,Rochester,NY,4,Columbus Saints,DCA Class A,71.55,2023
-09/03,Rochester,NY,4,Columbus Saints,DCA Class A,72.2,2023
+08/10,Indianapolis,IN,26,Battalion,Open Class,74.725,2023
+08/10,Indianapolis,IN,27,Guardians,Open Class,74.575,2023
+08/10,Indianapolis,IN,28,River City Rhythm,Open Class,71.175,2023
+08/10,Indianapolis,IN,29,7th Regiment,Open Class,70.075,2023
+08/10,Indianapolis,IN,30,Colt Cadets,Open Class,68.55,2023
+08/10,Indianapolis,IN,31,Raiders,Open Class,67.175,2023
+08/10,Indianapolis,IN,32,Les Stentors,Open Class,65.5,2023
+08/19,Mount Olive,NJ,1,Reading Buccaneers,DCA World Class,92.2,2023
+08/19,Mount Vernon,OH,1,Cincinnati Tradition,DCA Open Class,78.55,2023
+08/26,Reading,PA,1,Reading Buccaneers,DCA World Class,94.55,2023
+08/30,Edinboro,PA,1,Reading Buccaneers,DCA World Class,94.9,2023
+08/19,Mount Olive,NJ,2,Hawthorne Caballeros,DCA World Class,90.9,2023
+08/26,Reading,PA,2,Hawthorne Caballeros,DCA World Class,93.35,2023
+08/30,Edinboro,PA,2,Hawthorne Caballeros,DCA World Class,93.6,2023
+08/19,Mount Olive,NJ,3,Bushwackers,DCA World Class,86.05,2023
+08/19,Mount Vernon,OH,1,Rogues Hollow Regiment,DCA A Class,75.35,2023
+08/26,Reading,PA,3,Bushwackers,DCA World Class,89.0,2023
+08/30,Edinboro,PA,3,Atlanta CV,DCA World Class,88.8,2023
+08/19,Mount Vernon,OH,2,Columbus Saints,DCA A Class,64.65,2023
+08/30,Edinboro,PA,4,Bushwackers,DCA World Class,88.75,2023
+08/19,Mount Olive,NJ,1,White Sabers,DCA Open Class,80.85,2023
+08/26,Reading,PA,1,White Sabers,DCA Open Class,84.9,2023
+08/19,Mount Olive,NJ,2,Connecticut Hurricanes,DCA Open Class,80.65,2023
+08/26,Reading,PA,2,Fusion Core,DCA Open Class,84.5,2023
+08/30,Edinboro,PA,1,Connecticut Hurricanes,DCA Open Class,86.5,2023
+08/19,Mount Olive,NJ,3,Fusion Core,DCA Open Class,79.95,2023
+08/30,Edinboro,PA,2,White Sabers,DCA Open Class,85.0,2023
+08/26,Reading,PA,1,Skyliners,DCA A Class,75.5,2023
+08/30,Edinboro,PA,3,Fusion Core,DCA Open Class,84.75,2023
+08/30,Edinboro,PA,4,Cincinnati Tradition,DCA Open Class,81.85,2023
+08/30,Edinboro,PA,1,Rogues Hollow Regiment,DCA A Class,79.25,2023
+08/30,Edinboro,PA,2,Skyliners,DCA A Class,75.4,2023
+08/30,Edinboro,PA,3,Columbus Saints,DCA A Class,70.0,2023
+09/02,Rochester,NY,1,Reading Buccaneers,DCA World Class,97.7,2023
+09/03,Rochester,NY,1,Reading Buccaneers,DCA World Class,99.0,2023
+09/02,Rochester,NY,2,Hawthorne Caballeros,DCA World Class,95.25,2023
+09/03,Rochester,NY,2,Hawthorne Caballeros,DCA World Class,97.0,2023
+09/02,Rochester,NY,3,Bushwackers,DCA World Class,91.2,2023
+09/03,Rochester,NY,3,Bushwackers,DCA World Class,92.2,2023
+09/02,Rochester,NY,4,Atlanta CV,DCA World Class,89.825,2023
+09/03,Rochester,NY,4,Atlanta CV,DCA World Class,91.275,2023
+09/02,Rochester,NY,1,Connecticut Hurricanes,DCA Open Class,88.9,2023
+09/03,Rochester,NY,1,Connecticut Hurricanes,DCA Open Class,89.4,2023
+09/02,Rochester,NY,2,White Sabers,DCA Open Class,88.6,2023
+09/03,Rochester,NY,2,White Sabers,DCA Open Class,89.15,2023
+09/02,Rochester,NY,3,Fusion Core,DCA Open Class,85.375,2023
+09/03,Rochester,NY,3,Fusion Core,DCA Open Class,86.55,2023
+09/02,Rochester,NY,4,Cincinnati Tradition,DCA Open Class,83.05,2023
+09/03,Rochester,NY,4,Cincinnati Tradition,DCA Open Class,84.625,2023
+09/02,Rochester,NY,1,Rogues Hollow Regiment,DCA A Class,82.625,2023
+09/03,Rochester,NY,1,Rogues Hollow Regiment,DCA A Class,83.2,2023
+09/02,Rochester,NY,2,Skyliners,DCA A Class,78.825,2023
+09/03,Rochester,NY,2,Skyliners,DCA A Class,80.2,2023
+09/02,Rochester,NY,3,Govenaires,DCA A Class,77.125,2023
+09/03,Rochester,NY,3,Govenaires,DCA A Class,77.325,2023
+09/02,Rochester,NY,4,Columbus Saints,DCA A Class,71.55,2023
+09/03,Rochester,NY,4,Columbus Saints,DCA A Class,72.2,2023

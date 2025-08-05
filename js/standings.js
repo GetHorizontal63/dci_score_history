@@ -5,6 +5,12 @@ let logoDictionary = {};
 let availableYears = [];
 let availableDates = {};
 let availableClasses = {};
+let corpsAliasMap = {};
+
+// Function to normalize corps names using alias mapping
+function normalizeCorpsName(corpsName) {
+    return corpsAliasMap[corpsName] || corpsName;
+}
 
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DCI Standings Page Loaded');
@@ -33,6 +39,7 @@ async function loadLogoDictionary() {
 function parseLogoDictionary(csvText) {
     const lines = csvText.split('\n');
     const headers = lines[0].split(',').map(h => h.trim());
+    const aliasIndex = headers.indexOf('current_alias');
     
     for (let i = 1; i < lines.length; i++) {
         if (lines[i].trim()) {
@@ -41,9 +48,15 @@ function parseLogoDictionary(csvText) {
                 const corps = values[0].trim();
                 const logo = values[1].trim();
                 const live = values[2] && values[2].trim().toLowerCase() === 'true';
+                const aliasValue = aliasIndex !== -1 && values[aliasIndex] ? values[aliasIndex].trim() : '';
                 
                 if (corps && logo && live) {
                     logoDictionary[corps] = logo;
+                    
+                    // If this corps has an alias, store the mapping
+                    if (aliasValue) {
+                        corpsAliasMap[corps] = aliasValue;
+                    }
                 }
             }
         }
@@ -301,21 +314,22 @@ async function generateStandings() {
 }
 
 function calculateStandings(data, year, classFilter) {
-    // Group data by corps
+    // Group data by corps, consolidating aliased corps
     const corpsByName = {};
     
     data.forEach(row => {
-        const corps = row.Corps;
+        const originalCorps = row.Corps;
+        const normalizedCorps = normalizeCorpsName(originalCorps); // Use the normalized name
         const score = parseFloat(row.Score);
         const date = row.Date;
 
-        if (!corps || isNaN(score)) return;
+        if (!originalCorps || isNaN(score)) return;
 
-        if (!corpsByName[corps]) {
-            corpsByName[corps] = [];
+        if (!corpsByName[normalizedCorps]) {
+            corpsByName[normalizedCorps] = [];
         }
 
-        corpsByName[corps].push({
+        corpsByName[normalizedCorps].push({
             score: score,
             date: date,
             dateObj: new Date('2000/' + date)
@@ -353,26 +367,26 @@ function calculateStandings(data, year, classFilter) {
         });
     });
     
-    // Sort by average of last 3 shows (descending)
-    standings.sort((a, b) => b.avgLast3 - a.avgLast3);
+    // Sort by most recent score (descending)
+    standings.sort((a, b) => b.mostRecentScore - a.mostRecentScore);
     
-    // Add rank and calculate point differences
+    // Add rank and calculate point differences based on most recent score
     standings.forEach((standing, index) => {
         standing.rank = index + 1;
         
         // Point difference to next corps up (N/A for 1st place)
         if (index > 0) {
-            standing.pointDiff = standings[index - 1].avgLast3 - standing.avgLast3;
+            standing.pointDiff = standings[index - 1].mostRecentScore - standing.mostRecentScore;
         }
         
         // Leader point difference (N/A for 1st place)
         if (index > 0) {
-            standing.leaderPointDiff = standings[0].avgLast3 - standing.avgLast3;
+            standing.leaderPointDiff = standings[0].mostRecentScore - standing.mostRecentScore;
         }
         
         // Point difference to 12th place (N/A for 1st-12th place)
         if (standings.length >= 12 && index > 11) {
-            standing.twelfthPointDiff = standings[11].avgLast3 - standing.avgLast3;
+            standing.twelfthPointDiff = standings[11].mostRecentScore - standing.mostRecentScore;
         }
     });
     

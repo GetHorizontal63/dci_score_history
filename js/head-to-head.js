@@ -10,6 +10,12 @@ const CONFIG = {
 
 let corpsLogoMap = {};
 let availableCorps = [];
+let corpsAliasMap = {};
+
+// Function to normalize corps names using alias mapping
+function normalizeCorpsName(corpsName) {
+    return corpsAliasMap[corpsName] || corpsName;
+}
 
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
@@ -65,8 +71,9 @@ async function loadCorpsLogos() {
         const corpsNameIndex = headers.indexOf('corps') !== -1 ? headers.indexOf('corps') : 0;
         const logoFileIndex = headers.indexOf('logo') !== -1 ? headers.indexOf('logo') : 1;
         const liveIndex = headers.indexOf('live') !== -1 ? headers.indexOf('live') : -1;
+        const aliasIndex = headers.indexOf('current_alias');
         
-        console.log('Column indices:', { corpsNameIndex, logoFileIndex, liveIndex }); // Debug log
+        console.log('Column indices:', { corpsNameIndex, logoFileIndex, liveIndex, aliasIndex }); // Debug log
         console.log('Total lines in CSV:', lines.length); // Debug log
         
         // Process ALL lines, not just a subset
@@ -95,6 +102,7 @@ async function loadCorpsLogos() {
             const corpsName = values[corpsNameIndex] || '';
             const logoFile = values[logoFileIndex] || '';
             const liveValue = values[liveIndex] || '';
+            const aliasValue = aliasIndex !== -1 ? (values[aliasIndex] || '').trim() : '';
             const isLive = liveIndex !== -1 ? liveValue.toLowerCase() === 'true' : true;
             
             // Debug log for Star of Indiana specifically
@@ -103,12 +111,21 @@ async function loadCorpsLogos() {
             }
             
             if (corpsName && isLive) {
-                // Only add corps that are marked as live
-                availableCorps.push(corpsName);
-                
-                // Only add to logo map if logo file exists
-                if (logoFile) {
-                    corpsLogoMap[corpsName] = logoFile;
+                // If this corps has an alias, map it but don't add to dropdown
+                if (aliasValue) {
+                    corpsAliasMap[corpsName] = aliasValue;
+                    // Also add to logo map for the original name
+                    if (logoFile) {
+                        corpsLogoMap[corpsName] = logoFile;
+                    }
+                } else {
+                    // Only add corps that are marked as live AND don't have an alias
+                    availableCorps.push(corpsName);
+                    
+                    // Only add to logo map if logo file exists
+                    if (logoFile) {
+                        corpsLogoMap[corpsName] = logoFile;
+                    }
                 }
             }
         }
@@ -117,7 +134,9 @@ async function loadCorpsLogos() {
         availableCorps.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
         console.log('Live corps loaded:', availableCorps.length);
         console.log('All available corps:', availableCorps); // Debug log to see full list
+        console.log('Corps alias mappings:', corpsAliasMap); // Debug log to see alias mappings
         console.log('Sample logo mappings:', Object.entries(corpsLogoMap).slice(0, 5));
+        console.log('Corps alias mappings:', corpsAliasMap); // Debug log to see alias mappings
         
         // Check if Star of Indiana is in the list
         const starOfIndiana = availableCorps.find(corps => corps.toLowerCase().includes('star of indiana'));
@@ -262,10 +281,11 @@ async function loadCorpsData(corpsName, yearFilter) {
             if (response.ok) {
                 const csvText = await response.text();
                 const yearData = parseCSVData(csvText, year);
-                // Filter for the specific corps and ensure it's in our live corps list
-                const corpsYearData = yearData.filter(row => 
-                    row.corpsName === corpsName && availableCorps.includes(row.corpsName)
-                );
+                // Filter for the specific corps, including any aliased corps
+                const corpsYearData = yearData.filter(row => {
+                    const normalizedCorpsName = normalizeCorpsName(row.corpsName);
+                    return normalizedCorpsName === corpsName || row.corpsName === corpsName;
+                });
                 
                 // Apply date filtering with configurable maxDaysFromEnd
                 const filteredData = await filterDataByDateRange(corpsYearData, year, CONFIG.MAX_DAYS_FROM_SEASON_END);

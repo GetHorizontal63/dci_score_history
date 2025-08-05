@@ -4,9 +4,15 @@ let allData = [];
 let filteredData = [];
 let chart = null;
 let corpsLogos = {};
+let corpsAliasMap = {};
 
 let availableCorpsYears = [];
 let selectedCorpsYears = [];
+
+// Function to normalize corps names using alias mapping
+function normalizeCorpsName(corpsName) {
+    return corpsAliasMap[corpsName] || corpsName;
+}
 
 // Initialize when page loads
 document.addEventListener('DOMContentLoaded', initializePage);
@@ -23,47 +29,83 @@ function initializePage() {
 async function loadCorpsLogos() {
     try {
         const response = await fetch('../assets/corps_logos/logo_dictionary.csv');
-        const csv = await response.text();
-        const lines = csv.split('\n');
+        const csvText = await response.text();
+        const lines = csvText.trim().split('\n');
+        
+        // Parse header to find column indices
+        const headers = lines[0].split(',').map(h => h.trim());
+        const corpsNameIndex = headers.indexOf('corps');
+        const logoFileIndex = headers.indexOf('logo');
+        const liveIndex = headers.indexOf('live');
+        const aliasIndex = headers.indexOf('current_alias');
         
         console.log('Loading corps logos...');
         const logoPromises = [];
         
-        // Skip header row
+        // Process ALL lines
         for (let i = 1; i < lines.length; i++) {
             const line = lines[i].trim();
-            if (line) {
-                const [corps, logoFile] = line.split(',');
-                if (corps && logoFile) {
-                    const logoPromise = new Promise((resolve, reject) => {
-                        const img = new Image();
-                        img.onload = () => {
-                            console.log(`Loaded logo for ${corps}: ${logoFile}.png`);
-                            
-                            // Create a small canvas to resize the image
-                            const canvas = document.createElement('canvas');
-                            const ctx = canvas.getContext('2d');
-                            canvas.width = 12;
-                            canvas.height = 12;
-                            ctx.drawImage(img, 0, 0, 20, 20);
-                            
-                            corpsLogos[corps.trim()] = canvas;
-                            resolve();
-                        };
-                        img.onerror = () => {
-                            console.warn(`Failed to load logo for ${corps}: ${logoFile}.png`);
-                            resolve(); // Don't reject, just continue without this logo
-                        };
-                        img.src = `../assets/corps_logos/${logoFile}.png`;
-                    });
-                    logoPromises.push(logoPromise);
+            if (!line) continue;
+            
+            // Split on comma but handle potential issues
+            const values = [];
+            let current = '';
+            let inQuotes = false;
+            
+            for (let j = 0; j < line.length; j++) {
+                const char = line[j];
+                if (char === '"') {
+                    inQuotes = !inQuotes;
+                } else if (char === ',' && !inQuotes) {
+                    values.push(current.trim());
+                    current = '';
+                } else {
+                    current += char;
                 }
+            }
+            values.push(current.trim());
+            
+            const corpsName = values[corpsNameIndex] || '';
+            const logoFile = values[logoFileIndex] || '';
+            const liveValue = values[liveIndex] || '';
+            const aliasValue = aliasIndex !== -1 ? (values[aliasIndex] || '').trim() : '';
+            const isLive = liveIndex !== -1 ? liveValue.toLowerCase() === 'true' : true;
+            
+            if (corpsName && logoFile && isLive) {
+                // Store alias mapping if present
+                if (aliasValue) {
+                    corpsAliasMap[corpsName] = aliasValue;
+                }
+                
+                const logoPromise = new Promise((resolve, reject) => {
+                    const img = new Image();
+                    img.onload = () => {
+                        console.log(`Loaded logo for ${corpsName}: ${logoFile}.png`);
+                        
+                        // Create a small canvas to resize the image
+                        const canvas = document.createElement('canvas');
+                        const ctx = canvas.getContext('2d');
+                        canvas.width = 12;
+                        canvas.height = 12;
+                        ctx.drawImage(img, 0, 0, 20, 20);
+                        
+                        corpsLogos[corpsName.trim()] = canvas;
+                        resolve();
+                    };
+                    img.onerror = () => {
+                        console.warn(`Failed to load logo for ${corpsName}: ${logoFile}.png`);
+                        resolve(); // Don't reject, just continue without this logo
+                    };
+                    img.src = `../assets/corps_logos/${logoFile}.png`;
+                });
+                logoPromises.push(logoPromise);
             }
         }
         
         // Wait for all logos to load
         await Promise.all(logoPromises);
         console.log(`Corps logos loaded: ${Object.keys(corpsLogos).length} logos`);
+        console.log('Corps alias mappings:', corpsAliasMap);
     } catch (error) {
         console.error('Error loading corps logos:', error);
     }
@@ -195,8 +237,13 @@ function parseEventDate(dateStr, year) {
 function populateCorpsSearch() {
     console.log('populateCorpsSearch called, allData length:', allData.length);
     
-    // Get all unique corps-year combinations
-    availableCorpsYears = [...new Set(allData.map(row => `${row.Corps} (${row.Year})`))].filter(combo => combo && !combo.includes('undefined'));
+    // Get all unique corps-year combinations, normalizing corps names
+    const corpsYearCombos = allData.map(row => {
+        const normalizedCorps = normalizeCorpsName(row.Corps);
+        return `${normalizedCorps} (${row.Year})`;
+    }).filter(combo => combo && !combo.includes('undefined'));
+    
+    availableCorpsYears = [...new Set(corpsYearCombos)];
     
     // Sort by year descending, then by corps name
     availableCorpsYears.sort((a, b) => {
@@ -290,9 +337,10 @@ function generateChart() {
 
     showLoading();
 
-    // Filter data to only selected corps-years
+    // Filter data to only selected corps-years, using normalized corps names
     filteredData = allData.filter(row => {
-        const combo = `${row.Corps} (${row.Year})`;
+        const normalizedCorps = normalizeCorpsName(row.Corps);
+        const combo = `${normalizedCorps} (${row.Year})`;
         return selectedCorpsYears.includes(combo) && row.ScoreNum && row.DateObj;
     });
 
@@ -515,7 +563,8 @@ function getSeasonEndDate(data) {
 function groupByCorpsAndSeason(data) {
     const grouped = {};
     data.forEach(row => {
-        const key = `${row.Corps} (${row.Year})`;
+        const normalizedCorps = normalizeCorpsName(row.Corps);
+        const key = `${normalizedCorps} (${row.Year})`;
         if (!grouped[key]) {
             grouped[key] = [];
         }

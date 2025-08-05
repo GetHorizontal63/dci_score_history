@@ -1,4 +1,4 @@
-corps,logo,live
+corps,logo,live,current_alias
 7th Regiment,7th,true
 Academy,aca,true
 Battalion,bta-white,true
@@ -193,7 +193,7 @@ Belles of Saint Mary's-WI
 Belles of St. Mary's (NJ)
 Bellettes
 Bellettes All Girl
-Belleville Black Knights,blk,true
+Belleville Black Knights,blk,true,Belleville Black Knights
 Belleville Crusaders
 Belltones
 Belvederes
@@ -207,10 +207,10 @@ Black Barons
 Black Diamond Regiment
 Black Diamonds
 Black Gold
-Black Knights
+Black Knights,blk,true,Belleville Black Knights
 Black Knights (MY)
 Black Knights (NY)
-Black Knights-IL
+Black Knights-IL,blk,true,Belleville Black Knights
 Black Knights-NH
 Black Knights-NY
 Black Nights
@@ -321,7 +321,7 @@ CT PAL Cadets
 Caballaros,haw,true
 Cadence
 Cadet Regiment
-Cadets 2
+Cadets 2,c2,true
 Cadets Impérial
 Cadets LaSalle
 Cadets NDN
@@ -422,9 +422,9 @@ Chinese Imperials
 Chochlatiers
 Choclatiers
 Chocolatiers
-Chops
-Chops, Inc
-Chops, Inc.
+Chops,chps,true,Chops
+"Chops, Inc",chps,true,Chops
+"Chops, Inc.",chps,true,Chops
 Chordaliers
 Chrystalines
 Châtelaines
@@ -449,8 +449,8 @@ Colibris
 Collegettes
 Colonades
 Colonnades
-Colt .45's,clt,true
-Colt 45's,clt,true
+Colt .45's,clt,true,Colts
+Colt 45's,clt,true,Colts
 Columbus Saints,clm-snt,true
 Comets
 Commanders
@@ -604,7 +604,7 @@ Ensemble Contemporary
 Epoch
 Epochs
 Erie Mavericks
-Erie Thunderbirds
+Erie Thunderbirds,erie-thun,true
 Eruption
 Escadrille
 Esperanza
@@ -684,7 +684,7 @@ Gabrielettes
 Garden Statesmen
 Gardener Guards
 Gardners Guards
-Garfield Cadets
+Garfield Cadets,cad,true,Cadets
 Gatesmen
 Gateway City
 Gauchos
@@ -701,10 +701,9 @@ Geneva Appleknockers
 Georgian Lancers
 Gita Surosowan Banten
 Gladiateurs
-Glassman
+Glassman,gme,true,Glassmen
 Glory Cadets
-Gold
-Gold'
+Gold',gld,true,Gold
 Golden Buccaneers
 Golden Charms
 Golden Crusaders
@@ -831,7 +830,6 @@ Imperials of Saint Patrick
 Imperials of Saint Patrick's
 Imperials of St. Patrick's
 Imperials-IL
-Impulse
 Incognito,incog,true
 Incorruptibles
 Indians
@@ -866,7 +864,7 @@ Johnstown Patriots
 Joliet Kingsmen
 Joliet Kinsmen
 Jouvencelles
-Jubal
+Jubal,jubal,true
 Junior Brigadiers
 Junior Musketeers
 J’s
@@ -885,9 +883,9 @@ Kewaunee Knights
 Keystone Regiment
 Keystoners
 Keystones
-Kidsgrove Scouts
+Kidsgrove Scouts,kid,true
 Kiltie Kadets
-Kilties
+Kilties,kilt,true
 Kilties Kadets
 King's Regiment
 King's Royal Lancers
@@ -1041,7 +1039,7 @@ Les Royalistes
 Les Royalists
 Les Rythmiques
 Les Senateurs
-Les Senateurs--AL, QUE
+"Les Senateurs--AL, QUE"
 Les Senateurs--QUE
 Les Senateurs-QUE
 Les Senoritas
@@ -1051,7 +1049,6 @@ Les Sonnor
 Les Sonnors
 Les Souveraines
 Les Sphinx de Sainte Therese
-Les Stentors
 Les Sénateurs
 Les Troubadores
 Les Troubadours
@@ -1236,7 +1233,7 @@ New Image
 New London Surfers
 New York Defenders
 New York Lancers
-New York Skyliners
+New York Skyliners,nys,true,Skyliners
 New York Vanguards
 New York Volunteers
 Niagara Frontiersmen
@@ -1447,7 +1444,7 @@ Ranchéros
 Randolph Lancers
 Rangers
 Rapid City Express
-Reading Buccaneers,rea-buc,true
+Reading Buccaneers,rea-buc,true,Buccaneers
 Rebel Devils
 Rebels
 Red and White Aires
@@ -1502,7 +1499,7 @@ Rogues Hollow Regiment,rhr,true
 Roley's Raiders
 Rose City
 Rose City Guardsmen
-Rouges Hollow Regiment,rhr,true
+Rouges Hollow Regiment,rhr,true,Rogues Hollow Regiment
 Rough Riders
 Roughriders
 Royal Airs
@@ -1734,8 +1731,7 @@ Spiegalaires
 Spirit
 Spirit Of Newark
 Spirit of '76
-Spirit of Atlanta
-Spirit of Georgia
+Spirit of Georgia,soa,true,Spirit of Atlanta
 Spirit of New Jersey
 Spirit of Newark
 Spirit of Saint Louis
@@ -1814,7 +1810,7 @@ Tarheel Suns
 Teal Sound
 Telestars
 Texas Crusaders
-The Company
+The Company,com,true
 The Corps
 The Joey's
 The Thing

@@ -4,6 +4,12 @@ let corpsLogoMap = {};
 let availableCorps = [];
 let allShowsData = [];
 let currentChart = null;
+let corpsAliasMap = {};
+
+// Function to normalize corps names using alias mapping
+function normalizeCorpsName(corpsName) {
+    return corpsAliasMap[corpsName] || corpsName;
+}
 
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
@@ -78,14 +84,18 @@ async function loadCorpsLogos() {
         const corpsNameIndex = headers.indexOf('corps');
         const logoFileIndex = headers.indexOf('logo'); 
         const liveIndex = headers.indexOf('live');
+        const aliasIndex = headers.indexOf('current_alias');
         
-        console.log('Column indices:', { corpsNameIndex, logoFileIndex, liveIndex }); // Debug log
+        console.log('Column indices:', { corpsNameIndex, logoFileIndex, liveIndex, aliasIndex }); // Debug log
         console.log('Total lines in CSV:', lines.length); // Debug log
         
         if (corpsNameIndex === -1 || logoFileIndex === -1 || liveIndex === -1) {
             console.error('Required columns not found in CSV. Headers:', headers);
             return;
         }
+        
+        // Create corps alias mapping
+        const corpsAliasMap = {};
         
         // Process ALL lines, not just a subset
         for (let i = 1; i < lines.length; i++) {
@@ -113,23 +123,37 @@ async function loadCorpsLogos() {
             const corpsName = values[corpsNameIndex] || '';
             const logoFile = values[logoFileIndex] || '';
             const liveValue = values[liveIndex] || '';
+            const aliasValue = aliasIndex !== -1 ? (values[aliasIndex] || '').trim() : '';
             const isLive = liveIndex !== -1 ? liveValue.toLowerCase() === 'true' : true;
             
             if (corpsName && isLive) {
-                // Only add corps that are marked as live
-                availableCorps.push(corpsName);
-                
-                // Only add to logo map if logo file exists
-                if (logoFile) {
-                    corpsLogoMap[corpsName] = logoFile;
+                // If this corps has an alias, map it but don't add to dropdown
+                if (aliasValue) {
+                    corpsAliasMap[corpsName] = aliasValue;
+                    // Also add to logo map for the original name
+                    if (logoFile) {
+                        corpsLogoMap[corpsName] = logoFile;
+                    }
+                } else {
+                    // Only add corps that are marked as live AND don't have an alias
+                    availableCorps.push(corpsName);
+                    
+                    // Only add to logo map if logo file exists
+                    if (logoFile) {
+                        corpsLogoMap[corpsName] = logoFile;
+                    }
                 }
             }
         }
+        
+        // Store the alias map globally
+        corpsAliasMap = { ...corpsAliasMap };
         
         // Sort alphabetically (case-insensitive)
         availableCorps.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
         console.log('Live corps loaded for statistics:', availableCorps.length);
         console.log('All available corps:', availableCorps); // Debug log to see full list
+        console.log('Corps alias mappings:', corpsAliasMap); // Debug log to see alias mappings
         
     } catch (error) {
         console.error('Error loading corps logos:', error);
@@ -300,7 +324,11 @@ async function generateStatistics(corps) {
     console.log(`Total shows available: ${allShowsData.length}`);
     
     // Filter shows for selected corps (all years)
-    const corpsShows = allShowsData.filter(show => show.Corps === corps);
+    // Filter shows for the selected corps, including any aliased corps
+    const corpsShows = allShowsData.filter(show => {
+        const normalizedCorpsName = normalizeCorpsName(show.Corps);
+        return normalizedCorpsName === corps || show.Corps === corps;
+    });
     console.log(`Found ${corpsShows.length} shows for ${corps}`);
 
     if (corpsShows.length === 0) {
