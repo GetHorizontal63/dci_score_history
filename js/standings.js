@@ -286,7 +286,7 @@ async function generateStandings() {
         }
         
         // Calculate standings
-        const standings = calculateStandings(filteredData);
+        const standings = calculateStandings(filteredData, selectedYear, selectedClass);
         
         // Display standings
         displayStandings(standings);
@@ -300,7 +300,7 @@ async function generateStandings() {
     }
 }
 
-function calculateStandings(data) {
+function calculateStandings(data, year, classFilter) {
     // Group data by corps
     const corpsByName = {};
     
@@ -308,35 +308,33 @@ function calculateStandings(data) {
         const corps = row.Corps;
         const score = parseFloat(row.Score);
         const date = row.Date;
-        
+
         if (!corps || isNaN(score)) return;
-        
+
         if (!corpsByName[corps]) {
             corpsByName[corps] = [];
         }
-        
+
         corpsByName[corps].push({
             score: score,
             date: date,
             dateObj: new Date('2000/' + date)
         });
     });
-    
+
     // Calculate standings for each corps
     const standings = [];
-    
+
     Object.keys(corpsByName).forEach(corps => {
         const performances = corpsByName[corps];
-        
+
         // Sort by date (newest first)
         performances.sort((a, b) => b.dateObj - a.dateObj);
-        
+
         if (performances.length === 0) return;
-        
+
         const mostRecentScore = performances[0].score;
-        const mostRecentScorePlus = calculateScorePlus(mostRecentScore, performances[0].date);
-        
-        // Calculate averages
+        const mostRecentScorePlus = calculateScorePlus(mostRecentScore, year, classFilter, data);        // Calculate averages
         const last3Scores = performances.slice(0, 3).map(p => p.score);
         const last5Scores = performances.slice(0, 5).map(p => p.score);
         
@@ -381,29 +379,58 @@ function calculateStandings(data) {
     return standings;
 }
 
-function calculateScorePlus(score, date) {
-    // Simplified Score+ calculation - in a real implementation this would be more complex
-    // This is a placeholder that adds a seasonal progression factor
-    const baseScore = score;
-    const dateFactor = getDateProgressionFactor(date);
-    return baseScore + dateFactor;
-}
-
-function getDateProgressionFactor(dateString) {
-    // Simple seasonal progression - later in season gets higher factor
-    const [month, day] = dateString.split('/').map(Number);
-    const seasonStart = new Date(2000, 5, 1); // June 1
-    const seasonEnd = new Date(2000, 7, 31); // August 31
-    const currentDate = new Date(2000, month - 1, day);
+function calculateScorePlus(score, year, classFilter, allFilteredData) {
+    // Debug logging
+    console.log('Score+ calculation inputs:', { score, year, classFilter, dataLength: allFilteredData.length });
     
-    if (currentDate < seasonStart) return 0;
-    if (currentDate > seasonEnd) return 5;
+    // Validate inputs
+    if (!score || isNaN(score)) {
+        console.log('Invalid score:', score);
+        return 0;
+    }
     
-    const totalDays = seasonEnd - seasonStart;
-    const daysPassed = currentDate - seasonStart;
-    const progress = daysPassed / totalDays;
+    if (!year) {
+        console.log('Invalid year:', year);
+        return score;
+    }
     
-    return progress * 5; // Max 5 point bonus for end of season
+    // Use ERA+ style calculation - compare against ALL scores for the season
+    const seasonData = allFilteredData.filter(row => 
+        row.Year == year  // Use == instead of === for flexible comparison
+    );
+    
+    console.log('Season data found:', seasonData.length, 'records for year', year);
+    
+    if (seasonData.length === 0) {
+        console.log('No season data found for year:', year);
+        return score;
+    }
+    
+    const allSeasonScores = seasonData.map(row => {
+        const scoreNum = parseFloat(row.Score);
+        return scoreNum;
+    }).filter(s => !isNaN(s)); // Remove any NaN values
+    
+    console.log('Valid scores found:', allSeasonScores.length, 'scores:', allSeasonScores.slice(0, 5));
+    
+    if (allSeasonScores.length === 0) {
+        console.log('No valid scores found');
+        return score;
+    }
+    
+    const seasonAverage = allSeasonScores.reduce((sum, score) => sum + score, 0) / allSeasonScores.length;
+    console.log('Season average:', seasonAverage);
+    
+    if (seasonAverage === 0 || isNaN(seasonAverage)) {
+        console.log('Invalid season average:', seasonAverage);
+        return score;
+    }
+    
+    // Score+ = (Individual Score / Season Average) * 100
+    const scorePlus = (score / seasonAverage) * 100;
+    console.log('Score+ result:', scorePlus);
+    
+    return scorePlus;
 }
 
 function displayStandings(standings) {

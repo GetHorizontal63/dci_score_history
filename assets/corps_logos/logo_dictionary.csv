@@ -372,8 +372,7 @@ Cardinals
 Cardinals of PB
 Cardinals of Precious Blood
 Cardinals;
-Carolina Crown
-Carolina Gold
+Carolina Gold,car-gld,true
 Carolina crown
 Carson Crusaders
 Carver Gay Blades
@@ -597,7 +596,7 @@ Emmaus Sentinels
 Empire Loyalists
 Empire State Express
 Empire Statesmen
-Encorps
+Encorps,enc,true
 Enfield Raiders
 Enfield Sabers
 Enfield Sabres
@@ -781,7 +780,7 @@ Heightsmen
 Hershey Choclatiers
 Hershey Chocolatiers
 High Country Brass
-Highland Regiment
+Highland Regiment,dca-logo,true
 Highlanders
 Highlanders-CT
 Hilltopers
@@ -833,7 +832,7 @@ Imperials of Saint Patrick's
 Imperials of St. Patrick's
 Imperials-IL
 Impulse
-Incognito
+Incognito,incog,true
 Incorruptibles
 Indians
 Insolite
@@ -1666,7 +1665,7 @@ Sertomanaires
 Seymour Vanguard
 Seymour Vanguards
 Shadettes
-Shadow
+Shadow,shd,true
 Shamrocks
 Sharpsburg Cadets
 Sharpshooters
@@ -1698,7 +1697,7 @@ Skokie Vanguard
 Sky Ryders
 Skyhawks
 Skylarks
-Skyliners
+Skyliners,nys,true
 Sly Ryders
 Smithtown Freelancers
 SoCal Dream
@@ -1711,7 +1710,7 @@ Soundations
 Sounds of Central NY
 Soundwave
 Southern Illusion
-Southern Knights
+Southern Knights,dca-logo,true
 Southern Rebels
 Southern Tier Grenadiers
 Southern Tier Vagabonds
@@ -1915,7 +1914,7 @@ War Vets
 Warrior Cadets
 Warriors
 Warriors Junior
-Watchmen
+Watchmen,wat,true
 Watertown Cadets
 Watkins Glen Squires
 Wausau Story
