@@ -1,0 +1,42 @@
+[
+  {
+    "id": 5,
+    "date": "2025-08-06",
+    "title": "Test Site Live!",
+    "description": "Uploaded draft site files to GitHub Repo for live testing",
+    "type": "site_update",
+    "priority": "high"
+  },
+  {
+    "id": 4,
+    "date": "2025-08-05",
+    "title": "2025 Score Data Updated",
+    "description": "Compiled and added 2025 scores through August 3",
+    "type": "data_update",
+    "priority": "high"
+  },
+  {
+    "id": 3,
+    "date": "2025-08-04",
+    "title": "Head-to-Head Tool",
+    "description": "Added the head-to-head corps comparison tool, allowing users to compare the head-to-head results between any two corps from 1964 to 2025",
+    "type": "feature_update",
+    "priority": "high"
+  },
+  {
+    "id": 2,
+    "date": "2025-08-02",
+    "title": "Scores+ Analytics Added", 
+    "description": "Added Score+ calculation algorithm and visualization for year-to-year score comparisons",
+    "type": "feature_update",
+    "priority": "medium"
+  },
+  {
+    "id": 1,
+    "date": "2025-08-02",
+    "title": "Scores History",
+    "description": "Added a searchable score history database for DCI, DCA, and some VFW/AL competitions from 1964 to present",
+    "type": "feature_update", 
+    "priority": "medium"
+  }
+]

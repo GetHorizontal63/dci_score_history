@@ -1,0 +1,26 @@
+[
+  {
+    "id": 2,
+    "target_date": "Fall 2025",
+    "title": "Mobile Optimization",
+    "description": "Adjust site layout and functionality for better mobile experience",
+    "type": "site_update",
+    "priority": "high"
+  },
+  {
+    "id": 1,
+    "target_date": "Fall 2025",
+    "title": "DCI & DCA Historic Data",
+    "description": "Finish cleaning and standardizing DCI and DCA historic data from 1964 to present",
+    "type": "data_update",
+    "priority": "high"
+  },
+  {
+    "id": 3,
+    "target_date": "Winter 2025",
+    "title": "Full Show Recaps 2013-2025",
+    "description": "Complete full show recaps for DCI and DCA from 2013 to 2025",
+    "type": "data_update",
+    "priority": "medium"
+  }
+]
