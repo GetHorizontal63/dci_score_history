@@ -1,0 +1,466 @@
+// DCI Standings Page JavaScript
+
+let allData = [];
+let logoDictionary = {};
+let availableYears = [];
+let availableDates = {};
+let availableClasses = {};
+
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DCI Standings Page Loaded');
+    
+    // Initialize page
+    loadLogoDictionary();
+    loadAvailableYears();
+    setupEventListeners();
+    
+    // Auto-load most recent data
+    setTimeout(initializeWithCurrentData, 500);
+});
+
+async function loadLogoDictionary() {
+    try {
+        const response = await fetch('../assets/corps_logos/logo_dictionary.csv');
+        if (response.ok) {
+            const csvText = await response.text();
+            parseLogoDictionary(csvText);
+        }
+    } catch (error) {
+        console.error('Error loading logo dictionary:', error);
+    }
+}
+
+function parseLogoDictionary(csvText) {
+    const lines = csvText.split('\n');
+    const headers = lines[0].split(',').map(h => h.trim());
+    
+    for (let i = 1; i < lines.length; i++) {
+        if (lines[i].trim()) {
+            const values = parseCSVLine(lines[i]);
+            if (values.length >= 2) {
+                const corps = values[0].trim();
+                const logo = values[1].trim();
+                const live = values[2] && values[2].trim().toLowerCase() === 'true';
+                
+                if (corps && logo && live) {
+                    logoDictionary[corps] = logo;
+                }
+            }
+        }
+    }
+    console.log('Loaded logo dictionary:', Object.keys(logoDictionary).length, 'corps');
+}
+
+async function loadAvailableYears() {
+    try {
+        // Get years from 2000 to current year (2025)
+        const currentYear = new Date().getFullYear();
+        const years = [];
+        for (let year = currentYear; year >= 2000; year--) {
+            years.push(year);
+        }
+        
+        availableYears = years;
+        populateYearFilter();
+    } catch (error) {
+        console.error('Error loading available years:', error);
+    }
+}
+
+function populateYearFilter() {
+    const yearFilter = document.getElementById('year-filter');
+    yearFilter.innerHTML = '<option value="">Select Year</option>';
+    
+    availableYears.forEach(year => {
+        const option = document.createElement('option');
+        option.value = year;
+        option.textContent = year;
+        yearFilter.appendChild(option);
+    });
+}
+
+function setupEventListeners() {
+    document.getElementById('year-filter').addEventListener('change', onYearChange);
+    document.getElementById('date-filter').addEventListener('change', onFilterChange);
+    document.getElementById('class-filter').addEventListener('change', onFilterChange);
+    document.getElementById('generate-standings').addEventListener('click', generateStandings);
+}
+
+async function initializeWithCurrentData() {
+    const currentYear = new Date().getFullYear();
+    
+    // Set year to current year (2025)
+    const yearFilter = document.getElementById('year-filter');
+    yearFilter.value = currentYear;
+    
+    // Load data for current year
+    await onYearChange();
+    
+    // Set class to World Class if available
+    const classFilter = document.getElementById('class-filter');
+    if (availableClasses.includes('World Class')) {
+        classFilter.value = 'World Class';
+    }
+    
+    // Auto-generate standings
+    setTimeout(generateStandings, 100);
+}
+
+async function onYearChange() {
+    const selectedYear = document.getElementById('year-filter').value;
+    const dateFilter = document.getElementById('date-filter');
+    const classFilter = document.getElementById('class-filter');
+    
+    // Reset dependent filters
+    dateFilter.innerHTML = '<option value="">Latest Available</option>';
+    classFilter.innerHTML = '<option value="">All Classes</option>';
+    
+    if (!selectedYear) {
+        updateSelectedInfo();
+        return;
+    }
+    
+    try {
+        // Load data for selected year
+        const response = await fetch(`../data/years/${selectedYear}_dci_data.csv`);
+        if (response.ok) {
+            const csvText = await response.text();
+            allData = parseCSV(csvText);
+            
+            // Extract unique dates and classes
+            extractDatesAndClasses();
+            populateDateFilter();
+            populateClassFilter();
+            
+            // Auto-generate standings if this is from dropdown change (not initial load)
+            if (selectedYear && document.getElementById('year-filter').value === selectedYear) {
+                setTimeout(autoGenerateStandings, 100);
+            }
+        } else {
+            console.error(`No data available for year ${selectedYear}`);
+            allData = [];
+        }
+    } catch (error) {
+        console.error('Error loading year data:', error);
+        allData = [];
+    }
+}
+
+function onFilterChange() {
+    // Auto-generate standings when filters change
+    setTimeout(autoGenerateStandings, 100);
+}
+
+function autoGenerateStandings() {
+    const selectedYear = document.getElementById('year-filter').value;
+    if (selectedYear && allData.length > 0) {
+        generateStandings();
+    }
+}
+
+function parseCSV(csvText) {
+    const lines = csvText.split('\n');
+    const headers = parseCSVLine(lines[0]).map(h => h.trim());
+    const data = [];
+    
+    for (let i = 1; i < lines.length; i++) {
+        if (lines[i].trim()) {
+            const values = parseCSVLine(lines[i]);
+            if (values.length >= headers.length) {
+                const row = {};
+                headers.forEach((header, index) => {
+                    row[header] = values[index] ? values[index].trim() : '';
+                });
+                data.push(row);
+            }
+        }
+    }
+    
+    return data;
+}
+
+function parseCSVLine(line) {
+    const result = [];
+    let current = '';
+    let inQuotes = false;
+    
+    for (let i = 0; i < line.length; i++) {
+        const char = line[i];
+        if (char === '"') {
+            inQuotes = !inQuotes;
+        } else if (char === ',' && !inQuotes) {
+            result.push(current);
+            current = '';
+        } else {
+            current += char;
+        }
+    }
+    
+    result.push(current);
+    return result;
+}
+
+function extractDatesAndClasses() {
+    const dates = new Set();
+    const classes = new Set();
+    
+    allData.forEach(row => {
+        if (row.Date) dates.add(row.Date);
+        if (row.Class) classes.add(row.Class);
+    });
+    
+    availableDates = Array.from(dates).sort((a, b) => {
+        // Sort dates in descending order (newest first)
+        const dateA = new Date('2000/' + a);
+        const dateB = new Date('2000/' + b);
+        return dateB - dateA;
+    });
+    
+    availableClasses = Array.from(classes).sort();
+}
+
+function populateDateFilter() {
+    const dateFilter = document.getElementById('date-filter');
+    dateFilter.innerHTML = '<option value="">Latest Available</option>';
+    
+    availableDates.forEach(date => {
+        const option = document.createElement('option');
+        option.value = date;
+        option.textContent = formatDateForDisplay(date);
+        dateFilter.appendChild(option);
+    });
+}
+
+function populateClassFilter() {
+    const classFilter = document.getElementById('class-filter');
+    classFilter.innerHTML = '<option value="">All Classes</option>';
+    
+    availableClasses.forEach(className => {
+        const option = document.createElement('option');
+        option.value = className;
+        option.textContent = className;
+        classFilter.appendChild(option);
+    });
+}
+
+function formatDateForDisplay(dateString) {
+    // Convert MM/DD to Month DD format
+    const [month, day] = dateString.split('/');
+    const date = new Date(2000, parseInt(month) - 1, parseInt(day));
+    return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
+}
+
+async function generateStandings() {
+    const selectedYear = document.getElementById('year-filter').value;
+    
+    if (!selectedYear) {
+        alert('Please select a year first.');
+        return;
+    }
+    
+    const generateBtn = document.getElementById('generate-standings');
+    const tbody = document.getElementById('standings-tbody');
+    
+    // Show loading state
+    generateBtn.classList.add('loading');
+    generateBtn.disabled = true;
+        tbody.innerHTML = '<tr><td colspan="9" class="loading-message"><i class="fas fa-spinner fa-spin"></i><br>Calculating standings...</td></tr>';    try {
+        const selectedDate = document.getElementById('date-filter').value;
+        const selectedClass = document.getElementById('class-filter').value;
+        
+        // Filter data based on selections
+        let filteredData = [...allData];
+        
+        // Filter by date (up to and including selected date, or all if no date selected)
+        if (selectedDate) {
+            filteredData = filteredData.filter(row => {
+                const rowDate = new Date('2000/' + row.Date);
+                const filterDate = new Date('2000/' + selectedDate);
+                return rowDate <= filterDate;
+            });
+        }
+        
+        // Filter by class
+        if (selectedClass) {
+            filteredData = filteredData.filter(row => row.Class === selectedClass);
+        }
+        
+        // Calculate standings
+        const standings = calculateStandings(filteredData);
+        
+        // Display standings
+        displayStandings(standings);
+        
+    } catch (error) {
+        console.error('Error generating standings:', error);
+        tbody.innerHTML = '<tr><td colspan="9" class="error-message"><i class="fas fa-exclamation-triangle"></i><br>Error generating standings. Please try again.</td></tr>';
+    } finally {
+        generateBtn.classList.remove('loading');
+        generateBtn.disabled = false;
+    }
+}
+
+function calculateStandings(data) {
+    // Group data by corps
+    const corpsByName = {};
+    
+    data.forEach(row => {
+        const corps = row.Corps;
+        const score = parseFloat(row.Score);
+        const date = row.Date;
+        
+        if (!corps || isNaN(score)) return;
+        
+        if (!corpsByName[corps]) {
+            corpsByName[corps] = [];
+        }
+        
+        corpsByName[corps].push({
+            score: score,
+            date: date,
+            dateObj: new Date('2000/' + date)
+        });
+    });
+    
+    // Calculate standings for each corps
+    const standings = [];
+    
+    Object.keys(corpsByName).forEach(corps => {
+        const performances = corpsByName[corps];
+        
+        // Sort by date (newest first)
+        performances.sort((a, b) => b.dateObj - a.dateObj);
+        
+        if (performances.length === 0) return;
+        
+        const mostRecentScore = performances[0].score;
+        const mostRecentScorePlus = calculateScorePlus(mostRecentScore, performances[0].date);
+        
+        // Calculate averages
+        const last3Scores = performances.slice(0, 3).map(p => p.score);
+        const last5Scores = performances.slice(0, 5).map(p => p.score);
+        
+        const avgLast3 = last3Scores.length > 0 ? 
+            last3Scores.reduce((sum, score) => sum + score, 0) / last3Scores.length : 0;
+        const avgLast5 = last5Scores.length > 0 ? 
+            last5Scores.reduce((sum, score) => sum + score, 0) / last5Scores.length : 0;
+        
+        standings.push({
+            corps: corps,
+            mostRecentScore: mostRecentScore,
+            mostRecentScorePlus: mostRecentScorePlus,
+            avgLast3: avgLast3,
+            avgLast5: avgLast5,
+            performanceCount: performances.length
+        });
+    });
+    
+    // Sort by average of last 3 shows (descending)
+    standings.sort((a, b) => b.avgLast3 - a.avgLast3);
+    
+    // Add rank and calculate point differences
+    standings.forEach((standing, index) => {
+        standing.rank = index + 1;
+        
+        // Point difference to next corps up (N/A for 1st place)
+        if (index > 0) {
+            standing.pointDiff = standings[index - 1].avgLast3 - standing.avgLast3;
+        }
+        
+        // Leader point difference (N/A for 1st place)
+        if (index > 0) {
+            standing.leaderPointDiff = standings[0].avgLast3 - standing.avgLast3;
+        }
+        
+        // Point difference to 12th place (N/A for 1st-12th place)
+        if (standings.length >= 12 && index > 11) {
+            standing.twelfthPointDiff = standings[11].avgLast3 - standing.avgLast3;
+        }
+    });
+    
+    return standings;
+}
+
+function calculateScorePlus(score, date) {
+    // Simplified Score+ calculation - in a real implementation this would be more complex
+    // This is a placeholder that adds a seasonal progression factor
+    const baseScore = score;
+    const dateFactor = getDateProgressionFactor(date);
+    return baseScore + dateFactor;
+}
+
+function getDateProgressionFactor(dateString) {
+    // Simple seasonal progression - later in season gets higher factor
+    const [month, day] = dateString.split('/').map(Number);
+    const seasonStart = new Date(2000, 5, 1); // June 1
+    const seasonEnd = new Date(2000, 7, 31); // August 31
+    const currentDate = new Date(2000, month - 1, day);
+    
+    if (currentDate < seasonStart) return 0;
+    if (currentDate > seasonEnd) return 5;
+    
+    const totalDays = seasonEnd - seasonStart;
+    const daysPassed = currentDate - seasonStart;
+    const progress = daysPassed / totalDays;
+    
+    return progress * 5; // Max 5 point bonus for end of season
+}
+
+function displayStandings(standings) {
+    const tbody = document.getElementById('standings-tbody');
+    
+    if (standings.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="9" class="empty-message"><i class="fas fa-search"></i><br>No data found for the selected criteria.</td></tr>';
+        return;
+    }
+    
+    tbody.innerHTML = standings.map((standing, index) => {
+        const logo = getCorpsLogo(standing.corps);
+        const rankClass = standing.rank <= 3 ? `rank-${standing.rank}` : '';
+        const cutoffClass = standing.rank === 12 ? 'cutoff-line' : '';
+        
+        return `
+            <tr class="${cutoffClass}">
+                <td class="rank-cell ${rankClass}">${standing.rank}</td>
+                <td>
+                    <div class="corps-cell">
+                        <div class="corps-logo">
+                            ${logo ? `<img src="../assets/corps_logos/${logo}.png" alt="${standing.corps}" onerror="this.style.display='none'">` : ''}
+                        </div>
+                        <span class="corps-name">${standing.corps}</span>
+                    </div>
+                </td>
+                <td class="score-cell">${standing.mostRecentScore.toFixed(2)}</td>
+                <td class="score-plus-cell">${standing.mostRecentScorePlus.toFixed(2)}</td>
+                <td class="avg-score-cell">${standing.avgLast3.toFixed(2)}</td>
+                <td class="avg-score-cell">${standing.avgLast5.toFixed(2)}</td>
+                <td class="diff-cell">${standing.pointDiff ? standing.pointDiff.toFixed(2) : '—'}</td>
+                <td class="leader-diff-cell">${standing.leaderPointDiff ? standing.leaderPointDiff.toFixed(2) : '—'}</td>
+                <td class="twelfth-diff-cell">${standing.twelfthPointDiff ? standing.twelfthPointDiff.toFixed(2) : '—'}</td>
+            </tr>
+        `;
+    }).join('');
+}
+
+function getCorpsLogo(corpsName) {
+    // Direct match first
+    if (logoDictionary[corpsName]) {
+        return logoDictionary[corpsName];
+    }
+    
+    // Try variations for common corps name differences
+    const variations = [
+        corpsName.replace(/\s+/g, ''), // Remove spaces
+        corpsName.replace(/\s+/g, ' '), // Normalize spaces
+        corpsName.toLowerCase(),
+        corpsName.toUpperCase()
+    ];
+    
+    for (const variation of variations) {
+        if (logoDictionary[variation]) {
+            return logoDictionary[variation];
+        }
+    }
+    
+    return null;
+}

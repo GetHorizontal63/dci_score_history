@@ -1,0 +1,304 @@
+/* Standings Page Specific Styles */
+
+/* Inherit base styles from scores.css */
+.standings-table-container {
+    height: calc(100vh - 14.4vh - 220px);
+    overflow-y: auto;
+    background: #2a2a2a;
+    border-radius: 8px;
+    border: 1px solid #444444;
+    margin-top: 20px;
+}
+
+/* Custom scrollbar for standings table container */
+.standings-table-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.standings-table-container::-webkit-scrollbar-track {
+    background: #1a1a1a;
+    border-radius: 4px;
+}
+
+.standings-table-container::-webkit-scrollbar-thumb {
+    background: #EA6020;
+    border-radius: 4px;
+}
+
+.standings-table-container::-webkit-scrollbar-thumb:hover {
+    background: #F49B6A;
+}
+
+.standings-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #2a2a2a;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+/* Column widths for standings table */
+.standings-table th:nth-child(1),
+.standings-table td:nth-child(1) {
+    width: 80px;
+    text-align: center;
+}
+
+.standings-table th:nth-child(2),
+.standings-table td:nth-child(2) {
+    width: 250px;
+    text-align: left;
+}
+
+.standings-table th:nth-child(3),
+.standings-table td:nth-child(3) {
+    width: 120px;
+    text-align: center;
+}
+
+.standings-table th:nth-child(4),
+.standings-table td:nth-child(4) {
+    width: 130px;
+    text-align: center;
+}
+
+.standings-table th:nth-child(5),
+.standings-table td:nth-child(5) {
+    width: 130px;
+    text-align: center;
+}
+
+.standings-table th:nth-child(6),
+.standings-table td:nth-child(6) {
+    width: 130px;
+    text-align: center;
+}
+
+.standings-table th:nth-child(7),
+.standings-table td:nth-child(7) {
+    width: 100px;
+    text-align: center;
+}
+
+.standings-table th:nth-child(8),
+.standings-table td:nth-child(8) {
+    width: 130px;
+    text-align: center;
+}
+
+.standings-table th:nth-child(9),
+.standings-table td:nth-child(9) {
+    width: 130px;
+    text-align: center;
+}
+
+.standings-table th {
+    background: #444444;
+    color: #ffffff;
+    padding: 15px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #EA6020;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.standings-table td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #444444;
+    vertical-align: middle;
+}
+
+.standings-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.standings-table tbody tr:hover {
+    background: #333333;
+}
+
+.standings-table tbody tr:nth-child(even) {
+    background: #252525;
+}
+
+.standings-table tbody tr:nth-child(even):hover {
+    background: #333333;
+}
+
+/* Corps cell with logo */
+.corps-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.corps-logo {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.corps-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.corps-name {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* Rank cell styling */
+.rank-cell {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.rank-1 {
+    color: #FFD700;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+}
+
+.rank-2 {
+    color: #C0C0C0;
+    text-shadow: 0 0 8px rgba(192, 192, 192, 0.5);
+}
+
+.rank-3 {
+    color: #CD7F32;
+    text-shadow: 0 0 8px rgba(205, 127, 50, 0.5);
+}
+
+/* Score cells */
+.score-cell {
+    font-weight: 600;
+}
+
+.score-plus-cell {
+    font-weight: 600;
+}
+
+.avg-score-cell {
+    font-weight: 600;
+}
+
+.diff-cell {
+    font-weight: 600;
+}
+
+.leader-diff-cell {
+    font-weight: 600;
+}
+
+.twelfth-diff-cell {
+    font-weight: 600;
+}
+
+/* Cutoff line after 12th place */
+.cutoff-line {
+    border-bottom: 3px solid #EA6020 !important;
+}
+
+/* Info cards above table */
+.standings-info {
+    display: none;
+}
+
+/* Generate button */
+.generate-btn {
+    display: none;
+}
+
+/* Loading and empty states */
+.loading-message,
+.empty-message {
+    text-align: center;
+    padding: 60px 20px;
+    color: #cccccc;
+    font-size: 18px;
+}
+
+.loading-message i,
+.empty-message i {
+    color: #EA6020;
+    font-size: 48px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* Error state */
+.error-message {
+    text-align: center;
+    padding: 40px 20px;
+    color: #ff6b6b;
+    font-size: 16px;
+}
+
+.error-message i {
+    font-size: 32px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .standings-table {
+        font-size: 12px;
+    }
+    
+    .standings-table th,
+    .standings-table td {
+        padding: 8px 6px;
+    }
+    
+    .corps-logo {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .standings-info {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .standings-table-container {
+        height: calc(100vh - 14.4vh - 300px);
+    }
+    
+    .standings-table {
+        font-size: 11px;
+    }
+    
+    .standings-table th,
+    .standings-table td {
+        padding: 6px 4px;
+    }
+    
+    .corps-cell {
+        gap: 8px;
+    }
+    
+    .corps-logo {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .scores-filters {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .generate-btn {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+}
