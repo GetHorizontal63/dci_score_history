@@ -11,7 +11,7 @@
     "id": 1,
     "target_date": "Fall 2025",
     "title": "DCI & DCA Historic Data",
-    "description": "Finish cleaning and standardizing DCI and DCA historic data from 1964 to present",
+    "description": "Finish cleaning and standardizing DCI and DCA historic data from 1964 to 2014",
     "type": "data_update",
     "priority": "high"
   },

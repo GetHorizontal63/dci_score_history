@@ -100,7 +100,7 @@ Alleghany Monarchs
 Allegheny Grenadiers
 Allegheny Night Storm
 Allegiance Elite
-Alliance
+Alliance,ali,true
 Alliance Musicale
 Alpine Girls
 Ambassadears
@@ -207,7 +207,7 @@ Black Barons
 Black Diamond Regiment
 Black Diamonds
 Black Gold
-Black Knights,blk,true,Belleville Black Knights
+Black Knights
 Black Knights (MY)
 Black Knights (NY)
 Black Knights-IL,blk,true,Belleville Black Knights
@@ -250,7 +250,7 @@ Blue Knights-MN
 Blue Notes
 Blue Rock
 Blue Sabres
-Blue Saints
+Blue Saints,bsai-wht,true
 Blue Star Cadets
 Blue Stars
 Blue stars
@@ -319,7 +319,7 @@ C.D. of A
 CMCC Warriors
 CT PAL Cadets
 Caballaros,haw,true
-Cadence
+Cadence,dca-logo,true
 Cadet Regiment
 Cadets 2,c2,true
 Cadets Impérial
@@ -373,18 +373,17 @@ Cardinals of PB
 Cardinals of Precious Blood
 Cardinals;
 Carolina Gold,car-gld,true
-Carolina crown
+Carolina crown,crw,true,Carolina Crown
 Carson Crusaders
 Carver Gay Blades
-Cascades
-Cath. Daughters of Am.
-Catholic D. Of America
-Catholic D. of America
-Catholic Daughters
-Catholic Daughters of America
+Cascades,cas,true,Seattle Cascades
+Cath. Daughters of Am.,cda,true,Catholic Daughters
+Catholic D. Of America,cda,true,Catholic Daughters
+Catholic D. of America,cda,true,Catholic Daughters
+Catholic Daughters,cda,true
+Catholic Daughters of America,cda,true,Catholic Daughters
 Cavalcade
 Cavalier Cadets
-Cavaliers
 Cavaliers-MA
 Cavalières
 Cedar Rapids
@@ -417,14 +416,14 @@ Chicago Hornets
 Chicago Vanguard
 Chicopee Assumption
 Chieftains
-Chien Kuo
+Chien Kuo,dci-international,true
 Chinese Imperials
 Chochlatiers
 Choclatiers
 Chocolatiers
-Chops,chps,true,Chops
-"Chops, Inc",chps,true,Chops
-"Chops, Inc.",chps,true,Chops
+Chops,chp,true,Chops
+"Chops, Inc",chp,true,Chops
+"Chops, Inc.",chp,true,Chops
 Chordaliers
 Chrystalines
 Châtelaines
@@ -459,7 +458,7 @@ Con Ambassadors
 Connecticut
 Connecticut Classics
 Connecticut Explorers
-Connecticut HurrIcanes,con-hur,true
+Connecticut HurrIcanes,con-hur,true,Connecticut Hurricanes
 Connecticut Hurricanes,con-hur,true
 Connecticut Renegades
 Connecticut Vanguard
@@ -605,7 +604,7 @@ Epoch
 Epochs
 Erie Mavericks
 Erie Thunderbirds,erie-thun,true
-Eruption
+Eruption,eru2,true
 Escadrille
 Esperanza
 Esquires
@@ -616,7 +615,7 @@ Etoiles
 Everett Statesmen
 Ex.: LaSalle Co. Crusaders
 Excalibur
-Excelsior
+Excelsior,exc-wht,true
 Executives
 Explorers
 Express
@@ -699,7 +698,7 @@ Geneseo Knights
 Genesis
 Geneva Appleknockers
 Georgian Lancers
-Gita Surosowan Banten
+Gita Surosowan Banten,gsb,true
 Gladiateurs
 Glassman,gme,true,Glassmen
 Glory Cadets
@@ -1431,10 +1430,10 @@ Quiet Storm
 Québécois
 RC Cadets
 RC Guardsmen
-Racine Explorer Scouts
-Racine Explorers
+Racine Explorer Scouts,rac,true,Racine Scouts
+Racine Explorers,rac,true,Racine Scouts
 Racine Junior Scouts
-Racine Scouts
+Racine Scouts,rac,true
 Raiders
 Railmen
 Railmen Senior
@@ -1638,7 +1637,6 @@ Scenic City
 Scorpions
 Scout House
 Sea Horse Lancers
-Seattle Cascades
 Seattle Imperials
 Seattle Shamrocks
 Seattle Thunderbirds
@@ -1735,7 +1733,7 @@ Spirit of Georgia,soa,true,Spirit of Atlanta
 Spirit of New Jersey
 Spirit of Newark
 Spirit of Saint Louis
-Spokane Thunder
+Spokane Thunder,spo-thun,true
 Springfield Ambassadors
 Springfield Targets
 Squires
@@ -1817,7 +1815,7 @@ The Thing
 Third Generation
 Thomas More Cadets
 Thuderstreaks
-Thunder
+Thunder,spo-thun,true,Spokane Thunder
 Thunderbirds
 Thunderbolts
 Thunderstreaks

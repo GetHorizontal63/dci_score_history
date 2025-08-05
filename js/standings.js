@@ -244,9 +244,31 @@ function populateDateFilter() {
     });
 }
 
+function isDCIClass(corpsClass, year) {
+    const yearInt = parseInt(year);
+    
+    if (yearInt >= 2008) {
+        // 2008 and higher: Open Class or World Class
+        return corpsClass === 'Open Class' || corpsClass === 'World Class';
+    } else if (yearInt >= 1991) {
+        // 1991-2007: Division I, Division II, or Division III
+        return corpsClass === 'Division I' || corpsClass === 'Division II' || corpsClass === 'Division III';
+    } else {
+        // 1990 and prior: Open Class, A Class, A60 Class, All-Girl Class
+        return corpsClass === 'Open Class' || corpsClass === 'A Class' || 
+               corpsClass === 'A60 Class' || corpsClass === 'All-Girl Class';
+    }
+}
+
 function populateClassFilter() {
     const classFilter = document.getElementById('class-filter');
     classFilter.innerHTML = '<option value="">All Classes</option>';
+    
+    // Add DCI option
+    const dciOption = document.createElement('option');
+    dciOption.value = 'DCI';
+    dciOption.textContent = 'DCI';
+    classFilter.appendChild(dciOption);
     
     availableClasses.forEach(className => {
         const option = document.createElement('option');
@@ -295,7 +317,12 @@ async function generateStandings() {
         
         // Filter by class
         if (selectedClass) {
-            filteredData = filteredData.filter(row => row.Class === selectedClass);
+            if (selectedClass === 'DCI') {
+                // Apply DCI filtering based on year
+                filteredData = filteredData.filter(row => isDCIClass(row.Class, selectedYear));
+            } else {
+                filteredData = filteredData.filter(row => row.Class === selectedClass);
+            }
         }
         
         // Calculate standings

@@ -1,5 +1,21 @@
 [
   {
+    "id": 7,
+    "date": "2025-08-06",
+    "title": "Continued Logo Restoration",
+    "description": "Updated logo directory with 20 new DCI, DCA, and VFW/AL corps logos restored from historical images",
+    "type": "site_update",
+    "priority": "low"
+  },
+  {
+    "id": 6,
+    "date": "2025-08-06",
+    "title": "Data Cleanup 2015-2025",
+    "description": "Cleaned and validated all score data for DCA and DCI corps from 2015-Present",
+    "type": "data_update",
+    "priority": "high"
+  },
+  {
     "id": 5,
     "date": "2025-08-06",
     "title": "Test Site Live!",
