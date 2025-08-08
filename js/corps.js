@@ -46,11 +46,15 @@ async function loadCorpsData() {
                 .map(link => link.split('/').pop());
             
             console.log('Discovered JSON files from directory listing:', jsonFiles);
+            console.log('jsonFiles.length:', jsonFiles.length);
+            console.log('jsonFiles.length === 0:', jsonFiles.length === 0);
             
             // If no files found, trigger fallback
             if (jsonFiles.length === 0) {
+                console.log('About to throw error for empty array');
                 throw new Error('No JSON files found in directory listing');
             }
+            console.log('Continuing with directory listing results');
         } else {
             throw new Error('Directory listing not available');
         }
