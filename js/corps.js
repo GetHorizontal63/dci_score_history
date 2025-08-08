@@ -28,21 +28,44 @@ async function loadCorpsData() {
     const tbody = document.getElementById('scores-tbody');
     tbody.innerHTML = '<tr><td colspan="8" class="loading-message"><i class="fas fa-spinner fa-spin"></i><br>Loading corps data...</td></tr>';
     
+    let jsonFiles = [];
+    
     try {
-        // Get list of all files in the corps directory by trying to fetch a directory listing
+        // Try to get list of files from directory listing first (works locally)
         const response = await fetch('../data/corps/');
-        const html = await response.text();
         
-        // Parse HTML to extract .json file links
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(html, 'text/html');
-        const links = Array.from(doc.querySelectorAll('a')).map(a => a.href);
-        const jsonFiles = links
-            .filter(link => link.endsWith('.json'))
-            .map(link => link.split('/').pop());
+        if (response.ok) {
+            const html = await response.text();
+            
+            // Parse HTML to extract .json file links
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            const links = Array.from(doc.querySelectorAll('a')).map(a => a.href);
+            jsonFiles = links
+                .filter(link => link.endsWith('.json') && !link.endsWith('index.json'))
+                .map(link => link.split('/').pop());
+            
+            console.log('Discovered JSON files from directory listing:', jsonFiles);
+        } else {
+            throw new Error('Directory listing not available');
+        }
+    } catch (error) {
+        console.log('Directory listing failed, falling back to index.json:', error.message);
         
-        console.log('Discovered JSON files:', jsonFiles);
-        
+        // Fallback: Load from index.json (works on GitHub Pages)
+        try {
+            const indexResponse = await fetch('../data/corps/index.json');
+            const indexData = await indexResponse.json();
+            jsonFiles = indexData.files;
+            console.log('Loaded JSON files from index.json:', jsonFiles);
+        } catch (indexError) {
+            console.error('Failed to load index.json:', indexError);
+            tbody.innerHTML = '<tr><td colspan="8" class="error-message">Failed to load corps data</td></tr>';
+            return;
+        }
+    }
+    
+    try {
         const corpsPromises = jsonFiles.map(file => loadCorpsFile(file));
         const corpsResults = await Promise.all(corpsPromises);
         
