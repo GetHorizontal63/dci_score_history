@@ -46,15 +46,6 @@ async function loadCorpsData() {
                 .map(link => link.split('/').pop());
             
             console.log('Discovered JSON files from directory listing:', jsonFiles);
-            console.log('jsonFiles.length:', jsonFiles.length);
-            console.log('jsonFiles.length === 0:', jsonFiles.length === 0);
-            
-            // If no files found, trigger fallback
-            if (jsonFiles.length === 0) {
-                console.log('About to throw error for empty array');
-                throw new Error('No JSON files found in directory listing');
-            }
-            console.log('Continuing with directory listing results');
         } else {
             throw new Error('Directory listing not available');
         }
@@ -62,6 +53,21 @@ async function loadCorpsData() {
         console.log('Directory listing failed, falling back to index.json:', error.message);
         
         // Fallback: Load from index.json (works on GitHub Pages)
+        try {
+            const indexResponse = await fetch('../data/corps/index.json');
+            const indexData = await indexResponse.json();
+            jsonFiles = indexData.files;
+            console.log('Loaded JSON files from index.json:', jsonFiles);
+        } catch (indexError) {
+            console.error('Failed to load index.json:', indexError);
+            tbody.innerHTML = '<tr><td colspan="8" class="error-message">Failed to load corps data</td></tr>';
+            return;
+        }
+    }
+    
+    // If directory listing succeeded but found no files, use fallback
+    if (jsonFiles.length === 0) {
+        console.log('No files found in directory listing, falling back to index.json');
         try {
             const indexResponse = await fetch('../data/corps/index.json');
             const indexData = await indexResponse.json();
