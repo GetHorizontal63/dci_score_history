@@ -1,0 +1,221 @@
+/* Records page specific styles */
+
+/* Folder Tab Styles */
+.folder-tabs {
+    margin: 30px 0 0 0;
+    position: relative;
+}
+
+.tab-container {
+    display: flex;
+    margin-bottom: -1px;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+}
+
+.tab {
+    background: #2a2a2a;
+    border: 1px solid #555555;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    padding: 12px 24px;
+    margin-right: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    color: #cccccc;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    flex: 1;
+    text-align: center;
+}
+
+.tab:last-child {
+    margin-right: 0;
+}
+
+.tab:hover {
+    background: #3a3a3a;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.tab.active {
+    background: #EA6020;
+    color: #ffffff;
+    border-color: #EA6020;
+    z-index: 15;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(234, 96, 32, 0.3);
+}
+
+.tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #EA6020;
+}
+
+.tab-label {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.records-content {
+    background: #1a1a1a;
+    border-radius: 0 8px 8px 8px;
+    padding: 0;
+    margin-top: 0;
+    position: relative;
+    z-index: 5;
+}
+
+.records-header {
+    background: linear-gradient(135deg, #EA6020, #F49B6A);
+    padding: 20px 30px;
+    border-radius: 0 7px 0 0;
+    margin-bottom: 0;
+}
+
+.records-header h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.records-cards-container {
+    padding: 30px;
+    max-height: 85vh;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.records-cards-container::after {
+    content: '';
+    height: 150px;
+    grid-column: 1 / -1;
+}
+
+.record-card {
+    background: #2a2a2a;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.record-card.wide-card {
+    grid-column: span 2;
+}
+
+.record-card.tall {
+    grid-row: span 2;
+}
+
+.record-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(234, 96, 32, 0.2);
+    border-color: #EA6020;
+}
+
+.record-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(to right, #EA6020, #F49B6A);
+}
+
+.card-year {
+    font-size: 28px;
+    font-weight: bold;
+    color: #EA6020;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card-champion {
+    margin-bottom: 10px;
+}
+
+.card-champion .label {
+    font-size: 12px;
+    color: #888888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.card-champion .name {
+    font-size: 18px;
+    color: #F49B6A;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-champion .score {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.card-runner-up {
+    margin-bottom: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #444444;
+}
+
+.card-runner-up .label {
+    font-size: 12px;
+    color: #888888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.card-runner-up .name {
+    font-size: 16px;
+    color: #cccccc;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.card-runner-up .score {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.card-location {
+    font-size: 12px;
+    color: #888888;
+    text-align: center;
+    font-style: italic;
+    padding-top: 10px;
+    border-top: 1px solid #333333;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-content {
+    padding: 0 0 40px 0;
+    min-height: calc(100vh - 14.4vh);
+    max-height: calc(100vh - 14.4vh);
+    overflow: hidden;
+}

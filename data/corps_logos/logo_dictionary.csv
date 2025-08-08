@@ -1,4 +1,4 @@
-corps,logo,live
+corps,logo,live,current_alias
 7th Regiment,7th,true
 Academy,aca,true
 Battalion,bta-white,true
@@ -100,7 +100,7 @@ Alleghany Monarchs
 Allegheny Grenadiers
 Allegheny Night Storm
 Allegiance Elite
-Alliance
+Alliance,ali,true
 Alliance Musicale
 Alpine Girls
 Ambassadears
@@ -145,7 +145,7 @@ Assumption
 Assumption Cadets
 Assumption Lariets
 Assumption-Junior
-Atlanta CV
+Atlanta CV,atl-cv,true
 Atlantic City Hurricanes
 Atlantic Hurricanes
 Auburn Noteables
@@ -193,7 +193,7 @@ Belles of Saint Mary's-WI
 Belles of St. Mary's (NJ)
 Bellettes
 Bellettes All Girl
-Belleville Black Knights,blk,true
+Belleville Black Knights,blk,true,Belleville Black Knights
 Belleville Crusaders
 Belltones
 Belvederes
@@ -210,7 +210,7 @@ Black Gold
 Black Knights
 Black Knights (MY)
 Black Knights (NY)
-Black Knights-IL
+Black Knights-IL,blk,true,Belleville Black Knights
 Black Knights-NH
 Black Knights-NY
 Black Nights
@@ -250,7 +250,7 @@ Blue Knights-MN
 Blue Notes
 Blue Rock
 Blue Sabres
-Blue Saints
+Blue Saints,bsai-wht,true
 Blue Star Cadets
 Blue Stars
 Blue stars
@@ -309,7 +309,7 @@ Bucks Co Cavaliers
 Bucks County Cavaliers
 Buick Vanguards
 Burlington Commanders
-Bushwackers
+Bushwackers,bus-white,true
 Bux Mont Raiders
 Bux-Mont Raiders
 Buxmont Raiders
@@ -319,9 +319,9 @@ C.D. of A
 CMCC Warriors
 CT PAL Cadets
 Caballaros,haw,true
-Cadence
+Cadence,dca-logo,true
 Cadet Regiment
-Cadets 2
+Cadets 2,c2,true
 Cadets Impérial
 Cadets LaSalle
 Cadets NDN
@@ -337,8 +337,8 @@ Cadets of New York City
 Cadets of Saint Mary's
 Cadets of Upstate NY
 Calgary Cavaliers
-Calgary Stampede
-Calgary Stampede Band
+Calgary Stampede,cs,true
+Calgary Stampede Band,csb,true
 California Crusaders
 California Dons
 Calumet Indians
@@ -372,20 +372,18 @@ Cardinals
 Cardinals of PB
 Cardinals of Precious Blood
 Cardinals;
-Carolina Crown
-Carolina Gold
-Carolina crown
+Carolina Gold,car-gld,true
+Carolina crown,crw,true,Carolina Crown
 Carson Crusaders
 Carver Gay Blades
-Cascades
-Cath. Daughters of Am.
-Catholic D. Of America
-Catholic D. of America
-Catholic Daughters
-Catholic Daughters of America
+Cascades,cas,true,Seattle Cascades
+Cath. Daughters of Am.,cda,true,Catholic Daughters
+Catholic D. Of America,cda,true,Catholic Daughters
+Catholic D. of America,cda,true,Catholic Daughters
+Catholic Daughters,cda,true
+Catholic Daughters of America,cda,true,Catholic Daughters
 Cavalcade
 Cavalier Cadets
-Cavaliers
 Cavaliers-MA
 Cavalières
 Cedar Rapids
@@ -418,22 +416,22 @@ Chicago Hornets
 Chicago Vanguard
 Chicopee Assumption
 Chieftains
-Chien Kuo
+Chien Kuo,dci-international,true
 Chinese Imperials
 Chochlatiers
 Choclatiers
 Chocolatiers
-Chops
-Chops, Inc
-Chops, Inc.
+Chops,chp,true,Chops
+"Chops, Inc",chp,true,Chops
+"Chops, Inc.",chp,true,Chops
 Chordaliers
 Chrystalines
 Châtelaines
 Cincinnati Glory
-Cincinnati Tradition
+Cincinnati Tradition,cin-tra,true
 Citation Juniors
 Citations
-City Sound
+City Sound,ves,true,Vessel
 Clan Chénier
 Classics
 Cleveland Buckeyes
@@ -444,18 +442,15 @@ Coachman
 Coachmen
 Coachmen (ONT)
 Coachmen-ONT
-Coastal Surge
+Coastal Surge,sur-wht,true
 Coeurs D'or
 Colibris
 Collegettes
 Colonades
 Colonnades
-Colt .45's
-Colt 45's
-Colt Cadets
-Colts
-Columbians
-Columbus Saints
+Colt .45's,clt,true,Colts
+Colt 45's,clt,true,Colts
+Columbus Saints,clm-snt,true
 Comets
 Commanders
 Commodores
@@ -463,8 +458,8 @@ Con Ambassadors
 Connecticut
 Connecticut Classics
 Connecticut Explorers
-Connecticut HurrIcanes
-Connecticut Hurricanes
+Connecticut HurrIcanes,con-hur,true,Connecticut Hurricanes
+Connecticut Hurricanes,con-hur,true
 Connecticut Renegades
 Connecticut Vanguard
 Connecticut Yankees
@@ -600,7 +595,7 @@ Emmaus Sentinels
 Empire Loyalists
 Empire State Express
 Empire Statesmen
-Encorps
+Encorps,enc,true
 Enfield Raiders
 Enfield Sabers
 Enfield Sabres
@@ -608,8 +603,8 @@ Ensemble Contemporary
 Epoch
 Epochs
 Erie Mavericks
-Erie Thunderbirds
-Eruption
+Erie Thunderbirds,erie-thun,true
+Eruption,eru2,true
 Escadrille
 Esperanza
 Esquires
@@ -620,7 +615,7 @@ Etoiles
 Everett Statesmen
 Ex.: LaSalle Co. Crusaders
 Excalibur
-Excelsior
+Excelsior,exc-wht,true
 Executives
 Explorers
 Express
@@ -679,16 +674,16 @@ Frontier Cadets
 Frontiersmen
 Ft. Edward Vagabonds
 Fulton Gauchos
-Fusion
-Fusion Core
-Fusion Corps
+Fusion,fus,true
+Fusion Core,fus,true
+Fusion Corps,fus,true
 Futuristes
 G Force
 Gabrielettes
 Garden Statesmen
 Gardener Guards
 Gardners Guards
-Garfield Cadets
+Garfield Cadets,cad,true,Cadets
 Gatesmen
 Gateway City
 Gauchos
@@ -703,12 +698,11 @@ Geneseo Knights
 Genesis
 Geneva Appleknockers
 Georgian Lancers
-Gita Surosowan Banten
+Gita Surosowan Banten,gsb,true
 Gladiateurs
-Glassman
+Glassman,gme,true,Glassmen
 Glory Cadets
-Gold
-Gold'
+Gold',gld,true,Gold
 Golden Buccaneers
 Golden Charms
 Golden Crusaders
@@ -728,7 +722,7 @@ Golden Rays
 Golden Rays-Juniors
 Golden Skyliners
 Golden Statesmen
-Govenaires
+Govenaires,gov,true
 Granite Chips
 Granite State Garrison
 Graniteers
@@ -784,7 +778,7 @@ Heightsmen
 Hershey Choclatiers
 Hershey Chocolatiers
 High Country Brass
-Highland Regiment
+Highland Regiment,dca-logo,true
 Highlanders
 Highlanders-CT
 Hilltopers
@@ -835,8 +829,7 @@ Imperials of Saint Patrick
 Imperials of Saint Patrick's
 Imperials of St. Patrick's
 Imperials-IL
-Impulse
-Incognito
+Incognito,incog,true
 Incorruptibles
 Indians
 Insolite
@@ -870,7 +863,7 @@ Johnstown Patriots
 Joliet Kingsmen
 Joliet Kinsmen
 Jouvencelles
-Jubal
+Jubal,jubal,true
 Junior Brigadiers
 Junior Musketeers
 J’s
@@ -889,9 +882,9 @@ Kewaunee Knights
 Keystone Regiment
 Keystoners
 Keystones
-Kidsgrove Scouts
+Kidsgrove Scouts,kid,true
 Kiltie Kadets
-Kilties
+Kilties,kilt,true
 Kilties Kadets
 King's Regiment
 King's Royal Lancers
@@ -1045,7 +1038,7 @@ Les Royalistes
 Les Royalists
 Les Rythmiques
 Les Senateurs
-Les Senateurs--AL, QUE
+"Les Senateurs--AL, QUE"
 Les Senateurs--QUE
 Les Senateurs-QUE
 Les Senoritas
@@ -1055,7 +1048,6 @@ Les Sonnor
 Les Sonnors
 Les Souveraines
 Les Sphinx de Sainte Therese
-Les Stentors
 Les Sénateurs
 Les Troubadores
 Les Troubadours
@@ -1195,7 +1187,7 @@ Militaires-Starlights
 Militiamen
 Milwaukee Rebels
 Minisink Warriors
-Minnesota Brass
+Minnesota Brass,mbi,true
 Minutemen
 Miraculous Medal Orbits
 Mirage
@@ -1240,7 +1232,7 @@ New Image
 New London Surfers
 New York Defenders
 New York Lancers
-New York Skyliners
+New York Skyliners,nys,true,Skyliners
 New York Vanguards
 New York Volunteers
 Niagara Frontiersmen
@@ -1263,7 +1255,7 @@ North Star-ONT
 Northern Aurora
 Northern Dream
 Northern Dreams
-Northern Lights
+Northern Lights,nl-dbc,true
 Northern Lites
 Northernaires
 Northmen
@@ -1340,7 +1332,7 @@ Paramont
 Paramount
 Pardee Pacers
 Patiotes
-Patria
+Patria,dci-international,true
 Patriot Praise
 Patriotes
 Patriots
@@ -1438,10 +1430,10 @@ Quiet Storm
 Québécois
 RC Cadets
 RC Guardsmen
-Racine Explorer Scouts
-Racine Explorers
+Racine Explorer Scouts,rac,true,Racine Scouts
+Racine Explorers,rac,true,Racine Scouts
 Racine Junior Scouts
-Racine Scouts
+Racine Scouts,rac,true
 Raiders
 Railmen
 Railmen Senior
@@ -1451,7 +1443,7 @@ Ranchéros
 Randolph Lancers
 Rangers
 Rapid City Express
-Reading Buccaneers,rea-buc,true
+Reading Buccaneers,rea-buc,true,Buccaneers
 Rebel Devils
 Rebels
 Red and White Aires
@@ -1502,11 +1494,11 @@ Rocky Mountain Magic
 Rocky Mountain Rangers
 Roehthel's Executives
 Roethals Executives
-Rogues Hollow Regiment
+Rogues Hollow Regiment,rhr,true
 Roley's Raiders
 Rose City
 Rose City Guardsmen
-Rouges Hollow Regiment
+Rouges Hollow Regiment,rhr,true,Rogues Hollow Regiment
 Rough Riders
 Roughriders
 Royal Airs
@@ -1645,7 +1637,6 @@ Scenic City
 Scorpions
 Scout House
 Sea Horse Lancers
-Seattle Cascades
 Seattle Imperials
 Seattle Shamrocks
 Seattle Thunderbirds
@@ -1669,7 +1660,7 @@ Sertomanaires
 Seymour Vanguard
 Seymour Vanguards
 Shadettes
-Shadow
+Shadow,shd,true
 Shamrocks
 Sharpsburg Cadets
 Sharpshooters
@@ -1701,7 +1692,7 @@ Skokie Vanguard
 Sky Ryders
 Skyhawks
 Skylarks
-Skyliners
+Skyliners,nys,true
 Sly Ryders
 Smithtown Freelancers
 SoCal Dream
@@ -1714,7 +1705,7 @@ Soundations
 Sounds of Central NY
 Soundwave
 Southern Illusion
-Southern Knights
+Southern Knights,dca-logo,true
 Southern Rebels
 Southern Tier Grenadiers
 Southern Tier Vagabonds
@@ -1738,12 +1729,11 @@ Spiegalaires
 Spirit
 Spirit Of Newark
 Spirit of '76
-Spirit of Atlanta
-Spirit of Georgia
+Spirit of Georgia,soa,true,Spirit of Atlanta
 Spirit of New Jersey
 Spirit of Newark
 Spirit of Saint Louis
-Spokane Thunder
+Spokane Thunder,spo-thun,true
 Springfield Ambassadors
 Springfield Targets
 Squires
@@ -1789,12 +1779,12 @@ Suburban Kidettes
 Suburban Knights
 Suburbanettes
 Sudbury Imperial Knights
-Sun Devils
+Sun Devils,sd-wht,true
 Sun Risers
 Suncoast Sound
 Sundowners
 Sundowners-NJ
-Sunrisers
+Sunrisers,sun,true
 Sunset Regiment
 Sunsetters
 Surfers
@@ -1807,7 +1797,7 @@ Sénateurs Dynamiques
 Sénateurs de Joliette
 T-bird Cadets
 T.R. Finettes
-Taipei Yuehfu
+Taipei Yuehfu,tpy-wht,true
 Tampa Bay Thunder
 Target II
 Targets
@@ -1818,14 +1808,14 @@ Tarheel Suns
 Teal Sound
 Telestars
 Texas Crusaders
-The Company
+The Company,com,true
 The Corps
 The Joey's
 The Thing
 Third Generation
 Thomas More Cadets
 Thuderstreaks
-Thunder
+Thunder,spo-thun,true,Spokane Thunder
 Thunderbirds
 Thunderbolts
 Thunderstreaks
@@ -1918,7 +1908,7 @@ War Vets
 Warrior Cadets
 Warriors
 Warriors Junior
-Watchmen
+Watchmen,wat,true
 Watertown Cadets
 Watkins Glen Squires
 Wausau Story
@@ -1940,7 +1930,7 @@ White Beret
 White Eagles
 White Knights
 White Roses
-White Sabers
+White Sabers,wht-sab,true
 White Tornadoes
 White Tornados
 William G. Lucas
@@ -1951,7 +1941,7 @@ Wilson Patriots
 Wind Gap Blue Eagles
 Windjammers
 Windsor Guardsmen-ONT
-Windsor Regiment
+Windsor Regiment,win-reg,true
 Winfield Scott Rebels
 Woodsiders
 Wranglers
@@ -1983,3 +1973,7 @@ Zephyrus,zeu-white,true
 Étoiles (Rimouski)
 Étoiles d'Or
 Étoiles d’Or
+High School Affiliated to BIT,dci-international,true
+Beijing 57 High School,dci-international,true
+Calgary Stetson Showband,dci-international,true
+Calgary Round-Up Band,dci-international,true

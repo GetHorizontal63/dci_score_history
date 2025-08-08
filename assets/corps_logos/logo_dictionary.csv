@@ -431,7 +431,7 @@ Cincinnati Glory
 Cincinnati Tradition,cin-tra,true
 Citation Juniors
 Citations
-City Sound
+City Sound,ves,true,Vessel
 Clan Chénier
 Classics
 Cleveland Buckeyes
@@ -442,7 +442,7 @@ Coachman
 Coachmen
 Coachmen (ONT)
 Coachmen-ONT
-Coastal Surge
+Coastal Surge,sur-wht,true
 Coeurs D'or
 Colibris
 Collegettes
@@ -1332,7 +1332,7 @@ Paramont
 Paramount
 Pardee Pacers
 Patiotes
-Patria
+Patria,dci-international,true
 Patriot Praise
 Patriotes
 Patriots
@@ -1779,7 +1779,7 @@ Suburban Kidettes
 Suburban Knights
 Suburbanettes
 Sudbury Imperial Knights
-Sun Devils
+Sun Devils,sd-wht,true
 Sun Risers
 Suncoast Sound
 Sundowners
@@ -1797,7 +1797,7 @@ Sénateurs Dynamiques
 Sénateurs de Joliette
 T-bird Cadets
 T.R. Finettes
-Taipei Yuehfu
+Taipei Yuehfu,tpy-wht,true
 Tampa Bay Thunder
 Target II
 Targets
@@ -1941,7 +1941,7 @@ Wilson Patriots
 Wind Gap Blue Eagles
 Windjammers
 Windsor Guardsmen-ONT
-Windsor Regiment
+Windsor Regiment,win-reg,true
 Winfield Scott Rebels
 Woodsiders
 Wranglers

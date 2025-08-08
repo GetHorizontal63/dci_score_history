@@ -22,5 +22,13 @@
     "description": "Complete full show recaps for DCI and DCA from 2013 to 2025",
     "type": "data_update",
     "priority": "medium"
+  },
+  {
+    "id": 4,
+    "target_date": "September 2025",
+    "title": "DCI and DCA Corps Bios (2000-Present)",
+    "description": "Complete data files for all for DCI and DCA ensembles that competed from 2000 to 2025",
+    "type": "data_update",
+    "priority": "high"
   }
 ]

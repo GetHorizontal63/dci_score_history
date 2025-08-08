@@ -34,6 +34,41 @@
     flex-wrap: wrap;
 }
 
+.scores-filters .view-selector {
+    display: flex;
+    gap: 15px;
+    margin-left: 0;
+}
+
+.scores-filters .view-selector button {
+    padding: 12px;
+    border: 2px solid #444444;
+    background: #2a2a2a;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-family: 'Orbitron', monospace;
+    border-radius: 0;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scores-filters .view-selector button:hover {
+    border-color: #EA6020;
+    background: #3a3a3a;
+}
+
+.scores-filters .view-selector button.active {
+    background: #EA6020;
+    border-color: #EA6020;
+    color: #ffffff;
+}
+
 .filter-select,
 .search-input {
     padding: 12px 16px;
@@ -492,4 +527,97 @@
         font-size: 20px;
         padding: 15px;
     }
+}
+
+/* Corps page specific styles */
+.corps-website a {
+    color: #EA6020;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.corps-website a:hover {
+    color: #FF7F3E;
+    text-decoration: underline;
+}
+
+/* General table link styles for corps data */
+.scores-table td a {
+    color: #EA6020;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.scores-table td a:hover {
+    color: #FF7F3E;
+    text-decoration: underline;
+}
+
+/* Corps recent show column styling */
+.corps-recent-show {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+}
+
+.corps-recent-show:hover {
+    white-space: normal;
+    overflow: visible;
+    background-color: #2a2a2a;
+    z-index: 10;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* Corps table column widths */
+.scores-table th:nth-child(1),
+.scores-table td:nth-child(1) {
+    width: 10%; /* Corps Name */
+    text-align: left; /* Left aligned */
+}
+
+.scores-table th:nth-child(2),
+.scores-table td:nth-child(2) {
+    width: 10%; /* Current Class */
+    text-align: center; /* Center aligned */
+}
+
+.scores-table th:nth-child(3),
+.scores-table td:nth-child(3) {
+    width: 10%; /* Location */
+    text-align: center; /* Center aligned */
+}
+
+.scores-table th:nth-child(4),
+.scores-table td:nth-child(4) {
+    width: 18%; /* Years Active */
+    text-align: center; /* Center aligned */
+}
+
+.scores-table th:nth-child(5),
+.scores-table td:nth-child(5) {
+    width: 20%; /* Most Recent Show */
+    text-align: left; /* Left aligned */
+}
+
+.scores-table th:nth-child(6),
+.scores-table td:nth-child(6) {
+    width: 15%; /* Championships */
+    text-align: center; /* Center aligned */
+}
+
+.scores-table th:nth-child(7),
+.scores-table td:nth-child(7) {
+    width: 7%; /* Website */
+    text-align: center; /* Center aligned */
+}
+
+.scores-table th:nth-child(8),
+.scores-table td:nth-child(8) {
+    width: 10%; /* Details */
+    text-align: center; /* Center aligned */
 }

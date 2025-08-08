@@ -1,5 +1,21 @@
 [
   {
+    "id": 9,
+    "date": "2025-08-08",
+    "title": "2025 Score Data Updated",
+    "description": "Added score data from 8/5 and 8/7.",
+    "type": "data_update",
+    "priority": "low"
+  },
+  {
+    "id": 8,
+    "date": "2025-08-08",
+    "title": "New Site Sections",
+    "description": "Created framework for Corps and Records sections. Populated Corps information with 29 current and inactive ensembles.",
+    "type": "feature_update",
+    "priority": "high"
+  },
+  {
     "id": 7,
     "date": "2025-08-06",
     "title": "Continued Logo Restoration",

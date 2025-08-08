@@ -245,7 +245,7 @@
     display: grid;
     grid-template-columns: 1fr 200px 1fr;
     align-items: center;
-    padding: 25px 40px;
+    padding: 18px 40px;
     border-bottom: 1px solid rgba(234, 96, 32, 0.2);
     transition: background-color 0.3s ease;
 }
@@ -437,7 +437,7 @@
         grid-template-columns: 1fr;
         gap: 15px;
         text-align: center;
-        padding: 20px;
+        padding: 15px;
     }
     
     .stat-label {
@@ -512,7 +512,7 @@
     }
     
     .stat-row {
-        padding: 15px;
+        padding: 12px;
     }
     
     .stat-label {

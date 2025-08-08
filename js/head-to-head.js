@@ -493,6 +493,16 @@ function displayResults(corps1, corps2, matchups, corps1Data, corps2Data, status
     const corps2HighScore = corps2DidNotCompete ? 'Did Not Compete' : 
                            (corps2Scores.length > 0 ? Math.max(...corps2Scores).toFixed(2) : '0.00');
     
+    // Find first victory for each corps
+    const corps1FirstVictory = corps1DidNotCompete ? null : (corps1Victories.length > 0 ? corps1Victories[corps1Victories.length - 1] : null);
+    const corps2FirstVictory = corps2DidNotCompete ? null : (corps2Victories.length > 0 ? corps2Victories[corps2Victories.length - 1] : null);
+    
+    // Determine first victory display text
+    const corps1FirstVictoryText = corps1DidNotCompete ? 'Did Not Compete' : 
+                                   (corps1FirstVictory ? `${corps1FirstVictory.date}/${corps1FirstVictory.year}` : 'Never');
+    const corps2FirstVictoryText = corps2DidNotCompete ? 'Did Not Compete' : 
+                                   (corps2FirstVictory ? `${corps2FirstVictory.date}/${corps2FirstVictory.year}` : 'Never');
+    
     // Find last victory for each corps - handle "Did Not Compete" cases
     const corps1LastVictory = corps1DidNotCompete ? null : (corps1Victories.length > 0 ? corps1Victories[0] : null);
     const corps2LastVictory = corps2DidNotCompete ? null : (corps2Victories.length > 0 ? corps2Victories[0] : null);
@@ -581,6 +591,22 @@ function displayResults(corps1, corps2, matchups, corps1Data, corps2Data, status
     
     // Store matchups data for history view
     window.currentMatchups = matchups;
+    
+    // Update static DOM elements if they exist
+    const corps1FirstVictoryElement = document.getElementById('corps1FirstVictory');
+    const corps2FirstVictoryElement = document.getElementById('corps2FirstVictory');
+    const corps1HighScoreElement = document.getElementById('corps1HighScore');
+    const corps2HighScoreElement = document.getElementById('corps2HighScore');
+    
+    if (corps1FirstVictoryElement && corps2FirstVictoryElement) {
+        corps1FirstVictoryElement.textContent = corps1FirstVictoryText;
+        corps2FirstVictoryElement.textContent = corps2FirstVictoryText;
+    }
+    
+    if (corps1HighScoreElement && corps2HighScoreElement) {
+        corps1HighScoreElement.textContent = corps1HighScore;
+        corps2HighScoreElement.textContent = corps2HighScore;
+    }
     
     // Scroll to results
     resultsDiv.scrollIntoView({ behavior: 'smooth' });

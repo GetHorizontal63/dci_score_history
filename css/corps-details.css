@@ -1,0 +1,713 @@
+/* Corps Details Page Styles */
+
+/* Navigation Active State */
+.nav-button.active {
+    color: #EA6020 !important;
+}
+
+.nav-button.active::after {
+    transform: scaleX(1) !important;
+}
+
+.breadcrumb {
+    background: #2a2a2a;
+    padding: 12px 20px;
+    border-bottom: 1px solid #444444;
+    font-size: 14px;
+}
+
+.breadcrumb a {
+    color: #EA6020;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb i {
+    color: #666666;
+    margin: 0 8px;
+}
+
+.corps-details-main {
+    min-height: calc(100vh - 16vh);
+    padding: 40px 20px;
+    background: #1a1a1a;
+}
+
+.corps-details-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Main Content Layout */
+.corps-content-layout {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 40px;
+}
+
+.corps-main-content {
+    min-width: 0; /* Prevents overflow issues */
+}
+
+/* Sidebar (Infobox) */
+.corps-sidebar {
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+}
+
+.infobox {
+    background: linear-gradient(135deg, #2a2a2a 0%, #1e1e1e 100%);
+    border: 2px solid #EA6020;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.infobox:last-child {
+    margin-bottom: 0;
+}
+
+.infobox-header {
+    background: linear-gradient(90deg, #EA6020, #FF7F3E);
+    padding: 16px 20px;
+    text-align: center;
+}
+
+.infobox-header h3 {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.infobox-content {
+    padding: 20px;
+}
+
+.infobox-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12px 0;
+    border-bottom: 1px solid #333333;
+    gap: 15px;
+}
+
+.infobox-row:last-child {
+    border-bottom: none;
+}
+
+.infobox-label {
+    font-weight: 600;
+    color: #cccccc;
+    font-size: 14px;
+    flex-shrink: 0;
+    min-width: 100px;
+}
+
+.infobox-value {
+    color: #ffffff;
+    text-align: right;
+    font-size: 14px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.infobox-value a {
+    color: #EA6020;
+    text-decoration: none;
+}
+
+.infobox-value a:hover {
+    color: #FF7F3E;
+    text-decoration: underline;
+}
+
+/* Corps Sections */
+.corps-section {
+    margin-bottom: 50px;
+}
+
+.corps-section h2 {
+    font-size: 32px;
+    color: #EA6020;
+    margin: 0 0 25px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #EA6020;
+    font-weight: bold;
+}
+
+.section-content {
+    background: #2a2a2a;
+    border-radius: 12px;
+    padding: 25px;
+    border: 1px solid #444444;
+}
+
+/* Show/Score History Tables */
+.show-history-table,
+.score-history-table {
+    display: block;
+}
+
+.show-history-table thead,
+.score-history-table thead {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.show-history-table tbody,
+.score-history-table tbody {
+    display: block;
+    height: 300px; /* Approximately 6 rows at 50px each */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.show-history-table tbody tr,
+.score-history-table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.show-history-table th:nth-child(1),
+.show-history-table td:nth-child(1) {
+    width: 15%; /* Year */
+    text-align: center;
+}
+
+.show-history-table th:nth-child(2),
+.show-history-table td:nth-child(2) {
+    width: 55%; /* Show Title */
+    text-align: left;
+}
+
+.show-history-table th:nth-child(3),
+.show-history-table td:nth-child(3) {
+    width: 15%; /* Placement */
+    text-align: center;
+}
+
+.show-history-table th:nth-child(4),
+.show-history-table td:nth-child(4) {
+    width: 15%; /* Score */
+    text-align: center;
+}
+
+/* Score History Table Column Widths */
+.score-history-table th:nth-child(1),
+.score-history-table td:nth-child(1) {
+    width: 15%; /* Date */
+    text-align: center;
+}
+
+.score-history-table th:nth-child(2),
+.score-history-table td:nth-child(2) {
+    width: 35%; /* Location */
+    text-align: center;
+}
+
+.score-history-table th:nth-child(3),
+.score-history-table td:nth-child(3) {
+    width: 15%; /* Placement */
+    text-align: center;
+}
+
+.score-history-table th:nth-child(4),
+.score-history-table td:nth-child(4) {
+    width: 20%; /* Score */
+    text-align: center;
+}
+
+.score-history-table th:nth-child(5),
+.score-history-table td:nth-child(5) {
+    width: 15%; /* Class */
+    text-align: center;
+}
+
+/* Scrollbar spacer column */
+.scrollbar-spacer {
+    width: 10px !important;
+    min-width: 10px;
+    max-width: 10px;
+    padding: 0 !important;
+    border: none;
+}
+
+/* Make placement text white in score history table */
+.score-history-table td:nth-child(3) {
+    color: white !important;
+}
+
+/* Custom scrollbar for both tables */
+.show-history-table tbody::-webkit-scrollbar,
+.score-history-table tbody::-webkit-scrollbar {
+    width: 8px;
+}
+
+.show-history-table tbody::-webkit-scrollbar-track,
+.score-history-table tbody::-webkit-scrollbar-track {
+    background: #333333;
+    border-radius: 4px;
+}
+
+.show-history-table tbody::-webkit-scrollbar-thumb,
+.score-history-table tbody::-webkit-scrollbar-thumb {
+    background: #EA6020;
+    border-radius: 4px;
+}
+
+.show-history-table tbody::-webkit-scrollbar-thumb:hover,
+.score-history-table tbody::-webkit-scrollbar-thumb:hover {
+    background: #FF7F3E;
+}
+
+/* Score History Section within Statistics */
+.score-history-section {
+    margin-top: 40px;
+}
+
+.score-history-section h3 {
+    color: #EA6020;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #EA6020;
+    padding-bottom: 10px;
+}
+
+/* Tooltip styles for show titles */
+.show-title-tooltip {
+    position: relative;
+    cursor: help;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #EA6020;
+}
+
+.show-title-tooltip .tooltip-content {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: 1000;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #EA6020;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 400px;
+    width: max-content;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    pointer-events: none;
+}
+
+.show-title-tooltip .tooltip-content::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: #EA6020;
+}
+
+.show-title-tooltip:hover .tooltip-content {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Ensure tooltip doesn't get cut off at table edges */
+.show-history-table {
+    overflow: visible;
+}
+
+.scores-table-container {
+    overflow-x: auto;
+    overflow-y: visible;
+}
+
+/* Placement styling based on ranking */
+.placement-1st {
+    color: #FFD700;
+    font-weight: bold;
+    text-shadow: 0 0 8px #FFD700, 0 0 12px #FFD700;
+}
+
+.placement-2nd {
+    color: #C0C0C0;
+    font-weight: bold;
+    text-shadow: 0 0 8px #C0C0C0, 0 0 12px #C0C0C0;
+}
+
+.placement-3rd {
+    color: #CD7F32;
+    font-weight: bold;
+    text-shadow: 0 0 8px #CD7F32, 0 0 12px #CD7F32;
+}
+
+.placement-top12 {
+    color: #EA6020;
+    font-weight: bold;
+}
+
+.placement-other {
+    color: #ffffff;
+}
+
+/* Championship History Table */
+.championship-history-table {
+    display: block;
+}
+
+.championship-history-table thead {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.championship-history-table tbody {
+    display: block;
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.championship-history-table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.championship-history-table th:nth-child(1),
+.championship-history-table td:nth-child(1) {
+    width: 15%; /* Year */
+    text-align: center;
+}
+
+.championship-history-table th:nth-child(2),
+.championship-history-table td:nth-child(2) {
+    width: 20%; /* Circuit */
+    text-align: center;
+}
+
+.championship-history-table th:nth-child(3),
+.championship-history-table td:nth-child(3) {
+    width: 50%; /* Show Title */
+    text-align: left;
+}
+
+.championship-history-table th:nth-child(4),
+.championship-history-table td:nth-child(4) {
+    width: 15%; /* Score */
+    text-align: center;
+}
+
+/* Caption Awards Table */
+.caption-awards-table {
+    display: block;
+}
+
+.caption-awards-table thead {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.caption-awards-table tbody {
+    display: block;
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.caption-awards-table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.caption-awards-table th:nth-child(1),
+.caption-awards-table td:nth-child(1) {
+    width: 40%; /* Caption */
+    text-align: left;
+}
+
+.caption-awards-table th:nth-child(2),
+.caption-awards-table td:nth-child(2) {
+    width: 60%; /* Years Won */
+    text-align: left;
+}
+
+/* Statistics Section */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #333333 0%, #2a2a2a 100%);
+    border: 1px solid #444444;
+    border-radius: 10px;
+    padding: 17px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+    border-color: #EA6020;
+}
+
+.stat-value {
+    font-size: 32px;
+    font-weight: bold;
+    color: #EA6020;
+    margin-bottom: 8px;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #cccccc;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.chart-container {
+    background: #333333;
+    border-radius: 10px;
+    padding: 25px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Matchup Table */
+.matchup-filters {
+    margin-bottom: 20px;
+}
+
+.matchup-table th,
+.matchup-table td {
+    text-align: center;
+}
+
+.matchup-table th:nth-child(1),
+.matchup-table td:nth-child(1) {
+    width: 30%; /* Opponent */
+    text-align: left;
+}
+
+.matchup-table th:nth-child(2),
+.matchup-table td:nth-child(2) {
+    width: 12%; /* Meetings */
+}
+
+.matchup-table th:nth-child(3),
+.matchup-table td:nth-child(3) {
+    width: 12%; /* Wins */
+}
+
+.matchup-table th:nth-child(4),
+.matchup-table td:nth-child(4) {
+    width: 12%; /* Losses */
+}
+
+.matchup-table th:nth-child(5),
+.matchup-table td:nth-child(5) {
+    width: 12%; /* Win % */
+}
+
+.matchup-table th:nth-child(6),
+.matchup-table td:nth-child(6) {
+    width: 22%; /* Avg Margin */
+}
+
+.win-percentage {
+    font-weight: bold;
+}
+
+.win-percentage.positive {
+    color: #4CAF50;
+}
+
+.win-percentage.negative {
+    color: #f44336;
+}
+
+.win-percentage.neutral {
+    color: #cccccc;
+}
+
+/* Loading States */
+.loading-message {
+    text-align: center;
+    padding: 40px;
+    color: #666666;
+    font-size: 16px;
+}
+
+.loading-message i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #EA6020;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .corps-content-layout {
+        grid-template-columns: 1fr 300px;
+        gap: 30px;
+    }
+    
+    .corps-header-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .corps-title-section h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 968px) {
+    .corps-content-layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .corps-sidebar {
+        order: -1;
+        position: static;
+    }
+    
+    .infobox {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .corps-details-main {
+        padding: 20px 15px;
+    }
+    
+    .corps-header-section {
+        margin-bottom: 30px;
+    }
+    
+    .corps-title-section h1 {
+        font-size: 32px;
+    }
+    
+    .corps-main-logo {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .corps-section h2 {
+        font-size: 24px;
+    }
+    
+    .section-content {
+        padding: 20px 15px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .chart-container {
+        height: 300px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .breadcrumb {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    
+    .corps-title-section h1 {
+        font-size: 24px;
+    }
+    
+    .corps-subtitle {
+        font-size: 16px;
+    }
+    
+    .corps-main-logo {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .infobox-content {
+        padding: 15px;
+    }
+    
+    .infobox-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    
+    .infobox-value {
+        text-align: left;
+    }
+    
+    .stat-value {
+        font-size: 24px;
+    }
+}
+
+/* Table responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .scores-table {
+        font-size: 12px;
+    }
+    
+    .scores-table th,
+    .scores-table td {
+        padding: 8px 4px;
+    }
+}
+
+/* Animation for page load */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.corps-section {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.corps-section:nth-child(1) { animation-delay: 0.1s; }
+.corps-section:nth-child(2) { animation-delay: 0.2s; }
+.corps-section:nth-child(3) { animation-delay: 0.3s; }
+.corps-section:nth-child(4) { animation-delay: 0.4s; }
