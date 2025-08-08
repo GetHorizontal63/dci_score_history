@@ -46,6 +46,11 @@ async function loadCorpsData() {
                 .map(link => link.split('/').pop());
             
             console.log('Discovered JSON files from directory listing:', jsonFiles);
+            
+            // If no files found, trigger fallback
+            if (jsonFiles.length === 0) {
+                throw new Error('No JSON files found in directory listing');
+            }
         } else {
             throw new Error('Directory listing not available');
         }
