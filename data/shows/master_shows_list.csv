@@ -1,4 +1,4 @@
-Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
+Date,Year,Month,Day,Month_Name,Season,City,State,Event_Name,Corps_Count
 1964-05-10,1964,05,10,May,Spring,Manchester,NH,"Manchester, NH",15
 1964-05-16,1964,05,16,May,Spring,Baldwinville,NY,"Baldwinville, NY",4
 1964-05-16,1964,05,16,May,Spring,Shawinigan,Quebec,"Shawinigan, Quebec",16
@@ -770,9 +770,9 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1972-08-12,1972,08,12,August,Summer,Norwich,CT,"Norwich, CT",7
 1972-08-12,1972,08,12,August,Summer,Scranton,PA,"Scranton, PA",6
 1972-08-13,1972,08,13,August,Summer,Jersey City,NJ,"Jersey City, NJ",6
-1972-08-13,1972,08,13,August,Summer,Whitewater,WI,"Whitewater, WI",39
+1972-08-13,1972,08,13,August,Summer,Whitewater,WI,"DCI Open Class World Championship Prelims",39
 1972-08-14,1972,08,14,August,Summer,Granite City,IL,"Granite City, IL",6
-1972-08-14,1972,08,14,August,Summer,Whitewater,WI,"Whitewater, WI",12
+1972-08-14,1972,08,14,August,Summer,Whitewater,WI,"DCI Open Class World Championship Finals",12
 1972-08-15,1972,08,15,August,Summer,Belleville,IL,"Belleville, IL",6
 1972-08-19,1972,08,19,August,Summer,Amherst,MA,"Amherst, MA",5
 1972-08-19,1972,08,19,August,Summer,Hellertown,PA,"Hellertown, PA",6
@@ -961,11 +961,11 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1973-08-11,1973,08,11,August,Summer,Johnston,PA,"Johnston, PA",5
 1973-08-11,1973,08,11,August,Summer,Lowell,MA,"Lowell, MA",18
 1973-08-11,1973,08,11,August,Summer,Scranton,PA,"Scranton, PA",5
-1973-08-11,1973,08,11,August,Summer,Whitewater,WI,"Whitewater, WI",48
+1973-08-11,1973,08,11,August,Summer,Whitewater,WI,"DCI Open Class World Championship Prelims",48
 1973-08-12,1973,08,12,August,Summer,Hershey,PA,"Hershey, PA",4
 1973-08-12,1973,08,12,August,Summer,Marion,OH,"Marion, OH",24
 1973-08-12,1973,08,12,August,Summer,Royal Oaks,MI,"Royal Oaks, MI",5
-1973-08-12,1973,08,12,August,Summer,Whitewater,WI,"Whitewater, WI",12
+1973-08-12,1973,08,12,August,Summer,Whitewater,WI,"DCI Open Class World Championship Finals",12
 1973-08-13,1973,08,13,August,Summer,Toledo,OH,"Toledo, OH",10
 1973-08-17,1973,08,17,August,Summer,Willowsdale,Ontario,"Willowsdale, Ontario",6
 1973-08-18,1973,08,18,August,Summer,Amherst,MA,"Amherst, MA",6
@@ -1127,10 +1127,10 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1974-08-11,1974,08,11,August,Summer,Toronto,Ontario,"Toronto, Ontario",11
 1974-08-13,1974,08,13,August,Summer,Boston,MA,"Boston, MA",12
 1974-08-13,1974,08,13,August,Summer,North Tonawanda,NY,"North Tonawanda, NY",30
-1974-08-16,1974,08,16,August,Summer,Ithaca,NY,"Ithaca, NY",57
+1974-08-16,1974,08,16,August,Summer,Ithaca,NY,"DCI Open Class World Championship Prelims",57
 1974-08-17,1974,08,17,August,Summer,Amherst,MA,"Amherst, MA",5
 1974-08-17,1974,08,17,August,Summer,Barre,MA,"Barre, MA",6
-1974-08-17,1974,08,17,August,Summer,Ithaca,NY,"Ithaca, NY",12
+1974-08-17,1974,08,17,August,Summer,Ithaca,NY,"DCI Open Class World Championship Finals",12
 1974-08-17,1974,08,17,August,Summer,La Porte,IN,"La Porte, IN",5
 1974-08-18,1974,08,18,August,Summer,Bennington,VT,"Bennington, VT",5
 1974-08-18,1974,08,18,August,Summer,Bridgeport,CT,"Bridgeport, CT",10
@@ -1276,13 +1276,13 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1975-08-09,1975,08,09,August,Summer,Marion,OH,"Marion, OH",24
 1975-08-10,1975,08,10,August,Summer,Kingston,Ontario,"Kingston, Ontario",5
 1975-08-11,1975,08,11,August,Summer,Boston,MA,"Boston, MA",12
-1975-08-11,1975,08,11,August,Summer,Philadelphia,PA,"Philadelphia, PA",46
+1975-08-11,1975,08,11,August,Summer,Philadelphia,PA,"DCI Open Class World Championship Prelims",46
 1975-08-12,1975,08,12,August,Summer,Montreal,Quebec,"Montreal, Quebec",5
 1975-08-12,1975,08,12,August,Summer,North Tonawanda,NY,"North Tonawanda, NY",33
-1975-08-13,1975,08,13,August,Summer,Philadelphia,PA,"Philadelphia, PA",29
-1975-08-14,1975,08,14,August,Summer,Philadelphia,PA,"Philadelphia, PA",10
+1975-08-13,1975,08,13,August,Summer,Philadelphia,PA,"DCI All-Girl/A Class World Championship Prelims",29
+1975-08-14,1975,08,14,August,Summer,Philadelphia,PA,"DCI All-Girl/A Class World Championship Finals",10
 1975-08-16,1975,08,16,August,Summer,Minneapolis,MN,"Minneapolis, MN",6
-1975-08-16,1975,08,16,August,Summer,Philadelphia,PA,"Philadelphia, PA",12
+1975-08-16,1975,08,16,August,Summer,Philadelphia,PA,"DCI Open Class World Championship Finals, PA",12
 1975-08-17,1975,08,17,August,Summer,Los Angeles,CA,"Los Angeles, CA",11
 1975-08-17,1975,08,17,August,Summer,Rochester,NY,"Rochester, NY",5
 1975-08-17,1975,08,17,August,Summer,Toms River,NJ,"Toms River, NJ",7
@@ -1433,32 +1433,35 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1976-08-11,1976,08,11,August,Summer,Toledo,OH,"Toledo, OH",23
 1976-08-12,1976,08,12,August,Summer,Toledo,OH,"Toledo, OH",10
 1976-08-12,1976,08,12,August,Summer,West Cheater,PA,"West Cheater, PA",4
-1976-08-13,1976,08,13,August,Summer,Lynn,MA,"Lynn, MA",49
-1976-08-13,1976,08,13,August,Summer,Marion,OH,"Marion, OH",32
-1976-08-14,1976,08,14,August,Summer,Lynn,MA,"Lynn, MA",10
-1976-08-14,1976,08,14,August,Summer,Marion,OH,"Marion, OH",12
+1976-08-13,1976,08,13,August,Summer,Lynn,MA,"World Open Class A Prelims",25
+1976-08-13,1976,08,13,August,Summer,Lynn,MA,"World Open Class B Prelims",24
+1976-08-13,1976,08,13,August,Summer,Marion,OH,"U.S. Open Prelims",32
+1976-08-14,1976,08,14,August,Summer,Lynn,MA,"World Open Finals",10
+1976-08-14,1976,08,14,August,Summer,Marion,OH,"U.S. Open Finals",12
 1976-08-14,1976,08,14,August,Summer,Reading,PA,"Reading, PA",17
 1976-08-15,1976,08,15,August,Summer,Mendota,IL,"Mendota, IL",6
-1976-08-16,1976,08,16,August,Summer,Boston,MA,"Boston, MA",13
-1976-08-16,1976,08,16,August,Summer,Philadelphia,PA,"Philadelphia, PA",47
-1976-08-18,1976,08,18,August,Summer,New York City,NY,"New York City, NY",40
-1976-08-18,1976,08,18,August,Summer,Philadelphia,PA,"Philadelphia, PA",34
-1976-08-19,1976,08,19,August,Summer,Philadelphia,PA,"Philadelphia, PA",11
+1976-08-16,1976,08,16,August,Summer,Boston,MA,"CYO Nationals",13
+1976-08-18,1976,08,18,August,Summer,New York City,NY,"VFW Nationals Prelims",40
+1976-08-18,1976,08,18,August,Summer,New York City,NY,"VFW Nationals Finals",12
+1976-08-18,1976,08,18,August,Summer,Philadelphia,PA,"DCI All-Girl/A Class World Championship Prelims",34
+1976-08-19,1976,08,19,August,Summer,Philadelphia,PA,"DCI All-Girl/A Class World Championship Finals",11
+1976-08-20,1976,08,20,August,Summer,Philadelphia,PA,"DCI Open Class World Championship Prelims",47
 1976-08-21,1976,08,21,August,Summer,Gloversville,NY,"Gloversville, NY",5
-1976-08-21,1976,08,21,August,Summer,Philadelphia,PA,"Philadelphia, PA",12
+1976-08-21,1976,08,21,August,Summer,Philadelphia,PA,"DCI Open Class World Championship Finals",12
 1976-08-22,1976,08,22,August,Summer,Philadelphia,PA,"Philadelphia, PA",5
 1976-08-22,1976,08,22,August,Summer,Williamstown,PA,"Williamstown, PA",5
 1976-08-27,1976,08,27,August,Summer,Elizabeth,NJ,"Elizabeth, NJ",23
-1976-08-27,1976,08,27,August,Summer,Renton,WA,"Renton, WA",21
+1976-08-27,1976,08,27,August,Summer,Renton,WA,"DCW Prelims",21
 1976-08-28,1976,08,28,August,Summer,Boston,MA,"Boston, MA",5
 1976-08-28,1976,08,28,August,Summer,Corning,NY,"Corning, NY",4
 1976-08-28,1976,08,28,August,Summer,Elizabeth,NJ,"Elizabeth, NJ",10
-1976-08-28,1976,08,28,August,Summer,Renton,WA,"Renton, WA",10
+1976-08-28,1976,08,28,August,Summer,Renton,WA,"DCW Finals",10
 1976-08-28,1976,08,28,August,Summer,Waupun,WI,"Waupun, WI",6
 1976-09-03,1976,09,03,September,Fall,Bristol,PA,"Bristol, PA",16
 1976-09-04,1976,09,04,September,Fall,Bristol,PA,"Bristol, PA",12
 1976-09-04,1976,09,04,September,Fall,Waterloo,Ontario,"Waterloo, Ontario",9
-1976-09-05,1976,09,05,September,Fall,Rochester,NY,"Rochester, NY",27
+1976-09-05,1976,09,05,September,Fall,Rochester,NY,"DCA Open Class World Championship Prelims",17
+1976-09-05,1976,09,05,September,Fall,Rochester,NY,"DCA Open Class World Championship Finals",10
 1976-09-11,1976,09,11,September,Fall,Malden,MA,"Malden, MA",5
 1977-05-15,1977,05,15,May,Spring,Macomb,IL,"Macomb, IL",10
 1977-05-28,1977,05,28,May,Spring,New London,CT,"New London, CT",7
@@ -1499,7 +1502,7 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1977-06-23,1977,06,23,June,Summer,Stillwater,MN,"Stillwater, MN",6
 1977-06-24,1977,06,24,June,Summer,LaCrosse,WI,"LaCrosse, WI",5
 1977-06-24,1977,06,24,June,Summer,New York,NY,"New York, NY",6
-1977-06-25,1977,06,25,June,Summer,Elk Grove Village,IL,"Elk Grove Village, IL",8
+1977-06-25,1977,06,25,June,Summer,Elk Grove Village,IL,"Illinois VFW State Championships",8
 1977-06-25,1977,06,25,June,Summer,Madison,WI,"Madison, WI",5
 1977-06-25,1977,06,25,June,Summer,Rochester,NY,"Rochester, NY",6
 1977-06-25,1977,06,25,June,Summer,Welland,Ontario,"Welland, Ontario",8
@@ -1552,9 +1555,7 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1977-07-23,1977,07,23,July,Summer,Carlisle,PA,"Carlisle, PA",5
 1977-07-23,1977,07,23,July,Summer,Hamden,CT,"Hamden, CT",5
 1977-07-23,1977,07,23,July,Summer,Ottawa,Ontario,"Ottawa, Ontario",14
-1977-07-23,1977,07,23,July,Summer,"Port
-  Washington",WI,"Port
-  Washington, WI",5
+1977-07-23,1977,07,23,July,Summer,"Port Washington",WI,"Port Washington, WI",5
 1977-07-23,1977,07,23,July,Summer,Rochester,NY,"Rochester, NY",4
 1977-07-24,1977,07,24,July,Summer,Chenango Bridge,NY,"Chenango Bridge, NY",6
 1977-07-24,1977,07,24,July,Summer,Fon du Lac,WI,"Fon du Lac, WI",5
@@ -1608,15 +1609,19 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1977-08-13,1977,08,13,August,Summer,Scotts Bluff,NE,"Scotts Bluff, NE",8
 1977-08-14,1977,08,14,August,Summer,Greeley,CO,"Greeley, CO",9
 1977-08-15,1977,08,15,August,Summer,Casper,WY,"Casper, WY",7
-1977-08-15,1977,08,15,August,Summer,Denver,CO,"Denver, CO",45
+1977-08-15,1977,08,15,August,Summer,Denver,CO,"DCI A Class World Championship Prelims",26
+1977-08-15,1977,08,15,August,Summer,Denver,CO,"DCI All-Girl Class World Championship Prelims",7
+1977-08-15,1977,08,15,August,Summer,Denver,CO,"DCI All-Girl/A Class World Championship Finals",10
 1977-08-15,1977,08,15,August,Summer,Fort Collins,CO,"Fort Collins, CO",5
-1977-08-16,1977,08,16,August,Summer,Denver,CO,"Denver, CO",43
-1977-08-19,1977,08,19,August,Summer,Denver,CO,"Denver, CO",13
+1977-08-16,1977,08,18,August,Summer,Denver,CO,"DCI Open Class World Championship Prelims",45
+1977-08-19,1977,08,19,August,Summer,Denver,CO,"DCI Open Class World Championship Finals",13
 1977-08-20,1977,08,20,August,Summer,Bridgeport,CT,"Bridgeport, CT",7
-1977-08-20,1977,08,20,August,Summer,Denver,CO,"Denver, CO",54
+1977-08-20,1977,08,20,August,Summer,Denver,CO,"American Legion Championship Prelims",33
+1977-08-20,1977,08,20,August,Summer,Denver,CO,"American Legion Championship Prelims",11
+1977-08-20,1977,08,20,August,Summer,Jonquière, Quebec,"Circuit du Québec Championships",10
 1977-08-21,1977,08,21,August,Summer,Kingston,NY,"Kingston, NY",6
-1977-08-23,1977,08,23,August,Summer,Minneapolis,MN,"Minneapolis, MN",17
-1977-08-24,1977,08,24,August,Summer,Minneapolis,MN,"Minneapolis, MN",12
+1977-08-23,1977,08,23,August,Summer,Minneapolis,MN,"VFW Nationals Prelims",17
+1977-08-24,1977,08,24,August,Summer,Minneapolis,MN,"VFW Nationals Finals",12
 1977-08-26,1977,08,26,August,Summer,Scarborough,Ontario,"Scarborough, Ontario",25
 1977-08-27,1977,08,27,August,Summer,Bayonne,NJ,"Bayonne, NJ",5
 1977-08-27,1977,08,27,August,Summer,Bridgeport,CT,"Bridgeport, CT",10
@@ -1683,7 +1688,7 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1978-07-03,1978,07,03,July,Summer,Dunkirk,NY,"Dunkirk, NY",6
 1978-07-03,1978,07,03,July,Summer,Indianapolis,IN,"Indianapolis, IN",5
 1978-07-03,1978,07,03,July,Summer,Manitowoc,WI,"Manitowoc, WI",8
-1978-07-03,1978,07,03,July,Summer,Racine,WI,"Racine, WI",6
+1978-07-03,1978,07,03,July,Summer,Racine,WI,"Wisconsin VFW State Championships",6
 1978-07-04,1978,07,04,July,Summer,Bellingham,WA,"Bellingham, WA",3
 1978-07-04,1978,07,04,July,Summer,Chicago,IL,"Chicago, IL",6
 1978-07-04,1978,07,04,July,Summer,Columbus,OH,"Columbus, OH",5
@@ -1693,8 +1698,8 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1978-07-05,1978,07,05,July,Summer,Evansville,IN,"Evansville, IN",5
 1978-07-06,1978,07,06,July,Summer,Cary,NC,"Cary, NC",4
 1978-07-06,1978,07,06,July,Summer,Hollidaysburg,PA,"Hollidaysburg, PA",5
-1978-07-07,1978,07,07,July,Summer,Allentown,PA,"Allentown, PA",34
-1978-07-08,1978,07,08,July,Summer,Allentown,PA,"Allentown, PA",12
+1978-07-07,1978,07,07,July,Summer,Allentown,PA,"DCI East Championship Prelims",34
+1978-07-08,1978,07,08,July,Summer,Allentown,PA,"DCI East Championship Finals",12
 1978-07-08,1978,07,08,July,Summer,Atlanta,GA,"Atlanta, GA",6
 1978-07-08,1978,07,08,July,Summer,East Rutherford,NJ,"East Rutherford, NJ",6
 1978-07-08,1978,07,08,July,Summer,Keswick,Ontario,"Keswick, Ontario",5
@@ -1704,7 +1709,7 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1978-07-09,1978,07,09,July,Summer,Binghamton,NY,"Binghamton, NY",6
 1978-07-09,1978,07,09,July,Summer,Durham,Ontario,"Durham, Ontario",8
 1978-07-09,1978,07,09,July,Summer,Lynn,MA,"Lynn, MA",6
-1978-07-10,1978,07,10,July,Summer,Boston,MA,"Boston, MA",14
+1978-07-10,1978,07,10,July,Summer,Boston,MA,"CYO Nationals",14
 1978-07-10,1978,07,10,July,Summer,Gadsden,AL,"Gadsden, AL",4
 1978-07-10,1978,07,10,July,Summer,Whitewater,WI,"Whitewater, WI",31
 1978-07-11,1978,07,11,July,Summer,Montreal,Quebec,"Montreal, Quebec",8
@@ -1778,24 +1783,26 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1978-08-12,1978,08,12,August,Summer,Kingston,NY,"Kingston, NY",5
 1978-08-13,1978,08,13,August,Summer,Greeley,CO,"Greeley, CO",7
 1978-08-14,1978,08,14,August,Summer,Pueblo,KS,"Pueblo, KS",8
-1978-08-15,1978,08,15,August,Summer,Denver,CO,"Denver, CO",24
-1978-08-16,1978,08,16,August,Summer,Denver,CO,"Denver, CO",10
-1978-08-17,1978,08,17,August,Summer,Denver,CO,"Denver, CO",43
-1978-08-18,1978,08,18,August,Summer,Denver,CO,"Denver, CO",12
+1978-08-15,1978,08,15,August,Summer,Denver,CO,"DCI A Class World Championship Prelims",19
+1978-08-15,1978,08,15,August,Summer,Denver,CO,"DCI All-Girl Class World Championship Prelims",5
+1978-08-16,1978,08,16,August,Summer,Denver,CO,"DCI All-Girl/A Class World Championship Finals",10
+1978-08-17,1978,08,17,August,Summer,Denver,CO,"DCI Open Class World Championship Prelims",43
+1978-08-18,1978,08,18,August,Summer,Denver,CO,"DCI Open Class World Championship Finals",12
 1978-08-19,1978,08,19,August,Summer,Toms River,NJ,"Toms River, NJ",12
 1978-08-20,1978,08,20,August,Summer,Montreal,Quebec,"Montreal, Quebec",18
 1978-08-20,1978,08,20,August,Summer,New Orleans,LA,"New Orleans, LA",9
 1978-08-20,1978,08,20,August,Summer,Old Bridge Township,NJ,"Old Bridge Township, NJ",5
-1978-08-23,1978,08,23,August,Summer,Dallas,TX,"Dallas, TX",12
+1978-08-23,1978,08,23,August,Summer,Dallas,TX,"VFW Nationals",12
 1978-08-26,1978,08,26,August,Summer,Bridgeport,CT,"Bridgeport, CT",6
 1978-08-26,1978,08,26,August,Summer,Niagara Falls,NY,"Niagara Falls, NY",7
 1978-08-26,1978,08,26,August,Summer,Rimouski,Queec,"Rimouski, Queec",14
 1978-08-26,1978,08,26,August,Summer,Scarborough,Ontario,"Scarborough, Ontario",36
 1978-09-02,1978,09,02,September,Fall,Bristol,PA,"Bristol, PA",25
 1978-09-02,1978,09,02,September,Fall,Malden,MA,"Malden, MA",12
-1978-09-03,1978,09,03,September,Fall,Allentown,PA,"Allentown, PA",25
+1978-09-03,1978,09,03,September,Fall,Allentown,PA,"DCA Open Class World Championship Prelims",15
+1978-09-03,1978,09,03,September,Fall,Allentown,PA,"DCA Open Class World Championship Finals",10
 1978-09-04,1978,09,04,September,Fall,Merill,WI,"Merill, WI",5
-1978-09-09,1978,09,09,September,Fall,Wildwood,NJ,"Wildwood, NJ",13
+1978-09-09,1978,09,09,September,Fall,Wildwood,NJ,"New Jersey American Legion Championships",13
 1979-06-02,1979,06,02,June,Summer,Bayonne,NJ,"Bayonne, NJ",5
 1979-06-02,1979,06,02,June,Summer,Hamden,CT,"Hamden, CT",5
 1979-06-02,1979,06,02,June,Summer,Rome,NY,"Rome, NY",3
@@ -1940,10 +1947,12 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1979-08-14,1979,08,14,August,Summer,Greenville,TN,"Greenville, TN",7
 1979-08-14,1979,08,14,August,Summer,Jacksonville,AL,"Jacksonville, AL",7
 1979-08-14,1979,08,14,August,Summer,Tifton,GA,"Tifton, GA",6
-1979-08-15,1979,08,15,August,Summer,Birmingham,AL,"Birmingham, AL",23
-1979-08-16,1979,08,16,August,Summer,Birmingham,AL,"Birmingham, AL",7
-1979-08-17,1979,08,17,August,Summer,Birmingham,AL,"Birmingham, AL",43
-1979-08-18,1979,08,18,August,Summer,Birmingham,AL,"Birmingham, AL",17
+1979-08-15,1979,08,15,August,Summer,Birmingham,AL,"DCI A Class World Championship Prelims",18
+1979-08-15,1979,08,15,August,Summer,Birmingham,AL,"DCI All-Girl Class World Championship Prelims",5
+1979-08-16,1979,08,16,August,Summer,Birmingham,AL,"DCI All-Girl/A Class World Championship Finals",7
+1979-08-17,1979,08,17,August,Summer,Birmingham,AL,"DCI Open Class World Championship Prelims",43
+1979-08-18,1979,08,18,August,Summer,Birmingham,AL,"DCI Open Class World Championship Finals",12
+1979-08-18,1979,08,18,August,Summer,Birmingham,AL,"DCI Associate -- Open Class ",5
 1979-08-18,1979,08,18,August,Summer,Hillsdale,NJ,"Hillsdale, NJ",7
 1979-08-18,1979,08,18,August,Summer,Newmarket,Ontario,"Newmarket, Ontario",10
 1979-08-18,1979,08,18,August,Summer,Terrebonne,Quebec,"Terrebonne, Quebec",27
@@ -1955,7 +1964,8 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1979-08-25,1979,08,25,August,Summer,Lachute,Quebec,"Lachute, Quebec",30
 1979-08-25,1979,08,25,August,Summer,Toronto,Ontario,"Toronto, Ontario",26
 1979-08-26,1979,08,26,August,Summer,Boonton,NJ,"Boonton, NJ",4
-1979-09-02,1979,09,02,September,Fall,Hershey,PA,"Hershey, PA",27
+1979-09-02,1979,09,02,September,Fall,Hershey,PA,"DCA Open Class World Championship Prelims",17
+1979-09-02,1979,09,02,September,Fall,Hershey,PA,"DCA Open Class World Championship Finals",10
 1980-05-25,1980,05,25,May,Spring,Clifton,NJ,"Clifton, NJ",4
 1980-05-31,1980,05,31,May,Spring,Johnstown,NY,"Johnstown, NY",6
 1980-06-07,1980,06,07,June,Summer,Bayonne,NJ,"Bayonne, NJ",5
@@ -2074,7 +2084,8 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1980-08-06,1980,08,06,August,Summer,Revere,MA,"Revere, MA",6
 1980-08-07,1980,08,07,August,Summer,Boston,MA,"Boston, MA",12
 1980-08-08,1980,08,08,August,Summer,Bayonne,NJ,"Bayonne, NJ",6
-1980-08-09,1980,08,09,August,Summer,Allentown,PA,"Allentown, PA",37
+1980-08-09,1980,08,09,August,Summer,Allentown,PA,"DCI East Championship Prelims",25
+1980-08-09,1980,08,09,August,Summer,Allentown,PA,"DCI East Championship Finals",12
 1980-08-09,1980,08,09,August,Summer,Rochester,NY,"Rochester, NY",9
 1980-08-10,1980,08,10,August,Summer,Cary,NC,"Cary, NC",7
 1980-08-10,1980,08,10,August,Summer,Mendota,IL,"Mendota, IL",6
@@ -2082,19 +2093,21 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1980-08-11,1980,08,11,August,Summer,Jacksonville,AL,"Jacksonville, AL",7
 1980-08-11,1980,08,11,August,Summer,Sevierville,TN,"Sevierville, TN",8
 1980-08-12,1980,08,12,August,Summer,Greenville,SC,"Greenville, SC",7
-1980-08-13,1980,08,13,August,Summer,Birmingham,AL,"Birmingham, AL",21
-1980-08-15,1980,08,15,August,Summer,Birmingham,AL,"Birmingham, AL",55
-1980-08-16,1980,08,16,August,Summer,Birmingham,AL,"Birmingham, AL",12
-1980-08-16,1980,08,16,August,Summer,Boston,MA,"Boston, MA",9
-1980-08-16,1980,08,16,August,Summer,Chicago,IL,"Chicago, IL",10
-1980-08-22,1980,08,22,August,Summer,Toronto,Ontario,"Toronto, Ontario",15
+1980-08-13,1980,08,13,August,Summer,Birmingham,AL,"DCI All-Girl/A Class World Championship Prelims",21
+1980-08-15,1980,08,15,August,Summer,Birmingham,AL,"DCI All-Girl/A Class World Championship Finals",11
+1980-08-15,1980,08,15,August,Summer,Birmingham,AL,"DCI Open Class World Championship Prelims",44
+1980-08-16,1980,08,16,August,Summer,Birmingham,AL,"DCI Open Class World Championship Finals",12
+1980-08-16,1980,08,16,August,Summer,Boston,MA,"American Legion Championships",9
+1980-08-16,1980,08,16,August,Summer,Chicago,IL,"VFW Nationals",10
+1980-08-22,1980,08,22,August,Summer,Toronto,Ontario,"Canadian Nationals",15
 1980-08-23,1980,08,23,August,Summer,Bridgeport,CT,"Bridgeport, CT",6
 1980-08-23,1980,08,23,August,Summer,Jonquière,Quebec,"Jonquière, Quebec",19
 1980-08-23,1980,08,23,August,Summer,Williamsport,PA,"Williamsport, PA",5
 1980-08-24,1980,08,24,August,Summer,Boonton,NJ,"Boonton, NJ",5
-1980-08-31,1980,08,31,August,Summer,Hershey,PA,"Hershey, PA",27
-1981-05-28,1981,05,28,May,Spring,Clifton,NJ,"Clifton, NJ",4
-1981-05-30,1981,05,30,May,Spring,Gloversville,NY,"Gloversville, NY",5
+1980-08-31,1980,08,31,August,Summer,Hershey,PA,"DCA Open Class World Championship Prelims",17
+1980-08-31,1980,08,31,August,Summer,Hershey,PA,"DCA Open Class World Championship Finals",10
+1981-05-28,1981,05,28,May,Spring,Clifton,NJ,"DCA Clifton",4
+1981-05-30,1981,05,30,May,Spring,Gloversville,NY,"DCA Gloversville",5
 1981-06-06,1981,06,06,June,Summer,Hamden,CT,"Hamden, CT",5
 1981-06-06,1981,06,06,June,Summer,LaCrosse,WI,"LaCrosse, WI",5
 1981-06-06,1981,06,06,June,Summer,Mechanicsburg,PA,"Mechanicsburg, PA",3
@@ -2117,11 +2130,11 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1981-06-26,1981,06,26,June,Summer,Atlanta,GA,"Atlanta, GA",8
 1981-06-26,1981,06,26,June,Summer,Austin,TX,"Austin, TX",7
 1981-06-26,1981,06,26,June,Summer,Burien,WA,"Burien, WA",8
-1981-06-26,1981,06,26,June,Summer,Denver,CO,"Denver, CO",8
+1981-06-26,1981,06,26,June,Summer,Denver,CO,"Drums Along the Rockies (Night 1)",8
 1981-06-27,1981,06,27,June,Summer,Birmingham,AL,"Birmingham, AL",9
 1981-06-27,1981,06,27,June,Summer,Bridgeport,CT,"Bridgeport, CT",5
 1981-06-27,1981,06,27,June,Summer,Dallas,TX,"Dallas, TX",8
-1981-06-27,1981,06,27,June,Summer,Denver,CO,"Denver, CO",8
+1981-06-27,1981,06,27,June,Summer,Denver,CO,"Drums Along the Rockies (Night 2)",8
 1981-06-27,1981,06,27,June,Summer,Ferguson,MI,"Ferguson, MI",6
 1981-06-27,1981,06,27,June,Summer,Longview,WA,"Longview, WA",5
 1981-06-28,1981,06,28,June,Summer,Seattle,WA,"Seattle, WA",6
@@ -2158,7 +2171,8 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1981-07-10,1981,07,10,July,Summer,Fort Wayne,IN,"Fort Wayne, IN",5
 1981-07-10,1981,07,10,July,Summer,Garfield,NJ,"Garfield, NJ",5
 1981-07-10,1981,07,10,July,Summer,Westminster,MD,"Westminster, MD",5
-1981-07-11,1981,07,11,July,Summer,Allentown,PA,"Allentown, PA",31
+1981-07-11,1981,07,11,July,Summer,Allentown,PA,"DCI East Championship Prelims",19
+1981-07-11,1981,07,11,July,Summer,Allentown,PA,"DCI East Championship Finals",12
 1981-07-11,1981,07,11,July,Summer,Grand Rapids,MI,"Grand Rapids, MI",6
 1981-07-11,1981,07,11,July,Summer,Meadowlands,NJ,"Meadowlands, NJ",6
 1981-07-12,1981,07,12,July,Summer,Bridgeport,CT,"Bridgeport, CT",5
@@ -2178,14 +2192,16 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1981-07-24,1981,07,24,July,Summer,Fulton,MS,"Fulton, MS",6
 1981-07-24,1981,07,24,July,Summer,Madison,WI,"Madison, WI",6
 1981-07-24,1981,07,24,July,Summer,Sacramento,CA,"Sacramento, CA",8
-1981-07-25,1981,07,25,July,Summer,DeKalb,IL,"DeKalb, IL",36
-1981-07-25,1981,07,25,July,Summer,Ithaca,NY,"Ithaca, NY",36
+1981-07-25,1981,07,25,July,Summer,DeKalb,IL,"DCM Prelims",26
+1981-07-25,1981,07,25,July,Summer,Ithaca,NY,"DCE Prelims",26
+1981-07-25,1981,07,25,July,Summer,DeKalb,IL,"DCM Finals",10
+1981-07-25,1981,07,25,July,Summer,Ithaca,NY,"DCE Finals",10
 1981-07-25,1981,07,25,July,Summer,Scranton,PA,"Scranton, PA",6
 1981-07-25,1981,07,25,July,Summer,Wesson,MS,"Wesson, MS",6
 1981-07-26,1981,07,26,July,Summer,Derby,CT,"Derby, CT",5
 1981-07-26,1981,07,26,July,Summer,Dolton,IL,"Dolton, IL",5
-1981-08-01,1981,08,01,August,Summer,Columbus,OH,"Columbus, OH",10
-1981-08-01,1981,08,01,August,Summer,Marion,OH,"Marion, OH",17
+1981-08-01,1981,08,01,August,Summer,Columbus,OH,"U.S. Open Finals",10
+1981-08-01,1981,08,01,August,Summer,Marion,OH,"U.S. Open Prelims",17
 1981-08-01,1981,08,01,August,Summer,Rochester,NY,"Rochester, NY",10
 1981-08-02,1981,08,02,August,Summer,Cedar Rapids,IA,"Cedar Rapids, IA",6
 1981-08-02,1981,08,02,August,Summer,Dayton,OH,"Dayton, OH",7
@@ -2198,7 +2214,8 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1981-08-07,1981,08,07,August,Summer,Racine,WI,"Racine, WI",7
 1981-08-07,1981,08,07,August,Summer,Rockford,IL,"Rockford, IL",7
 1981-08-08,1981,08,08,August,Summer,Lewisburg,PA,"Lewisburg, PA",8
-1981-08-08,1981,08,08,August,Summer,Whitewater,WI,"Whitewater, WI",39
+1981-08-08,1981,08,08,August,Summer,Whitewater,WI,"DCI Midwest Championship Prelims",27
+1981-08-08,1981,08,08,August,Summer,Whitewater,WI,"DCI Midwest Championship Finals",12
 1981-08-09,1981,08,09,August,Summer,Alton,IL,"Alton, IL",8
 1981-08-09,1981,08,09,August,Summer,East Rutherford,NJ,"East Rutherford, NJ",7
 1981-08-09,1981,08,09,August,Summer,Mendota,IL,"Mendota, IL",7
@@ -2208,26 +2225,30 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1981-08-10,1981,08,10,August,Summer,Sevierville,TN,"Sevierville, TN",7
 1981-08-11,1981,08,11,August,Summer,Louisville,KY,"Louisville, KY",7
 1981-08-11,1981,08,11,August,Summer,South Pittsburgh,TN,"South Pittsburgh, TN",7
-1981-08-12,1981,08,12,August,Summer,Butler,PA,"Butler, PA",26
+1981-08-12,1981,08,12,August,Summer,Butler,PA,"American International Prelims",14
+1981-08-12,1981,08,12,August,Summer,Butler,PA,"American International Finals",12
 1981-08-12,1981,08,12,August,Summer,Cullowhee,NC,"Cullowhee, NC",8
 1981-08-13,1981,08,13,August,Summer,Lansdale,PA,"Lansdale, PA",6
 1981-08-14,1981,08,14,August,Summer,Bayonne,NJ,"Bayonne, NJ",5
-1981-08-14,1981,08,14,August,Summer,Ypsilanti,MI,"Ypsilanti, MI",34
+1981-08-14,1981,08,14,August,Summer,Ypsilanti,MI,"DCI North Prelims",24
+1981-08-14,1981,08,14,August,Summer,Ypsilanti,MI,"DCI North Finals",10
 1981-08-15,1981,08,15,August,Summer,Erie,PA,"Erie, PA",2
 1981-08-15,1981,08,15,August,Summer,Kitchener,Ontario,"Kitchener, Ontario",7
 1981-08-15,1981,08,15,August,Summer,Lynn,MA,"Lynn, MA",28
 1981-08-16,1981,08,16,August,Summer,Bloomfield,NJ,"Bloomfield, NJ",6
-1981-08-16,1981,08,16,August,Summer,Boston,MA,"Boston, MA",12
-1981-08-16,1981,08,16,August,Summer,Hamilton,Ontario,"Hamilton, Ontario",34
-1981-08-16,1981,08,16,August,Summer,Montreal,Quebec,"Montreal, Quebec",49
-1981-08-18,1981,08,18,August,Summer,Philadelphia,PA,"Philadelphia, PA",8
-1981-08-19,1981,08,19,August,Summer,Montreal,Quebec,"Montreal, Quebec",49
-1981-08-20,1981,08,20,August,Summer,Montreal,Quebec,"Montreal, Quebec",10
-1981-08-22,1981,08,22,August,Summer,Montreal,Quebec,"Montreal, Quebec",12
+1981-08-16,1981,08,16,August,Summer,Boston,MA,"CYO Nationals",12
+1981-08-16,1981,08,16,August,Summer,Hamilton,Ontario,"DCI Canada Prelims",24
+1981-08-16,1981,08,16,August,Summer,Hamilton,Ontario,"DCI Canada Finals",10
+1981-08-16,1981,08,19,August,Summer,Montreal,Quebec,"DCI All-Girl/A Class World Championship Prelims",49
+1981-08-18,1981,08,18,August,Summer,Philadelphia,PA,"VFW Nationals",8
+1981-08-19,1981,08,21,August,Summer,Montreal,Quebec,"DCI Open Class World Championship Prelims",49
+1981-08-20,1981,08,20,August,Summer,Montreal,Quebec,"DCI All-Girl/A Class World Championship Finals",10
+1981-08-22,1981,08,22,August,Summer,Montreal,Quebec,"DCI Open Class World Championship Finals",12
 1981-08-22,1981,08,22,August,Summer,Oil City,PA,"Oil City, PA",10
 1981-08-28,1981,08,28,August,Summer,Drummond,Quebec,"Drummond, Quebec",38
 1981-08-29,1981,08,29,August,Summer,Bridgeport,PA,"Bridgeport, PA",6
-1981-09-06,1981,09,06,September,Fall,Philadelphia,PA,"Philadelphia, PA",28
+1981-09-06,1981,09,06,September,Fall,Philadelphia,PA,"DCA Open Class World Championship Prelims",18
+1981-09-06,1981,09,06,September,Fall,Philadelphia,PA,"DCA Open Class World Championship Finals",10
 1982-06-05,1982,06,05,June,Summer,LaCrosse,WI,"LaCrosse, WI",4
 1982-06-06,1982,06,06,June,Summer,Webster City,IA,"Webster City, IA",5
 1982-06-06,1982,06,06,June,Summer,Whitewater,WI,"Whitewater, WI",4
@@ -2305,14 +2326,15 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1982-07-08,1982,07,08,July,Summer,Malden,MA,"Malden, MA",14
 1982-07-08,1982,07,08,July,Summer,Ogden,UT,"Ogden, UT",12
 1982-07-08,1982,07,08,July,Summer,Portland,OR,"Portland, OR",5
-1982-07-09,1982,07,09,July,Summer,Allentown,PA,"Allentown, PA",17
+1982-07-09,1982,07,09,July,Summer,Allentown,PA,"DCI East Championship Finals (A Class)",17
 1982-07-09,1982,07,09,July,Summer,Flint,MI,"Flint, MI",6
 1982-07-09,1982,07,09,July,Summer,Garfield,NJ,"Garfield, NJ",5
 1982-07-09,1982,07,09,July,Summer,Salem,OR,"Salem, OR",7
 1982-07-09,1982,07,09,July,Summer,Tulsa,OK,"Tulsa, OK",6
 1982-07-09,1982,07,09,July,Summer,Westminster,MD,"Westminster, MD",7
-1982-07-10,1982,07,10,July,Summer,Allentown,PA,"Allentown, PA",33
-1982-07-10,1982,07,10,July,Summer,Denver,CO,"Denver, CO",10
+1982-07-10,1982,07,10,July,Summer,Allentown,PA,"DCI East Championship Prelims (Open Class)",21
+1982-07-10,1982,07,10,July,Summer,Allentown,PA,"DCI East Championship Finals (Open Class)",12
+1982-07-10,1982,07,10,July,Summer,Denver,CO,"Drums Along the Rockies",10
 1982-07-10,1982,07,10,July,Summer,Meadowlands,NJ,"Meadowlands, NJ",6
 1982-07-11,1982,07,11,July,Summer,Fort Wayne,IN,"Fort Wayne, IN",6
 1982-07-11,1982,07,11,July,Summer,Fox Lake,IL,"Fox Lake, IL",8
@@ -2340,7 +2362,8 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1982-07-23,1982,07,23,July,Summer,Madison,WI,"Madison, WI",5
 1982-07-23,1982,07,23,July,Summer,Sacramento,CA,"Sacramento, CA",8
 1982-07-24,1982,07,24,July,Summer,Concord,CA,"Concord, CA",9
-1982-07-24,1982,07,24,July,Summer,DeKalb,IL,"DeKalb, IL",39
+1982-07-24,1982,07,24,July,Summer,DeKalb,IL,"DCM Prelims",27
+1982-07-24,1982,07,24,July,Summer,DeKalb,IL,"DCM Finals",10
 1982-07-24,1982,07,24,July,Summer,Erie,PA,"Erie, PA",5
 1982-07-24,1982,07,24,July,Summer,Fulton,NY,"Fulton, NY",6
 1982-07-24,1982,07,24,July,Summer,Hershey,PA,"Hershey, PA",5
@@ -2374,14 +2397,14 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1982-08-04,1982,08,04,August,Summer,Toledo,OH,"Toledo, OH",47
 1982-08-05,1982,08,05,August,Summer,Green Bay,WI,"Green Bay, WI",7
 1982-08-05,1982,08,05,August,Summer,Indianapolis,IN,"Indianapolis, IN",7
-1982-08-05,1982,08,05,August,Summer,Whitewater,WI,"Whitewater, WI",30
+1982-08-06,1982,08,06,August,Summer,Whitewater,WI,"DCI Midwest Championship Finals (A Class)",15
+1982-08-06,1982,08,06,August,Summer,Whitewater,WI,"DCI Midwest Championship Prelims (Open Class)",30
+1982-08-07,1982,08,07,August,Summer,Whitewater,WI,"DCI Midwest Championship Finals(Open Class)",12
 1982-08-06,1982,08,06,August,Summer,Racine,WI,"Racine, WI",6
 1982-08-06,1982,08,06,August,Summer,Rockford,IL,"Rockford, IL",7
-1982-08-06,1982,08,06,August,Summer,Whitewater,WI,"Whitewater, WI",15
 1982-08-07,1982,08,07,August,Summer,Momence,IL,"Momence, IL",6
 1982-08-07,1982,08,07,August,Summer,Scranton,PA,"Scranton, PA",8
 1982-08-07,1982,08,07,August,Summer,Sheffield,PA,"Sheffield, PA",6
-1982-08-07,1982,08,07,August,Summer,Whitewater,WI,"Whitewater, WI",12
 1982-08-08,1982,08,08,August,Summer,Michigan City,IN,"Michigan City, IN",11
 1982-08-08,1982,08,08,August,Summer,Springfield,IL,"Springfield, IL",8
 1982-08-09,1982,08,09,August,Summer,Bloomington,IN,"Bloomington, IN",10
@@ -2392,7 +2415,8 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1982-08-10,1982,08,10,August,Summer,Hanover,PA,"Hanover, PA",7
 1982-08-10,1982,08,10,August,Summer,Louisville,KY,"Louisville, KY",9
 1982-08-10,1982,08,10,August,Summer,Pittsburgh,PA,"Pittsburgh, PA",6
-1982-08-11,1982,08,11,August,Summer,Butler,PA,"Butler, PA",27
+1982-08-11,1982,08,11,August,Summer,Butler,PA,"American International Prelims",14
+1982-08-11,1982,08,11,August,Summer,Butler,PA,"American International Finals",13
 1982-08-12,1982,08,12,August,Summer,Canton,OH,"Canton, OH",8
 1982-08-12,1982,08,12,August,Summer,Lansdale,PA,"Lansdale, PA",8
 1982-08-13,1982,08,13,August,Summer,Bayonne,NJ,"Bayonne, NJ",5
@@ -2401,24 +2425,27 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1982-08-14,1982,08,14,August,Summer,Central Islip,NY,"Central Islip, NY",4
 1982-08-14,1982,08,14,August,Summer,Lewisburg,PA,"Lewisburg, PA",6
 1982-08-14,1982,08,14,August,Summer,Lynn,MA,"Lynn, MA",7
-1982-08-15,1982,08,15,August,Summer,Boston,MA,"Boston, MA",12
-1982-08-15,1982,08,15,August,Summer,Hamilton,Ontario,"Hamilton, Ontario",36
+1982-08-15,1982,08,15,August,Summer,Boston,MA,"CYO Nationals",12
+1982-08-15,1982,08,15,August,Summer,Hamilton,Ontario,"DCI Canada Prelims",25
+1982-08-15,1982,08,15,August,Summer,Hamilton,Ontario,"DCI Canada Finals",12
 1982-08-16,1982,08,16,August,Summer,Pittsfield,MA,"Pittsfield, MA",10
-1982-08-16,1982,08,16,August,Summer,Rome,NY,"Rome, NY",7
-1982-08-17,1982,08,17,August,Summer,Fort Edward,NY,"Fort Edward, NY",9
-1982-08-17,1982,08,17,August,Summer,Ogdensburg,NY,"Ogdensburg, NY",9
-1982-08-18,1982,08,18,August,Summer,Montreal,Quebec,"Montreal, Quebec",50
-1982-08-19,1982,08,19,August,Summer,Montreal,Quebec,"Montreal, Quebec",10
-1982-08-20,1982,08,20,August,Summer,Montreal,Quebec,"Montreal, Quebec",48
-1982-08-21,1982,08,21,August,Summer,Montreal,Quebec,"Montreal, Quebec",12
-1982-08-21,1982,08,21,August,Summer,Verdun,Quebec,"Verdun, Quebec",7
-1982-08-22,1982,08,22,August,Summer,Montreal,Quebec,"Montreal, Quebec",7
-1982-08-28,1982,08,28,August,Summer,Alliance,OH,"Alliance, OH",6
-1982-08-28,1982,08,28,August,Summer,Brantford,Ontario,"Brantford, Ontario",30
+1982-08-16,1982,08,16,August,Summer,Rome,NY,"DCI Rome",7
+1982-08-17,1982,08,17,August,Summer,Fort Edward,NY,"DCI Fort Edward",9
+1982-08-17,1982,08,17,August,Summer,Ogdensburg,NY,"DCI Ogdensburg",9
+1982-08-18,1982,08,18,August,Summer,Montreal,Quebec,"DCI All-Girl/A Class World Championship Prelims",50
+1982-08-19,1982,08,19,August,Summer,Montreal,Quebec,"DCI All-Girl/A Class World Championship Finals",10
+1982-08-20,1982,08,20,August,Summer,Montreal,Quebec,"DCI Open Class World Championship Prelims",48
+1982-08-21,1982,08,21,August,Summer,Montreal,Quebec,"DCI Open Class World Championship Finals",12
+1982-08-21,1982,08,21,August,Summer,Verdun,Quebec,"DCA Verdun",7
+1982-08-22,1982,08,22,August,Summer,Montreal,Quebec,"DCA Montreal",7
+1982-08-28,1982,08,28,August,Summer,Alliance,OH,"ICA Championships",6
+1982-08-28,1982,08,28,August,Summer,Brantford,Ontario,"Canadian Nationals Prelims",6
+1982-08-28,1982,08,28,August,Summer,Brantford,Ontario,"Canadian Nationals Finals",12
 1982-08-28,1982,08,28,August,Summer,Bridgeport,PA,"Bridgeport, PA",6
 1982-08-28,1982,08,28,August,Summer,Dummondville,Quebec,"Dummondville, Quebec",17
 1982-08-28,1982,08,28,August,Summer,Roselle Park,NJ,"Roselle Park, NJ",5
-1982-09-05,1982,09,05,September,Fall,Allentown,PA,"Allentown, PA",29
+1982-09-05,1982,09,05,September,Fall,Allentown,PA,"DCA Open Class World Championship Prelims",19
+1982-09-05,1982,09,05,September,Fall,Allentown,PA,"DCA Open Class World Championship Finals",10
 1983-06-04,1983,06,04,June,Summer,Bayonne,NJ,"Bayonne, NJ",5
 1983-06-04,1983,06,04,June,Summer,Janesville,WI,"Janesville, WI",5
 1983-06-04,1983,06,04,June,Summer,New Haven,CT,"New Haven, CT",4
@@ -2516,12 +2543,14 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1983-07-21,1983,07,21,July,Summer,Easton,PA,"Easton, PA",4
 1983-07-21,1983,07,21,July,Summer,Itta Bena,MS,"Itta Bena, MS",8
 1983-07-22,1983,07,22,July,Summer,Lodi,NJ,"Lodi, NJ",5
-1983-07-22,1983,07,22,July,Summer,Lynn,MA,"Lynn, MA",22
+1983-07-22,1983,07,22,July,Summer,Lynn,MA,"DCE Prelims (A Class)",22
 1983-07-22,1983,07,22,July,Summer,Mobile,AL,"Mobile, AL",5
 1983-07-23,1983,07,23,July,Summer,Birmingham,AL,"Birmingham, AL",9
 1983-07-23,1983,07,23,July,Summer,Casper,WY,"Casper, WY",6
-1983-07-23,1983,07,23,July,Summer,DeKalb,IL,"DeKalb, IL",34
-1983-07-23,1983,07,23,July,Summer,Lynn,MA,"Lynn, MA",30
+1983-07-23,1983,07,23,July,Summer,DeKalb,IL,"DCM Prelims",24
+1983-07-23,1983,07,23,July,Summer,DeKalb,IL,"DCM Finals",10
+1983-07-23,1983,07,23,July,Summer,Lynn,MA,"DCE Prelims (Open Class)",20
+1983-07-23,1983,07,23,July,Summer,Lynn,MA,"DCE Finals (Open Class)",10
 1983-07-24,1983,07,24,July,Summer,Bayonne,NJ,"Bayonne, NJ",7
 1983-07-24,1983,07,24,July,Summer,Dolton,IL,"Dolton, IL",5
 1983-07-24,1983,07,24,July,Summer,Fox Lake,IL,"Fox Lake, IL",9
@@ -2533,10 +2562,11 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1983-07-27,1983,07,27,July,Summer,Minneapolis,MN,"Minneapolis, MN",6
 1983-07-28,1983,07,28,July,Summer,Stillwater,MN,"Stillwater, MN",7
 1983-07-29,1983,07,29,July,Summer,Madison,WI,"Madison, WI",6
-1983-07-29,1983,07,29,July,Summer,Whitewater,WI,"Whitewater, WI",18
+1983-07-29,1983,07,29,July,Summer,Whitewater,WI,"DCI Midwest Championship Finals (A Class)",18
 1983-07-30,1983,07,30,July,Summer,Rochester,NY,"Rochester, NY",10
 1983-07-30,1983,07,30,July,Summer,Toms River,NJ,"Toms River, NJ",2
-1983-07-30,1983,07,30,July,Summer,Whitewater,WI,"Whitewater, WI",37
+1983-07-30,1983,07,30,July,Summer,Whitewater,WI,"DCI Midwest Championship Prelims (Open Class)",25
+1983-07-30,1983,07,30,July,Summer,Whitewater,WI,"DCI Midwest Championship Finals (Open Class)",12
 1983-07-31,1983,07,31,July,Summer,Hasbrouck Heights,NJ,"Hasbrouck Heights, NJ",4
 1983-07-31,1983,07,31,July,Summer,Horicon,WI,"Horicon, WI",7
 1983-07-31,1983,07,31,July,Summer,Michigan City,IN,"Michigan City, IN",18
@@ -2547,7 +2577,8 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1983-08-02,1983,08,02,August,Summer,Cincinnati,OH,"Cincinnati, OH",6
 1983-08-02,1983,08,02,August,Summer,Springfield,MO,"Springfield, MO",6
 1983-08-02,1983,08,02,August,Summer,Toledo,OH,"Toledo, OH",21
-1983-08-03,1983,08,03,August,Summer,Marion,OH,"Marion, OH",20
+1983-08-03,1983,08,03,August,Summer,Marion,OH,"U.S. Open Prelims",10
+1983-08-03,1983,08,03,August,Summer,Marion,OH,"U.S. Open Finals",10
 1983-08-03,1983,08,03,August,Summer,Montreal,Quebec,"Montreal, Quebec",7
 1983-08-04,1983,08,04,August,Summer,Corning,NY,"Corning, NY",5
 1983-08-04,1983,08,04,August,Summer,Midland,PA,"Midland, PA",4
@@ -2556,13 +2587,14 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1983-08-05,1983,08,05,August,Summer,Dallas,TX,"Dallas, TX",6
 1983-08-05,1983,08,05,August,Summer,Huntington,WV,"Huntington, WV",6
 1983-08-05,1983,08,05,August,Summer,Pittsfield,MA,"Pittsfield, MA",7
-1983-08-06,1983,08,06,August,Summer,Butler,PA,"Butler, PA",20
+1983-08-06,1983,08,06,August,Summer,Butler,PA,"American International Prelims",10
+1983-08-06,1983,08,06,August,Summer,Butler,PA,"American International Finals",10
 1983-08-06,1983,08,06,August,Summer,Louisville,KY,"Louisville, KY",8
 1983-08-06,1983,08,06,August,Summer,Lynn,MA,"Lynn, MA",6
 1983-08-06,1983,08,06,August,Summer,New York City,NY,"New York City, NY",3
 1983-08-06,1983,08,06,August,Summer,Scranton,PA,"Scranton, PA",8
 1983-08-07,1983,08,07,August,Summer,Austin,TX,"Austin, TX",6
-1983-08-07,1983,08,07,August,Summer,Boston,MA,"Boston, MA",8
+1983-08-07,1983,08,07,August,Summer,Boston,MA,"CYO Nationals",8
 1983-08-07,1983,08,07,August,Summer,Evansville,IN,"Evansville, IN",6
 1983-08-07,1983,08,07,August,Summer,Grand Haven,MI,"Grand Haven, MI",8
 1983-08-07,1983,08,07,August,Summer,Ottawa,IL,"Ottawa, IL",6
@@ -2593,18 +2625,22 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1983-08-14,1983,08,14,August,Summer,Revere,MA,"Revere, MA",29
 1983-08-15,1983,08,15,August,Summer,Clearwater,FL,"Clearwater, FL",9
 1983-08-15,1983,08,15,August,Summer,Savannah,GA,"Savannah, GA",5
-1983-08-17,1983,08,17,August,Summer,Miami,FL,"Miami, FL",30
-1983-08-18,1983,08,18,August,Summer,Miami,FL,"Miami, FL",25
-1983-08-19,1983,08,19,August,Summer,Miami,FL,"Miami, FL",25
-1983-08-20,1983,08,20,August,Summer,Miami,FL,"Miami, FL",12
+1983-08-17,1983,08,17,August,Summer,New Orleans,LA,"VFW National Finals",7
+1983-08-17,1983,08,17,August,Summer,Miami,FL,"DCI A Class World Championship Finals",10
+1983-08-17,1983,08,17,August,Summer,Miami,FL,"DCI Open Class World Championship Prelims",30
+1983-08-18,1983,08,18,August,Summer,Miami,FL,"DCI Open Class World Championship Quarterfinals",25
+1983-08-19,1983,08,19,August,Summer,Miami,FL,"DCI Open Class World Championship Semifinals",25
+1983-08-20,1983,08,20,August,Summer,Miami,FL,"DCI Open Class World Championship Finals",12
 1983-08-20,1983,08,20,August,Summer,New London,CT,"New London, CT",5
 1983-08-21,1983,08,21,August,Summer,Medway,MA,"Medway, MA",15
 1983-08-27,1983,08,27,August,Summer,Ancienne Lorette,Quebec,"Ancienne Lorette, Quebec",13
 1983-08-27,1983,08,27,August,Summer,Bridgeport,CT,"Bridgeport, CT",7
 1983-08-27,1983,08,27,August,Summer,Mount Vernon,NY,"Mount Vernon, NY",6
-1983-08-27,1983,08,27,August,Summer,Towson,MD,"Towson, MD",6
-1983-08-27,1983,08,27,August,Summer,Waterloo,Ontario,"Waterloo, Ontario",17
-1983-09-04,1983,09,04,September,Fall,Allentown,PA,"Allentown, PA",26
+1983-08-27,1983,08,27,August,Summer,Towson,MD,"ICA Championships",6
+1983-08-27,1983,08,27,August,Summer,Waterloo,Ontario,"Canadian National Championship Prelims",6
+1983-08-27,1983,08,27,August,Summer,Waterloo,Ontario,"Canadian National Championship Finals",11
+1983-09-04,1983,09,04,September,Fall,Allentown,PA,"DCA Open Class World Championship Prelims",16
+1983-09-04,1983,09,04,September,Fall,Allentown,PA,"DCA Open Class World Championship Finals",10
 1984-06-02,1984,06,02,June,Summer,Bloomfield,NJ,"Bloomfield, NJ",5
 1984-06-02,1984,06,02,June,Summer,Harvard,IL,"Harvard, IL",5
 1984-06-03,1984,06,03,June,Summer,Manitowoc,WI,"Manitowoc, WI",5
@@ -2660,11 +2696,12 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1984-07-04,1984,07,04,July,Summer,Champaign,IL,"Champaign, IL",4
 1984-07-04,1984,07,04,July,Summer,New Berlin,WI,"New Berlin, WI",6
 1984-07-04,1984,07,04,July,Summer,Pittsfield,MA,"Pittsfield, MA",9
-1984-07-05,1984,07,05,July,Summer,Boston,MA,"Boston, MA",9
+1984-07-05,1984,07,05,July,Summer,Boston,MA,"CYO Nationals",9
 1984-07-06,1984,07,06,July,Summer,Bayonne,NJ,"Bayonne, NJ",6
 1984-07-06,1984,07,06,July,Summer,Concord,CA,"Concord, CA",7
 1984-07-06,1984,07,06,July,Summer,Green Bay,WI,"Green Bay, WI",6
-1984-07-07,1984,07,07,July,Summer,Allentown,PA,"Allentown, PA",27
+1984-07-07,1984,07,07,July,Summer,Allentown,PA,"DCE Championship Prelims",17
+1984-07-07,1984,07,07,July,Summer,Allentown,PA,"DCE Championship Finals",10
 1984-07-07,1984,07,07,July,Summer,Hempstead,NY,"Hempstead, NY",5
 1984-07-07,1984,07,07,July,Summer,Santa Clara,CA,"Santa Clara, CA",9
 1984-07-07,1984,07,07,July,Summer,Tacoma,WA,"Tacoma, WA",7
@@ -2703,7 +2740,7 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1984-07-26,1984,07,26,July,Summer,Kansas City,KS,"Kansas City, KS",6
 1984-07-28,1984,07,28,July,Summer,Birmingham,AL,"Birmingham, AL",6
 1984-07-28,1984,07,28,July,Summer,Clearwater,FL,"Clearwater, FL",5
-1984-07-28,1984,07,28,July,Summer,Denver,CO,"Denver, CO",11
+1984-07-28,1984,07,28,July,Summer,Denver,CO,"Drums Along the Rockies",11
 1984-07-28,1984,07,28,July,Summer,Lewisburg,PA,"Lewisburg, PA",5
 1984-07-28,1984,07,28,July,Summer,Sheffield,PA,"Sheffield, PA",6
 1984-07-28,1984,07,28,July,Summer,Torrington,CT,"Torrington, CT",6
@@ -2730,12 +2767,14 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1984-08-04,1984,08,04,August,Summer,Fort Edward,NY,"Fort Edward, NY",4
 1984-08-04,1984,08,04,August,Summer,Scranton,PA,"Scranton, PA",9
 1984-08-04,1984,08,04,August,Summer,Sherbrooke,Quebec,"Sherbrooke, Quebec",7
-1984-08-04,1984,08,04,August,Summer,Whitewater,WI,"Whitewater, WI",43
+1984-08-04,1984,08,04,August,Summer,Whitewater,WI,"DCI Midwest Championship Prelims",31
+1984-08-04,1984,08,04,August,Summer,Whitewater,WI,"DCI Midwest Championship Finals",12
 1984-08-05,1984,08,05,August,Summer,Madison,WI,"Madison, WI",6
 1984-08-05,1984,08,05,August,Summer,Michigan City,IN,"Michigan City, IN",8
 1984-08-05,1984,08,05,August,Summer,Ottawa,IL,"Ottawa, IL",6
 1984-08-06,1984,08,06,August,Summer,Alton,IL,"Alton, IL",6
-1984-08-07,1984,08,07,August,Summer,Butler,PA,"Butler, PA",51
+1984-08-07,1984,08,07,August,Summer,Butler,PA,"American International Prelims",31
+1984-08-07,1984,08,07,August,Summer,Butler,PA,"American International Finals",20
 1984-08-07,1984,08,07,August,Summer,Montreal,Quebec,"Montreal, Quebec",5
 1984-08-07,1984,08,07,August,Summer,Springfield,MO,"Springfield, MO",7
 1984-08-07,1984,08,07,August,Summer,Toledo,OH,"Toledo, OH",26
@@ -2754,19 +2793,19 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1984-08-11,1984,08,11,August,Summer,Quebec City,Quebec,"Quebec City, Quebec",8
 1984-08-11,1984,08,11,August,Summer,Ste. Brigade,Quebec,"Ste. Brigade, Quebec",8
 1984-08-11,1984,08,11,August,Summer,Wakefield,MA,"Wakefield, MA",8
-1984-08-12,1984,08,12,August,Summer,Abingdon,WV,"Abingdon, WV",5
-1984-08-12,1984,08,12,August,Summer,Cary,NC,"Cary, NC",8
-1984-08-12,1984,08,12,August,Summer,Houston,TX,"Houston, TX",6
+1984-08-12,1984,08,12,August,Summer,Abingdon,WV,"DCI Abingdon",5
+1984-08-12,1984,08,12,August,Summer,Cary,NC,"DCI Cary",8
+1984-08-12,1984,08,12,August,Summer,Houston,TX,"DCI Houston",6
 1984-08-12,1984,08,12,August,Summer,Victoriaville,Quebec,"Victoriaville, Quebec",10
-1984-08-13,1984,08,13,August,Summer,Atlanta,GA,"Atlanta, GA",25
-1984-08-13,1984,08,13,August,Summer,Columbia,SC,"Columbia, SC",6
-1984-08-13,1984,08,13,August,Summer,Sevierville,TN,"Sevierville, TN",7
-1984-08-13,1984,08,13,August,Summer,Shreveport,LA,"Shreveport, LA",5
-1984-08-14,1984,08,14,August,Summer,Atlanta,GA,"Atlanta, GA",8
-1984-08-15,1984,08,15,August,Summer,Atlanta,GA,"Atlanta, GA",27
-1984-08-16,1984,08,16,August,Summer,Atlanta,GA,"Atlanta, GA",25
-1984-08-17,1984,08,17,August,Summer,Atlanta,GA,"Atlanta, GA",25
-1984-08-18,1984,08,18,August,Summer,Atlanta,GA,"Atlanta, GA",12
+1984-08-13,1984,08,13,August,Summer,Atlanta,GA,"DCI A Class World Championship Prelims",25
+1984-08-13,1984,08,13,August,Summer,Columbia,SC,"DCI Columbia, SC",6
+1984-08-13,1984,08,13,August,Summer,Sevierville,TN,"DCI Sevierville",7
+1984-08-13,1984,08,13,August,Summer,Shreveport,LA,"DCI Shreveport",5
+1984-08-14,1984,08,14,August,Summer,Atlanta,GA,"DCI A Class World Championship Finals",8
+1984-08-15,1984,08,15,August,Summer,Atlanta,GA,"DCI Open Class World Championship Prelims",27
+1984-08-16,1984,08,16,August,Summer,Atlanta,GA,"DCI Open Class World Championship Quarterfinals",25
+1984-08-17,1984,08,17,August,Summer,Atlanta,GA,"DCI Open Class World Championship Semifinals",25
+1984-08-18,1984,08,18,August,Summer,Atlanta,GA,"DCI Open Class World Championship Finals",12
 1984-08-18,1984,08,18,August,Summer,Montreal,Quebec,"Montreal, Quebec",9
 1984-08-18,1984,08,18,August,Summer,Westminster,MD,"Westminster, MD",5
 1984-08-19,1984,08,19,August,Summer,Queens,NY,"Queens, NY",3
@@ -2797,7 +2836,7 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1985-06-21,1985,06,21,June,Summer,Waterbury,CT,"Waterbury, CT",5
 1985-06-22,1985,06,22,June,Summer,Berea,OH,"Berea, OH",7
 1985-06-22,1985,06,22,June,Summer,Cerritos,CA,"Cerritos, CA",6
-1985-06-22,1985,06,22,June,Summer,Des Plaines,IL,"Des Plaines, IL",5
+1985-06-22,1985,06,22,June,Summer,Des Plaines,IL,"Illinois VFW State Championships",5
 1985-06-23,1985,06,23,June,Summer,Cedar Rapids,IA,"Cedar Rapids, IA",6
 1985-06-23,1985,06,23,June,Summer,Marion,OH,"Marion, OH",6
 1985-06-23,1985,06,23,June,Summer,Palatine,IL,"Palatine, IL",8
@@ -2925,11 +2964,12 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1985-07-31,1985,07,31,July,Summer,Jeffersonville,IN,"Jeffersonville, IN",8
 1985-08-01,1985,08,01,August,Summer,Dayton,OH,"Dayton, OH",6
 1985-08-01,1985,08,01,August,Summer,Lansdale,PA,"Lansdale, PA",7
-1985-08-02,1985,08,02,August,Summer,Allentown,PA,"Allentown, PA",13
+1985-08-02,1985,08,02,August,Summer,Allentown,PA,"DCI East Championship Finals (A/A-60 Class)",13
 1985-08-02,1985,08,02,August,Summer,Bayonne,NJ,"Bayonne, NJ",6
 1985-08-02,1985,08,02,August,Summer,Canton,OH,"Canton, OH",9
 1985-08-02,1985,08,02,August,Summer,Grand Haven,MI,"Grand Haven, MI",7
-1985-08-03,1985,08,03,August,Summer,Allentown,PA,"Allentown, PA",38
+1985-08-03,1985,08,03,August,Summer,Allentown,PA,"DCI East Championship Prelims (Open Class)",26
+1985-08-03,1985,08,03,August,Summer,Allentown,PA,"DCI East Championship Finals (Open Class)",12
 1985-08-03,1985,08,03,August,Summer,Bridgeport,CT,"Bridgeport, CT",6
 1985-08-03,1985,08,03,August,Summer,Huntington,PA,"Huntington, PA",4
 1985-08-03,1985,08,03,August,Summer,Sheffield,PA,"Sheffield, PA",4
@@ -2960,24 +3000,27 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1985-08-10,1985,08,10,August,Summer,Winona,MN,"Winona, MN",7
 1985-08-11,1985,08,11,August,Summer,Cedarburg,WI,"Cedarburg, WI",8
 1985-08-11,1985,08,11,August,Summer,Port Huron,MI,"Port Huron, MI",9
-1985-08-11,1985,08,11,August,Summer,Springfield,IL,"Springfield, IL",11
+1985-08-11,1985,08,11,August,Summer,Springfield,IL,"VFW Springfield, IL",11
 1985-08-11,1985,08,11,August,Summer,Toledo,OH,"Toledo, OH",11
 1985-08-12,1985,08,12,August,Summer,Bloomington,IN,"Bloomington, IN",7
-1985-08-12,1985,08,12,August,Summer,Davenport,IA,"Davenport, IA",5
-1985-08-12,1985,08,12,August,Summer,Madison,WI,"Madison, WI",15
-1985-08-12,1985,08,12,August,Summer,Rockford,IL,"Rockford, IL",6
-1985-08-13,1985,08,13,August,Summer,Madison,WI,"Madison, WI",31
-1985-08-14,1985,08,14,August,Summer,Madison,WI,"Madison, WI",15
-1985-08-15,1985,08,15,August,Summer,Madison,WI,"Madison, WI",25
-1985-08-16,1985,08,16,August,Summer,Madison,WI,"Madison, WI",26
-1985-08-17,1985,08,17,August,Summer,Madison,WI,"Madison, WI",12
-1985-08-17,1985,08,17,August,Summer,Scranton,PA,"Scranton, PA",7
-1985-08-17,1985,08,17,August,Summer,Williamsport,PA,"Williamsport, PA",7
-1985-08-24,1985,08,24,August,Summer,Montclair,NJ,"Montclair, NJ",8
-1985-08-24,1985,08,24,August,Summer,Montreal,Quebec,"Montreal, Quebec",27
-1985-08-24,1985,08,24,August,Summer,Scranton,PA,"Scranton, PA",8
-1985-08-24,1985,08,24,August,Summer,Waterloo,Ontario,"Waterloo, Ontario",8
-1985-09-01,1985,09,01,September,Fall,Allentown,PA,"Allentown, PA",27
+1985-08-12,1985,08,12,August,Summer,Davenport,IA,"DCI Davenport",5
+1985-08-12,1985,08,12,August,Summer,Madison,WI,"DCI A Class World Championship Prelims",15
+1985-08-12,1985,08,12,August,Summer,Rockford,IL,"DCI Rockford, IL",6
+1985-08-13,1985,08,13,August,Summer,Madison,WI,"DCI A-60 Class World Championship Prelims",19
+1985-08-13,1985,08,13,August,Summer,Madison,WI,"DCI A/A-60 Class World Championship Finals",12
+1985-08-14,1985,08,14,August,Summer,Madison,WI,"DCI Open Class World Championship Prelims",15
+1985-08-15,1985,08,15,August,Summer,Madison,WI,"DCI Open Class World Championship Quarterfinals",25
+1985-08-16,1985,08,16,August,Summer,Madison,WI,"DCI Open Class World Championship Semifinals",26
+1985-08-17,1985,08,17,August,Summer,Madison,WI,"DCI Open Class World Championship Finals",12
+1985-08-17,1985,08,17,August,Summer,Scranton,PA,"DCA Scranton",7
+1985-08-17,1985,08,17,August,Summer,Williamsport,PA,"DCA Williamsport",7
+1985-08-24,1985,08,24,August,Summer,Montclair,NJ,"DCA Montclair",8
+1985-08-24,1985,08,24,August,Summer,Montreal,Quebec,"FAMQ Championship Prelims",17
+1985-08-24,1985,08,24,August,Summer,Montreal,Quebec,"FAMQ Championship Finals",10
+1985-08-24,1985,08,24,August,Summer,Scranton,PA,"RCA Championships",8
+1985-08-24,1985,08,24,August,Summer,Waterloo,Ontario,"Canadian National Championships",8
+1985-09-01,1985,09,01,September,Fall,Allentown,PA,"DCA Open Class World Championship Prelims",17
+1985-09-01,1985,09,01,September,Fall,Allentown,PA,"DCA Open Class World Championship Finals",10
 1986-06-07,1986,06,07,June,Summer,Wheaton,IL,"Wheaton, IL",6
 1986-06-08,1986,06,08,June,Summer,Janesville,WI,"Janesville, WI",7
 1986-06-14,1986,06,14,June,Summer,Fairfield,ME,"Fairfield, ME",17
@@ -3140,35 +3183,39 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1986-08-07,1986,08,07,August,Summer,Evansville,IN,"Evansville, IN",7
 1986-08-07,1986,08,07,August,Summer,Springfield,MO,"Springfield, MO",7
 1986-08-08,1986,08,08,August,Summer,Des Plaines,IL,"Des Plaines, IL",7
-1986-08-08,1986,08,08,August,Summer,Marion,OH,"Marion, OH",27
+1986-08-08,1986,08,08,August,Summer,Marion,OH,"U.S. Open Prelims (A/A-60 Class)",17
+1986-08-08,1986,08,08,August,Summer,Marion,OH,"U.S. Open Finals (A/A-60 Class)",10
 1986-08-09,1986,08,09,August,Summer,Ankeny,IA,"Ankeny, IA",6
 1986-08-09,1986,08,09,August,Summer,Dorian,Quebec,"Dorian, Quebec",7
-1986-08-09,1986,08,09,August,Summer,Marion,OH,"Marion, OH",23
+1986-08-09,1986,08,09,August,Summer,Marion,OH,"U.S. Open Prelims (Open Class)",13
+1986-08-09,1986,08,09,August,Summer,Marion,OH,"U.S. Open Finals (Open Class)",10
 1986-08-09,1986,08,09,August,Summer,Momence,IL,"Momence, IL",8
-1986-08-09,1986,08,09,August,Summer,Scranton,PA,"Scranton, PA",10
-1986-08-09,1986,08,09,August,Summer,Whitewater,WI,"Whitewater, WI",25
+1986-08-09,1986,08,09,August,Summer,Scranton,PA,"DCA Scranton",10
+1986-08-09,1986,08,09,August,Summer,Whitewater,WI,"DCI Midwest Championships",25
 1986-08-10,1986,08,10,August,Summer,Crystal Falls,WI,"Crystal Falls, WI",5
 1986-08-10,1986,08,10,August,Summer,Port Huron,MI,"Port Huron, MI",9
 1986-08-10,1986,08,10,August,Summer,Sioux City,IA,"Sioux City, IA",5
 1986-08-10,1986,08,10,August,Summer,Springfield,IL,"Springfield, IL",6
 1986-08-10,1986,08,10,August,Summer,Stillwater,MN,"Stillwater, MN",6
-1986-08-11,1986,08,11,August,Summer,Fort Wayne,IN,"Fort Wayne, IN",8
-1986-08-11,1986,08,11,August,Summer,Minneapolis,MN,"Minneapolis, MN",7
-1986-08-11,1986,08,11,August,Summer,Rockford,IL,"Rockford, IL",7
-1986-08-12,1986,08,12,August,Summer,Madison,WI,"Madison, WI",33
-1986-08-13,1986,08,13,August,Summer,Madison,WI,"Madison, WI",12
-1986-08-14,1986,08,14,August,Summer,Madison,WI,"Madison, WI",24
-1986-08-15,1986,08,15,August,Summer,Madison,WI,"Madison, WI",26
+1986-08-11,1986,08,11,August,Summer,Fort Wayne,IN,"DCI Fort Wayne",8
+1986-08-11,1986,08,11,August,Summer,Minneapolis,MN,"DCI Minneapolis",7
+1986-08-11,1986,08,11,August,Summer,Rockford,IL,"DCI Rockford",7
+1986-08-12,1986,08,12,August,Summer,Madison,WI,"DCI A Class World Championship Prelims",13
+1986-08-12,1986,08,12,August,Summer,Madison,WI,"DCI A-60 Class World Championship Prelims",20
+1986-08-13,1986,08,13,August,Summer,Madison,WI,"DCI A/A-60 Class World Championship Finals",12
+1986-08-14,1986,08,14,August,Summer,Madison,WI,"DCI Open Class World Championship Prelims",24
+1986-08-15,1986,08,15,August,Summer,Madison,WI,"DCI Open Class World Championship Semifinals",26
 1986-08-16,1986,08,16,August,Summer,Bennington,VT,"Bennington, VT",6
 1986-08-16,1986,08,16,August,Summer,La Bale,Quebec,"La Bale, Quebec",9
-1986-08-16,1986,08,16,August,Summer,Madison,WI,"Madison, WI",12
+1986-08-16,1986,08,16,August,Summer,Madison,WI,"DCI Open Class World Championship Finals",12
 1986-08-16,1986,08,16,August,Summer,Williamsport,PA,"Williamsport, PA",4
 1986-08-17,1986,08,17,August,Summer,Jonquiere,Quebec,"Jonquiere, Quebec",9
 1986-08-17,1986,08,17,August,Summer,Lee,MA,"Lee, MA",6
 1986-08-23,1986,08,23,August,Summer,Bridgeport,CT,"Bridgeport, CT",5
 1986-08-23,1986,08,23,August,Summer,Montreal,Quebec,"Montreal, Quebec",21
 1986-08-23,1986,08,23,August,Summer,Oshawa,Ontario,"Oshawa, Ontario",25
-1986-08-31,1986,08,31,August,Summer,Allentown,PA,"Allentown, PA",29
+1986-08-31,1986,08,31,August,Summer,Allentown,PA,"DCA Open Class World Championship Prelims",18
+1986-08-31,1986,08,31,August,Summer,Allentown,PA,"DCA Open Class World Championship Finals",11
 1987-06-06,1987,06,06,June,Summer,Wheaton,IL,"Wheaton, IL",6
 1987-06-07,1987,06,07,June,Summer,Janesville,WI,"Janesville, WI",6
 1987-06-11,1987,06,11,June,Summer,Peterborough,Ontario,"Peterborough, Ontario",6
@@ -3307,47 +3354,47 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1987-08-01,1987,08,01,August,Summer,Birmingham,AL,"Birmingham, AL",19
 1987-08-01,1987,08,01,August,Summer,Pittsburgh,PA,"Pittsburgh, PA",6
 1987-08-01,1987,08,01,August,Summer,Sherbrooke,Quebec,"Sherbrooke, Quebec",9
-1987-08-02,1987,08,02,August,Summer,"St-Georges
-  de Beauce",Quebec,"St-Georges
-  de Beauce, Quebec",8
+1987-08-02,1987,08,02,August,Summer,"St-Georges de Beauce",Quebec,"St-Georges de Beauce, Quebec",8
 1987-08-03,1987,08,03,August,Summer,Garfield,NJ,"Garfield, NJ",7
 1987-08-03,1987,08,03,August,Summer,Jonesboro,AR,"Jonesboro, AR",6
 1987-08-03,1987,08,03,August,Summer,Sevierville,TN,"Sevierville, TN",7
 1987-08-04,1987,08,04,August,Summer,West Chester,PA,"West Chester, PA",8
-1987-08-05,1987,08,05,August,Summer,Butler,PA,"Butler, PA",23
+1987-08-05,1987,08,05,August,Summer,Butler,PA,"American International Prelims",10
+1987-08-05,1987,08,05,August,Summer,Butler,PA,"American International Finals",13
 1987-08-05,1987,08,05,August,Summer,Lexington,KY,"Lexington, KY",6
 1987-08-06,1987,08,06,August,Summer,Bloomington,IN,"Bloomington, IN",7
 1987-08-06,1987,08,06,August,Summer,Huntington,WV,"Huntington, WV",5
 1987-08-06,1987,08,06,August,Summer,Niles,OH,"Niles, OH",3
 1987-08-06,1987,08,06,August,Summer,Toledo,OH,"Toledo, OH",9
 1987-08-07,1987,08,07,August,Summer,Dayton,OH,"Dayton, OH",8
-1987-08-07,1987,08,07,August,Summer,Des Plaines,IL,"Des Plaines, IL",6
-1987-08-08,1987,08,08,August,Summer,Jamestown,NY,"Jamestown, NY",6
-1987-08-08,1987,08,08,August,Summer,Marion,OH,"Marion, OH",34
-1987-08-08,1987,08,08,August,Summer,Saint Louis,MO,"Saint Louis, MO",13
-1987-08-08,1987,08,08,August,Summer,Scranton,PA,"Scranton, PA",7
-1987-08-09,1987,08,09,August,Summer,Ankeny,IA,"Ankeny, IA",6
-1987-08-10,1987,08,10,August,Summer,Madison,WI,"Madison, WI",36
+1987-08-07,1987,08,07,August,Summer,Des Plaines,IL,"DCI Des Plaines",6
+1987-08-08,1987,08,08,August,Summer,Jamestown,NY,"DCA Jamestown",6
+1987-08-08,1987,08,08,August,Summer,Marion,OH,"U.S. Open Prelims",14
+1987-08-08,1987,08,08,August,Summer,Marion,OH,"U.S. Open Finals",20
+1987-08-08,1987,08,08,August,Summer,Saint Louis,MO,"DCI Midwest Championships",13
+1987-08-08,1987,08,08,August,Summer,Scranton,PA,"DCA Scranton",7
+1987-08-09,1987,08,09,August,Summer,Ankeny,IA,"DCI Ankeny",6
+1987-08-10,1987,08,10,August,Summer,Madison,WI,"DCI A/A-60 Class World Championship Prelims",36
 1987-08-10,1987,08,10,August,Summer,Minneapolis,MN,"Minneapolis, MN",6
-1987-08-10,1987,08,10,August,Summer,Port Huron,MI,"Port Huron, MI",10
-1987-08-11,1987,08,11,August,Summer,Madison,WI,"Madison, WI",12
-1987-08-11,1987,08,11,August,Summer,Stillwater,MN,"Stillwater, MN",6
-1987-08-13,1987,08,13,August,Summer,Madison,WI,"Madison, WI",24
-1987-08-14,1987,08,14,August,Summer,Madison,WI,"Madison, WI",25
-1987-08-15,1987,08,15,August,Summer,Madison,WI,"Madison, WI",12
+1987-08-10,1987,08,10,August,Summer,Port Huron,MI,"DCI Port Huron",10
+1987-08-11,1987,08,11,August,Summer,Madison,WI,"DCI A/A-60 Class World Championship Finals",12
+1987-08-11,1987,08,11,August,Summer,Stillwater,MN,"DCI Stillwater, MN",6
+1987-08-13,1987,08,13,August,Summer,Madison,WI,"DCI Open Class World Championship Prelims",24
+1987-08-14,1987,08,14,August,Summer,Madison,WI,"DCI Open Class World Championship Semifinals",25
+1987-08-15,1987,08,15,August,Summer,Madison,WI,"DCI Open Class World Championship Finals",12
 1987-08-15,1987,08,15,August,Summer,New Berlin,NY,"New Berlin, NY",7
 1987-08-16,1987,08,16,August,Summer,Canastota,NY,"Canastota, NY",7
 1987-08-21,1987,08,21,August,Summer,Keene,NH,"Keene, NH",8
-1987-08-22,1987,08,22,August,Summer,Hamilton,Ontario,"Hamilton, Ontario",7
+1987-08-22,1987,08,22,August,Summer,Hamilton,Ontario,"DCA Hamilton, Ontario",7
 1987-08-22,1987,08,22,August,Summer,Madison,WI,"Madison, WI",13
 1987-08-22,1987,08,22,August,Summer,Montreal,Quebec,"Montreal, Quebec",25
 1987-08-22,1987,08,22,August,Summer,Oshawa,Ontario,"Oshawa, Ontario",23
-1987-08-22,1987,08,22,August,Summer,Somerville,MA,"Somerville, MA",2
+1987-08-22,1987,08,22,August,Summer,Somerville,MA,"EMASS Championships",2
 1987-08-29,1987,08,29,August,Summer,Bridgeport,CT,"Bridgeport, CT",7
 1987-08-29,1987,08,29,August,Summer,Hagerstown,MD,"Hagerstown, MD",6
-1987-08-29,1987,08,29,August,Summer,Medina,NY,"Medina, NY",6
-1987-08-29,1987,08,29,August,Summer,Rockaway,NJ,"Rockaway, NJ",4
-1987-09-06,1987,09,06,September,Fall,Allentown,PA,"Allentown, PA",23
+1987-08-29,1987,08,29,August,Summer,Medina,NY,"DCA Medina",6
+1987-08-29,1987,08,29,August,Summer,Rockaway,NJ,"DCA Rockaway",4
+1987-09-06,1987,09,06,September,Fall,Allentown,PA,"DCA Open Class World Championship Finals",23
 1988-06-11,1988,06,11,June,Summer,Kitchner,Ontario,"Kitchner, Ontario",7
 1988-06-11,1988,06,11,June,Summer,Menasha,WI,"Menasha, WI",8
 1988-06-11,1988,06,11,June,Summer,Twin Oaks,MI,"Twin Oaks, MI",5
@@ -3493,34 +3540,36 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1988-08-08,1988,08,08,August,Summer,Vincent,OH,"Vincent, OH",7
 1988-08-08,1988,08,08,August,Summer,Winston-Salem,NC,"Winston-Salem, NC",6
 1988-08-09,1988,08,09,August,Summer,Charlotte,NC,"Charlotte, NC",6
-1988-08-10,1988,08,10,August,Summer,Bloomington,IN,"Bloomington, IN",7
-1988-08-10,1988,08,10,August,Summer,Houston,TX,"Houston, TX",6
-1988-08-10,1988,08,10,August,Summer,Springfield,MO,"Springfield, MO",6
-1988-08-11,1988,08,11,August,Summer,Dallas,TX,"Dallas, TX",8
-1988-08-11,1988,08,11,August,Summer,Huntington,WV,"Huntington, WV",6
-1988-08-12,1988,08,12,August,Summer,Dayton,OH,"Dayton, OH",8
-1988-08-12,1988,08,12,August,Summer,Des Plaines,IL,"Des Plaines, IL",7
-1988-08-12,1988,08,12,August,Summer,Great Bend,KS,"Great Bend, KS",5
-1988-08-12,1988,08,12,August,Summer,Wichita Falls,TX,"Wichita Falls, TX",6
-1988-08-13,1988,08,13,August,Summer,Marion,OH,"Marion, OH",21
-1988-08-13,1988,08,13,August,Summer,Saint Louis,MO,"Saint Louis, MO",7
-1988-08-13,1988,08,13,August,Summer,Scranton,PA,"Scranton, PA",10
-1988-08-13,1988,08,13,August,Summer,Tulsa,OK,"Tulsa, OK",7
-1988-08-14,1988,08,14,August,Summer,Joplin,MO,"Joplin, MO",7
-1988-08-14,1988,08,14,August,Summer,Kansas City,MO,"Kansas City, MO",16
-1988-08-14,1988,08,14,August,Summer,Toledo,OH,"Toledo, OH",8
-1988-08-15,1988,08,15,August,Summer,Kansas City,MO,"Kansas City, MO",36
-1988-08-15,1988,08,15,August,Summer,Omaha,NE,"Omaha, NE",7
-1988-08-15,1988,08,15,August,Summer,Wichita,KS,"Wichita, KS",6
-1988-08-18,1988,08,18,August,Summer,Kansas City,MO,"Kansas City, MO",20
-1988-08-19,1988,08,19,August,Summer,Kansas City,MO,"Kansas City, MO",26
-1988-08-20,1988,08,20,August,Summer,Kansas City,MO,"Kansas City, MO",12
+1988-08-10,1988,08,10,August,Summer,Bloomington,IN,"DCI Bloomington",7
+1988-08-10,1988,08,10,August,Summer,Houston,TX,"DCI Houston",6
+1988-08-10,1988,08,10,August,Summer,Springfield,MO,"DCI Springfield",6
+1988-08-11,1988,08,11,August,Summer,Dallas,TX,"DCI Dallas",8
+1988-08-11,1988,08,11,August,Summer,Huntington,WV,"DCI Huntington",6
+1988-08-12,1988,08,12,August,Summer,Dayton,OH,"DCI Dayton",8
+1988-08-12,1988,08,12,August,Summer,Des Plaines,IL,"DCI Des Plaines",7
+1988-08-12,1988,08,12,August,Summer,Great Bend,KS,"DCI Great Bend",5
+1988-08-12,1988,08,12,August,Summer,Wichita Falls,TX,"DCI Wichita Falls",6
+1988-08-13,1988,08,13,August,Summer,Marion,OH,"U.S. Open Prelims",11
+1988-08-13,1988,08,13,August,Summer,Marion,OH,"U.S. Open Finals",10
+1988-08-13,1988,08,13,August,Summer,Saint Louis,MO,"DCI Mid-America Championships",7
+1988-08-13,1988,08,13,August,Summer,Scranton,PA,"DCA Scranton",10
+1988-08-13,1988,08,13,August,Summer,Tulsa,OK,"DCI Tulsa",7
+1988-08-14,1988,08,14,August,Summer,Joplin,MO,"DCI Joplin",7
+1988-08-14,1988,08,14,August,Summer,Kansas City,MO,"DCI A Class World Championship Prelims",16
+1988-08-14,1988,08,14,August,Summer,Toledo,OH,"DCI Toledo",8
+1988-08-15,1988,08,15,August,Summer,Kansas City,MO,"DCI A-60 Class World Championship Prelims",24
+1988-08-15,1988,08,15,August,Summer,Kansas City,MO,"DCI A/A-60 Class World Championship Finals",12
+1988-08-15,1988,08,15,August,Summer,Omaha,NE,"DCI Omaha",7
+1988-08-15,1988,08,15,August,Summer,Wichita,KS,"DCI Wichita",6
+1988-08-18,1988,08,18,August,Summer,Kansas City,MO,"DCI Open Class World Championship Prelims",20
+1988-08-19,1988,08,19,August,Summer,Kansas City,MO,"DCI Open Class World Championship Semifinals",26
+1988-08-20,1988,08,20,August,Summer,Kansas City,MO,"DCI Open Class World Championship Finals",12
 1988-08-27,1988,08,27,August,Summer,Hagerstown,MD,"Hagerstown, MD",5
 1988-08-27,1988,08,27,August,Summer,Montreal,Quebec,"Montreal, Quebec",38
 1988-08-27,1988,08,27,August,Summer,Scarborough,Ontario,"Scarborough, Ontario",13
-1988-09-04,1988,09,04,September,Fall,Hershey,PA,"Hershey, PA",18
-1988-09-05,1988,09,05,September,Fall,Hershey,PA,"Hershey, PA",10
-1988-09-09,1988,09,09,September,Fall,Columbus,OH,"Columbus, OH",8
+1988-09-04,1988,09,04,September,Fall,Hershey,PA,"DCA Open Class World Championship Prelims",18
+1988-09-05,1988,09,05,September,Fall,Hershey,PA,"DCA Open Class World Championship Finals",10
+1988-09-09,1988,08,09,August,Summer,Columbus,OH,"Columbus, OH",8
 1989-06-10,1989,06,10,June,Summer,Appleton,WI,"Appleton, WI",7
 1989-06-10,1989,06,10,June,Summer,Stony Creek,Ontario,"Stony Creek, Ontario",5
 1989-06-10,1989,06,10,June,Summer,Three Oaks,MI,"Three Oaks, MI",5
@@ -3712,21 +3761,22 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1989-08-13,1989,08,13,August,Summer,Normal,IL,"Normal, IL",6
 1989-08-13,1989,08,13,August,Summer,Sioux City,IA,"Sioux City, IA",5
 1989-08-13,1989,08,13,August,Summer,Sparta,IL,"Sparta, IL",8
-1989-08-14,1989,08,14,August,Summer,Kansas City,MO,"Kansas City, MO",23
+1989-08-14,1989,08,14,August,Summer,Kansas City,MO,"DCI A-60 Class World Championship Prelims",23
 1989-08-14,1989,08,14,August,Summer,Wichita,KS,"Wichita, KS",6
-1989-08-15,1989,08,15,August,Summer,Kansas City,MO,"Kansas City, MO",24
-1989-08-16,1989,08,16,August,Summer,Kansas City,MO,"Kansas City, MO",19
-1989-08-17,1989,08,17,August,Summer,Kansas City,MO,"Kansas City, MO",25
-1989-08-18,1989,08,18,August,Summer,Kansas City,MO,"Kansas City, MO",17
-1989-08-19,1989,08,19,August,Summer,Kansas City,MO,"Kansas City, MO",12
+1989-08-15,1989,08,15,August,Summer,Kansas City,MO,"DCI A Class World Championship Prelims",12
+1989-08-15,1989,08,15,August,Summer,Kansas City,MO,"DCI A/A-60 Class World Championship Finals",12
+1989-08-16,1989,08,16,August,Summer,Kansas City,MO,"DCI Open Class World Championship Prelims",19
+1989-08-17,1989,08,17,August,Summer,Kansas City,MO,"DCI Open Class World Championship Quarterfinals",25
+1989-08-18,1989,08,18,August,Summer,Kansas City,MO,"DCI Open Class World Championship Semifinals",17
+1989-08-19,1989,08,19,August,Summer,Kansas City,MO,"DCI Open Class World Championship Finals",12
 1989-08-26,1989,08,26,August,Summer,Carlisle,PA,"Carlisle, PA",5
 1989-08-26,1989,08,26,August,Summer,Derby,CT,"Derby, CT",7
 1989-08-26,1989,08,26,August,Summer,Leominster,MA,"Leominster, MA",11
 1989-08-26,1989,08,26,August,Summer,Montreal,Quebec,"Montreal, Quebec",21
 1989-08-26,1989,08,26,August,Summer,Scarborough,Ontario,"Scarborough, Ontario",13
 1989-08-27,1989,08,27,August,Summer,Medford,NY,"Medford, NY",6
-1989-09-02,1989,09,02,September,Fall,Allentown,PA,"Allentown, PA",18
-1989-09-03,1989,09,03,September,Fall,Allentown,PA,"Allentown, PA",10
+1989-09-02,1989,09,02,September,Fall,Allentown,PA,"DCA Open Class World Championship Prelims",18
+1989-09-03,1989,09,03,September,Fall,Allentown,PA,"DCA Open Class World Championship Finals",10
 1990-06-02,1990,06,02,June,Summer,Fairlawn,NJ,"Fairlawn, NJ",4
 1990-06-09,1990,06,09,June,Summer,Appleton,WI,"Appleton, WI",5
 1990-06-09,1990,06,09,June,Summer,Colonie,NY,"Colonie, NY",6
@@ -3935,18 +3985,20 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1990-08-12,1990,08,12,August,Summer,Hamilton,Ontario,"Hamilton, Ontario",9
 1990-08-12,1990,08,12,August,Summer,Hornell,NY,"Hornell, NY",6
 1990-08-12,1990,08,12,August,Summer,Levis,Quebec,"Levis, Quebec",7
-1990-08-13,1990,08,13,August,Summer,Buffalo,NY,"Buffalo, NY",42
-1990-08-14,1990,08,14,August,Summer,Buffalo,NY,"Buffalo, NY",12
-1990-08-15,1990,08,15,August,Summer,Buffalo,NY,"Buffalo, NY",22
-1990-08-16,1990,08,16,August,Summer,Buffalo,NY,"Buffalo, NY",25
-1990-08-17,1990,08,17,August,Summer,Buffalo,NY,"Buffalo, NY",34
-1990-08-18,1990,08,18,August,Summer,Buffalo,NY,"Buffalo, NY",12
+1990-08-13,1990,08,13,August,Summer,Buffalo,NY,"DCI A-60 Class World Championship Prelims",23
+1990-08-13,1990,08,13,August,Summer,Buffalo,NY,"DCI A Class World Championship Prelims",19
+1990-08-14,1990,08,14,August,Summer,Buffalo,NY,"DCI A/A-60 Class World Championship Finals",12
+1990-08-15,1990,08,15,August,Summer,Buffalo,NY,"DCI Open Class World Championship Prelims",22
+1990-08-16,1990,08,16,August,Summer,Buffalo,NY,"DCI Open Class World Championship Quarterfinals",25
+1990-08-17,1990,08,17,August,Summer,Buffalo,NY,"DCI Open Class World Championship Semifinals",17
+1990-08-18,1990,08,18,August,Summer,Buffalo,NY,"DCI Open Class World Championship Finals",12
 1990-08-25,1990,08,25,August,Summer,Clifton,NJ,"Clifton, NJ",9
 1990-08-25,1990,08,25,August,Summer,Columbia,PA,"Columbia, PA",6
 1990-08-25,1990,08,25,August,Summer,Montreal,Quebec,"Montreal, Quebec",16
 1990-08-26,1990,08,26,August,Summer,Derby,CT,"Derby, CT",8
 1990-08-26,1990,08,26,August,Summer,Medford,NY,"Medford, NY",4
-1990-09-02,1990,09,02,September,Fall,Allentown,PA,"Allentown, PA",27
+1990-09-02,1990,09,02,September,Fall,Allentown,PA,"DCA Open Class World Championship Prelims",17
+1990-09-02,1990,09,02,September,Fall,Allentown,PA,"DCA Open Class World Championship Finals",10
 1991-06-08,1991,06,08,June,Summer,Albany,NY,"Albany, NY",5
 1991-06-09,1991,06,09,June,Summer,West Bend,WI,"West Bend, WI",6
 1991-06-14,1991,06,14,June,Summer,Indianapolis,IN,"Indianapolis, IN",6
@@ -4145,14 +4197,15 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1991-08-11,1991,08,11,August,Summer,Lawrence,KS,"Lawrence, KS",6
 1991-08-11,1991,08,11,August,Summer,Natchitoches,LA,"Natchitoches, LA",7
 1991-08-11,1991,08,11,August,Summer,St. Jean,Quebec,"St. Jean, Quebec",18
-1991-08-12,1991,08,12,August,Summer,Dallas,TX,"Dallas, TX",14
+1991-08-12,1991,08,12,August,Summer,Dallas,TX,"DCI A-60 Class World Championship Prelims",14
 1991-08-12,1991,08,12,August,Summer,Houston,TX,"Houston, TX",6
 1991-08-12,1991,08,12,August,Summer,Little Rock,AR,"Little Rock, AR",6
-1991-08-13,1991,08,13,August,Summer,Dallas,TX,"Dallas, TX",32
-1991-08-15,1991,08,15,August,Summer,Dallas,TX,"Dallas, TX",29
-1991-08-16,1991,08,16,August,Summer,Dallas,TX,"Dallas, TX",17
+1991-08-13,1991,08,13,August,Summer,Dallas,TX,"DCI A Class World Championship Prelims",19
+1991-08-13,1991,08,13,August,Summer,Dallas,TX,"DCI A/A-60 Class World Championship Finals",13
+1991-08-15,1991,08,15,August,Summer,Dallas,TX,"DCI Open Class World Championship Prelims",29
+1991-08-16,1991,08,16,August,Summer,Dallas,TX,"DCI Open Class World Championship Semifinals",17
 1991-08-17,1991,08,17,August,Summer,Bennington,VT,"Bennington, VT",9
-1991-08-17,1991,08,17,August,Summer,Dallas,TX,"Dallas, TX",12
+1991-08-17,1991,08,17,August,Summer,Dallas,TX,"DCI Open Class World Championship Finals",12
 1991-08-17,1991,08,17,August,Summer,Hamilton,Ontario,"Hamilton, Ontario",4
 1991-08-17,1991,08,17,August,Summer,Reading,PA,"Reading, PA",7
 1991-08-24,1991,08,24,August,Summer,Columbia,PA,"Columbia, PA",6
@@ -4356,19 +4409,21 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1992-08-09,1992,08,09,August,Summer,South Milwaukee,WI,"South Milwaukee, WI",15
 1992-08-09,1992,08,09,August,Summer,Ypsilanti,MI,"Ypsilanti, MI",9
 1992-08-10,1992,08,10,August,Summer,Fort Wayne,IN,"Fort Wayne, IN",6
-1992-08-10,1992,08,10,August,Summer,Madison,WI,"Madison, WI",29
-1992-08-11,1992,08,11,August,Summer,Madison,WI,"Madison, WI",30
-1992-08-13,1992,08,13,August,Summer,Madison,WI,"Madison, WI",27
-1992-08-14,1992,08,14,August,Summer,Madison,WI,"Madison, WI",17
-1992-08-15,1992,08,15,August,Summer,Madison,WI,"Madison, WI",12
+1992-08-10,1992,08,10,August,Summer,Madison,WI,"DCI Division III World Championship Prelims",29
+1992-08-11,1992,08,11,August,Summer,Madison,WI,"DCI Division II World Championship Prelims",18
+1992-08-11,1992,08,11,August,Summer,Madison,WI,"DCI Division II/III World Championship Finals",12
+1992-08-13,1992,08,13,August,Summer,Madison,WI,"DCI Division I World Championship Prelims",27
+1992-08-14,1992,08,14,August,Summer,Madison,WI,"DCI Division I World Championship Semifinals",17
+1992-08-15,1992,08,15,August,Summer,Madison,WI,"DCI Division I World Championship Finals",12
 1992-08-22,1992,08,22,August,Summer,Clifton,NJ,"Clifton, NJ",7
 1992-08-22,1992,08,22,August,Summer,Montreal,Quebec,"Montreal, Quebec",17
 1992-08-22,1992,08,22,August,Summer,Oshawa,Ontario,"Oshawa, Ontario",15
-1992-08-22,1992,08,22,August,Summer,Reading,PA,"Reading, PA",7
-1992-08-23,1992,08,23,August,Summer,Hagerstown,MD,"Hagerstown, MD",5
-1992-08-29,1992,08,29,August,Summer,Ansonia,CT,"Ansonia, CT",7
-1992-08-29,1992,08,29,August,Summer,Millersville,PA,"Millersville, PA",6
-1992-09-02,1992,09,02,September,Fall,Allentown,PA,"Allentown, PA",28
+1992-08-22,1992,08,22,August,Summer,Reading,PA,"DCA Reading",7
+1992-08-23,1992,08,23,August,Summer,Hagerstown,MD,"DCA Hagerstown",5
+1992-08-29,1992,08,29,August,Summer,Ansonia,CT,"DCA Ansonia",7
+1992-08-29,1992,08,29,August,Summer,Millersville,PA,"DCA Millersville",6
+1992-09-02,1992,09,02,September,Fall,Allentown,PA,"DCA Open Class World Championship Prelims",16
+1992-09-02,1992,09,02,September,Fall,Allentown,PA,"DCA Open Class World Championship Finals",12
 1993-06-12,1993,06,12,June,Summer,Dublin,CA,"Dublin, CA",6
 1993-06-12,1993,06,12,June,Summer,Menasha,WI,"Menasha, WI",5
 1993-06-13,1993,06,13,June,Summer,Bayonne,NJ,"Bayonne, NJ",5
@@ -4570,16 +4625,17 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1993-08-15,1993,08,15,August,Summer,Algoma,WI,"Algoma, WI",5
 1993-08-15,1993,08,15,August,Summer,Houston,TX,"Houston, TX",12
 1993-08-15,1993,08,15,August,Summer,Springfield,IL,"Springfield, IL",8
-1993-08-16,1993,08,16,August,Summer,Jackson,MS,"Jackson, MS",21
-1993-08-17,1993,08,17,August,Summer,Jackson,MS,"Jackson, MS",27
-1993-08-19,1993,08,19,August,Summer,Jackson,MS,"Jackson, MS",29
-1993-08-20,1993,08,20,August,Summer,Jackson,MS,"Jackson, MS",17
-1993-08-21,1993,08,21,August,Summer,Jackson,MS,"Jackson, MS",12
+1993-08-16,1993,08,16,August,Summer,Jackson,MS,"DCI Division III World Championship Prelims",21
+1993-08-17,1993,08,17,August,Summer,Jackson,MS,"DCI Division II World Championship Prelims",15
+1993-08-17,1993,08,17,August,Summer,Jackson,MS,"DCI Division II/III World Championship Finals",12
+1993-08-19,1993,08,19,August,Summer,Jackson,MS,"DCI Division I World Championship Prelims",29
+1993-08-20,1993,08,20,August,Summer,Jackson,MS,"DCI Division I World Championship Semifinals",17
+1993-08-21,1993,08,21,August,Summer,Jackson,MS,"DCI Division I World Championship Finals",12
 1993-08-21,1993,08,21,August,Summer,Montreal,Quebec,"Montreal, Quebec",19
 1993-08-28,1993,08,28,August,Summer,Allentown,PA,"Allentown, PA",6
 1993-08-28,1993,08,28,August,Summer,Ansonia,CT,"Ansonia, CT",5
-1993-09-05,1993,09,05,September,Fall,Scranton,PA,"Scranton, PA",13
-1993-09-06,1993,09,06,September,Fall,Scranton,PA,"Scranton, PA",13
+1993-09-05,1993,09,05,September,Fall,Scranton,PA,"DCA Open Class World Championship Prelims",13
+1993-09-06,1993,09,06,September,Fall,Scranton,PA,"DCA Open Class World Championship Finals",13
 1994-06-10,1994,06,10,June,Summer,Malden,MA,"Malden, MA",6
 1994-06-11,1994,06,11,June,Summer,Menasha,WI,"Menasha, WI",7
 1994-06-12,1994,06,12,June,Summer,Madison,WI,"Madison, WI",7
@@ -4761,19 +4817,20 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1994-08-14,1994,08,14,August,Summer,Endicott,NY,"Endicott, NY",6
 1994-08-14,1994,08,14,August,Summer,Lynn,MA,"Lynn, MA",8
 1994-08-14,1994,08,14,August,Summer,Springfield,MO,"Springfield, MO",8
-1994-08-15,1994,08,15,August,Summer,Lowell,MA,"Lowell, MA",36
+1994-08-15,1994,08,15,August,Summer,Lowell,MA,"DCI Division III World Championship Prelims",36
 1994-08-15,1994,08,15,August,Summer,Pittsfield,MA,"Pittsfield, MA",7
 1994-08-15,1994,08,15,August,Summer,Rome,NY,"Rome, NY",8
-1994-08-16,1994,08,16,August,Summer,Lowell,MA,"Lowell, MA",30
-1994-08-18,1994,08,18,August,Summer,Foxboro,MA,"Foxboro, MA",16
-1994-08-19,1994,08,19,August,Summer,Foxboro,MA,"Foxboro, MA",17
-1994-08-20,1994,08,20,August,Summer,Foxboro,MA,"Foxboro, MA",12
+1994-08-16,1994,08,16,August,Summer,Lowell,MA,"DCI Division II World Championship Prelims",18
+1994-08-16,1994,08,16,August,Summer,Lowell,MA,"DCI Division II/III World Championship Finals",12
+1994-08-18,1994,08,18,August,Summer,Foxboro,MA,"DCI Division I World Championship Prelims",24
+1994-08-19,1994,08,19,August,Summer,Foxboro,MA,"DCI Division I World Championship Semifinals",17
+1994-08-20,1994,08,20,August,Summer,Foxboro,MA,"DCI Division I World Championship Finals",12
 1994-08-20,1994,08,20,August,Summer,Toronto,Ontario,"Toronto, Ontario",12
 1994-08-27,1994,08,27,August,Summer,Ansonia,CT,"Ansonia, CT",7
 1994-08-27,1994,08,27,August,Summer,Lachine,Quebec,"Lachine, Quebec",14
 1994-08-27,1994,08,27,August,Summer,Syracuse,NY,"Syracuse, NY",5
-1994-09-03,1994,09,03,September,Fall,Scranton,PA,"Scranton, PA",14
-1994-09-04,1994,09,04,September,Fall,Scranton,PA,"Scranton, PA",10
+1994-09-03,1994,09,03,September,Fall,Scranton,PA,"DCA Open Class World Championship Prelims",14
+1994-09-04,1994,09,04,September,Fall,Scranton,PA,"DCA Open Class World Championship Finals",10
 1995-06-10,1995,06,10,June,Summer,Burlington,MA,"Burlington, MA",6
 1995-06-10,1995,06,10,June,Summer,Menasha,WI,"Menasha, WI",6
 1995-06-15,1995,06,15,June,Summer,Rockford,IL,"Rockford, IL",6
@@ -4929,13 +4986,14 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1995-08-06,1995,08,06,August,Summer,Fort Wayne,IN,"Fort Wayne, IN",7
 1995-08-06,1995,08,06,August,Summer,Norwich,NY,"Norwich, NY",6
 1995-08-06,1995,08,06,August,Summer,Pittsburgh,PA,"Pittsburgh, PA",6
-1995-08-07,1995,08,07,August,Summer,Buffalo,NY,"Buffalo, NY",41
+1995-08-07,1995,08,07,August,Summer,Buffalo,NY,"DCI Division III World Championship Prelims",41
 1995-08-07,1995,08,07,August,Summer,Endicott,NY,"Endicott, NY",7
 1995-08-07,1995,08,07,August,Summer,Marion,OH,"Marion, OH",6
-1995-08-08,1995,08,08,August,Summer,Buffalo,NY,"Buffalo, NY",25
-1995-08-10,1995,08,10,August,Summer,Buffalo,NY,"Buffalo, NY",23
-1995-08-11,1995,08,11,August,Summer,Buffalo,NY,"Buffalo, NY",17
-1995-08-12,1995,08,12,August,Summer,Buffalo,NY,"Buffalo, NY",12
+1995-08-08,1995,08,08,August,Summer,Buffalo,NY,"DCI Division II World Championship Prelims",13
+1995-08-08,1995,08,08,August,Summer,Buffalo,NY,"DCI Division II/III World Championship Finals",12
+1995-08-10,1995,08,10,August,Summer,Buffalo,NY,"DCI Division I World Championship Prelims",23
+1995-08-11,1995,08,11,August,Summer,Buffalo,NY,"DCI Division I World Championship Semifinals",17
+1995-08-12,1995,08,12,August,Summer,Buffalo,NY,"DCI Division I World Championship Finals",12
 1995-08-19,1995,08,19,August,Summer,East Providence,RI,"East Providence, RI",6
 1995-08-19,1995,08,19,August,Summer,Joliette,Quebec,"Joliette, Quebec",11
 1995-08-19,1995,08,19,August,Summer,Syracuse,NY,"Syracuse, NY",7
@@ -4943,8 +5001,8 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1995-08-26,1995,08,26,August,Summer,Ansonia,CT,"Ansonia, CT",7
 1995-08-26,1995,08,26,August,Summer,Niagara Falls,NY,"Niagara Falls, NY",5
 1995-08-27,1995,08,27,August,Summer,Montreal,Quebec,"Montreal, Quebec",16
-1995-09-02,1995,09,02,September,Fall,Scranton,PA,"Scranton, PA",15
-1995-09-03,1995,09,03,September,Fall,Scranton,PA,"Scranton, PA",10
+1995-09-02,1995,09,02,September,Fall,Scranton,PA,"DCA Open Class World Championship Prelims",15
+1995-09-03,1995,09,03,September,Fall,Scranton,PA,"DCA Open Class World Championship Finals",10
 1996-06-15,1996,06,15,June,Summer,Burlington,Ontario,"Burlington, Ontario",4
 1996-06-15,1996,06,15,June,Summer,Fitchburg,MA,"Fitchburg, MA",8
 1996-06-15,1996,06,15,June,Summer,Jackson,NJ,"Jackson, NJ",7
@@ -5078,13 +5136,15 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1996-07-30,1996,07,30,July,Summer,Erie,PA,"Erie, PA",8
 1996-07-30,1996,07,30,July,Summer,Fairfield,OH,"Fairfield, OH",7
 1996-07-31,1996,07,31,July,Summer,Endicott,NY,"Endicott, NY",8
-1996-07-31,1996,07,31,July,Summer,Kitchener,Ontario,"Kitchener, Ontario",38
+1996-07-31,1996,07,31,July,Summer,Kitchener,Ontario,"Canadian Open Prelims",27
+1996-07-31,1996,07,31,July,Summer,Kitchener,Ontario,"Canadian Open Finals",11
 1996-07-31,1996,07,31,July,Summer,Massillon,OH,"Massillon, OH",7
 1996-07-31,1996,07,31,July,Summer,Montreal,Quebec,"Montreal, Quebec",7
 1996-08-01,1996,08,01,August,Summer,Rome,NY,"Rome, NY",9
 1996-08-02,1996,08,02,August,Summer,Allentown,PA,"Allentown, PA",10
 1996-08-02,1996,08,02,August,Summer,Batavia,NY,"Batavia, NY",9
-1996-08-02,1996,08,02,August,Summer,Grand Haven,MI,"Grand Haven, MI",28
+1996-08-02,1996,08,02,August,Summer,Grand Haven,MI,"US Coast Guard Open Prelims",18
+1996-08-02,1996,08,02,August,Summer,Grand Haven,MI,"US Coast Guard Open Finals",10
 1996-08-03,1996,08,03,August,Summer,Allentown,PA,"Allentown, PA",11
 1996-08-03,1996,08,03,August,Summer,East Providence,RI,"East Providence, RI",5
 1996-08-03,1996,08,03,August,Summer,Johnstown,NY,"Johnstown, NY",5
@@ -5106,7 +5166,8 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1996-08-07,1996,08,07,August,Summer,Winston-Salem,NC,"Winston-Salem, NC",7
 1996-08-08,1996,08,08,August,Summer,Centerville,OH,"Centerville, OH",8
 1996-08-08,1996,08,08,August,Summer,Huntington,WV,"Huntington, WV",8
-1996-08-08,1996,08,08,August,Summer,Nashville,TN,"Nashville, TN",39
+1996-08-08,1996,08,08,August,Summer,Nashville,TN,"North American Open Prelims",29
+1996-08-08,1996,08,08,August,Summer,Nashville,TN,"North American Open Finals",10
 1996-08-09,1996,08,09,August,Summer,Lyons,GA,"Lyons, GA",9
 1996-08-09,1996,08,09,August,Summer,Salem,VA,"Salem, VA",8
 1996-08-09,1996,08,09,August,Summer,Sevierville,TN,"Sevierville, TN",7
@@ -5117,12 +5178,12 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1996-08-10,1996,08,10,August,Summer,Ridgeway,CT,"Ridgeway, CT",5
 1996-08-11,1996,08,11,August,Summer,Columbia,SC,"Columbia, SC",8
 1996-08-11,1996,08,11,August,Summer,Springfield,IL,"Springfield, IL",7
-1996-08-12,1996,08,12,August,Summer,Orlando,FL,"Orlando, FL",44
+1996-08-12,1996,08,12,August,Summer,Orlando,FL,"DCI Division II/III World Championship Prelims",44
 1996-08-12,1996,08,12,August,Summer,Warner Robins,GA,"Warner Robins, GA",6
-1996-08-13,1996,08,13,August,Summer,Orlando,FL,"Orlando, FL",12
-1996-08-15,1996,08,15,August,Summer,Orlando,FL,"Orlando, FL",25
-1996-08-16,1996,08,16,August,Summer,Orlando,FL,"Orlando, FL",17
-1996-08-17,1996,08,17,August,Summer,Orlando,FL,"Orlando, FL",12
+1996-08-13,1996,08,13,August,Summer,Orlando,FL,"DCI Division II/III World Championship Finals",12
+1996-08-15,1996,08,15,August,Summer,Orlando,FL,"DCI Division I World Championship Prelims",25
+1996-08-16,1996,08,16,August,Summer,Orlando,FL,"DCI Division I World Championship Semifinals",17
+1996-08-17,1996,08,17,August,Summer,Orlando,FL,"DCI Division I World Championship Finals",12
 1996-08-17,1996,08,17,August,Summer,Saint Eustache,Quebec,"Saint Eustache, Quebec",7
 1996-08-17,1996,08,17,August,Summer,Scranton,PA,"Scranton, PA",6
 1996-08-18,1996,08,18,August,Summer,Sorel,Quebec,"Sorel, Quebec",8
@@ -5131,8 +5192,8 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1996-08-24,1996,08,24,August,Summer,Ansonia,CT,"Ansonia, CT",5
 1996-08-24,1996,08,24,August,Summer,Bayonne,NJ,"Bayonne, NJ",9
 1996-08-24,1996,08,24,August,Summer,Montreal,Quebec,"Montreal, Quebec",15
-1996-09-05,1996,09,05,September,Fall,Rochester,NY,"Rochester, NY",15
-1996-09-06,1996,09,06,September,Fall,Rochester,NY,"Rochester, NY",10
+1996-09-05,1996,09,05,September,Fall,Rochester,NY,"DCA Open Class World Championship Prelims",15
+1996-09-06,1996,09,06,September,Fall,Rochester,NY,"DCA Open Class World Championship Finals",10
 1997-06-07,1997,06,07,June,Summer,Medford,MA,"Medford, MA",7
 1997-06-13,1997,06,13,June,Summer,Oswego,IL,"Oswego, IL",7
 1997-06-14,1997,06,14,June,Summer,Fitchburg,MA,"Fitchburg, MA",9
@@ -5268,7 +5329,8 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1997-07-28,1997,07,28,July,Summer,Port Huron,MI,"Port Huron, MI",7
 1997-07-29,1997,07,29,July,Summer,Cincinnati,OH,"Cincinnati, OH",8
 1997-07-29,1997,07,29,July,Summer,Erie,PA,"Erie, PA",7
-1997-07-29,1997,07,29,July,Summer,Kitchner,Ontario,"Kitchner, Ontario",43
+1997-07-29,1997,07,29,July,Summer,Kitchner,Ontario,"Canadian Open Prelims",23
+1997-07-29,1997,07,29,July,Summer,Kitchner,Ontario,"Canadian Open Finals",10
 1997-07-29,1997,07,29,July,Summer,Montreal,Quebec,"Montreal, Quebec",6
 1997-07-30,1997,07,30,July,Summer,Canton,OH,"Canton, OH",8
 1997-07-30,1997,07,30,July,Summer,Hornell,NY,"Hornell, NY",8
@@ -5297,19 +5359,20 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1997-08-07,1997,08,07,August,Summer,Huntington,WV,"Huntington, WV",8
 1997-08-07,1997,08,07,August,Summer,Winston-Salem,NC,"Winston-Salem, NC",9
 1997-08-08,1997,08,08,August,Summer,Columbus,OH,"Columbus, OH",6
-1997-08-08,1997,08,08,August,Summer,Rocky Mount,NC,"Rocky Mount, NC",37
+1997-08-08,1997,08,08,August,Summer,Rocky Mount,NC,"North American Open Prelims",26
+1997-08-08,1997,08,08,August,Summer,Rocky Mount,NC,"North American Open Finals",11
 1997-08-09,1997,08,09,August,Summer,Charlotte,NC,"Charlotte, NC",15
 1997-08-09,1997,08,09,August,Summer,Orlando,FL,"Orlando, FL",35
 1997-08-09,1997,08,09,August,Summer,Ridgeway,PA,"Ridgeway, PA",5
 1997-08-09,1997,08,09,August,Summer,Rocky Mount,NC,"Rocky Mount, NC",9
 1997-08-09,1997,08,09,August,Summer,Scranton,PA,"Scranton, PA",8
 1997-08-10,1997,08,10,August,Summer,Clearwater,FL,"Clearwater, FL",8
-1997-08-11,1997,08,11,August,Summer,Orlando,FL,"Orlando, FL",9
-1997-08-12,1997,08,12,August,Summer,Orlando,FL,"Orlando, FL",12
-1997-08-14,1997,08,14,August,Summer,Orlando,FL,"Orlando, FL",26
-1997-08-15,1997,08,15,August,Summer,Orlando,FL,"Orlando, FL",17
+1997-08-11,1997,08,11,August,Summer,Orlando,FL,"DCI Division II/III World Championship Prelims",44
+1997-08-12,1997,08,12,August,Summer,Orlando,FL,"DCI Division II/III World Championship Finals",12
+1997-08-14,1997,08,14,August,Summer,Orlando,FL,"DCI Division I World Championship Prelims",26
+1997-08-15,1997,08,15,August,Summer,Orlando,FL,"DCI Division I World Championship Semifinals",17
 1997-08-16,1997,08,16,August,Summer,Kingston,NY,"Kingston, NY",15
-1997-08-16,1997,08,16,August,Summer,Orlando,FL,"Orlando, FL",12
+1997-08-16,1997,08,16,August,Summer,Orlando,FL,"DCI Division I World Championship Finals",12
 1997-08-23,1997,08,23,August,Summer,Ansonia,CT,"Ansonia, CT",6
 1997-08-23,1997,08,23,August,Summer,Syracuse,NY,"Syracuse, NY",7
 1997-08-24,1997,08,24,August,Summer,Bayonne,NJ,"Bayonne, NJ",13
@@ -5458,15 +5521,16 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1998-07-30,1998,07,30,July,Summer,Bowling Green,KY,"Bowling Green, KY",6
 1998-07-30,1998,07,30,July,Summer,Fort Wayne,IN,"Fort Wayne, IN",8
 1998-07-30,1998,07,30,July,Summer,Marion,OH,"Marion, OH",7
-1998-07-31,1998,07,31,July,Summer,Grand Haven,MI,"Grand Haven, MI",27
-1998-07-31,1998,07,31,July,Summer,Ypsilanti,MI,"Ypsilanti, MI",9
+1998-07-31,1998,07,31,July,Summer,Grand Haven,MI,"US Coast Guard Open Prelims",18
+1998-07-31,1998,07,31,July,Summer,Grand Haven,MI,"US Coast Guard Open Finals",9
+1998-07-31,1998,07,31,July,Summer,Ypsilanti,MI,"DCI Midwest Championships",9
 1998-08-01,1998,08,01,August,Summer,East Providence,RI,"East Providence, RI",6
-1998-08-01,1998,08,01,August,Summer,Leominster,MA,"Leominster, MA",7
+1998-08-01,1998,08,01,August,Summer,Leominster,MA,"	EMASS Championships",7
 1998-08-01,1998,08,01,August,Summer,Norwich,NY,"Norwich, NY",9
-1998-08-01,1998,08,01,August,Summer,Ypsilanti,MI,"Ypsilanti, MI",10
+1998-08-01,1998,08,01,August,Summer,Ypsilanti,MI,"DCI Midwest Championships",10
 1998-08-02,1998,08,02,August,Summer,Cascade,WI,"Cascade, WI",10
 1998-08-02,1998,08,02,August,Summer,East Providence,RI,"East Providence, RI",8
-1998-08-02,1998,08,02,August,Summer,Hamilton,Ontario,"Hamilton, Ontario",8
+1998-08-02,1998,08,02,August,Summer,Hamilton,Ontario,"ODCA Canadian Nationals",8
 1998-08-02,1998,08,02,August,Summer,Massillon,OH,"Massillon, OH",21
 1998-08-02,1998,08,02,August,Summer,Ottawa,IL,"Ottawa, IL",7
 1998-08-02,1998,08,02,August,Summer,Pittsfield,MA,"Pittsfield, MA",10
@@ -5480,19 +5544,20 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1998-08-05,1998,08,05,August,Summer,Salem,VA,"Salem, VA",8
 1998-08-06,1998,08,06,August,Summer,East Rutherford,NJ,"East Rutherford, NJ",6
 1998-08-06,1998,08,06,August,Summer,Lynn,MA,"Lynn, MA",7
-1998-08-07,1998,08,07,August,Summer,Allentown,PA,"Allentown, PA",9
-1998-08-07,1998,08,07,August,Summer,Rocky Mount,NC,"Rocky Mount, NC",34
-1998-08-08,1998,08,08,August,Summer,Allentown,PA,"Allentown, PA",10
+1998-08-07,1998,08,07,August,Summer,Allentown,PA,"DCI East Championships",9
+1998-08-07,1998,08,07,August,Summer,Rocky Mount,NC,"North American Division III Open Prelims",24
+1998-08-07,1998,08,07,August,Summer,Rocky Mount,NC,"North American Division III Open Finals",10
+1998-08-08,1998,08,08,August,Summer,Allentown,PA,"DCI East Championships",10
 1998-08-08,1998,08,08,August,Summer,Fleurimont,Quebec,"Fleurimont, Quebec",6
-1998-08-08,1998,08,08,August,Summer,Rocky Mount,NC,"Rocky Mount, NC",11
+1998-08-08,1998,08,08,August,Summer,Rocky Mount,NC,"North American Division II Open Finals",11
 1998-08-08,1998,08,08,August,Summer,Syracuse,NY,"Syracuse, NY",9
 1998-08-09,1998,08,09,August,Summer,Jacksonville,AL,"Jacksonville, AL",7
-1998-08-10,1998,08,10,August,Summer,Orlando,FL,"Orlando, FL",37
-1998-08-11,1998,08,11,August,Summer,Orlando,FL,"Orlando, FL",13
-1998-08-13,1998,08,13,August,Summer,Orlando,FL,"Orlando, FL",24
-1998-08-14,1998,08,14,August,Summer,Orlando,FL,"Orlando, FL",17
+1998-08-10,1998,08,10,August,Summer,Orlando,FL,"DCI Division II/III World Championship Prelims",37
+1998-08-11,1998,08,11,August,Summer,Orlando,FL,"DCI Division II/III World Championship Finals",13
+1998-08-13,1998,08,13,August,Summer,Orlando,FL,"DCI Division I World Championship Prelims",24
+1998-08-14,1998,08,14,August,Summer,Orlando,FL,"DCI Division I World Championship Semifinals",17
 1998-08-15,1998,08,15,August,Summer,Kingston,NY,"Kingston, NY",6
-1998-08-15,1998,08,15,August,Summer,Orlando,FL,"Orlando, FL",12
+1998-08-15,1998,08,15,August,Summer,Orlando,FL,"DCI Division I World Championship Finals",12
 1998-08-15,1998,08,15,August,Summer,Sunbury,PA,"Sunbury, PA",6
 1998-08-16,1998,08,16,August,Summer,Springfield,IL,"Springfield, IL",5
 1998-08-19,1998,08,19,August,Summer,Joliette,Quebec,"Joliette, Quebec",6
@@ -5664,24 +5729,28 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 1999-08-03,1999,08,03,August,Summer,Centerville,OH,"Centerville, OH",8
 1999-08-03,1999,08,03,August,Summer,Erie,PA,"Erie, PA",8
 1999-08-03,1999,08,03,August,Summer,Salem,VA,"Salem, VA",8
-1999-08-04,1999,08,04,August,Summer,Kitchener,Ontario,"Kitchener, Ontario",43
+1999-08-04,1999,08,04,August,Summer,Kitchener,Ontario,"Canadian Open Prelims",33
+1999-08-04,1999,08,04,August,Summer,Kitchener,Ontario,"Canadian Open Finals",10
 1999-08-04,1999,08,04,August,Summer,Pittsburgh,PA,"Pittsburgh, PA",8
 1999-08-04,1999,08,04,August,Summer,Rome,NY,"Rome, NY",8
 1999-08-05,1999,08,05,August,Summer,East Rutherford,NJ,"East Rutherford, NJ",7
 1999-08-05,1999,08,05,August,Summer,Lynn,MA,"Lynn, MA",6
 1999-08-06,1999,08,06,August,Summer,Allentown,PA,"Allentown, PA",11
-1999-08-06,1999,08,06,August,Summer,Grand Haven,MI,"Grand Haven, MI",47
+1999-08-06,1999,08,06,August,Summer,Grand Haven,MI,"US Coast Guard Open Prelims",35
+1999-08-06,1999,08,06,August,Summer,Grand Haven,MI,"US Coast Guard Open Finals",11
 1999-08-07,1999,08,07,August,Summer,Allentown,PA,"Allentown, PA",10
 1999-08-07,1999,08,07,August,Summer,East Providence,RI,"East Providence, RI",6
 1999-08-07,1999,08,07,August,Summer,Kingston,NY,"Kingston, NY",7
 1999-08-08,1999,08,08,August,Summer,Massillon,OH,"Massillon, OH",8
-1999-08-08,1999,08,08,August,Summer,Menasha,WI,"Menasha, WI",40
+1999-08-08,1999,08,08,August,Summer,Menasha,WI,"North American Open",40
 1999-08-08,1999,08,08,August,Summer,Washington,DC,"Washington, DC",11
-1999-08-10,1999,08,10,August,Summer,Madison,WI,"Madison, WI",12
-1999-08-11,1999,08,11,August,Summer,Madison,WI,"Madison, WI",44
-1999-08-12,1999,08,12,August,Summer,Madison,WI,"Madison, WI",26
-1999-08-13,1999,08,13,August,Summer,Madison,WI,"Madison, WI",17
-1999-08-14,1999,08,14,August,Summer,Madison,WI,"Madison, WI",18
+1999-08-10,1999,08,10,August,Summer,Madison,WI,"DCI Division II World Championship Prelims",12
+1999-08-11,1999,08,11,August,Summer,Madison,WI,"DCI Division III World Championship Prelims",31
+1999-08-11,1999,08,11,August,Summer,Madison,WI,"DCI Division II/III World Championship Finals",13
+1999-08-12,1999,08,12,August,Summer,Madison,WI,"DCI Division I World Championship Prelims",26
+1999-08-13,1999,08,13,August,Summer,Madison,WI,"DCI Division I World Championship Semifinals",17
+1999-08-14,1999,08,14,August,Summer,Madison,WI,"DCI Division I World Championship Finals",12
+1999-08-14,1999,08,14,August,Summer,Madison,WI,"Madison, WI",6
 1999-08-14,1999,08,14,August,Summer,Scranton,PA,"Scranton, PA",7
 1999-08-15,1999,08,15,August,Summer,Fleurimont,Quebec,"Fleurimont, Quebec",5
 1999-08-15,1999,08,15,August,Summer,Springfield,IL,"Springfield, IL",7
@@ -5840,12 +5909,12 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2000-08-05,2000,08,05,August,Summer,Allentown,PA,"Allentown, PA",11
 2000-08-05,2000,08,05,August,Summer,Buffalo,NY,"Buffalo, NY",15
 2000-08-06,2000,08,06,August,Summer,East Rutherford,NJ,"East Rutherford, NJ",8
-2000-08-07,2000,08,07,August,Summer,Westminster,MD,"Westminster, MD",14
-2000-08-08,2000,08,08,August,Summer,Westminster,MD,"Westminster, MD",32
-2000-08-09,2000,08,09,August,Summer,College Park,MD,"College Park, MD",12
-2000-08-10,2000,08,10,August,Summer,College Park,MD,"College Park, MD",24
-2000-08-11,2000,08,11,August,Summer,College Park,MD,"College Park, MD",17
-2000-08-12,2000,08,12,August,Summer,College Park,MD,"College Park, MD",12
+2000-08-07,2000,08,07,August,Summer,Westminster,MD,"DCI Division II World Championship Prelims",14
+2000-08-08,2000,08,08,August,Summer,Westminster,MD,"DCI Division III World Championship Prelims",32
+2000-08-09,2000,08,09,August,Summer,College Park,MD,"DCI Division II/III World Championship Finals",12
+2000-08-10,2000,08,10,August,Summer,College Park,MD,"DCI Division I World Championship Prelims",24
+2000-08-11,2000,08,11,August,Summer,College Park,MD,"DCI Division I World Championship Semifinals",17
+2000-08-12,2000,08,12,August,Summer,College Park,MD,"DCI Division I World Championship Finals",12
 2000-08-12,2000,08,12,August,Summer,Rochester,NY,"Rochester, NY",5
 2000-08-13,2000,08,13,August,Summer,Fleurimont,Quebec,"Fleurimont, Quebec",3
 2000-08-13,2000,08,13,August,Summer,Haledon,NJ,"Haledon, NJ",9
@@ -6000,12 +6069,13 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2001-08-04,2001,08,04,August,Summer,Philadelphia,PA,"Philadelphia, PA",11
 2001-08-05,2001,08,05,August,Summer,Clarion,PA,"Clarion, PA",7
 2001-08-05,2001,08,05,August,Summer,Sarnia,Ontario,"Sarnia, Ontario",6
-2001-08-06,2001,08,06,August,Summer,Buffalo,NY,"Buffalo, NY",26
-2001-08-07,2001,08,07,August,Summer,Buffalo,NY,"Buffalo, NY",12
-2001-08-08,2001,08,08,August,Summer,Buffalo,NY,"Buffalo, NY",12
-2001-08-09,2001,08,09,August,Summer,Buffalo,NY,"Buffalo, NY",23
-2001-08-10,2001,08,10,August,Summer,Buffalo,NY,"Buffalo, NY",17
-2001-08-11,2001,08,11,August,Summer,Buffalo,NY,"Buffalo, NY",17
+2001-08-06,2001,08,06,August,Summer,Buffalo,NY,"DCI Division II/III World Championship Prelims",26
+2001-08-07,2001,08,07,August,Summer,Buffalo,NY,"DCI Division II/III World Championship Semifinals",12
+2001-08-08,2001,08,08,August,Summer,Buffalo,NY,"DCI Division II/III World Championship Finals",12
+2001-08-09,2001,08,09,August,Summer,Buffalo,NY,"DCI Division I World Championship Prelims",23
+2001-08-10,2001,08,10,August,Summer,Buffalo,NY,"DCI Division I World Championship Semifinals",17
+2001-08-11,2001,08,11,August,Summer,Buffalo,NY,"DCI Division I World Championship Finals",12
+2001-08-11,2001,08,11,August,Summer,Buffalo,NY,"Buffalo, NY",5
 2001-08-11,2001,08,11,August,Summer,Kingston,NY,"Kingston, NY",5
 2001-08-16,2001,08,16,August,Summer,Chambly,Quebec,"Chambly, Quebec",5
 2001-08-18,2001,08,18,August,Summer,Easton,PA,"Easton, PA",6
@@ -6165,14 +6235,14 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2002-08-04,2002,08,04,August,Summer,Decorah,IA,"Decorah, IA",6
 2002-08-04,2002,08,04,August,Summer,Jamestown,NY,"Jamestown, NY",5
 2002-08-04,2002,08,04,August,Summer,Menasha,WI,"Menasha, WI",8
-2002-08-05,2002,08,05,August,Summer,Madison,WI,"Madison, WI",40
+2002-08-05,2002,08,05,August,Summer,Madison,WI,"DCI Division II/III World Championship Prelims",40
 2002-08-05,2002,08,05,August,Summer,Omaha,NE,"Omaha, NE",6
-2002-08-06,2002,08,06,August,Summer,Madison,WI,"Madison, WI",18
-2002-08-07,2002,08,07,August,Summer,Madison,WI,"Madison, WI",13
-2002-08-08,2002,08,08,August,Summer,Madison,WI,"Madison, WI",22
-2002-08-09,2002,08,09,August,Summer,Madison,WI,"Madison, WI",17
+2002-08-06,2002,08,06,August,Summer,Madison,WI,"DCI Division II/III World Championship Semifinals",18
+2002-08-07,2002,08,07,August,Summer,Madison,WI,"DCI Division II/III World Championship Finals",13
+2002-08-08,2002,08,08,August,Summer,Madison,WI,"DCI Division I World Championship Prelims",22
+2002-08-09,2002,08,09,August,Summer,Madison,WI,"DCI Division I World Championship Semifinals",17
 2002-08-10,2002,08,10,August,Summer,Kingston,NY,"Kingston, NY",8
-2002-08-10,2002,08,10,August,Summer,Madison,WI,"Madison, WI",12
+2002-08-10,2002,08,10,August,Summer,Madison,WI,"DCI Division I World Championship Finals",12
 2002-08-16,2002,08,16,August,Summer,Lachine,Quebec,"Lachine, Quebec",5
 2002-08-17,2002,08,17,August,Summer,Syracuse,NY,"Syracuse, NY",10
 2002-08-17,2002,08,17,August,Summer,Ville LaSalle,Quebec,"Ville LaSalle, Quebec",4
@@ -6317,11 +6387,13 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2003-08-02,2003,08,02,August,Summer,Jamestown,NY,"Jamestown, NY",4
 2003-08-03,2003,08,03,August,Summer,Jacksonville,FL,"Jacksonville, FL",23
 2003-08-03,2003,08,03,August,Summer,Valdosta,GA,"Valdosta, GA",19
-2003-08-05,2003,08,05,August,Summer,Orlando,FL,"Orlando, FL",33
-2003-08-07,2003,08,07,August,Summer,Orlando,FL,"Orlando, FL",41
-2003-08-08,2003,08,08,August,Summer,Orlando,FL,"Orlando, FL",17
+2003-08-05,2003,08,05,August,Summer,Orlando,FL,"DCI Division II/III World Championship Prelims",33
+2003-08-07,2003,08,07,August,Summer,Orlando,FL,"DCI Division II/III World Championship Semifinals",17
+2003-08-07,2003,08,07,August,Summer,Orlando,FL,"DCI Division I World Championship Prelims",23
+2003-08-08,2003,08,08,August,Summer,Orlando,FL,"DCI Division I World Championship Semifinals",17
 2003-08-09,2003,08,09,August,Summer,Kingston,NY,"Kingston, NY",8
-2003-08-09,2003,08,09,August,Summer,Orlando,FL,"Orlando, FL",23
+2003-08-09,2003,08,09,August,Summer,Orlando,FL,"DCI Division I World Championship Finals",12
+2003-08-09,2003,08,09,August,Summer,Orlando,FL,"DCI Division II/III World Championship Finals",12
 2003-08-16,2003,08,16,August,Summer,Syracuse,NY,"Syracuse, NY",5
 2003-08-23,2003,08,23,August,Summer,Erie,PA,"Erie, PA",4
 2003-08-23,2003,08,23,August,Summer,West Haven,CT,"West Haven, CT",7
@@ -6455,11 +6527,12 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2004-08-01,2004,08,01,August,Summer,Ankeny,IA,"Ankeny, IA",8
 2004-08-01,2004,08,01,August,Summer,Naperville,IL,"Naperville, IL",8
 2004-08-01,2004,08,01,August,Summer,Pueblo,CO,"Pueblo, CO",10
-2004-08-03,2004,08,03,August,Summer,Denver,CO,"Denver, CO",28
-2004-08-04,2004,08,04,August,Summer,Denver,CO,"Denver, CO",18
-2004-08-05,2004,08,05,August,Summer,Denver,CO,"Denver, CO",24
-2004-08-06,2004,08,06,August,Summer,Denver,CO,"Denver, CO",17
-2004-08-07,2004,08,07,August,Summer,Denver,CO,"Denver, CO",24
+2004-08-03,2004,08,03,August,Summer,Denver,CO,"DCI Division II/III World Championship Prelims",28
+2004-08-04,2004,08,04,August,Summer,Denver,CO,"DCI Division II/III World Championship Semifinals",18
+2004-08-05,2004,08,05,August,Summer,Denver,CO,"DCI Division I World Championship Prelims",24
+2004-08-06,2004,08,06,August,Summer,Denver,CO,"DCI Division I World Championship Semifinals",17
+2004-08-07,2004,08,07,August,Summer,Denver,CO,"DCI Division II/III World Championship Finals",12
+2004-08-07,2004,08,07,August,Summer,Denver,CO,"DCI Division I World Championship Finals",12
 2004-08-07,2004,08,07,August,Summer,East Providence,RI,"East Providence, RI",5
 2004-08-14,2004,08,14,August,Summer,Kingston,NY,"Kingston, NY",11
 2004-08-21,2004,08,21,August,Summer,Orlando,FL,"Orlando, FL",4
@@ -6615,12 +6688,12 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2005-08-07,2005,08,07,August,Summer,Manchester,NH,"Manchester, NH",13
 2005-08-07,2005,08,07,August,Summer,Pittsfield,MA,"Pittsfield, MA",11
 2005-08-07,2005,08,07,August,Summer,Worcester,MA,"Worcester, MA",8
-2005-08-09,2005,08,09,August,Summer,Brockton,MA,"Brockton, MA",29
-2005-08-11,2005,08,11,August,Summer,Brockton,MA,"Brockton, MA",18
-2005-08-11,2005,08,11,August,Summer,Foxboro,MA,"Foxboro, MA",24
-2005-08-12,2005,08,12,August,Summer,Foxboro,MA,"Foxboro, MA",18
-2005-08-13,2005,08,13,August,Summer,Brockton,MA,"Brockton, MA",12
-2005-08-13,2005,08,13,August,Summer,Foxboro,MA,"Foxboro, MA",12
+2005-08-09,2005,08,09,August,Summer,Brockton,MA,"DCI Division II/III World Championship Prelims",29
+2005-08-11,2005,08,11,August,Summer,Brockton,MA,"DCI Division II/III World Championship Semifinals",18
+2005-08-11,2005,08,11,August,Summer,Foxboro,MA,"DCI Division I World Championship Prelims",24
+2005-08-12,2005,08,12,August,Summer,Foxboro,MA,"DCI Division I World Championship Semifinals",18
+2005-08-13,2005,08,13,August,Summer,Brockton,MA,"DCI Division II/III World Championship Finals",12
+2005-08-13,2005,08,13,August,Summer,Foxboro,MA,"DCI Division I World Championship Finals",12
 2005-08-14,2005,08,14,August,Summer,East Providence,RI,"East Providence, RI",5
 2005-08-20,2005,08,20,August,Summer,Saint Cloud,FL,"Saint Cloud, FL",5
 2005-08-20,2005,08,20,August,Summer,Syracuse,NY,"Syracuse, NY",7
@@ -6760,11 +6833,13 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2006-08-06,2006,08,06,August,Summer,LaCrosse,WI,"LaCrosse, WI",10
 2006-08-06,2006,08,06,August,Summer,Michigan City,IN,"Michigan City, IN",15
 2006-08-06,2006,08,06,August,Summer,Naperville,IL,"Naperville, IL",8
-2006-08-08,2006,08,08,August,Summer,Madison,WI,"Madison, WI",28
-2006-08-10,2006,08,10,August,Summer,Madison,WI,"Madison, WI",41
-2006-08-11,2006,08,11,August,Summer,Madison,WI,"Madison, WI",29
+2006-08-08,2006,08,08,August,Summer,Madison,WI,"DCI Division II/III World Championship Prelims",28
+2006-08-10,2006,08,10,August,Summer,Madison,WI,"DCI Division II/III World Championship Semifinals",18
+2006-08-11,2006,08,11,August,Summer,Madison,WI,"DCI Division II/III World Championship Finals",12
+2006-08-10,2006,08,10,August,Summer,Madison,WI,"DCI Division I World Championship Prelims",23
+2006-08-11,2006,08,11,August,Summer,Madison,WI,"DCI Division I World Championship Semifinals",17
 2006-08-12,2006,08,12,August,Summer,Kingston,NY,"Kingston, NY",7
-2006-08-12,2006,08,12,August,Summer,Madison,WI,"Madison, WI",12
+2006-08-12,2006,08,12,August,Summer,Madison,WI,"DCI Division I World Championship Finals",12
 2006-08-19,2006,08,19,August,Summer,Corning,NY,"Corning, NY",4
 2006-08-19,2006,08,19,August,Summer,Saint Peter,MN,"Saint Peter, MN",7
 2006-08-19,2006,08,19,August,Summer,Scranton,PA,"Scranton, PA",5
@@ -6909,11 +6984,13 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2007-08-05,2007,08,05,August,Summer,Bakersfield,CA,"Bakersfield, CA",12
 2007-08-05,2007,08,05,August,Summer,Clovis,CA,"Clovis, CA",9
 2007-08-05,2007,08,05,August,Summer,San Diego,CA,"San Diego, CA",8
-2007-08-07,2007,08,07,August,Summer,Pasadena,CA,"Pasadena, CA",22
-2007-08-09,2007,08,09,August,Summer,Pasadena,CA,"Pasadena, CA",22
-2007-08-10,2007,08,10,August,Summer,Pasadena,CA,"Pasadena, CA",33
+2007-08-07,2007,08,07,August,Summer,Pasadena,CA,"DCI Division II/III World Championship Prelims",22
+2007-08-09,2007,08,09,August,Summer,Pasadena,CA,"DCI Division I World Championship Prelims",22
+2007-08-10,2007,08,10,August,Summer,Pasadena,CA,"DCI Division II/III World Championship Semifinals",16
+2007-08-10,2007,08,10,August,Summer,Pasadena,CA,"DCI Division I World Championship Semifinals",17
 2007-08-11,2007,08,11,August,Summer,Kingston,NY,"Kingston, NY",6
-2007-08-11,2007,08,11,August,Summer,Pasadena,CA,"Pasadena, CA",25
+2007-08-11,2007,08,11,August,Summer,Pasadena,CA,"DCI Division I World Championship Finals",12
+2007-08-11,2007,08,11,August,Summer,Pasadena,CA,"DCI Division II/III World Championship Finals",13
 2007-08-18,2007,08,18,August,Summer,Rockmart,GA,"Rockmart, GA",4
 2007-08-18,2007,08,18,August,Summer,South Saint Paul,MN,"South Saint Paul, MN",6
 2007-08-18,2007,08,18,August,Summer,Syracuse,NY,"Syracuse, NY",6
@@ -7037,9 +7114,12 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2008-08-04,2008,08,04,August,Summer,Massillon,OH,"Massillon, OH",8
 2008-08-04,2008,08,04,August,Summer,Toledo,OH,"Toledo, OH",8
 2008-08-05,2008,08,05,August,Summer,Michigan City,IN,"Michigan City, IN",23
-2008-08-07,2008,08,07,August,Summer,Bloomington,IN,"Bloomington, IN",20
-2008-08-08,2008,08,08,August,Summer,Bloomington,IN,"Bloomington, IN",35
-2008-08-09,2008,08,09,August,Summer,Bloomington,IN,"Bloomington, IN",25
+2008-08-07,2008,08,07,August,Summer,Bloomington,IN,"DCI Open Class World Championship Prelims",23
+2008-08-08,2008,08,08,August,Summer,Bloomington,IN,"DCI Open Class World Championship Semifinals",18
+2008-08-09,2008,08,09,August,Summer,Bloomington,IN,"DCI Open Class World Championship Finals",13
+2008-08-07,2008,08,07,August,Summer,Bloomington,IN,"DCI World Class World Championship Prelims",20
+2008-08-08,2008,08,08,August,Summer,Bloomington,IN,"DCI World Class World Championship Semifinals",17
+2008-08-09,2008,08,09,August,Summer,Bloomington,IN,"DCI World Class World Championship Finals",12
 2008-08-09,2008,08,09,August,Summer,Kingston,NY,"Kingston, NY",6
 2008-08-16,2008,08,16,August,Summer,Douglasville,GA,"Douglasville, GA",6
 2008-08-16,2008,08,16,August,Summer,Saint Peter,MN,"Saint Peter, MN",6
@@ -7153,12 +7233,12 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2009-08-02,2009,08,02,August,Summer,Dayton,OH,"Dayton, OH",11
 2009-08-02,2009,08,02,August,Summer,East Rutherford,NJ,"East Rutherford, NJ",13
 2009-08-03,2009,08,03,August,Summer,Massillon,OH,"Massillon, OH",8
-2009-08-04,2009,08,04,August,Summer,Michigan City,IN,"Michigan City, IN",19
-2009-08-06,2009,08,06,August,Summer,Indianapolis,IN,"Indianapolis, IN",22
-2009-08-07,2009,08,07,August,Summer,Bloomington,IN,"Bloomington, IN",17
-2009-08-07,2009,08,07,August,Summer,Indianapolis,IN,"Indianapolis, IN",17
-2009-08-08,2009,08,08,August,Summer,Bloomington,IN,"Bloomington, IN",12
-2009-08-08,2009,08,08,August,Summer,Indianapolis,IN,"Indianapolis, IN",12
+2009-08-04,2009,08,04,August,Summer,Michigan City,IN,"DCI Open Class World Championship Prelims",19
+2009-08-06,2009,08,06,August,Summer,Indianapolis,IN,"DCI World Class World Championship Prelims",22
+2009-08-07,2009,08,07,August,Summer,Bloomington,IN,"DCI Open Class World Championship Semifinals",17
+2009-08-07,2009,08,07,August,Summer,Indianapolis,IN,"DCI World Class World Championship Semifinals",17
+2009-08-08,2009,08,08,August,Summer,Bloomington,IN,"DCI Open Class World Championship Finals",12
+2009-08-08,2009,08,08,August,Summer,Indianapolis,IN,"DCI World Class World Championship Finals",12
 2009-08-08,2009,08,08,August,Summer,Kingston,NY,"Kingston, NY",6
 2009-08-15,2009,08,15,August,Summer,Cicero,NY,"Cicero, NY",8
 2009-08-15,2009,08,15,August,Summer,Racine,WI,"Racine, WI",3
@@ -7284,10 +7364,12 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2010-08-08,2010,08,08,August,Summer,Dayton,OH,"Dayton, OH",8
 2010-08-08,2010,08,08,August,Summer,Dubuque,IA,"Dubuque, IA",8
 2010-08-09,2010,08,09,August,Summer,Toledo,OH,"Toledo, OH",7
-2010-08-10,2010,08,10,August,Summer,Michigan City,IN,"Michigan City, IN",16
-2010-08-12,2010,08,12,August,Summer,Indianapolis,IN,"Indianapolis, IN",23
-2010-08-13,2010,08,13,August,Summer,Indianapolis,IN,"Indianapolis, IN",33
-2010-08-14,2010,08,14,August,Summer,Indianapolis,IN,"Indianapolis, IN",24
+2010-08-10,2010,08,10,August,Summer,Michigan City,IN,"DCI Open Class World Championship Prelims",16
+2010-08-12,2010,08,12,August,Summer,Indianapolis,IN,"DCI World Class World Championship Prelims",23
+2010-08-13,2010,08,13,August,Summer,Indianapolis,IN,"DCI Open Class World Championship Semifinals",16
+2010-08-14,2010,08,14,August,Summer,Indianapolis,IN,"DCI Open Class World Championship Finals",12
+2010-08-13,2010,08,13,August,Summer,Indianapolis,IN,"DCI World Class World Championship Semifinals",17
+2010-08-14,2010,08,14,August,Summer,Indianapolis,IN,"DCI World Class World Championship Finals",12
 2010-08-14,2010,08,14,August,Summer,North Cicero,NY,"North Cicero, NY",5
 2010-08-14,2010,08,14,August,Summer,Toms River,NJ,"Toms River, NJ",5
 2010-08-21,2010,08,21,August,Summer,Saint Peter,MN,"Saint Peter, MN",11
@@ -7410,11 +7492,11 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2011-08-07,2011,08,07,August,Summer,East Rutherford,NJ,"East Rutherford, NJ",8
 2011-08-07,2011,08,07,August,Summer,Erie,PA,"Erie, PA",11
 2011-08-09,2011,08,09,August,Summer,Massillon,OH,"Massillon, OH",5
-2011-08-09,2011,08,09,August,Summer,Michigan City,IN,"Michigan City, IN",18
-2011-08-11,2011,08,11,August,Summer,Indianapolis,IN,"Indianapolis, IN",41
-2011-08-12,2011,08,12,August,Summer,Indianapolis,IN,"Indianapolis, IN",25
+2011-08-09,2011,08,09,August,Summer,Michigan City,IN,"DCI Open Class World Championship Finals",18
+2011-08-11,2011,08,11,August,Summer,Indianapolis,IN,"DCI World Class World Championship Prelims",41
+2011-08-12,2011,08,12,August,Summer,Indianapolis,IN,"DCI World Class World Championship Semifinals",25
 2011-08-13,2011,08,13,August,Summer,Cicero,NY,"Cicero, NY",4
-2011-08-13,2011,08,13,August,Summer,Indianapolis,IN,"Indianapolis, IN",12
+2011-08-13,2011,08,13,August,Summer,Indianapolis,IN,"DCI World Class World Championship Finals",12
 2011-08-13,2011,08,13,August,Summer,Toms River,NJ,"Toms River, NJ",6
 2011-08-20,2011,08,20,August,Summer,Douglasville,GA,"Douglasville, GA",4
 2011-08-20,2011,08,20,August,Summer,Saint Paul,MN,"Saint Paul, MN",4
@@ -7527,12 +7609,12 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2012-08-04,2012,08,04,August,Summer,Niles,MI,"Niles, MI",9
 2012-08-05,2012,08,05,August,Summer,Pittsburgh,PA,"Pittsburgh, PA",8
 2012-08-06,2012,08,06,August,Summer,Massillon,OH,"Massillon, OH",8
-2012-08-06,2012,08,06,August,Summer,Michigan City,IN,"Michigan City, IN",14
-2012-08-07,2012,08,07,August,Summer,Michigan City,IN,"Michigan City, IN",12
-2012-08-09,2012,08,09,August,Summer,Indianapolis,IN,"Indianapolis, IN",35
-2012-08-10,2012,08,10,August,Summer,Indianapolis,IN,"Indianapolis, IN",25
+2012-08-06,2012,08,06,August,Summer,Michigan City,IN,"DCI Open Class World Championship Prelims",14
+2012-08-07,2012,08,07,August,Summer,Michigan City,IN,"DCI Open Class World Championship Final",12
+2012-08-09,2012,08,09,August,Summer,Indianapolis,IN,"DCI World Class World Championship Prelims",35
+2012-08-10,2012,08,10,August,Summer,Indianapolis,IN,"DCI World Class World Championship Semifinals",25
 2012-08-11,2012,08,11,August,Summer,Flemington,NJ,"Flemington, NJ",3
-2012-08-11,2012,08,11,August,Summer,Indianapolis,IN,"Indianapolis, IN",12
+2012-08-11,2012,08,11,August,Summer,Indianapolis,IN,"DCI World Class World Championship Finals",12
 2012-08-17,2012,08,17,August,Summer,South Saint Paul,MN,"South Saint Paul, MN",3
 2012-08-18,2012,08,18,August,Summer,Douglasville,GA,"Douglasville, GA",4
 2012-08-18,2012,08,18,August,Summer,Saint Peter,MN,"Saint Peter, MN",7
@@ -7648,12 +7730,12 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2013-08-04,2013,08,04,August,Summer,Schuylerville,NY,"Schuylerville, NY",4
 2013-08-05,2013,08,05,August,Summer,Buffalo,NY,"Buffalo, NY",7
 2013-08-05,2013,08,05,August,Summer,Centerville,OH,"Centerville, OH",8
-2013-08-05,2013,08,05,August,Summer,Michigan City,IN,"Michigan City, IN",14
+2013-08-05,2013,08,05,August,Summer,Michigan City,IN,"DCI Open Class World Championship Prelims",14
 2013-08-06,2013,08,06,August,Summer,Massillon,OH,"Massillon, OH",8
-2013-08-06,2013,08,06,August,Summer,Michigan City,IN,"Michigan City, IN",13
-2013-08-08,2013,08,08,August,Summer,Indianapolis,IN,"Indianapolis, IN",36
-2013-08-09,2013,08,09,August,Summer,Indianapolis,IN,"Indianapolis, IN",25
-2013-08-10,2013,08,10,August,Summer,Indianapolis,IN,"Indianapolis, IN",12
+2013-08-06,2013,08,06,August,Summer,Michigan City,IN,"DCI Open Class World Championship Finals",13
+2013-08-08,2013,08,08,August,Summer,Indianapolis,IN,"DCI World Class World Championship Prelims",36
+2013-08-09,2013,08,09,August,Summer,Indianapolis,IN,"DCI World Class World Championship Semifinals",25
+2013-08-10,2013,08,10,August,Summer,Indianapolis,IN,"DCI World Class World Championship Finals",12
 2013-08-10,2013,08,10,August,Summer,Woodbridge,NJ,"Woodbridge, NJ",7
 2013-08-16,2013,08,16,August,Summer,South Saint Paul,MN,"South Saint Paul, MN",4
 2013-08-17,2013,08,17,August,Summer,Douglasville,GA,"Douglasville, GA",6
@@ -7768,11 +7850,11 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2014-08-03,2014,08,03,August,Summer,Schuylerville,NY,"Schuylerville, NY",6
 2014-08-04,2014,08,04,August,Summer,Centerville,OH,"Centerville, OH",9
 2014-08-04,2014,08,04,August,Summer,Massillon,OH,"Massillon, OH",7
-2014-08-04,2014,08,04,August,Summer,Michigan City,IN,"Michigan City, IN",15
-2014-08-05,2014,08,05,August,Summer,Michigan City,IN,"Michigan City, IN",12
-2014-08-07,2014,08,07,August,Summer,Indianapolis,IN,"Indianapolis, IN",37
-2014-08-08,2014,08,08,August,Summer,Indianapolis,IN,"Indianapolis, IN",25
-2014-08-09,2014,08,09,August,Summer,Indianapolis,IN,"Indianapolis, IN",12
+2014-08-04,2014,08,04,August,Summer,Michigan City,IN,"DCI Open Class World Championship Prelims",15
+2014-08-05,2014,08,05,August,Summer,Michigan City,IN,"DCI Open Class World Championship Finals",12
+2014-08-07,2014,08,07,August,Summer,Indianapolis,IN,"DCI World Class World Championship Prelims",37
+2014-08-08,2014,08,08,August,Summer,Indianapolis,IN,"DCI World Class World Championship Semifinals",25
+2014-08-09,2014,08,09,August,Summer,Indianapolis,IN,"DCI World Class World Championship Finals",12
 2014-08-09,2014,08,09,August,Summer,Lawrence,NJ,"Lawrence, NJ",6
 2014-08-15,2014,08,15,August,Summer,Mendota Heights,MN,"Mendota Heights, MN",3
 2014-08-16,2014,08,16,August,Summer,Douglasville,GA,"Douglasville, GA",5
@@ -7889,11 +7971,11 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2015-08-02,2015,08,02,August,Summer,Schuylerville,NY,"Schuylerville, NY",3
 2015-08-03,2015,08,03,August,Summer,Centerville,OH,"Centerville, OH",7
 2015-08-03,2015,08,03,August,Summer,Massillon,OH,"Massillon, OH",7
-2015-08-03,2015,08,03,August,Summer,Michigan City,IN,"Michigan City, IN",17
-2015-08-04,2015,08,04,August,Summer,Michigan City,IN,"Michigan City, IN",15
-2015-08-06,2015,08,06,August,Summer,Indianapolis,IN,"Indianapolis, IN",39
-2015-08-07,2015,08,07,August,Summer,Indianapolis,IN,"Indianapolis, IN",25
-2015-08-08,2015,08,08,August,Summer,Indianapolis,IN,"Indianapolis, IN",12
+2015-08-03,2015,08,03,August,Summer,Michigan City,IN,"DCI Open Class World Championship Prelims",17
+2015-08-04,2015,08,04,August,Summer,Michigan City,IN,"DCI Open Class World Championship Finals",15
+2015-08-06,2015,08,06,August,Summer,Indianapolis,IN,"DCI World Class World Championship Prelims",39
+2015-08-07,2015,08,07,August,Summer,Indianapolis,IN,"DCI World Class World Championship Semifinals",25
+2015-08-08,2015,08,08,August,Summer,Indianapolis,IN,"DCI World Class World Championship Finals",12
 2015-08-15,2015,08,15,August,Summer,Scranton,PA,"Scranton, PA",7
 2015-08-21,2015,08,21,August,Summer,Mendota Heights,MN,"Mendota Heights, MN",4
 2015-08-22,2015,08,22,August,Summer,Clifton,NJ,"Clifton, NJ",10
@@ -8016,11 +8098,11 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2016-08-07,2016,08,07,August,Summer,Schuylerville,NY,"Schuylerville, NY",5
 2016-08-08,2016,08,08,August,Summer,Erie,PA,"Erie, PA",8
 2016-08-08,2016,08,08,August,Summer,Massillon,OH,"Massillon, OH",7
-2016-08-08,2016,08,08,August,Summer,Michigan City,IN,"Michigan City, IN",16
-2016-08-09,2016,08,09,August,Summer,Michigan City,IN,"Michigan City, IN",12
-2016-08-11,2016,08,11,August,Summer,Indianapolis,IN,"Indianapolis, IN",38
-2016-08-12,2016,08,12,August,Summer,Indianapolis,IN,"Indianapolis, IN",25
-2016-08-13,2016,08,13,August,Summer,Indianapolis,IN,"Indianapolis, IN",12
+2016-08-08,2016,08,08,August,Summer,Michigan City,IN,"DCI Open Class World Championship Prelims",16
+2016-08-09,2016,08,09,August,Summer,Michigan City,IN,"DCI Open Class World Championship Finals",12
+2016-08-11,2016,08,11,August,Summer,Indianapolis,IN,"DCI World Class World Championship Prelims",38
+2016-08-12,2016,08,12,August,Summer,Indianapolis,IN,"DCI World Class World Championship Semifinals",25
+2016-08-13,2016,08,13,August,Summer,Indianapolis,IN,"DCI World Class World Championship Finals",12
 2016-08-13,2016,08,13,August,Summer,Williamsport,NY,"Williamsport, NY",7
 2016-08-19,2016,08,19,August,Summer,Inner Grove,MN,"Inner Grove, MN",4
 2016-08-20,2016,08,20,August,Summer,Everett,MA,"Everett, MA",3
@@ -8135,11 +8217,11 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2017-08-06,2017,08,06,August,Summer,Rome,NY,"Rome, NY",8
 2017-08-07,2017,08,07,August,Summer,Erie,PA,"Erie, PA",8
 2017-08-07,2017,08,07,August,Summer,Massillon,OH,"Massillon, OH",8
-2017-08-07,2017,08,07,August,Summer,Michigan City,IN,"Michigan City, IN",17
-2017-08-08,2017,08,08,August,Summer,Michigan City,IN,"Michigan City, IN",13
-2017-08-10,2017,08,10,August,Summer,Indianapolis,IN,"Indianapolis, IN",40
-2017-08-11,2017,08,11,August,Summer,Indianapolis,IN,"Indianapolis, IN",25
-2017-08-12,2017,08,12,August,Summer,Indianapolis,IN,"Indianapolis, IN",12
+2017-08-07,2017,08,07,August,Summer,Michigan City,IN,"DCI Open Class World Championship Prelims",17
+2017-08-08,2017,08,08,August,Summer,Michigan City,IN,"DCI Open Class World Championship Finals",13
+2017-08-10,2017,08,10,August,Summer,Indianapolis,IN,"DCI World Class World Championship Prelims",40
+2017-08-11,2017,08,11,August,Summer,Indianapolis,IN,"DCI World Class World Championship Semifinals",25
+2017-08-12,2017,08,12,August,Summer,Indianapolis,IN,"DCI World Class World Championship Finals",12
 2017-08-12,2017,08,12,August,Summer,Williamsport,NY,"Williamsport, NY",4
 2017-08-19,2017,08,19,August,Summer,Indianapolis,IN,"Indianapolis, IN",3
 2017-08-19,2017,08,19,August,Summer,Woodbridge,NJ,"Woodbridge, NJ",6
@@ -8252,11 +8334,11 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2018-08-05,2018,08,05,August,Summer,Pittsburgh,PA,"Pittsburgh, PA",7
 2018-08-06,2018,08,06,August,Summer,Erie,PA,"Erie, PA",8
 2018-08-06,2018,08,06,August,Summer,Massillon,OH,"Massillon, OH",8
-2018-08-06,2018,08,06,August,Summer,Michigan City,IN,"Michigan City, IN",16
-2018-08-07,2018,08,07,August,Summer,Michigan City,IN,"Michigan City, IN",13
-2018-08-09,2018,08,09,August,Summer,Indianapolis,IN,"Indianapolis, IN",40
-2018-08-10,2018,08,10,August,Summer,Indianapolis,IN,"Indianapolis, IN",25
-2018-08-11,2018,08,11,August,Summer,Indianapolis,IN,"Indianapolis, IN",12
+2018-08-06,2018,08,06,August,Summer,Michigan City,IN,"DCI Open Class World Championship Prelims",16
+2018-08-07,2018,08,07,August,Summer,Michigan City,IN,"DCI Open Class World Championship Finals",13
+2018-08-09,2018,08,09,August,Summer,Indianapolis,IN,"DCI World Class World Championship Prelims",40
+2018-08-10,2018,08,10,August,Summer,Indianapolis,IN,"DCI World Class World Championship Semifinals",25
+2018-08-11,2018,08,11,August,Summer,Indianapolis,IN,"DCI World Class World Championship Finals",12
 2018-08-11,2018,08,11,August,Summer,Oak Ridge,NJ,"Oak Ridge, NJ",5
 2018-08-18,2018,08,18,August,Summer,Goldsboro,NC,"Goldsboro, NC",2
 2018-08-18,2018,08,18,August,Summer,Saint Peter,MN,"Saint Peter, MN",2
@@ -8367,11 +8449,11 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2019-08-04,2019,08,04,August,Summer,Pittsburgh,PA,"Pittsburgh, PA",7
 2019-08-05,2019,08,05,August,Summer,Akron,OH,"Akron, OH",9
 2019-08-05,2019,08,05,August,Summer,Edinboro,PA,"Edinboro, PA",7
-2019-08-05,2019,08,05,August,Summer,Marion,IN,"Marion, IN",14
-2019-08-06,2019,08,06,August,Summer,Marion,IN,"Marion, IN",12
-2019-08-08,2019,08,08,August,Summer,Indianapolis,IN,"Indianapolis, IN",36
-2019-08-09,2019,08,09,August,Summer,Indianapolis,IN,"Indianapolis, IN",25
-2019-08-10,2019,08,10,August,Summer,Indianapolis,IN,"Indianapolis, IN",12
+2019-08-05,2019,08,05,August,Summer,Marion,IN,"DCI Open Class World Championship Prelims",14
+2019-08-06,2019,08,06,August,Summer,Marion,IN,"DCI Open Class World Championship Finals",12
+2019-08-08,2019,08,08,August,Summer,Indianapolis,IN,"DCI World Class World Championship Prelims",36
+2019-08-09,2019,08,09,August,Summer,Indianapolis,IN,"DCI World Class World Championship Semifinals",25
+2019-08-10,2019,08,10,August,Summer,Indianapolis,IN,"DCI World Class World Championship Finals",12
 2019-08-17,2019,08,17,August,Summer,Woodbridge,NJ,"Woodbridge, NJ",7
 2019-08-24,2019,08,24,August,Summer,Goldsboro,NC,"Goldsboro, NC",1
 2019-08-24,2019,08,24,August,Summer,Reading,PA,"Reading, PA",5
@@ -8469,11 +8551,11 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2022-08-06,2022,08,06,August,Summer,Kingston,NY,"Kingston, NY",5
 2022-08-07,2022,08,07,August,Summer,Pittsburgh,PA,"Pittsburgh, PA",5
 2022-08-08,2022,08,08,August,Summer,Cincinnati,OH,"Cincinnati, OH",7
-2022-08-08,2022,08,08,August,Summer,Marion,IN,"Marion, IN",15
-2022-08-09,2022,08,09,August,Summer,Marion,IN,"Marion, IN",13
-2022-08-11,2022,08,11,August,Summer,Indianapolis,IN,"Indianapolis, IN",35
-2022-08-12,2022,08,12,August,Summer,Indianapolis,IN,"Indianapolis, IN",25
-2022-08-13,2022,08,13,August,Summer,Indianapolis,IN,"Indianapolis, IN",12
+2022-08-08,2022,08,08,August,Summer,Marion,IN,"DCI Open Class World Championship Prelims",15
+2022-08-09,2022,08,09,August,Summer,Marion,IN,"DCI Open Class World Championship Finals",13
+2022-08-11,2022,08,11,August,Summer,Indianapolis,IN,"DCI World Class World Championship Prelims",35
+2022-08-12,2022,08,12,August,Summer,Indianapolis,IN,"DCI World Class World Championship Semifinals",25
+2022-08-13,2022,08,13,August,Summer,Indianapolis,IN,"DCI World Class World Championship Finals",12
 2022-08-20,2022,08,20,August,Summer,Flanders,NJ,"Flanders, NJ",9
 2022-08-24,2022,08,24,August,Summer,Indianapolis,IN,"Indianapolis, IN",6
 2022-08-27,2022,08,27,August,Summer,Reading,PA,"Reading, PA",4
@@ -8559,11 +8641,11 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2023-08-05,2023,08,05,August,Summer,Mattoon,IL,"Mattoon, IL",6
 2023-08-06,2023,08,06,August,Summer,Pittsburgh,PA,"Pittsburgh, PA",6
 2023-08-07,2023,08,07,August,Summer,Cincinnati,OH,"Cincinnati, OH",7
-2023-08-07,2023,08,07,August,Summer,Marion,IN,"Marion, IN",11
-2023-08-08,2023,08,08,August,Summer,Marion,IN,"Marion, IN",11
-2023-08-10,2023,08,10,August,Summer,Indianapolis,IN,"Indianapolis, IN",32
-2023-08-11,2023,08,11,August,Summer,Indianapolis,IN,"Indianapolis, IN",25
-2023-08-12,2023,08,12,August,Summer,Indianapolis,IN,"Indianapolis, IN",12
+2023-08-07,2023,08,07,August,Summer,Marion,IN,"DCI Open Class World Championship Prelims",11
+2023-08-08,2023,08,08,August,Summer,Marion,IN,"DCI Open Class World Championship Finals",11
+2023-08-10,2023,08,10,August,Summer,Indianapolis,IN,"DCI World Class World Championship Prelims",32
+2023-08-11,2023,08,11,August,Summer,Indianapolis,IN,"DCI World Class World Championship Semifinals",25
+2023-08-12,2023,08,12,August,Summer,Indianapolis,IN,"DCI World Class World Championship Finals",12
 2023-08-19,2023,08,19,August,Summer,Mount Olive,NJ,"Mount Olive, NJ",6
 2023-08-19,2023,08,19,August,Summer,Mount Vernon,OH,"Mount Vernon, OH",3
 2023-08-26,2023,08,26,August,Summer,Reading,PA,"Reading, PA",6
@@ -8640,13 +8722,14 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2024-08-03,2024,08,03,August,Summer,Mattoon,IL,"Mattoon, IL",4
 2024-08-03,2024,08,03,August,Summer,Rochester,NY,"Rochester, NY",11
 2024-08-04,2024,08,04,August,Summer,Downingtown,PA,"Downingtown, PA",8
-2024-08-04,2024,08,04,August,Summer,Marion,IN,"Marion, IN",10
+2024-08-04,2024,08,04,August,Summer,Marion,IN,"DCI Open Class Championship Prelims",10
 2024-08-05,2024,08,05,August,Summer,Canton,OH,"Canton, OH",9
-2024-08-05,2024,08,05,August,Summer,Marion,IN,"Marion, IN",10
+2024-08-05,2024,08,05,August,Summer,Marion,IN,"DCI Open Class Championship Finals",10
 2024-08-05,2024,08,05,August,Summer,Pittsburgh,PA,"Pittsburgh, PA",6
-2024-08-08,2024,08,08,August,Summer,Indianapolis,IN,"Indianapolis, IN",31
-2024-08-09,2024,08,09,August,Summer,Indianapolis,IN,"Indianapolis, IN",25
-2024-08-10,2024,08,10,August,Summer,Indianapolis,IN,"Indianapolis, IN",25
+2024-08-08,2024,08,08,August,Summer,Indianapolis,IN,"DCI World Class World Championship Prelims",31
+2024-08-09,2024,08,09,August,Summer,Indianapolis,IN,"DCI World Class World Championship Semifinals",25
+2024-08-10,2024,08,10,August,Summer,Indianapolis,IN,"DCI World Class World Championship Finals",12
+2024-08-10,2024,08,10,August,Summer,Indianapolis,IN,"DCI All-Age World Championship Finals",13
 2025-06-28,2025,06,28,June,Summer,Fort Collins,CO,"Fort Collins, CO",5
 2025-06-28,2025,06,28,June,Summer,Shelton,CT,"Shelton, CT",6
 2025-06-30,2025,06,30,June,Summer,Ogden,UT,"Ogden, UT",4
@@ -8679,7 +8762,7 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2025-07-17,2025,07,17,July,Summer,Denton,TX,"Denton, TX",9
 2025-07-18,2025,07,18,July,Summer,Houston,TX,"Houston, TX",8
 2025-07-19,2025,07,19,July,Summer,Landisville,PA,"Landisville, PA",4
-2025-07-19,2025-07-19,July,Summer,Champlin,MN,"Champlin, MN",5
+2025-07-19,2025,07,19,July,Summer,Champlin,MN,"Champlin, MN",5
 2025-07-19,2025,07,19,July,Summer,San Antonio,TX,"San Antonio, TX",22
 2025-07-20,2025,07,20,July,Summer,Bedford,TX,"Bedford, TX",11
 2025-07-21,2025,07,21,July,Summer,McKinney,TX,"McKinney, TX",7
@@ -8708,6 +8791,10 @@ Date,Year,Month,Day,Month_Name,Season,City,State,Location,Corps_Count
 2025-08-03,2025,08,03,August,Summer,Downingtown,PA,"Downingtown, PA",5
 2025-08-04,2025,08,04,August,Summer,Edinboro,PA,"Edinboro, PA",7
 2025-08-04,2025,08,04,August,Summer,Pittsburgh,PA,"Pittsburgh, PA",5
-2025-08-04,2025,08,04,August,Summer,Marion,IN,"Marion, IN",14
-2025-08-05,2025,08,05,August,Summer,Marion,IN,"Marion, IN",14
-2025-08-07,2025,08,07,August,Summer,Indianapolis,IN,"Indianapolis, IN",34
+2025-08-04,2025,08,04,August,Summer,Marion,IN,"DCI Open Class Championship Prelims",14
+2025-08-05,2025,08,05,August,Summer,Marion,IN,"DCI Open Class Championship Finals",14
+2025-08-07,2025,08,07,August,Summer,Indianapolis,IN,"DCI World Class World Championship Prelims",34
+2025-08-08,2025,08,08,August,Summer,Indianapolis,IN,"DCI World Class World Championship Semifinals",26
+2025-08-09,2025,08,09,August,Summer,Indianapolis,IN,"DCI World Class World Championship Finals",12
+2025-08-08,2025,08,08,August,Summer,Indianapolis,IN,"DCI All-Age Class Championships",14
+2025-08-09,2025,08,09,August,Summer,Indianapolis,IN,"DCI All-Age World Championship Finals",12

@@ -15,12 +15,21 @@
  "championships": [
    {"circuit": "CYO", "year": 1964, "score": null, "showTitle": ""},
    {"circuit": "CYO", "year": 1966, "score": null, "showTitle": ""},
-   {"circuit": "CYO", "year": 1967, "score": null, "showTitle": ""}
+   {"circuit": "CYO", "year": 1967, "score": null, "showTitle": ""},
+   {"circuit": "DCI", "year": 2025, "score": 98.425, "showTitle": "BOOM"}
  ],
  "captionAwards": [
    {
      "caption": "Color Guard Award",
-     "years": [2018, 2019, 2022, 2024]
+     "years": [2018, 2019, 2022, 2024, 2025]
+   },
+   {
+     "caption": "Brass Performance Award",
+     "years": [2025]
+   },
+   {
+     "caption": "Percussion Performance Award",
+     "years": [2025]
    }
  ],
  "website": "bostoncrusaders.org",
@@ -83,6 +92,6 @@
    {"year": 2022, "showTitle": "Paradise Lost", "repertoire": "A Child's Garden of Dreams by David Maslanka / What a Wonderful World by Bob Thiele & George Weiss / Bad Hombres (y mujeres) by Antonio Sanchez / Can't Take My Eyes Off You by Bob Crewe & Bob Gaudio / Symphony No. 7, Mvt. 3 by David Maslanka / Requiem in D Minor, K. 626: VII. Lacrimosa by Wolfgang Amadeus Mozart", "placement": "2nd Place", "score": 97.325},
    {"year": 2023, "showTitle": "White Whale", "repertoire": "Fantasia on a Theme by Thomas Tallis, arranged by Ralph Vaughan Williams / Out to Sea by Ryan George, Colin McNutt, Iain Moyer & Mike Zellers / The Whale by Colin McNutt, Iain Moyer & Mike Zellers / Swallowtail Jig (Traditional) / The Wellerman (Traditional) / Show Me the Way to Go Home by Jimmy Campbell & Reg Connelly / Shipping Up To Boston by Dropkick Murphys / On the Waterfront by Leonard Bernstein", "placement": "4th Place", "score": 96.925},
    {"year": 2024, "showTitle": "Glitch", "repertoire": "Shaker Loops by John Adams / G-Spot Tornado by Frank Zappa / Orchestral Suite #2 by Johann Sebastian Bach / Take Five by Paul Desmond / True Colors by Tom Kelly and Billy Steinberg / State of Independence by Evangelos Odysseas Papathanassiou and Jon Anderson / Worm Hole by Ryan George, Colin McNutt, Iain Moyer & Mike Zellers", "placement": "2nd Place", "score": 97.413},
-   {"year": 2025, "showTitle": "BOOM", "repertoire": "The Kingdom by Tigran Hamasyan / Red, White, and Black Worlds by Tigran Hamasyan / Whatchamacallit by Juan García Esquivel / Malambo No. 1 by Yma Sumac / The Commuter by Les Baxter / Shooting Star by Les Baxter / Once Upon Another Time by Sara Bareilles / No Time For Caution by Hans Zimmer / Now, Then, and Beyond by Ryan George, Colin McNutt, Iain Moyer, & Mike Zellers", "placement": "", "score": null}
+   {"year": 2025, "showTitle": "BOOM", "repertoire": "The Kingdom by Tigran Hamasyan / Red, White, and Black Worlds by Tigran Hamasyan / Whatchamacallit by Juan García Esquivel / Malambo No. 1 by Yma Sumac / The Commuter by Les Baxter / Shooting Star by Les Baxter / Once Upon Another Time by Sara Bareilles / No Time For Caution by Hans Zimmer / Now, Then, and Beyond by Ryan George, Colin McNutt, Iain Moyer, & Mike Zellers", "placement": "1st Place", "score": 98.425}
  ]
 }

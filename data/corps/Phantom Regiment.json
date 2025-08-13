@@ -2,7 +2,7 @@
  "location": [
    {
      "city": "Rockford",
-     "state": "Illinois", 
+     "state": "IL", 
      "year": "1956-Present"
    }
  ],
@@ -95,6 +95,6 @@
    {"year": 2022, "showTitle": "No Walk Too Far", "repertoire": "Before Time by Thomas Bergersen / Godspeed! & The Chosen by Stephen Melillo / Eli's Theme (from Let the Right One In) by Johan Söderqvist / Symphony No. 5 by Gustav Mahler", "placement": "8th Place", "score": 90.675},
    {"year": 2023, "showTitle": "Exogenesis", "repertoire": "The 2nd Law: Isolated System & Supremacy by Muse / As If A Voice Were In Them by Oliver Waespi / to wALk Or ruN in wEst harlem by Andy Akiho / Piano Concerto No. 2 by Sergei Rachmaninoff / For I Have Fought the Good Fight by Stephen Melillo", "placement": "7th Place", "score": 92.988},
    {"year": 2024, "showTitle": "Mynd", "repertoire": "Moonlight Sonata by Ludwig van Beethoven / Surfacing by Dave Hall / Equilibrium by Paul Lovatt-Cooper / Fly or Die by Gilles Rocha / Pillar 3 by Andy Akiho", "placement": "4th Place", "score": 95.225},
-   {"year": 2025, "showTitle": "", "repertoire": "Raindrop Prelude by Frédéric Chopin / Fuse by Nick Omiciolli / Funeral by the Sea by Ramin Djawadi / Transcend by Tyler Sammons & Matt Penland / Breath of Souls by Paul Lovatt-Cooper", "placement": "", "score": null}
+   {"year": 2025, "showTitle": "*Untitled Show*", "repertoire": "Raindrop Prelude by Frédéric Chopin / Fuse by Nick Omiciolli / Funeral by the Sea by Ramin Djawadi / Transcend by Tyler Sammons & Matt Penland / Breath of Souls by Paul Lovatt-Cooper", "placement": "6th Place", "score": 94.300}
  ]
 }

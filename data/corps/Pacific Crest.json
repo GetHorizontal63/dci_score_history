@@ -2,7 +2,7 @@
  "location": [
    {
      "city": "Diamond Bar",
-     "state": "California", 
+     "state": "CA", 
      "year": "1993-Present"
    },
    {
@@ -52,6 +52,6 @@
    {"year": 2022, "showTitle": "Welcome to the Void", "repertoire": "Finale (from Swiss Army Man) by Andy Hull & Robert McDowell / The Void by Bradley Kerr Green, Jonathan Zuniga & Ezekiel Lanser / Enjoy the Silence by Martin Gore / Intruder by Peter Gabriel / Where Is My Mind? by Black Francis", "placement": "19th Place", "score": 80.250},
    {"year": 2023, "showTitle": "Goddess", "repertoire": "Engulfed Cathedral by Claude Debussy / Danse Diabolique by Joseph Hellmesberger Jr. / Watershed by Vienna Teng / Gloriosa by Yasuhide Ito / Scythian Suite by Sergei Prokofiev", "placement": "14th Place", "score": 85.050},
    {"year": 2024, "showTitle": "The Broken Column", "repertoire": "Benediction and Dream by Elliot Goldenthal / Burning Red by Elliot Goldenthal / Harmonielehre by John Adams / California Counterpoint: The Twittering Machine by Cindy McTee / Ramalama Bang Bang by Matthew John Herbert & Roisin Murphy / Passage by Cynthia Yih Shih / ...And the Mountains Rising Nowhere by Joseph Schwantner", "placement": "13th Place", "score": 86.350},
-   {"year": 2025, "showTitle": "It Sin Our Nature", "repertoire": "Fantasie by Oskar Schuster / Symphony No. 10 by Dmitri Shostakovich / How I'd Kill by Cowboy Malfoy / Jealous by Labyrinth / Better Have My Money by Rihanna / Dies Irae by Giuseppe Verdi / To Die For (from The Lion King) by Hans Zimmer", "placement": "", "score": null}
+   {"year": 2025, "showTitle": "It Sin Our Nature", "repertoire": "Fantasie by Oskar Schuster / Symphony No. 10 by Dmitri Shostakovich / How I'd Kill by Cowboy Malfoy / Jealous by Labyrinth / Better Have My Money by Rihanna / Dies Irae by Giuseppe Verdi / To Die For (from The Lion King) by Hans Zimmer", "placement": "15th Place", "score": 84.825}
  ]
 }

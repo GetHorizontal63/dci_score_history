@@ -306,7 +306,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/01,Bridgeport,CT,4,Kingston Grenadiers,Open Class,66.5,2000
 07/01,Michigan City,IN,4,Pioneer,Open Class,61.45,2000
 07/01,Muskegon,MI,4,Americanos,Open Class,50.8,2000
-07/01,Endicott,NY,5,Heat Wave,Open Class,47.1,2000
+07/01,Endicott,NY,5,Heat Wave (DCA),Open Class,47.1,2000
 07/01,Bridgeport,CT,5,Bushwackers,Open Class,59.7,2000
 07/01,Muskegon,MI,5,Bandettes,Open Class,30.25,2000
 07/01,Michigan City,IN,1,Blue Stars,Open Class,69.75,2000
@@ -1008,7 +1008,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/30,Clarion,PA,4,Dutch Boy,Open Class,59.7,2000
 07/30,Cincinnati,OH,4,Spirit of Atlanta,Open Class,77.05,2000
 07/29,Ottawa,IL,5,Edmonton Strutters,Open Class,60.2,2000
-07/29,Cumberland,MD,5,Heat Wave,Open Class,57.1,2000
+07/29,Cumberland,MD,5,Heat Wave (DCA),Open Class,57.1,2000
 07/30,Cincinnati,OH,5,Troopers,Open Class,67.2,2000
 07/29,Ottawa,IL,6,Bandettes,Open Class,54.45,2000
 07/30,Clarion,PA,1,"General Butler
@@ -1444,4 +1444,4 @@ Date,City,State,Place,Corps,Class,Score,Year
 09/03,Syracuse,NY,9,New York Skyliners,Open Class,83.0,2000
 09/02,Syracuse,NY,10,Bushwackers,Open Class,82.7,2000
 09/03,Syracuse,NY,10,Bushwackers,Open Class,82.1,2000
-09/02,Syracuse,NY,11,Heat Wave,Open Class,74.2,2000
+09/02,Syracuse,NY,11,Heat Wave (DCA),Open Class,74.2,2000

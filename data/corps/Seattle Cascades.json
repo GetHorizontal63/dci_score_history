@@ -17,12 +17,12 @@
    },
       {
      "city": "Seattle",
-     "state": "Washington", 
+     "state": "WA", 
      "year": "2009-2019"
    },
       {
      "city": "Seattle",
-     "state": "Washington", 
+     "state": "WA", 
      "year": "2022-Present"
    }
  ],
@@ -85,6 +85,6 @@
    {"year": 2019, "showTitle": "Off the Grid", "repertoire": "Off the Grid by Brandon Smith / Asphalt Cocktail by John Mackey / I've Got the World on a String by Harold Arlen & Ted Koehler / Never Gonna Give You Up by Matt Aitken, Mike Stock & Pete Waterman / Nitro by Frank Ticheli / High Wire by John Mackey", "placement": "25th Place", "score": 73.275},
    {"year": 2023, "showTitle": "Revival", "repertoire": "Bad Moon Rising by Mourning Ritual / Stained Glass by David Gillingham / Angels in the Architecture by Frank Ticheli / I Will Follow You Into the Dark by Death Cab for Cutie / Revival (Interlude) by Eminem", "placement": "25th Place", "score": 73.925},
    {"year": 2024, "showTitle": "Sky Above", "repertoire": "Across The Universe by The Beatles / Out of The Blue by Nigel Westlake / Kaval Sviri (The Flute Plays) by Bulgarian State Television Female Vocal Choir / Sky Above by Jacob Collier / Imagine by John Lennon", "placement": "23rd Place", "score": 76.075},
-   {"year": 2025, "showTitle": "Primary", "repertoire": "Yellow by Coldplay / Butterfly by BTS / Love You like a Love Song by Selena Gomez / A Million Miles Away (from Belle) by Mamoru Hosoda, Kaho Nakamura & Taisei Iwasaki / Original music by Jeff Chambers & Eric Yahrmarkt / Usseewa by Ado / Shikabane no Odori by Kikuo / My Universe by Coldplay & BTS", "placement": "", "score": null}
+   {"year": 2025, "showTitle": "Primary", "repertoire": "Yellow by Coldplay / Butterfly by BTS / Love You like a Love Song by Selena Gomez / A Million Miles Away (from Belle) by Mamoru Hosoda, Kaho Nakamura & Taisei Iwasaki / Original music by Jeff Chambers & Eric Yahrmarkt / Usseewa by Ado / Shikabane no Odori by Kikuo / My Universe by Coldplay & BTS", "placement": "23rd Place", "score": 77.050}
  ]
 }

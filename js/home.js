@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const viewAllBtn = document.querySelector('.view-all-btn');
     if (viewAllBtn) {
         viewAllBtn.addEventListener('click', () => {
-            window.location.href = 'html/updates.html';
+            window.location.href = 'updates.html';
         });
     }
     

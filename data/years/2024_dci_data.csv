@@ -1,4 +1,4 @@
-Date,City,State,Place,Corps,Class,Score,Year
+Date,City,State,Place,Corps,Class,Score,Year,Event_Name
 06/26,Rockford,MI,1,Boston Crusaders,World Class,73.0,2024
 06/28,Muncie,IN,1,Carolina Crown,World Class,74.9,2024
 06/28,San Diego,CA,1,Blue Devils,World Class,76.6,2024
@@ -512,100 +512,100 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/05,Marion,IN,1,Spartans,Open Class,82.963,2024
 08/04,Marion,IN,2,Blue Devils B,Open Class,81.775,2024
 08/05,Marion,IN,2,Blue Devils B,Open Class,82.475,2024
-08/10,Indianapolis,IN,1,Reading Buccaneers,All-Age - World Class,95.925,2024
+08/10,Indianapolis,IN,1,Reading Buccaneers,All-Age - World Class,95.925,2024,DCI All-Age World Championship Finals
 08/04,Marion,IN,3,Gold,Open Class,80.625,2024
 08/05,Marion,IN,3,Gold,Open Class,79.8,2024
-08/10,Indianapolis,IN,2,Hawthorne Caballeros,All-Age - World Class,93.825,2024
+08/10,Indianapolis,IN,2,Hawthorne Caballeros,All-Age - World Class,93.825,2024,DCI All-Age World Championship Finals
 08/04,Marion,IN,4,Battalion,Open Class,78.9,2024
 08/05,Marion,IN,4,Battalion,Open Class,79.188,2024
-08/10,Indianapolis,IN,3,Bushwackers,All-Age - World Class,92.625,2024
+08/10,Indianapolis,IN,3,Bushwackers,All-Age - World Class,92.625,2024,DCI All-Age World Championship Finals
 08/04,Marion,IN,5,Columbians,Open Class,78.05,2024
 08/05,Marion,IN,5,Columbians,Open Class,78.55,2024
-08/10,Indianapolis,IN,4,Atlanta CV,All-Age - World Class,89.575,2024
+08/10,Indianapolis,IN,4,Atlanta CV,All-Age - World Class,89.575,2024,DCI All-Age World Championship Finals
 08/04,Marion,IN,6,River City Rhythm,Open Class,76.0,2024
 08/05,Marion,IN,6,River City Rhythm,Open Class,76.675,2024
-08/10,Indianapolis,IN,5,Connecticut Hurricanes,All-Age - World Class,86.8,2024
+08/10,Indianapolis,IN,5,Connecticut Hurricanes,All-Age - World Class,86.8,2024,DCI All-Age World Championship Finals
 08/04,Marion,IN,7,Raiders,Open Class,72.6,2024
 08/05,Marion,IN,7,Raiders,Open Class,73.375,2024
 08/04,Marion,IN,8,Colt Cadets,Open Class,72.15,2024
 08/05,Marion,IN,8,Colt Cadets,Open Class,72.075,2024
-08/10,Indianapolis,IN,1,Cincinnati Tradition,All-Age - Open Class,87.475,2024
+08/10,Indianapolis,IN,1,Cincinnati Tradition,All-Age - Open Class,87.475,2024,DCI All-Age World Championship Finals
 08/04,Marion,IN,9,7th Regiment,Open Class,71.55,2024
 08/05,Marion,IN,9,7th Regiment,Open Class,71.225,2024
-08/10,Indianapolis,IN,2,White Sabers,All-Age - Open Class,86.775,2024
+08/10,Indianapolis,IN,2,White Sabers,All-Age - Open Class,86.775,2024,DCI All-Age World Championship Finals
 08/04,Marion,IN,10,Les Stentors,Open Class,66.525,2024
 08/05,Marion,IN,10,Les Stentors,Open Class,67.225,2024
-08/10,Indianapolis,IN,3,Rogues Hollow Regiment,All-Age - Open Class,83.025,2024
-08/10,Indianapolis,IN,4,Fusion Core,All-Age - Open Class,82.125,2024
-08/10,Indianapolis,IN,1,Govenaires,All-Age - A Class,80.775,2024
-08/10,Indianapolis,IN,2,Sunrisers,All-Age - A Class,79.175,2024
-08/10,Indianapolis,IN,3,Skyliners,All-Age - A Class,76.75,2024
-08/10,Indianapolis,IN,4,Columbus Saints,All-Age - A Class,71.5,2024
-08/08,Indianapolis,IN,1,Bluecoats,World Class,97.525,2024
-08/09,Indianapolis,IN,1,Bluecoats,World Class,97.925,2024
-08/10,Indianapolis,IN,1,Bluecoats,World Class,98.75,2024
-08/08,Indianapolis,IN,2,Boston Crusaders,World Class,96.6,2024
-08/09,Indianapolis,IN,2,Boston Crusaders,World Class,97.0,2024
-08/10,Indianapolis,IN,2,Boston Crusaders,World Class,97.413,2024
-08/08,Indianapolis,IN,3,Blue Devils,World Class,95.875,2024
-08/09,Indianapolis,IN,3,Blue Devils,World Class,96.55,2024
-08/10,Indianapolis,IN,3,Blue Devils,World Class,97.075,2024
-08/08,Indianapolis,IN,4,Carolina Crown,World Class,94.313,2024
-08/09,Indianapolis,IN,4,Phantom Regiment,World Class,95.325,2024
-08/10,Indianapolis,IN,4,Phantom Regiment,World Class,95.225,2024
-08/08,Indianapolis,IN,5,Phantom Regiment,World Class,94.275,2024
-08/09,Indianapolis,IN,5,Carolina Crown,World Class,94.75,2024
-08/10,Indianapolis,IN,5,Carolina Crown,World Class,95.025,2024
-08/08,Indianapolis,IN,6,Vanguard,World Class,93.0,2024
-08/09,Indianapolis,IN,6,Vanguard,World Class,93.463,2024
-08/10,Indianapolis,IN,6,Vanguard,World Class,93.925,2024
-08/08,Indianapolis,IN,7,Mandarins,World Class,91.225,2024
-08/09,Indianapolis,IN,7,Mandarins,World Class,92.525,2024
-08/10,Indianapolis,IN,7,Mandarins,World Class,92.15,2024
-08/08,Indianapolis,IN,8,Blue Stars,World Class,90.55,2024
-08/09,Indianapolis,IN,8,Blue Stars,World Class,91.5,2024
-08/10,Indianapolis,IN,8,Blue Stars,World Class,91.6,2024
-08/08,Indianapolis,IN,9,Colts,World Class,89.35,2024
-08/09,Indianapolis,IN,9,Colts,World Class,90.175,2024
-08/10,Indianapolis,IN,9,Colts,World Class,89.775,2024
-08/08,Indianapolis,IN,10,Cavaliers,World Class,88.212,2024
-08/09,Indianapolis,IN,10,Troopers,World Class,88.8,2024
-08/10,Indianapolis,IN,10,Troopers,World Class,88.95,2024
-08/08,Indianapolis,IN,11,Troopers,World Class,87.963,2024
-08/09,Indianapolis,IN,11,Cavaliers,World Class,88.525,2024
-08/10,Indianapolis,IN,11,Cavaliers,World Class,87.5,2024
-08/08,Indianapolis,IN,12,Madison Scouts,World Class,86.575,2024
-08/09,Indianapolis,IN,12,Madison Scouts,World Class,88.075,2024
-08/10,Indianapolis,IN,12,Madison Scouts,World Class,87.05,2024
-08/08,Indianapolis,IN,13,Pacific Crest,World Class,84.988,2024
-08/09,Indianapolis,IN,13,Pacific Crest,World Class,86.35,2024
-08/08,Indianapolis,IN,14,Blue Knights,World Class,84.813,2024
-08/09,Indianapolis,IN,14,Blue Knights,World Class,85.6,2024
-08/08,Indianapolis,IN,15,Crossmen,World Class,84.525,2024
-08/09,Indianapolis,IN,15,Crossmen,World Class,84.875,2024
-08/08,Indianapolis,IN,16,Spirit of Atlanta,World Class,82.675,2024
-08/09,Indianapolis,IN,16,Spirit of Atlanta,World Class,83.875,2024
-08/08,Indianapolis,IN,17,Academy,World Class,81.775,2024
-08/09,Indianapolis,IN,17,Music City,World Class,82.625,2024
-08/08,Indianapolis,IN,18,Music City,World Class,81.55,2024
-08/09,Indianapolis,IN,18,Academy,World Class,82.175,2024
-08/08,Indianapolis,IN,19,Spartans,Open Class,81.038,2024
-08/09,Indianapolis,IN,19,Spartans,Open Class,81.525,2024
-08/08,Indianapolis,IN,20,Blue Devils B,Open Class,80.6,2024
-08/09,Indianapolis,IN,20,Blue Devils B,Open Class,81.075,2024
-08/08,Indianapolis,IN,21,Genesis,World Class,78.375,2024
-08/09,Indianapolis,IN,21,Gold,Open Class,77.8,2024
-08/08,Indianapolis,IN,22,Gold,Open Class,77.525,2024
-08/09,Indianapolis,IN,22,Genesis,World Class,77.55,2024
-08/08,Indianapolis,IN,23,Seattle Cascades,World Class,77.225,2024
-08/09,Indianapolis,IN,23,Seattle Cascades,World Class,76.075,2024
-08/08,Indianapolis,IN,24,Jersey Surf,World Class,75.813,2024
-08/09,Indianapolis,IN,24,Jersey Surf,World Class,74.425,2024
-08/08,Indianapolis,IN,25,Battalion,Open Class,75.35,2024
-08/09,Indianapolis,IN,24,Battalion,Open Class,74.425,2024
-08/08,Indianapolis,IN,26,Columbians,Open Class,75.2,2024
-08/08,Indianapolis,IN,27,River City Rhythm,Open Class,74.075,2024
-08/08,Indianapolis,IN,28,Raiders,Open Class,70.5,2024
-08/08,Indianapolis,IN,29,Colt Cadets,Open Class,71.3,2024
-08/08,Indianapolis,IN,30,7th Regiment,Open Class,68.8,2024
-08/08,Indianapolis,IN,31,Les Stentors,Open Class,66.075,2024
+08/10,Indianapolis,IN,3,Rogues Hollow Regiment,All-Age - Open Class,83.025,2024,DCI All-Age World Championship Finals
+08/10,Indianapolis,IN,4,Fusion Core,All-Age - Open Class,82.125,2024,DCI All-Age World Championship Finals
+08/10,Indianapolis,IN,1,Govenaires,All-Age - A Class,80.775,2024,DCI All-Age World Championship Finals
+08/10,Indianapolis,IN,2,Sunrisers,All-Age - A Class,79.175,2024,DCI All-Age World Championship Finals
+08/10,Indianapolis,IN,3,Skyliners,All-Age - A Class,76.75,2024,DCI All-Age World Championship Finals
+08/10,Indianapolis,IN,4,Columbus Saints,All-Age - A Class,71.5,2024,DCI All-Age World Championship Finals
+08/08,Indianapolis,IN,1,Bluecoats,World Class,97.525,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,1,Bluecoats,World Class,97.925,2024,DCI World Class World Championship Semifinals
+08/10,Indianapolis,IN,1,Bluecoats,World Class,98.75,2024,DCI World Class World Championship Finals
+08/08,Indianapolis,IN,2,Boston Crusaders,World Class,96.6,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,2,Boston Crusaders,World Class,97.0,2024,DCI World Class World Championship Semifinals
+08/10,Indianapolis,IN,2,Boston Crusaders,World Class,97.413,2024,DCI World Class World Championship Finals
+08/08,Indianapolis,IN,3,Blue Devils,World Class,95.875,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,3,Blue Devils,World Class,96.55,2024,DCI World Class World Championship Semifinals
+08/10,Indianapolis,IN,3,Blue Devils,World Class,97.075,2024,DCI World Class World Championship Finals
+08/08,Indianapolis,IN,4,Carolina Crown,World Class,94.313,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,4,Phantom Regiment,World Class,95.325,2024,DCI World Class World Championship Semifinals
+08/10,Indianapolis,IN,4,Phantom Regiment,World Class,95.225,2024,DCI World Class World Championship Finals
+08/08,Indianapolis,IN,5,Phantom Regiment,World Class,94.275,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,5,Carolina Crown,World Class,94.75,2024,DCI World Class World Championship Semifinals
+08/10,Indianapolis,IN,5,Carolina Crown,World Class,95.025,2024,DCI World Class World Championship Finals
+08/08,Indianapolis,IN,6,Vanguard,World Class,93.0,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,6,Vanguard,World Class,93.463,2024,DCI World Class World Championship Semifinals
+08/10,Indianapolis,IN,6,Vanguard,World Class,93.925,2024,DCI World Class World Championship Finals
+08/08,Indianapolis,IN,7,Mandarins,World Class,91.225,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,7,Mandarins,World Class,92.525,2024,DCI World Class World Championship Semifinals
+08/10,Indianapolis,IN,7,Mandarins,World Class,92.15,2024,DCI World Class World Championship Finals
+08/08,Indianapolis,IN,8,Blue Stars,World Class,90.55,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,8,Blue Stars,World Class,91.5,2024,DCI World Class World Championship Semifinals
+08/10,Indianapolis,IN,8,Blue Stars,World Class,91.6,2024,DCI World Class World Championship Finals
+08/08,Indianapolis,IN,9,Colts,World Class,89.35,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,9,Colts,World Class,90.175,2024,DCI World Class World Championship Semifinals
+08/10,Indianapolis,IN,9,Colts,World Class,89.775,2024,DCI World Class World Championship Finals
+08/08,Indianapolis,IN,10,Cavaliers,World Class,88.212,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,10,Troopers,World Class,88.8,2024,DCI World Class World Championship Semifinals
+08/10,Indianapolis,IN,10,Troopers,World Class,88.95,2024,DCI World Class World Championship Finals
+08/08,Indianapolis,IN,11,Troopers,World Class,87.963,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,11,Cavaliers,World Class,88.525,2024,DCI World Class World Championship Semifinals
+08/10,Indianapolis,IN,11,Cavaliers,World Class,87.5,2024,DCI World Class World Championship Finals
+08/08,Indianapolis,IN,12,Madison Scouts,World Class,86.575,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,12,Madison Scouts,World Class,88.075,2024,DCI World Class World Championship Semifinals
+08/10,Indianapolis,IN,12,Madison Scouts,World Class,87.05,2024,DCI World Class World Championship Finals
+08/08,Indianapolis,IN,13,Pacific Crest,World Class,84.988,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,13,Pacific Crest,World Class,86.35,2024,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,14,Blue Knights,World Class,84.813,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,14,Blue Knights,World Class,85.6,2024,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,15,Crossmen,World Class,84.525,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,15,Crossmen,World Class,84.875,2024,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,16,Spirit of Atlanta,World Class,82.675,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,16,Spirit of Atlanta,World Class,83.875,2024,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,17,Academy,World Class,81.775,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,17,Music City,World Class,82.625,2024,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,18,Music City,World Class,81.55,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,18,Academy,World Class,82.175,2024,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,19,Spartans,Open Class,81.038,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,19,Spartans,Open Class,81.525,2024,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,20,Blue Devils B,Open Class,80.6,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,20,Blue Devils B,Open Class,81.075,2024,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,21,Genesis,World Class,78.375,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,21,Gold,Open Class,77.8,2024,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,22,Gold,Open Class,77.525,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,22,Genesis,World Class,77.55,2024,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,23,Seattle Cascades,World Class,77.225,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,23,Seattle Cascades,World Class,76.075,2024,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,24,Jersey Surf,World Class,75.813,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,24,Jersey Surf,World Class,74.425,2024,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,25,Battalion,Open Class,75.35,2024,DCI World Class World Championship Prelims
+08/09,Indianapolis,IN,24,Battalion,Open Class,74.425,2024,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,26,Columbians,Open Class,75.2,2024,DCI World Class World Championship Prelims
+08/08,Indianapolis,IN,27,River City Rhythm,Open Class,74.075,2024,DCI World Class World Championship Prelims
+08/08,Indianapolis,IN,28,Raiders,Open Class,70.5,2024,DCI World Class World Championship Prelims
+08/08,Indianapolis,IN,29,Colt Cadets,Open Class,71.3,2024,DCI World Class World Championship Prelims
+08/08,Indianapolis,IN,30,7th Regiment,Open Class,68.8,2024,DCI World Class World Championship Prelims
+08/08,Indianapolis,IN,31,Les Stentors,Open Class,66.075,2024,DCI World Class World Championship Prelims

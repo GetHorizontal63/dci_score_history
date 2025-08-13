@@ -65,6 +65,10 @@ class FileExplorer {
             this.addFileToStructure('corps_logos', file, { size: size });
         });
         
+        // Corps folder with JSON files - load from index
+        this.addFolderToStructure('', 'corps');
+        await this.loadCorpsFiles();
+        
         // Shows folder
         this.addFolderToStructure('', 'shows');
         this.addFileToStructure('shows', 'master_shows_list.csv', { size: 800000 });
@@ -72,10 +76,7 @@ class FileExplorer {
         // Years folder with all actual year files (note: no 2020 file)
         this.addFolderToStructure('', 'years');
         const years = [
-            1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979,
-            1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995,
-            1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011,
-            2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025
+            2009,2010,2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025
         ];
         years.forEach(year => {
             this.addFileToStructure('years', `${year}_dci_data.csv`, { size: 250000 });
@@ -110,6 +111,26 @@ class FileExplorer {
             type: 'file',
             size: fileInfo.size || 0
         };
+    }
+    
+    async loadCorpsFiles() {
+        try {
+            const response = await fetch('../data/corps/index.json');
+            if (response.ok) {
+                const index = await response.json();
+                if (index.files && Array.isArray(index.files)) {
+                    index.files.forEach(filename => {
+                        this.addFileToStructure('corps', filename, { size: 150000 });
+                    });
+                }
+            } else {
+                console.warn('Could not load corps index, using fallback');
+                this.addFileToStructure('corps', 'index.json', { size: 5000 });
+            }
+        } catch (error) {
+            console.warn('Error loading corps files:', error);
+            this.addFileToStructure('corps', 'index.json', { size: 5000 });
+        }
     }
     
     createFallbackStructure() {

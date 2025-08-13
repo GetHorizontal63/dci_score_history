@@ -279,6 +279,20 @@ function setupSearchInterface() {
         const searchTerm = e.target.value.toLowerCase();
         updateAvailableCorpsList(searchTerm);
     });
+    
+    // Setup cross-class toggle
+    const crossClassToggle = document.getElementById('cross-class-toggle');
+    const toggleLabel = document.getElementById('toggle-label');
+    
+    crossClassToggle.addEventListener('change', (e) => {
+        const isChecked = e.target.checked;
+        toggleLabel.textContent = isChecked ? 'Across All Classes' : 'Within Same Class';
+        
+        // Recalculate if we have selected corps
+        if (selectedCorpsYears.length > 0) {
+            generateChart();
+        }
+    });
 }
 
 function updateAvailableCorpsList(searchTerm = '') {
@@ -419,33 +433,64 @@ function clearChart() {
 }
 
 function calculateScorePlus(allYearClassData) {
-    // Group ALL year/class data for proper average calculation
-    const yearClassGroups = {};
+    const crossClassMode = document.getElementById('cross-class-toggle').checked;
     
-    allYearClassData.forEach(row => {
-        const key = `${row.Year}-${row.Class}`;
-        if (!yearClassGroups[key]) {
-            yearClassGroups[key] = [];
-        }
-        yearClassGroups[key].push(row);
-    });
-    
-    // Calculate averages for each year/class group using ALL data
-    const yearClassAverages = {};
-    Object.keys(yearClassGroups).forEach(groupKey => {
-        const groupData = yearClassGroups[groupKey];
-        const scores = groupData.map(row => row.ScoreNum);
-        yearClassAverages[groupKey] = scores.reduce((sum, score) => sum + score, 0) / scores.length;
-    });
-    
-    // Apply Score+ calculation to ONLY the filtered (selected) data
-    filteredData.forEach(row => {
-        const key = `${row.Year}-${row.Class}`;
-        const avgScore = yearClassAverages[key];
-        if (avgScore) {
-            row.ScorePlus = (row.ScoreNum / avgScore) * 100;
-        }
-    });
+    if (crossClassMode) {
+        // Calculate across all classes - group by year only, using ALL available scores
+        const yearGroups = {};
+        
+        allYearClassData.forEach(row => {
+            const key = row.Year;
+            if (!yearGroups[key]) {
+                yearGroups[key] = [];
+            }
+            yearGroups[key].push(row);
+        });
+        
+        // Calculate averages for each year using ALL scores from that season
+        const yearAverages = {};
+        Object.keys(yearGroups).forEach(year => {
+            const yearData = yearGroups[year];
+            const scores = yearData.map(row => row.ScoreNum);
+            yearAverages[year] = scores.reduce((sum, score) => sum + score, 0) / scores.length;
+        });
+        
+        // Apply Score+ calculation to filtered data using year averages (all classes)
+        filteredData.forEach(row => {
+            const avgScore = yearAverages[row.Year];
+            if (avgScore) {
+                row.ScorePlus = (row.ScoreNum / avgScore) * 100;
+            }
+        });
+    } else {
+        // Calculate within same class only - group by year and class, using only same class scores
+        const yearClassGroups = {};
+        
+        allYearClassData.forEach(row => {
+            const key = `${row.Year}-${row.Class}`;
+            if (!yearClassGroups[key]) {
+                yearClassGroups[key] = [];
+            }
+            yearClassGroups[key].push(row);
+        });
+        
+        // Calculate averages for each year/class group using only corps with same class designation
+        const yearClassAverages = {};
+        Object.keys(yearClassGroups).forEach(groupKey => {
+            const groupData = yearClassGroups[groupKey];
+            const scores = groupData.map(row => row.ScoreNum);
+            yearClassAverages[groupKey] = scores.reduce((sum, score) => sum + score, 0) / scores.length;
+        });
+        
+        // Apply Score+ calculation to filtered data using year/class averages (same class only)
+        filteredData.forEach(row => {
+            const key = `${row.Year}-${row.Class}`;
+            const avgScore = yearClassAverages[key];
+            if (avgScore) {
+                row.ScorePlus = (row.ScoreNum / avgScore) * 100;
+            }
+        });
+    }
 }
 
 function createLineChart() {
@@ -671,33 +716,64 @@ function clearCorpsDropdown() {
 }
 
 function calculateScorePlus(allYearClassData) {
-    // Group ALL year/class data for proper average calculation
-    const yearClassGroups = {};
+    const crossClassMode = document.getElementById('cross-class-toggle').checked;
     
-    allYearClassData.forEach(row => {
-        const key = `${row.Year}-${row.Class}`;
-        if (!yearClassGroups[key]) {
-            yearClassGroups[key] = [];
-        }
-        yearClassGroups[key].push(row);
-    });
-    
-    // Calculate averages for each year/class group using ALL data
-    const yearClassAverages = {};
-    Object.keys(yearClassGroups).forEach(groupKey => {
-        const groupData = yearClassGroups[groupKey];
-        const scores = groupData.map(row => row.ScoreNum);
-        yearClassAverages[groupKey] = scores.reduce((sum, score) => sum + score, 0) / scores.length;
-    });
-    
-    // Apply Score+ calculation to ONLY the filtered (selected) data
-    filteredData.forEach(row => {
-        const key = `${row.Year}-${row.Class}`;
-        const avgScore = yearClassAverages[key];
-        if (avgScore) {
-            row.ScorePlus = (row.ScoreNum / avgScore) * 100;
-        }
-    });
+    if (crossClassMode) {
+        // Calculate across all classes - group by year only, using ALL available scores
+        const yearGroups = {};
+        
+        allYearClassData.forEach(row => {
+            const key = row.Year;
+            if (!yearGroups[key]) {
+                yearGroups[key] = [];
+            }
+            yearGroups[key].push(row);
+        });
+        
+        // Calculate averages for each year using ALL scores from that season
+        const yearAverages = {};
+        Object.keys(yearGroups).forEach(year => {
+            const yearData = yearGroups[year];
+            const scores = yearData.map(row => row.ScoreNum);
+            yearAverages[year] = scores.reduce((sum, score) => sum + score, 0) / scores.length;
+        });
+        
+        // Apply Score+ calculation to filtered data using year averages (all classes)
+        filteredData.forEach(row => {
+            const avgScore = yearAverages[row.Year];
+            if (avgScore) {
+                row.ScorePlus = (row.ScoreNum / avgScore) * 100;
+            }
+        });
+    } else {
+        // Calculate within same class only - group by year and class, using only same class scores
+        const yearClassGroups = {};
+        
+        allYearClassData.forEach(row => {
+            const key = `${row.Year}-${row.Class}`;
+            if (!yearClassGroups[key]) {
+                yearClassGroups[key] = [];
+            }
+            yearClassGroups[key].push(row);
+        });
+        
+        // Calculate averages for each year/class group using only corps with same class designation
+        const yearClassAverages = {};
+        Object.keys(yearClassGroups).forEach(groupKey => {
+            const groupData = yearClassGroups[groupKey];
+            const scores = groupData.map(row => row.ScoreNum);
+            yearClassAverages[groupKey] = scores.reduce((sum, score) => sum + score, 0) / scores.length;
+        });
+        
+        // Apply Score+ calculation to filtered data using year/class averages (same class only)
+        filteredData.forEach(row => {
+            const key = `${row.Year}-${row.Class}`;
+            const avgScore = yearClassAverages[key];
+            if (avgScore) {
+                row.ScorePlus = (row.ScoreNum / avgScore) * 100;
+            }
+        });
+    }
 }
 
 async function createLineChart() {

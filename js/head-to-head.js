@@ -608,8 +608,7 @@ function displayResults(corps1, corps2, matchups, corps1Data, corps2Data, status
         corps2HighScoreElement.textContent = corps2HighScore;
     }
     
-    // Scroll to results
-    resultsDiv.scrollIntoView({ behavior: 'smooth' });
+    // Results are displayed - no auto-scroll to maintain user position
 }
 
 function showMatchupHistory(corps1, corps2) {
@@ -645,8 +644,7 @@ function showMatchupHistory(corps1, corps2) {
     // Display the matchups
     displayHistoryMatchups(matchups);
     
-    // Scroll to top of history section
-    historyMain.scrollIntoView({ behavior: 'smooth' });
+    // History displayed - no auto-scroll to maintain user position
 }
 
 function populateHistoryFilters(matchups) {
@@ -750,8 +748,7 @@ function hideMatchupHistory() {
     document.getElementById('historyWinnerFilter').value = '';
     document.getElementById('historyMarginFilter').value = '';
     
-    // Scroll back to overview
-    document.querySelector('.scores-main').scrollIntoView({ behavior: 'smooth' });
+    // Back to overview - no auto-scroll to maintain user position
 }
 
 // Setup event handlers for history section

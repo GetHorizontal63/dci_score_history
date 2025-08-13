@@ -6,6 +6,7 @@ let availableYears = [];
 let availableDates = {};
 let availableClasses = {};
 let corpsAliasMap = {};
+let availableCorpsFiles = new Set();
 
 // Function to normalize corps names using alias mapping
 function normalizeCorpsName(corpsName) {
@@ -17,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize page
     loadLogoDictionary();
+    loadAvailableCorpsFiles();
     loadAvailableYears();
     setupEventListeners();
     
@@ -62,6 +64,36 @@ function parseLogoDictionary(csvText) {
         }
     }
     console.log('Loaded logo dictionary:', Object.keys(logoDictionary).length, 'corps');
+}
+
+async function loadAvailableCorpsFiles() {
+    try {
+        // Load from index.json instead of hardcoding
+        const response = await fetch('../data/corps/index.json');
+        if (response.ok) {
+            const index = await response.json();
+            if (index.files && Array.isArray(index.files)) {
+                // Remove .json extension and add to set
+                index.files.forEach(filename => {
+                    if (filename.endsWith('.json') && filename !== 'index.json') {
+                        const corpsName = filename.replace('.json', '');
+                        availableCorpsFiles.add(corpsName);
+                        // Also add normalized versions for matching
+                        const normalized = normalizeCorpsName(corpsName);
+                        if (normalized !== corpsName) {
+                            availableCorpsFiles.add(normalized);
+                        }
+                    }
+                });
+            }
+        } else {
+            console.warn('Could not load corps index file');
+        }
+        
+        console.log('Loaded', availableCorpsFiles.size, 'available corps files');
+    } catch (error) {
+        console.error('Error loading available corps files:', error);
+    }
 }
 
 async function loadAvailableYears() {
@@ -260,6 +292,11 @@ function isDCIClass(corpsClass, year) {
     }
 }
 
+function isAllAgeClass(corpsClass) {
+    // Check if class contains "All-Age" or "DCA" 
+    return corpsClass && (corpsClass.includes('All-Age') || corpsClass.includes('DCA'));
+}
+
 function populateClassFilter() {
     const classFilter = document.getElementById('class-filter');
     classFilter.innerHTML = '<option value="">All Classes</option>';
@@ -269,6 +306,12 @@ function populateClassFilter() {
     dciOption.value = 'DCI';
     dciOption.textContent = 'DCI';
     classFilter.appendChild(dciOption);
+    
+    // Add All-Age option
+    const allAgeOption = document.createElement('option');
+    allAgeOption.value = 'All-Age';
+    allAgeOption.textContent = 'All-Age';
+    classFilter.appendChild(allAgeOption);
     
     availableClasses.forEach(className => {
         const option = document.createElement('option');
@@ -320,6 +363,9 @@ async function generateStandings() {
             if (selectedClass === 'DCI') {
                 // Apply DCI filtering based on year
                 filteredData = filteredData.filter(row => isDCIClass(row.Class, selectedYear));
+            } else if (selectedClass === 'All-Age') {
+                // Apply All-Age filtering
+                filteredData = filteredData.filter(row => isAllAgeClass(row.Class));
             } else {
                 filteredData = filteredData.filter(row => row.Class === selectedClass);
             }
@@ -486,6 +532,7 @@ function displayStandings(standings) {
         const logo = getCorpsLogo(standing.corps);
         const rankClass = standing.rank <= 3 ? `rank-${standing.rank}` : '';
         const cutoffClass = standing.rank === 12 ? 'cutoff-line' : '';
+        const corpsNameElement = createCorpsNameElement(standing.corps);
         
         return `
             <tr class="${cutoffClass}">
@@ -495,7 +542,7 @@ function displayStandings(standings) {
                         <div class="corps-logo">
                             ${logo ? `<img src="../assets/corps_logos/${logo}.png" alt="${standing.corps}" onerror="this.style.display='none'">` : ''}
                         </div>
-                        <span class="corps-name">${standing.corps}</span>
+                        ${corpsNameElement}
                     </div>
                 </td>
                 <td class="score-cell">${standing.mostRecentScore.toFixed(2)}</td>
@@ -531,4 +578,48 @@ function getCorpsLogo(corpsName) {
     }
     
     return null;
+}
+
+function createCorpsNameElement(corpsName) {
+    const normalizedName = normalizeCorpsName(corpsName);
+    
+    // Check if we have a JSON file for this corps
+    // Try exact match first, then variations
+    let hasJsonFile = false;
+    let fileNameToUse = corpsName;
+    
+    if (availableCorpsFiles.has(corpsName)) {
+        hasJsonFile = true;
+        fileNameToUse = corpsName;
+    } else if (availableCorpsFiles.has(normalizedName)) {
+        hasJsonFile = true;
+        fileNameToUse = normalizedName;
+    } else {
+        // Try some common variations
+        const variations = [
+            corpsName.replace(/^Reading /, ''), // "Reading Buccaneers" -> "Buccaneers"
+            corpsName.replace(/^Seattle /, ''), // "Seattle Cascades" -> "Cascades"
+            corpsName.replace(/ Regiment$/, ''), // Remove "Regiment" suffix
+            corpsName.replace(/ Cadets$/, ''), // Remove "Cadets" suffix
+            corpsName + ' Regiment', // Add "Regiment" suffix
+            corpsName + ' Cadets', // Add "Cadets" suffix
+        ];
+        
+        for (const variation of variations) {
+            if (availableCorpsFiles.has(variation)) {
+                hasJsonFile = true;
+                fileNameToUse = variation;
+                break;
+            }
+        }
+    }
+    
+    // Debug logging
+    console.log(`Corps: "${corpsName}" -> hasJsonFile: ${hasJsonFile}, fileNameToUse: "${fileNameToUse}"`);
+    
+    if (hasJsonFile) {
+        return `<a href="corps-details.html?corps=${encodeURIComponent(fileNameToUse)}" class="corps-name-link">${corpsName}</a>`;
+    } else {
+        return `<span class="corps-name">${corpsName}</span>`;
+    }
 }

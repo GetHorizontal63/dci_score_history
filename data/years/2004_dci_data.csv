@@ -167,7 +167,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 06/26,Saint Peter,MN,2,Capital Sound,Open Class,29.45,2004
 06/26,Bridgeport,CT,4,New York Skyliners,Open Class,65.575,2004
 06/26,Malden,MA,5,Targets,World Class,46.8,2004
-06/26,Lewisburg,PA,1,Heat Wave,Open Class,62.388,2004
+06/26,Lewisburg,PA,1,Heat Wave (DCA),Open Class,62.388,2004
 06/26,Malden,MA,6,Spirit of Newark,World Class,43.15,2004
 06/26,Saint Peter,MN,1,Minnesota Brass,Open Class,63.1,2004
 06/26,Bridgeport,CT,1,Sunrisers,Open Class,54.863,2004
@@ -438,7 +438,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/10,DeKalb,IL,1,Blue Stars,World Class,64.95,2004
 07/10,San Antonio,TX,4,Bluecoats,World Class,83.05,2004
 07/10,Kalamazoo,MI,4,Boston Crusaders,World Class,82.13,2004
-07/10,Rockmart,GA,1,Heat Wave,World Class,65.388,2004
+07/10,Rockmart,GA,1,Heat Wave (DCA),World Class,65.388,2004
 07/10,San Antonio,TX,5,Blue Knights,World Class,78.35,2004
 07/10,Kalamazoo,MI,5,Carolina Crown,World Class,81.03,2004
 07/10,DeKalb,IL,1,Lake Erie Regiment,World Class,56.05,2004
@@ -481,7 +481,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/11,Evansville,IN,3,Spirit,Open Class,78.1,2004
 07/11,Harrison,OH,3,Crossmen,Open Class,78.4,2004
 07/10,Reading,PA,4,New York Skyliners,Open Class,70.775,2004
-07/11,Clemmons,NC,3,Heat Wave,Open Class,68.563,2004
+07/11,Clemmons,NC,3,Heat Wave (DCA),Open Class,68.563,2004
 07/11,Evansville,IN,4,Pioneer,Open Class,66.7,2004
 07/11,Harrison,OH,4,Colts,Open Class,71.7,2004
 07/10,Reading,PA,5,Connecticut Hurricanes,Open Class,70.0,2004
@@ -1139,7 +1139,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/21,Syracuse,NY,4,Reading Buccaneers,Open Class,89.463,2004
 08/14,Kingston,NY,5,Bushwackers,Open Class,79.65,2004
 08/21,Waterbury,CT,1,Sunrisers,Open Class,68.025,2004
-08/07,East Providence,RI,1,Heat Wave,Open Class,72.888,2004
+08/07,East Providence,RI,1,Heat Wave (DCA),Open Class,72.888,2004
 08/14,Kingston,NY,6,Connecticut Hurricanes,Open Class,79.063,2004
 08/21,Syracuse,NY,1,Kingston Grenadiers,Open Class,76.0,2004
 08/14,Kingston,NY,7,Corpsvets,Open Class,76.275,2004
@@ -1153,7 +1153,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/21,Orlando,FL,2,Carolina Gold,Open Class,80.238,2004
 08/28,West Haven,CT,2,Bushwackers,Open Class,89.788,2004
 08/28,Rochester,NY,2,Syracuse Brigadiers,Open Class,92.2,2004
-08/21,Orlando,FL,1,Heat Wave,DCA Class A,72.775,2004
+08/21,Orlando,FL,1,Heat Wave (DCA),DCA Class A,72.775,2004
 08/28,West Haven,CT,4,New York Skyliners,Open Class,89.375,2004
 08/28,Rochester,NY,1,Kingston Grenadiers,DCA Class A,77.025,2004
 08/21,Orlando,FL,2,Shenandoah Sound,DCA Class A,60.975,2004
@@ -1169,7 +1169,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 09/04,Scranton,PA,3,Sunrisers,DCA Class A,73.563,2004
 09/04,Scranton,PA,3,Hawthorne Caballeros,Open Class,94.888,2004
 09/05,Scranton,PA,3,Reading Buccaneers,Open Class,95.45,2004
-09/04,Scranton,PA,4,Heat Wave,DCA Class A,73.5,2004
+09/04,Scranton,PA,4,Heat Wave (DCA),DCA Class A,73.5,2004
 09/04,Scranton,PA,4,Reading Buccaneers,Open Class,94.788,2004
 09/05,Scranton,PA,4,Hawthorne Caballeros,Open Class,95.1,2004
 09/04,Scranton,PA,5,Dream,DCA Class A,73.3,2004

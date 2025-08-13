@@ -343,9 +343,12 @@ function updateShowHistory() {
     // Sort shows by year (newest first)
     const sortedShows = [...corpsData.shows].sort((a, b) => b.year - a.year);
     
-    // Check if any placement contains an asterisk
+    // Check if any placement contains an asterisk or double asterisk
+    const hasDoubleAsteriskPlacements = sortedShows.some(show => 
+        show.placement && show.placement.includes('**')
+    );
     const hasAsteriskPlacements = sortedShows.some(show => 
-        show.placement && show.placement.includes('*')
+        show.placement && show.placement.includes('*') && !show.placement.includes('**')
     );
     
     tbody.innerHTML = sortedShows.map(show => {
@@ -375,18 +378,31 @@ function updateShowHistory() {
         `;
     }).join('');
     
-    // Add asterisk note if needed
+    // Add notes if needed
     const showHistorySection = tbody.closest('section') || tbody.closest('.section') || tbody.parentElement;
-    let existingNote = showHistorySection.querySelector('.asterisk-note');
+    let existingAsteriskNote = showHistorySection.querySelector('.asterisk-note');
+    let existingDoubleAsteriskNote = showHistorySection.querySelector('.double-asterisk-note');
     
-    if (hasAsteriskPlacements && !existingNote) {
+    // Handle single asterisk note
+    if (hasAsteriskPlacements && !existingAsteriskNote) {
         const noteDiv = document.createElement('div');
         noteDiv.className = 'asterisk-note';
         noteDiv.style.cssText = 'margin-top: 15px; padding: 10px; background-color: #2a2a2a; border-left: 4px solid #EA6020; border-radius: 6px; font-style: italic; color: #cccccc; font-size: 14px;';
         noteDiv.textContent = 'Prior to 2011, Open Class/Division II & III competed in their own Championship Series separate from the World Class/Division I groups.';
         showHistorySection.appendChild(noteDiv);
-    } else if (!hasAsteriskPlacements && existingNote) {
-        existingNote.remove();
+    } else if (!hasAsteriskPlacements && existingAsteriskNote) {
+        existingAsteriskNote.remove();
+    }
+    
+    // Handle double asterisk note
+    if (hasDoubleAsteriskPlacements && !existingDoubleAsteriskNote) {
+        const noteDiv = document.createElement('div');
+        noteDiv.className = 'double-asterisk-note';
+        noteDiv.style.cssText = 'margin-top: 15px; padding: 10px; background-color: #2a2a2a; border-left: 4px solid #EA6020; border-radius: 6px; font-style: italic; color: #cccccc; font-size: 14px;';
+        noteDiv.textContent = 'This corps qualified for World Class Semifinals because an International Class group ranked inside the top 25.';
+        showHistorySection.appendChild(noteDiv);
+    } else if (!hasDoubleAsteriskPlacements && existingDoubleAsteriskNote) {
+        existingDoubleAsteriskNote.remove();
     }
 }
 
@@ -506,6 +522,9 @@ async function loadScoreData() {
         
         // Update most competed against infobox
         await updateMostCompetedAgainst(corpsScoreData);
+        
+        // Update matchup history table
+        updateMatchupHistory();
         
     } catch (error) {
         console.error('Error loading score data:', error);
@@ -862,6 +881,11 @@ function createScoreDistributionChart() {
 function updateMatchupHistory() {
     const tbody = document.getElementById('matchup-history-tbody');
     
+    // If the table doesn't exist, just return
+    if (!tbody) {
+        return;
+    }
+    
     if (liveCorpsList.length === 0 || allScoreData.length === 0) {
         tbody.innerHTML = '<tr><td colspan="6" class="loading-message">Loading matchup data...</td></tr>';
         return;
@@ -942,16 +966,22 @@ function calculateHeadToHeadRecords() {
                 
                 headToHeadData[opponentName].meetings++;
                 
-                // Compare scores - higher score wins
-                if (ourRecord.score > opponentRecord.score) {
-                    headToHeadData[opponentName].wins++;
-                } else if (ourRecord.score < opponentRecord.score) {
-                    headToHeadData[opponentName].losses++;
+                // Only compare scores if both are valid numbers
+                if (ourRecord.score !== null && opponentRecord.score !== null && 
+                    !isNaN(ourRecord.score) && !isNaN(opponentRecord.score)) {
+                    
+                    // Compare scores - higher score wins
+                    if (parseFloat(ourRecord.score) > parseFloat(opponentRecord.score)) {
+                        headToHeadData[opponentName].wins++;
+                    } else if (parseFloat(ourRecord.score) < parseFloat(opponentRecord.score)) {
+                        headToHeadData[opponentName].losses++;
+                    }
+                    // Note: ties are not explicitly counted, but meetings - wins - losses = ties
+                    
+                    // Calculate score margin (our score - their score)
+                    const margin = ourRecord.score - opponentRecord.score;
+                    headToHeadData[opponentName].scoreMargins.push(margin);
                 }
-                
-                // Calculate score margin (our score - their score)
-                const margin = ourRecord.score - opponentRecord.score;
-                headToHeadData[opponentName].scoreMargins.push(margin);
             }
         });
     });
@@ -961,7 +991,9 @@ function calculateHeadToHeadRecords() {
     
     for (const [opponent, data] of Object.entries(headToHeadData)) {
         if (data.meetings >= 3) { // Only include if they've met at least 3 times
-            const winPct = data.meetings > 0 ? (data.wins / data.meetings * 100) : 0;
+            const decidedGames = data.wins + data.losses; // Games with valid scores
+            const ties = data.meetings - decidedGames; // Games without valid scores or actual ties
+            const winPct = decidedGames > 0 ? (data.wins / decidedGames * 100) : 0;
             const avgMargin = data.scoreMargins.length > 0 ? 
                 data.scoreMargins.reduce((sum, margin) => sum + margin, 0) / data.scoreMargins.length : 0;
             
@@ -970,6 +1002,7 @@ function calculateHeadToHeadRecords() {
                 meetings: data.meetings,
                 wins: data.wins,
                 losses: data.losses,
+                ties: ties,
                 winPct: winPct,
                 avgMargin: avgMargin
             });
@@ -1092,20 +1125,13 @@ function wasInTopDCIClass(year, corpsData) {
 }
 
 async function updateMostCompetedAgainst(corpsScoreData) {
-    console.log('=== updateMostCompetedAgainst START ===');
-    console.log('corpsScoreData length:', corpsScoreData.length);
-    console.log('allScoreData length:', allScoreData.length);
-    
     // Get live corps names from logo dictionary
     let liveCorpsNames = [];
     try {
         const response = await fetch('../assets/corps_logos/logo_dictionary.csv');
-        console.log('Logo dictionary response status:', response.status);
         if (response.ok) {
             const csvText = await response.text();
-            console.log('Logo dictionary CSV loaded, length:', csvText.length);
             const lines = csvText.split('\n');
-            console.log('Logo dictionary lines:', lines.length);
             
             for (let i = 1; i < lines.length; i++) {
                 const line = lines[i].trim();
@@ -1116,7 +1142,6 @@ async function updateMostCompetedAgainst(corpsScoreData) {
                     }
                 }
             }
-            console.log('Live corps found:', liveCorpsNames.length);
         }
     } catch (error) {
         console.error('Error loading live corps:', error);
@@ -1133,8 +1158,6 @@ async function updateMostCompetedAgainst(corpsScoreData) {
     
     // For each of our corps' competitions
     corpsScoreData.forEach((ourRecord, index) => {
-        console.log(`Processing record ${index + 1}:`, ourRecord);
-        
         // Find all other corps in same competition from allScoreData
         const othersInSameComp = allScoreData.filter(record => 
             record.date === ourRecord.date &&
@@ -1143,23 +1166,22 @@ async function updateMostCompetedAgainst(corpsScoreData) {
             record.year === ourRecord.year &&
             record.corps !== corpsName
         );
-        
-        console.log(`Found ${othersInSameComp.length} other corps in competition`);
-        
+
         // Count matchups with live corps only
         othersInSameComp.forEach(otherRecord => {
             if (liveCorpsNames.includes(otherRecord.corps)) {
-                console.log(`Counting matchup with ${otherRecord.corps}`);
                 if (!matchupCounts[otherRecord.corps]) {
                     matchupCounts[otherRecord.corps] = { wins: 0, losses: 0, ties: 0, total: 0 };
                 }
                 
                 matchupCounts[otherRecord.corps].total++;
                 
-                if (ourRecord.place && otherRecord.place) {
-                    if (ourRecord.place < otherRecord.place) {
+                // Use SCORES not placements to determine wins/losses
+                if (ourRecord.score !== null && otherRecord.score !== null && 
+                    !isNaN(ourRecord.score) && !isNaN(otherRecord.score)) {
+                    if (parseFloat(ourRecord.score) > parseFloat(otherRecord.score)) {
                         matchupCounts[otherRecord.corps].wins++;
-                    } else if (ourRecord.place > otherRecord.place) {
+                    } else if (parseFloat(ourRecord.score) < parseFloat(otherRecord.score)) {
                         matchupCounts[otherRecord.corps].losses++;
                     } else {
                         matchupCounts[otherRecord.corps].ties++;
@@ -1169,34 +1191,25 @@ async function updateMostCompetedAgainst(corpsScoreData) {
         });
     });
     
-    console.log('Final matchup counts:', matchupCounts);
-    
     // Get top 3 by total matchups
     const top3 = Object.entries(matchupCounts)
         .sort(([,a], [,b]) => b.total - a.total)
         .slice(0, 3);
-    
-    console.log('Top 3:', top3);
     
     // Update display
     for (let i = 0; i < 3; i++) {
         const nameEl = document.getElementById(`most-competed-name-${i + 1}`);
         const recordEl = document.getElementById(`most-competed-record-${i + 1}`);
         
-        console.log(`Updating element ${i + 1}:`, nameEl, recordEl);
-        
         if (i < top3.length) {
             const [corpsName, record] = top3[i];
             nameEl.textContent = corpsName;
             recordEl.textContent = `${record.wins}-${record.losses}-${record.ties} (${record.total})`;
-            console.log(`Set element ${i + 1} to:`, corpsName, `${record.wins}-${record.losses}-${record.ties} (${record.total})`);
         } else {
             nameEl.textContent = '-';
             recordEl.textContent = '-';
         }
     }
-    
-    console.log('=== updateMostCompetedAgainst END ===');
 }
 
 function getOrdinalSuffix(num) {

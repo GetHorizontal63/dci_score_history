@@ -388,7 +388,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/04,Costa Mesa,CA,3,Vanguard Cadets,World Class,76.9,1999
 07/03,Belleville,NJ,1,New York Skyliners,World Class,58.2,1999
 07/04,Costa Mesa,CA,4,Impulse,World Class,62.8,1999
-07/03,Belleville,NJ,2,Heat Wave,World Class,51.8,1999
+07/03,Belleville,NJ,2,Heat Wave (DCA),World Class,51.8,1999
 07/04,Costa Mesa,CA,5,West Coast Sound,World Class,59.6,1999
 07/04,Wakefield,MA,1,Cadets,World Class,84.5,1999
 07/04,Saint Peter,MN,1,Minnesota Brass,World Class,67.4,1999
@@ -749,7 +749,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/17,Clifton,NJ,4,Sunrisers,Open Class,70.3,1999
 07/17,Clifton,NJ,5,Bushwackers,Open Class,68.6,1999
 07/18,Waterbury,CT,4,New York Skyliners,Open Class,61.7,1999
-07/17,Warren,PA,4,Heat Wave,Open Class,56.4,1999
+07/17,Warren,PA,4,Heat Wave (DCA),Open Class,56.4,1999
 07/18,Waterbury,CT,5,Generations,Open Class,49.1,1999
 07/17,Clifton,NJ,1,Generations,Open Class,50.0,1999
 07/18,Winchendon,MA,1,Citations,Open Class,74.7,1999
@@ -1324,7 +1324,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/06,Grand Haven,MI,2,Blue Stars,World Class,89.2,1999
 08/06,Allentown,PA,8,Bluecoats,World Class,82.0,1999
 08/07,Allentown,PA,8,Southwind,World Class,76.1,1999
-08/07,Kingston,NY,1,Heat Wave,World Class,66.3,1999
+08/07,Kingston,NY,1,Heat Wave (DCA),World Class,66.3,1999
 08/06,Grand Haven,MI,3,"General Butler
   Vagabonds",World Class,85.4,1999
 08/06,Allentown,PA,9,Kiwanis Kavaliers,World Class,74.0,1999
@@ -1578,7 +1578,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 09/04,Allentown,PA,1,New York Skyliners,DCA Class A,74.9,1999
 09/04,Allentown,PA,1,Syracuse Brigadiers,Open Class,94.7,1999
 09/05,Allentown,PA,1,Syracuse Brigadiers,Open Class,97.5,1999
-09/04,Allentown,PA,2,Heat Wave,DCA Class A,69.3,1999
+09/04,Allentown,PA,2,Heat Wave (DCA),DCA Class A,69.3,1999
 09/04,Allentown,PA,2,Reading Buccaneers,Open Class,93.6,1999
 09/05,Allentown,PA,2,Reading Buccaneers,Open Class,95.8,1999
 09/04,Allentown,PA,3,Generations,DCA Class A,65.8,1999

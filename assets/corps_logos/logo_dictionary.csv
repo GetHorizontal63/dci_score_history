@@ -118,6 +118,7 @@ American Woodmen
 Americanos
 Amvet Brigadiers
 Anaheim Kingsmen,ana,true
+Anaheim Kingsmen Alumni,ana,true
 Andrew Johnson Presidents
 Angels
 Angels of Ohio
@@ -136,7 +137,7 @@ Archer Epler Musketeers
 Arcs-en-ciel
 Argon Cadets
 Argonauts
-Argonne Rebels
+Argonne Rebels,ks-rbs,true
 Aristocrats
 Arizona Musketeers
 Arizona Sun
@@ -235,16 +236,12 @@ Blue Angels (NY)
 Blue Angels-NY
 Blue Angers
 Blue Demons
-Blue Devils
-Blue Devils B
-Blue Devils C
 Blue Eagles
 Blue Grass Brass
 Blue Jays
 Blue Knights
 Blue Knights (MI)
 Blue Knights (MN)
-Blue Knights-CO
 Blue Knights-MI
 Blue Knights-MN
 Blue Notes
@@ -264,7 +261,6 @@ Bon Bons
 Bonnie Scots
 Bordentown Little Devils
 Boston Assumption Cadets
-Boston Crusaders
 Boston Renegades
 Boucliers
 Boy Scout Troop #63
@@ -281,7 +277,7 @@ Brass Majesticks
 Brass Regiment
 Brassmen
 Braves
-Bridgemen
+Bridgemen,brdgmn,true
 Bridgeport Buccaneers
 Bridgeport PAL Cadets
 Brigade
@@ -303,7 +299,7 @@ Buccaneers (KY)
 Buccaneers--KY
 Buccaneers-KY
 Buccaneers-MA
-Buckeye State Caballaros
+Buckeye State Caballaros,caba,true
 Buckeyes
 Bucks Co Cavaliers
 Bucks County Cavaliers
@@ -318,7 +314,7 @@ Bélairs
 C.D. of A
 CMCC Warriors
 CT PAL Cadets
-Caballaros,haw,true
+Caballaros,caba,true,Buckeye State Caballaros
 Cadence,dca-logo,true
 Cadet Regiment
 Cadets 2,c2,true
@@ -358,7 +354,7 @@ Canadianaires
 Canastota Saints
 Capital Brass Ensemble
 Capital Chargers
-Capital Regiment
+Capital Regiment,dci-open,true
 Capital Sound
 Capitalaires-CA
 Capitol Brass Ensemble
@@ -430,7 +426,7 @@ Châtelaines
 Cincinnati Glory
 Cincinnati Tradition,cin-tra,true
 Citation Juniors
-Citations
+Citations,dci-open,true
 City Sound,ves,true,Vessel
 Clan Chénier
 Classics
@@ -544,7 +540,7 @@ Dundalk Crusaders
 Dunkirk Patriots
 Durango Goldenaires
 Durham Girls
-Dutch Boy
+Dutch Boy,dtch-by,true
 Dutch Boy Cadets
 Dynamic Royalaires
 Dynamic Statesmen
@@ -663,7 +659,7 @@ Flying Dutchmen
 Flying Dutchmen-IL
 Flying Dutchmen-NY
 Fort Edward Vagabonds
-Forte
+Forte,frte-wht,true
 Fox Valley Raiders
 Free Delivery Sound
 Free Sound of Long Island
@@ -769,11 +765,11 @@ Hanover HS Girls
 Hanover Lancers
 Harrison Woodsiders
 Hawks
-Hawthorn Caballeros,haw,true
+Hawthorn Caballeros,haw,true,Hawthorne Caballeros
 Hawthorne Caballeros,haw,true
 Hazelton Highlanders
 Heartliner
-Heat Wave
+Heat Wave (DCA),dca-logo,true
 Heightsmen
 Hershey Choclatiers
 Hershey Chocolatiers
@@ -788,7 +784,7 @@ Holbrook Skylarks
 Hollywood Knights
 Holy Child
 Holy Family Defenders
-Holy Name Cadets
+Holy Name Cadets,cad,true,Cadets
 Holy Rosary Caballeros
 Horizon
 Horizons
@@ -1167,7 +1163,7 @@ Melomanes
 Melrose Cardinals
 Memorial Lancers
 Memphis Blues,memb,true
-Memphis Sound
+Memphis Sound,mphs,true
 Men of Brass
 Men of Ohio
 Metal Orbits
@@ -1217,7 +1213,7 @@ Music City Legend
 Musketeers
 Mystic Knights
 Mystic Nights
-Mystikal
+Mystikal,dci-open,true
 Mélomanes
 Métropolitains
 NY Knickerbockers
@@ -1279,8 +1275,8 @@ Notre Dame
 ODCA Division II
 OLC Ramblers
 OLMM Orbits
-OLPH Bridgemen
-OLPH Ridgemen
+OLPH Bridgemen,olph,true,OLPH Ridgemen
+OLPH Ridgemen,olph,true
 OYB Lampliters
 Oakland Crusaders
 Oakland Rangers
@@ -1387,7 +1383,7 @@ Pittsfield Imperials
 Pittsfield Monarchs
 Pittsfield Skyhawks
 Plainsmen
-Platinum
+Platinum,dci-open,true
 Pointers
 Police Cadets
 Polish Falcon
@@ -1471,11 +1467,11 @@ Revelliers
 Reverie Juniors
 Reveries
 Reveries/Blue Angels
-Revolution
+Revolution,dci-open,true
 Rhode Island Picadors
 Richmond Hawks
 Ridge Raiders
-Ridgemen
+Ridgemen,olph,true,OLPH Ridgemen
 Ridley Park Rangers
 Riptides
 Rising Sun
@@ -1561,7 +1557,7 @@ Saint Francis Sancians
 Saint Agnes
 Saint Alexis Vikings
 Saint Andrew's
-Saint Andrew's Bridgemen
+Saint Andrew's Bridgemen,brdgmn,true,Bridgemen
 Saint Andrews
 Saint Ann
 Saint Anthony
@@ -1726,12 +1722,12 @@ Spectra-Heightsmen
 Spectrum
 Speigleaires
 Spiegalaires
-Spirit
-Spirit Of Newark
+Spirit,soa,true,Spirit of Atlanta
+Spirit Of Newark,sprt-new-wht,true,Spirit of Newark
 Spirit of '76
 Spirit of Georgia,soa,true,Spirit of Atlanta
 Spirit of New Jersey
-Spirit of Newark
+Spirit of Newark,sprt-new-wht,true
 Spirit of Saint Louis
 Spokane Thunder,spo-thun,true
 Springfield Ambassadors
@@ -1772,7 +1768,7 @@ Stentors de Fleurimont
 Stockton Commodores
 Stockton Police
 Stormy Knights
-Stragnas
+Strängnäs,dci-open,true
 Stratford Vagabonds
 Suburban Cadets
 Suburban Kidettes
@@ -1805,7 +1801,7 @@ Targets II
 Tarheel Sound
 Tarheel Sun
 Tarheel Suns
-Teal Sound
+Teal Sound,teal-snd,true
 Telestars
 Texas Crusaders
 The Company,com,true
@@ -1831,7 +1827,7 @@ Townsmen
 Townsmen (ONT)
 Transit
 Tri Town Cadets
-Tri-City Columbians
+Tri-City Columbians,col,true,Columbians
 Tri-Town Cadets
 Tri-Vel Raiders
 Trinity
@@ -1882,7 +1878,7 @@ Vanguards All-Girl
 Vaqueros
 Vaqueros/Firemen
 Vasella Musketeers
-Velvet Knights
+Velvet Knights,dci-open,true
 Ventures
 Verdean Vets
 Vern Acklin Cavaliers

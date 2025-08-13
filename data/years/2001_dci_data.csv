@@ -269,7 +269,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 06/30,Waukesha,WI,6,Bandettes,World Class,35.5,2001
 06/30,Clifton,NJ,6,Spirit,World Class,67.4,2001
 06/30,Clifton,NJ,7,Carolina Crown,World Class,67.15,2001
-06/30,Ansonia,CT,6,Heat Wave,World Class,56.2,2001
+06/30,Ansonia,CT,6,Heat Wave (DCA),World Class,56.2,2001
 06/30,Clifton,NJ,1,Raiders,World Class,53.55,2001
 06/30,Waukegan,IL,1,Syracuse Brigadiers,World Class,77.35,2001
 06/30,Waukegan,IL,2,Empire Statesmen,World Class,70.3,2001
@@ -757,7 +757,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/21,Fleurimont,Quebec,1,Blue Saints,Open Class,71.55,2001
 07/21,Rochester,NY,1,Night Storm,Open Class,54.1,2001
 07/21,Fleurimont,Quebec,2,Releve de Fleurimont,Open Class,68.35,2001
-07/21,Clifton,NJ,1,Heat Wave,Open Class,62.0,2001
+07/21,Clifton,NJ,1,Heat Wave (DCA),Open Class,62.0,2001
 07/21,Brooklyn,NY,1,Phoenix Kidets,Open Class,47.75,2001
 07/21,Fleurimont,Quebec,3,Saint John's,Open Class,68.34,2001
 07/21,Brooklyn,NY,2,Quest Explorers,Open Class,46.7,2001
@@ -777,7 +777,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/22,Varennes,Quebec,1,Blue Saints,Open Class,73.3,2001
 07/22,Santa Clara,CA,3,Blue Devils B,Open Class,77.2,2001
 07/22,Houston,TX,5,Madison Scouts,Open Class,79.6,2001
-07/22,Waterbury,CT,1,Heat Wave,Open Class,66.05,2001
+07/22,Waterbury,CT,1,Heat Wave (DCA),Open Class,66.05,2001
 07/22,Varennes,Quebec,2,Releve de Fleurimont,Open Class,71.11,2001
 07/22,Santa Clara,CA,4,Impulse,Open Class,73.25,2001
 07/22,Houston,TX,6,Spirit,Open Class,75.25,2001
@@ -1304,7 +1304,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/11,Buffalo,NY,4,Kingston Grenadiers,Open Class,82.45,2001
 08/11,Kingston,NY,4,New York Skyliners,Open Class,81.95,2001
 08/18,Easton,PA,4,Targets,Open Class,71.8,2001
-08/11,Buffalo,NY,5,Heat Wave,Open Class,72.3,2001
+08/11,Buffalo,NY,5,Heat Wave (DCA),Open Class,72.3,2001
 08/11,Kingston,NY,5,Connecticut Hurricanes,Open Class,80.1,2001
 08/16,Chambly,Quebec,1,Relève de Fleurimont,Open Class,82.13,2001
 08/16,Chambly,Quebec,2,Perc-Clairs,Open Class,74.69,2001
@@ -1336,8 +1336,8 @@ Date,City,State,Place,Corps,Class,Score,Year
 09/03,Syracuse,NY,1,Corpsvets,DCA Class A,83.75,2001
 09/02,Syracuse,NY,1,Syracuse Brigadiers,Open Class,97.15,2001
 09/03,Syracuse,NY,1,Syracuse Brigadiers,Open Class,97.95,2001
-09/02,Syracuse,NY,2,Heat Wave,DCA Class A,74.1,2001
-09/03,Syracuse,NY,2,Heat Wave,DCA Class A,78.6,2001
+09/02,Syracuse,NY,2,Heat Wave (DCA),DCA Class A,74.1,2001
+09/03,Syracuse,NY,2,Heat Wave (DCA),DCA Class A,78.6,2001
 09/02,Syracuse,NY,2,Reading Buccaneers,Open Class,95.9,2001
 09/03,Syracuse,NY,2,Reading Buccaneers,Open Class,97.85,2001
 09/02,Syracuse,NY,3,Night Storm,DCA Class A,67.85,2001

@@ -107,24 +107,49 @@
         <div class="scores-container">
             <div class="scores-header">
                 <h1>Competition Events</h1>
-                <div class="scores-filters">
-                    <select id="year-filter" class="filter-select">
-                        <option value="">All Years</option>
-                    </select>
-                    <input type="text" id="event-search" class="search-input" placeholder="Search events or cities...">
+                <div class="view-controls">
+                    <div class="scores-filters">
+                        <select id="year-filter" class="filter-select">
+                            <option value="">All Years</option>
+                        </select>
+                        <select id="month-filter" class="filter-select" style="display: none;">
+                            <option value="">All Months</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                        <input type="text" id="event-search" class="search-input" placeholder="Search events or cities...">
+                        <div class="view-selector">
+                            <button id="table-view-btn" class="active">
+                                <i class="fas fa-table"></i>
+                            </button>
+                            <button id="calendar-view-btn">
+                                <i class="fas fa-calendar"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="scores-content">
-                <div class="scores-table-container">
+                <div class="scores-table-container" id="table-view">
                     <table class="scores-table">
                         <thead>
                             <tr>
                                 <th>Circuit</th>
                                 <th>Date</th>
                                 <th>Corps Count</th>
-                                <th>Event Name</th>
                                 <th>Location</th>
+                                <th>Event Name</th>
                                 <th>Year</th>
                                 <th>Details</th>
                             </tr>
@@ -133,6 +158,25 @@
                             <!-- Events will be populated by JavaScript -->
                         </tbody>
                     </table>
+                </div>
+                
+                <div class="calendar-container" id="calendar-view" style="display: none;">
+                    <div class="calendar-header">
+                        <button id="prev-month" class="calendar-nav-btn">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <h2 id="calendar-title">January 2024</h2>
+                        <button id="next-month" class="calendar-nav-btn">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <button id="goto-btn" class="calendar-nav-btn goto-btn">
+                            <i class="fas fa-calendar-alt"></i>
+                        </button>
+                    </div>
+                    <div class="calendar-weekdays" id="calendar-weekdays">
+                    </div>
+                    <div class="calendar-grid" id="calendar-grid">
+                    </div>
                 </div>
             </div>
 
@@ -147,6 +191,106 @@
             </div>
         </div>
     </main>
+
+    <!-- Event Modal -->
+    <div id="eventModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Events on Date</h2>
+                <span class="close" id="closeModal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div id="modalEventList" class="modal-event-list">
+                    <!-- Events will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Go To Modal -->
+    <div id="gotoModal" class="modal" style="display: none;">
+        <div class="modal-content goto-modal">
+            <div class="modal-header">
+                <h2>Go To Date</h2>
+                <span class="close" id="closeGotoModal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="goto-form">
+                    <div class="form-group">
+                        <label for="gotoMonth">Month:</label>
+                        <select id="gotoMonth" class="form-select">
+                            <option value="0">January</option>
+                            <option value="1">February</option>
+                            <option value="2">March</option>
+                            <option value="3">April</option>
+                            <option value="4">May</option>
+                            <option value="5">June</option>
+                            <option value="6">July</option>
+                            <option value="7">August</option>
+                            <option value="8">September</option>
+                            <option value="9">October</option>
+                            <option value="10">November</option>
+                            <option value="11">December</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="gotoYear">Year:</label>
+                        <select id="gotoYear" class="form-select">
+                            <!-- Years will be populated by JavaScript -->
+                        </select>
+                    </div>
+                    <div class="form-actions">
+                        <button id="gotoCancel" class="btn btn-secondary">Cancel</button>
+                        <button id="gotoConfirm" class="btn btn-primary">Go To</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Universal Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-title">Connect With Us</h3>
+                <div class="footer-links">
+                    <a href="about.html" class="footer-link">
+                        <i class="fas fa-info-circle"></i>
+                        About
+                    </a>
+                    <a href="https://www.linkedin.com/company/nomaddata/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer" class="footer-link">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61560910477218" target="_blank" rel="noopener noreferrer" class="footer-link">
+                        <i class="fab fa-facebook"></i>
+                        Facebook
+                    </a>
+                    <a href="https://www.instagram.com/nomad_data_" target="_blank" rel="noopener noreferrer" class="footer-link">
+                        <i class="fab fa-instagram"></i>
+                        Instagram
+                    </a>
+                    <a href="mailto:gabriel.cabrera.bussiness@gmail.com" class="footer-link">
+                        <i class="fas fa-envelope"></i>
+                        Contact
+                    </a>
+                    <a href="https://forms.gle/u1RNc8L9xFt5gv1g6" target="_blank" rel="noopener noreferrer" class="footer-link">
+                        <i class="fas fa-bug"></i>
+                        Report an Issue
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                © 2025 DCI Scoring History. All rights reserved.
+            </div>
+            <div class="footer-disclaimer">
+                This site is not officially affiliated with Drum Corps International (DCI). 
+                All trademarks and logos are property of their respective owners.
+            </div>
+        </div>
+    </footer>
 
     <script src="../js/scores.js"></script>
 </body>

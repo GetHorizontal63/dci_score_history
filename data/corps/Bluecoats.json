@@ -14,11 +14,11 @@
  "captionAwards": [
    {
      "caption": "General Effect Award",
-     "years": [2016, 2019, 2024]
+     "years": [2016, 2019, 2024, 2025]
    },
    {
      "caption": "Visual Performance Award", 
-     "years": [2024]
+     "years": [2024, 2025]
    },
    {
      "caption": "Brass Performance Award",
@@ -85,6 +85,6 @@
    {"year": 2022, "showTitle": "Riffs and Revelations", "repertoire": "Taming the Dragon & The Garden by Brad Mehldau / Taizo by Henry Hey (Forq) / Nautilus & moonmoons by Anna Meredith / Momento Magico by Youn Sun Nah / Liminality by Dave Hall", "placement": "T-2nd Place", "score": 97.325},
    {"year": 2023, "showTitle": "The Garden of Love", "repertoire": "Eleven by yMusic / The Woods by Chick Corea / The Garden of Love by Jacob TV / Finding and Believing by Pat Metheny / 45 by Bon Iver / Bump by Anna Meredith / So Many Layers of Colour Become a Deep Purple Heart by Edda Magnason", "placement": "2nd Place", "score": 97.738},
    {"year": 2024, "showTitle": "Change Is Everything", "repertoire": "Change is Everything by Son Lux / Foreplay/Long Time by Boston / The Four Sections by Steve Reich / Rose by Michael Laurello / Plans We Made by Son Lux / Agape by Nicholas Britell / Love/Lover/Friend by Caroline Rose / Threshold by Sungazer / Dymaxion by Darcy James Argue's Secret Society / Lost It to Trying by Son Lux", "placement": "1st Place", "score": 98.750},
-   {"year": 2025, "showTitle": "The Observer Effect", "repertoire": "Binary Data by Alfonso Peduto / Piano Phase and Drumming by Steve Reich / Dream State by Son Lux / Solitude by M83 / Motto by Dmitry Selipanov / Endlessly by Son Lux", "placement": "", "score": null}
+   {"year": 2025, "showTitle": "The Observer Effect", "repertoire": "Binary Data by Alfonso Peduto / Piano Phase and Drumming by Steve Reich / Dream State by Son Lux / Solitude by M83 / Motto by Dmitry Selipanov / Endlessly by Son Lux", "placement": "2nd Place", "score": 98.250}
  ]
 }

@@ -426,8 +426,8 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/05,Wellsville,NY,3,Rochester Crusaders,Open Class,68.76,2003
 07/06,Hershey,PA,3,Bushwackers,Open Class,68.875,2003
 07/05,Wellsville,NY,4,Kingston Grenadiers,Open Class,61.79,2003
-07/05,Rockmart,GA,1,Heat Wave,Open Class,55.188,2003
-07/06,Westminster,SC,1,Heat Wave,Open Class,55.188,2003
+07/05,Rockmart,GA,1,Heat Wave (DCA),Open Class,55.188,2003
+07/06,Westminster,SC,1,Heat Wave (DCA),Open Class,55.188,2003
 07/05,Rockmart,GA,1,Memphis Sound,Open Class,64.825,2003
 07/06,Westminster,SC,1,Memphis Sound,Open Class,65.113,2003
 07/05,Rockmart,GA,2,Court of Honor,Open Class,59.838,2003
@@ -899,7 +899,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/26,Endicott,NY,5,New York Skyliners,Open Class,70.263,2003
 07/27,Rochester,NY,5,Racine Scouts,Open Class,62.8,2003
 07/27,Des Plaines,IL,5,Mandarins,Open Class,76.9,2003
-07/26,New Brunswick,NJ,5,Heat Wave,Open Class,63.35,2003
+07/26,New Brunswick,NJ,5,Heat Wave (DCA),Open Class,63.35,2003
 07/27,Rochester,NY,6,Dutch Boy,Open Class,59.65,2003
 07/27,Rochester,NY,7,Blue Saints,Open Class,50.6,2003
 07/27,Des Plaines,IL,1,Blue Stars,Open Class,83.2,2003
@@ -1274,8 +1274,8 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/09,Kingston,NY,7,Connecticut Hurricanes,Open Class,77.675,2003
 08/09,Kingston,NY,8,New York Skyliners,Open Class,74.925,2003
 08/23,West Haven ,CT,1,Sunrisers,Open Class,66.163,2003
-08/30,Scranton,PA,1,Heat Wave,DCA Class A,73.825,2003
-08/31,Scranton,PA,1,Heat Wave,DCA Class A,75.963,2003
+08/30,Scranton,PA,1,Heat Wave (DCA),DCA Class A,73.825,2003
+08/31,Scranton,PA,1,Heat Wave (DCA),DCA Class A,75.963,2003
 08/30,Scranton,PA,1,Hawthorne Caballeros,Open Class,97.438,2003
 08/31,Scranton,PA,1,Hawthorne Caballeros,Open Class,97.375,2003
 08/30,Scranton,PA,2,Sunrisers,DCA Class A,71.225,2003

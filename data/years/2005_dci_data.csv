@@ -568,7 +568,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/16,Sunnyvale,CA,2,Pacific Crest,Open Class,76.75,2005
 07/17,Winchester,KY,2,Bluecoats,Open Class,85.75,2005
 07/17,Winchester,KY,3,Carolina Crown,Open Class,82.95,2005
-07/16,Rockmart,GA,1,Heat Wave,Open Class,60.45,2005
+07/16,Rockmart,GA,1,Heat Wave (DCA),Open Class,60.45,2005
 07/16,Hastings,MN,1,Govenaires,Open Class,72.013,2005
 07/16,Sunnyvale,CA,1,Blue Devils B,Open Class,80.6,2005
 07/17,Winchester,KY,4,Boston Crusaders,Open Class,82.0,2005
@@ -877,7 +877,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/30,Indianapolis,IN,8,Mandarins,Open Class,77.925,2005
 07/30,Indianapolis,IN,8,Boston Crusaders,Open Class,85.9,2005
 07/30,Michigan City,IN,3,Capital Sound,Open Class,77.475,2005
-07/30,Winston-Salem,NC,,Heat Wave,Open Class,61.85,2005
+07/30,Winston-Salem,NC,,Heat Wave (DCA),Open Class,61.85,2005
 07/30,Indianapolis,IN,9,Seattle Cascades,Open Class,77.675,2005
 07/30,Indianapolis,IN,9,Vanguard,Open Class,85.175,2005
 07/30,Michigan City,IN,4,Yamato,Open Class,75.3,2005
@@ -1268,7 +1268,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/14,East Providence,RI,2,Syracuse Brigadiers,Open Class,88.613,2005
 08/20,Syracuse,NY,2,Empire Statesmen,Open Class,91.55,2005
 08/20,Waterbury,CT,2,Hawthorne Caballeros,Open Class,84.975,2005
-08/20,Saint Cloud,FL,2,Heat Wave,DCA Class A,70.25,2005
+08/20,Saint Cloud,FL,2,Heat Wave (DCA),DCA Class A,70.25,2005
 08/14,East Providence,RI,3,Bushwackers,Open Class,88.175,2005
 08/20,Syracuse,NY,3,Syracuse Brigadiers,Open Class,90.6,2005
 08/20,Waterbury,CT,3,Connecticut Hurricanes,Open Class,80.675,2005
@@ -1309,7 +1309,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 09/03,Scranton,PA,4,Music City Legend,DCA Class A,73.525,2005
 09/03,Scranton,PA,4,Syracuse Brigadiers,Open Class,93.35,2005
 09/04,Scranton,PA,4,Syracuse Brigadiers,Open Class,94.038,2005
-09/03,Scranton,PA,5,Heat Wave,DCA Class A,71.288,2005
+09/03,Scranton,PA,5,Heat Wave (DCA),DCA Class A,71.288,2005
 09/03,Scranton,PA,5,Renegades,Open Class,92.525,2005
 09/04,Scranton,PA,5,Renegades,Open Class,93.738,2005
 09/03,Scranton,PA,6,White Sabers,DCA Class A,68.738,2005

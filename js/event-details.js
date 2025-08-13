@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
         date: urlParams.get('date'),
         city: urlParams.get('city'),
         state: urlParams.get('state'),
-        year: urlParams.get('year')
+        year: urlParams.get('year'),
+        eventName: urlParams.get('eventName') // Get Event_Name from URL
     };
     
     // Setup back button
@@ -38,7 +39,7 @@ async function loadEventData() {
             const csvText = await response.text();
             const allEventData = parseCSV(csvText);
             
-            // Filter data for this specific event
+            // Filter data for this specific event using Event_Name if available
             eventData = filterEventData(allEventData);
             
             if (eventData.length > 0) {
@@ -101,6 +102,27 @@ function filterEventData(allData) {
     const day = dateParts[2];
     const dateString = `${month}/${day}`;
     
+    // First priority: If we have an Event_Name from URL, try to match by that
+    if (eventInfo.eventName) {
+        const eventNameFiltered = allData.filter(row => {
+            const rowDate = (row.Date || '').trim();
+            const rowEventName = (row.Event_Name || '').trim();
+            const rowYear = (row.Year || '').trim();
+            
+            const eventYear = (eventInfo.year || '').trim();
+            
+            return rowDate === dateString && 
+                   rowEventName === eventInfo.eventName && 
+                   rowYear === eventYear;
+        });
+        
+        // If we found matches by Event_Name, return them
+        if (eventNameFiltered.length > 0) {
+            return eventNameFiltered;
+        }
+    }
+    
+    // Fallback: Use the original location-based matching
     const filteredData = allData.filter(row => {
         const rowDate = (row.Date || '').trim();
         const rowCity = (row.City || '').trim();
@@ -135,8 +157,11 @@ function updateEventHeader() {
     
     const formattedDate = `${monthNames[month - 1]} ${day}, ${year}`;
     
-    title.textContent = `${eventInfo.city}, ${eventInfo.state}`;
-    subtitle.textContent = `${formattedDate} • ${eventInfo.year} Season`;
+    // Use Event_Name if available, otherwise show city, state
+    const eventTitle = eventInfo.eventName || `${eventInfo.city}, ${eventInfo.state}`;
+    
+    title.textContent = eventTitle;
+    subtitle.textContent = `${formattedDate} • ${eventInfo.city}, ${eventInfo.state} • ${eventInfo.year} Season`;
 }
 
 function displayEventResults() {

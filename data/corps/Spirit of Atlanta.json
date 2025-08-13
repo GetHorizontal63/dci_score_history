@@ -2,22 +2,22 @@
  "location": [
    {
      "city": "Atlanta",
-     "state": "Georgia", 
+     "state": "GA", 
      "year": "1976-2000"
    },
    {
      "city": "Jacksonville",
-     "state": "Alabama", 
+     "state": "AL", 
      "year": "2000-2010"
    },
    {
      "city": "Atlanta",
-     "state": "Georgia", 
+     "state": "GA", 
      "year": "2010-2021"
    },
    {
      "city": "Atlanta",
-     "state": "Georgia", 
+     "state": "GA", 
      "year": "2023-Present"
    }
  ],
@@ -84,6 +84,6 @@
    {"year": 2021, "showTitle": "Bottle Tree", "repertoire": "Proverb by Steve Reich / Lilac Wine by Jeff Buckley / Mother Earth by David Maslanka / Djinn by John Psathas / Selections from WALL-E / Remember Me by Thomas Bergersen", "placement": "No scored competitions", "score": null},
    {"year": 2023, "showTitle": "Up Down and All Around", "repertoire": "Route 12 by Thomas Newman / What Goes Up by Alan Parsons / Metroliner by Eric Andrew Hirsch / Stuff We Did by Randy Newman / My Human Heart by Coldplay & Jacob Collier / Promise by Thomas Bergersen", "placement": "15th Place", "score": 83.625},
    {"year": 2024, "showTitle": "Creatures", "repertoire": "Reborn (from Hereditary) by Colin Stetson / Smoke on the Water by Ritchie Blackmore, Ian Gillan, Roger Glover, Jon Lord & Ian Paice / Frolic (from Rabbit and Rogue) by Danny Elfman / Feste Romane by Ottorino Respighi / A Close Friend (from Fantastic Beasts and Where to Find Them) by James Newton Howard / Night Creature by Duke Ellington / What Could Have Been (from Arcane: League of Legends) by Alexander Miller & Alexander Seaver", "placement": "16th Place", "score": 83.675},
-   {"year": 2025, "showTitle": "Rocket", "repertoire": "Leonardo Dreams of His Flying Machine by Eric Whitacre / Rocket by Def Leppard / Hyperjump (from WALL-E) by Thomas Newman / I Am the Antichrist to You by Kishi Bashi / Whatcha Want by Lawrence / Intoxicated by Martin Solveig / Rocket Man by Elton John / Also sprach Zarathustra by Richard Strauss", "placement": "", "score": null}
+   {"year": 2025, "showTitle": "Rocket", "repertoire": "Leonardo Dreams of His Flying Machine by Eric Whitacre / Rocket by Def Leppard / Hyperjump (from WALL-E) by Thomas Newman / I Am the Antichrist to You by Kishi Bashi / Whatcha Want by Lawrence / Intoxicated by Martin Solveig / Rocket Man by Elton John / Also sprach Zarathustra by Richard Strauss", "placement": "13th Place", "score": 86.800}
  ]
 }

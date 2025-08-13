@@ -20,7 +20,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 06/13,Toledo,OH,5,Pioneer,World Class,54.1,1998
 06/13,South Brunswick,NJ,5,Kingston Grenadiers,World Class,58.5,1998
 06/13,Toledo,OH,6,Phantom Legion,World Class,42.2,1998
-06/13,South Brunswick,NJ,1,Heat Wave,World Class,50.3,1998
+06/13,South Brunswick,NJ,1,Heat Wave (DCA),World Class,50.3,1998
 06/13,South Brunswick,NJ,2,Generations,World Class,48.4,1998
 06/16,Columbus,OH,1,Glassmen,World Class,69.2,1998
 06/17,Alexandria,KY,1,Cavaliers,World Class,68.7,1998
@@ -107,7 +107,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 06/21,Wisconsin Rapids,WI,4,Phantom Legion,World Class,51.6,1998
 06/20,Pleasantville,NJ,2,Latin Knights,World Class,51.1,1998
 06/20,Dubuque,IA,5,Coachmen,World Class,37.2,1998
-06/20,Waterbury,CT,1,Heat Wave,World Class,52.8,1998
+06/20,Waterbury,CT,1,Heat Wave (DCA),World Class,52.8,1998
 06/21,Wisconsin Rapids,WI,5,Kilties,World Class,50.5,1998
 06/20,Pleasantville,NJ,3,Illusion,World Class,43.8,1998
 06/20,Dubuque,IA,6,Decorah Kilties,World Class,33.3,1998
@@ -756,7 +756,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 07/18,Sharon Hills,PA,2,Illusion,Open Class,57.4,1998
 07/18,Springfield,MA,3,Braintree Braves,Open Class,32.8,1998
 07/18,Sharon Hills,PA,3,First Defenders,Open Class,48.8,1998
-07/18,Clifton,NJ,1,Heat Wave,Open Class,56.0,1998
+07/18,Clifton,NJ,1,Heat Wave (DCA),Open Class,56.0,1998
 07/18,Denver,CO,1,Blue Devils,Open Class,86.2,1998
 07/18,Michigan City,IN,1,Cadets,Open Class,90.1,1998
 07/19,Mississauga,Ontario,1,Dutch Boy,Open Class,58.8,1998
@@ -1577,7 +1577,7 @@ Date,City,State,Place,Corps,Class,Score,Year
 09/05,Allentown,PA,1,Generations,DCA Class A,74.4,1998
 09/05,Allentown,PA,1,Empire Statesmen,Open Class,95.9,1998
 09/06,Allentown,PA,1,Empire Statesmen,Open Class,97.9,1998
-09/05,Allentown,PA,1,Heat Wave,DCA Class A,74.4,1998
+09/05,Allentown,PA,1,Heat Wave (DCA),DCA Class A,74.4,1998
 09/05,Allentown,PA,2,Syracuse Brigadiers,Open Class,94.6,1998
 09/06,Allentown,PA,2,Syracuse Brigadiers,Open Class,96.3,1998
 09/05,Allentown,PA,3,Les Dynamiques,DCA Class A,71.7,1998

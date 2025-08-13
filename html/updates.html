@@ -111,10 +111,12 @@
                 <div class="scores-filters">
                     <div class="github-filter-bar">
                         <div class="filter-group">
-                            <select id="author-filter" class="github-select">
-                                <option value="">Author</option>
-                                <option value="system">System</option>
-                                <option value="admin">Admin</option>
+                            <select id="date-filter" class="github-select">
+                                <option value="">Date Range</option>
+                                <option value="today">Today (8/12/2025)</option>
+                                <option value="week">Past Week</option>
+                                <option value="month">Past Month</option>
+                                <option value="all">All Time (8/2/2025 - Today)</option>
                             </select>
                         </div>
                         <div class="filter-group">
@@ -180,6 +182,65 @@
             </div>
         </div>
     </main>
+
+    <!-- Universal Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-title">Connect With Us</h3>
+                <div class="footer-links">
+                    <a href="about.html" class="footer-link">
+                        <i class="fas fa-info-circle"></i>
+                        About
+                    </a>
+                    <a href="https://www.linkedin.com/company/nomaddata/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer" class="footer-link">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61560910477218" target="_blank" rel="noopener noreferrer" class="footer-link">
+                        <i class="fab fa-facebook"></i>
+                        Facebook
+                    </a>
+                    <a href="https://www.instagram.com/nomad_data_" target="_blank" rel="noopener noreferrer" class="footer-link">
+                        <i class="fab fa-instagram"></i>
+                        Instagram
+                    </a>
+                    <a href="mailto:gabriel.cabrera.bussiness@gmail.com" class="footer-link">
+                        <i class="fas fa-envelope"></i>
+                        Contact
+                    </a>
+                    <a href="https://forms.gle/u1RNc8L9xFt5gv1g6" target="_blank" rel="noopener noreferrer" class="footer-link">
+                        <i class="fas fa-bug"></i>
+                        Report an Issue
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                © 2025 DCI Scoring History. All rights reserved.
+            </div>
+            <div class="footer-disclaimer">
+                This site is not officially affiliated with Drum Corps International (DCI). 
+                All trademarks and logos are property of their respective owners.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Update Details Modal -->
+    <div id="updateModal" class="modal">
+        <div class="modal-content update-modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Update Details</h2>
+                <span id="closeUpdateModal" class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div id="modalContent">
+                    <!-- Modal content will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="../js/updates.js"></script>
 </body>

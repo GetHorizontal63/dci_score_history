@@ -30,51 +30,43 @@ async function loadCorpsData() {
     
     let jsonFiles = [];
     
+    // ALWAYS load index.json first to get location data
     try {
-        // Try to get list of files from directory listing first (works locally)
-        const response = await fetch('../data/corps/');
+        const indexResponse = await fetch('../data/corps/index.json');
+        const indexData = await indexResponse.json();
         
-        if (response.ok) {
-            const html = await response.text();
-            
-            // Parse HTML to extract .json file links
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, 'text/html');
-            const links = Array.from(doc.querySelectorAll('a')).map(a => a.href);
-            jsonFiles = links
-                .filter(link => link.endsWith('.json') && !link.endsWith('index.json'))
-                .map(link => link.split('/').pop());
-            
-            console.log('Discovered JSON files from directory listing:', jsonFiles);
-        } else {
-            throw new Error('Directory listing not available');
-        }
-    } catch (error) {
-        console.log('Directory listing failed, falling back to index.json:', error.message);
+        // Store location data globally for quick map access
+        window.corpsLocationData = indexData.locations || {};
+        console.log('Cached location data for', Object.keys(window.corpsLocationData).length, 'corps');
         
-        // Fallback: Load from index.json (works on GitHub Pages)
+        // Use files from index as primary source
+        jsonFiles = indexData.files;
+        console.log('Loaded JSON files from index.json:', jsonFiles);
+        
+    } catch (indexError) {
+        console.log('Failed to load index.json, trying directory listing:', indexError);
+        
+        // Fallback: Try directory listing if index fails
         try {
-            const indexResponse = await fetch('../data/corps/index.json');
-            const indexData = await indexResponse.json();
-            jsonFiles = indexData.files;
-            console.log('Loaded JSON files from index.json:', jsonFiles);
-        } catch (indexError) {
-            console.error('Failed to load index.json:', indexError);
-            tbody.innerHTML = '<tr><td colspan="8" class="error-message">Failed to load corps data</td></tr>';
-            return;
-        }
-    }
-    
-    // If directory listing succeeded but found no files, use fallback
-    if (jsonFiles.length === 0) {
-        console.log('No files found in directory listing, falling back to index.json');
-        try {
-            const indexResponse = await fetch('../data/corps/index.json');
-            const indexData = await indexResponse.json();
-            jsonFiles = indexData.files;
-            console.log('Loaded JSON files from index.json:', jsonFiles);
-        } catch (indexError) {
-            console.error('Failed to load index.json:', indexError);
+            const response = await fetch('../data/corps/');
+            
+            if (response.ok) {
+                const html = await response.text();
+                
+                // Parse HTML to extract .json file links
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const links = Array.from(doc.querySelectorAll('a')).map(a => a.href);
+                jsonFiles = links
+                    .filter(link => link.endsWith('.json') && !link.endsWith('index.json'))
+                    .map(link => link.split('/').pop());
+                
+                console.log('Discovered JSON files from directory listing:', jsonFiles);
+            } else {
+                throw new Error('Directory listing not available');
+            }
+        } catch (error) {
+            console.error('Both index.json and directory listing failed:', error);
             tbody.innerHTML = '<tr><td colspan="8" class="error-message">Failed to load corps data</td></tr>';
             return;
         }
@@ -388,8 +380,8 @@ function createCorpsRow(corps) {
     }
     
     const websiteLink = corps.website ? 
-        `<a href="${websiteUrl}" target="_blank" rel="noopener noreferrer" onclick="event.preventDefault(); event.stopPropagation(); window.open('${websiteUrl}', '_blank');">Visit Website</a>` : 
-        'None Listed';
+        `<a href="${websiteUrl}" target="_blank" rel="noopener noreferrer" onclick="event.preventDefault(); event.stopPropagation(); window.open('${websiteUrl}', '_blank');">Link</a>` : 
+        'None';
     
     return `
         <tr class="corps-row" onclick="viewCorpsDetails('${corps.name}')">
@@ -608,8 +600,12 @@ function getClassColor(corps) {
         return '#FF0000'; // Red for World Class
     } else if (currentClass.includes('Open Class') || currentClass.includes('Division II') || currentClass.includes('Division III')) {
         return '#0000FF'; // Blue for Open Class
-    } else if (currentClass.includes('All Age') || currentClass.includes('Class A')) {
-        return '#FF8800'; // Orange for All Age
+    } else if (currentClass.includes('DCI All-Age') || currentClass.includes('All-Age') || currentClass.includes('Class A')) {
+        return '#00AA00'; // Green for DCI All-Age
+    } else if (currentClass.includes('International')) {
+        return '#FF8800'; // Orange for International
+    } else if (currentClass.includes('SoundSport')) {
+        return '#8A2BE2'; // Purple for SoundSport
     } else if (currentClass.includes('Inactive')) {
         return '#888888'; // Grey for Inactive
     }
@@ -684,6 +680,8 @@ function loadCorpsOnMap() {
     
     // Use filtered data if available, otherwise use all corps data
     const corpsToShow = filteredData.length > 0 ? filteredData : corpsData;
+    
+    console.log(`Total corps to show: ${corpsToShow.length}`);
     
     // Generate dynamic legend based on corps being shown
     generateMapLegend(corpsToShow);
@@ -1062,7 +1060,16 @@ function loadCorpsOnMap() {
 // Simple geocoding function using approximate coordinates
 // In a production environment, you'd use a proper geocoding service
 async function getCoordinates(city, state) {
-    // Basic coordinates for common drum corps cities
+    // First, check if we have coordinates in the cached location data from index
+    if (window.corpsLocationData) {
+        for (const [corpsName, locData] of Object.entries(window.corpsLocationData)) {
+            if (locData.city === city && locData.state === state && locData.lat && locData.lon) {
+                return { lat: locData.lat, lng: locData.lon };
+            }
+        }
+    }
+    
+    // Fallback to basic coordinates for common drum corps cities
     const cityCoords = {
         // Major drum corps cities with approximate coordinates
         'Blue Springs': { lat: 39.0169, lng: -94.2816 }, // Missouri
@@ -1080,6 +1087,7 @@ async function getCoordinates(city, state) {
         'Dayton': { lat: 39.7589, lng: -84.1916 },
         'Riverside': { lat: 33.9533, lng: -117.3962 },
         'Jacksonville': { lat: 30.3322, lng: -81.6557 },
+        'Jacksonville, AL': { lat: 33.8137, lng: -85.7616 }, // Alabama - different from Florida
         'Indianapolis': { lat: 39.7684, lng: -86.1581 },
         'Chicago': { lat: 41.8781, lng: -87.6298 },
         'Philadelphia': { lat: 39.9526, lng: -75.1652 },
@@ -1090,6 +1098,7 @@ async function getCoordinates(city, state) {
         'San Antonio': { lat: 29.4241, lng: -98.4936 },
         'San Diego': { lat: 32.7157, lng: -117.1611 },
         'Dallas': { lat: 32.7767, lng: -96.7970 },
+        'Dallas–Fort Worth Metroplex': { lat: 32.7767, lng: -96.7970 }, // Use Dallas coordinates for DFW area
         'Austin': { lat: 30.2672, lng: -97.7431 },
         'Fort Worth': { lat: 32.7555, lng: -97.3308 },
         'Charlotte': { lat: 35.2271, lng: -80.8431 },
@@ -1100,6 +1109,7 @@ async function getCoordinates(city, state) {
         'Atlanta': { lat: 33.7490, lng: -84.3880 },
         'Miami': { lat: 25.7617, lng: -80.1918 },
         'Tampa': { lat: 27.9506, lng: -82.4572 },
+        'Tampa Bay': { lat: 27.9506, lng: -82.4572 }, // Same as Tampa for mapping purposes
         'Orlando': { lat: 28.5383, lng: -81.3792 },
         'Nashville': { lat: 36.1627, lng: -86.7816 },
         'Memphis': { lat: 35.1495, lng: -90.0490 },
@@ -1182,7 +1192,24 @@ async function getCoordinates(city, state) {
         'Cerritos': { lat: 33.8583, lng: -118.0648 }, // California
         'Norwalk': { lat: 33.9022, lng: -118.0817 }, // California
         'Downey': { lat: 33.9401, lng: -118.1326 }, // California
-        'Whittier': { lat: 33.9792, lng: -118.0328 } // California
+        'Whittier': { lat: 33.9792, lng: -118.0328 }, // California
+        // Canadian cities
+        'Calgary': { lat: 51.0447, lng: -114.0719 }, // Alberta, Canada
+        'Sherbrooke': { lat: 45.4042, lng: -71.8929 }, // Quebec, Canada
+        // Additional missing cities
+        'Anoka': { lat: 45.1978, lng: -93.3866 }, // Minnesota
+        'Bakersfield': { lat: 35.3733, lng: -119.0187 }, // California
+        'Big Lake': { lat: 45.3341, lng: -93.7461 }, // Minnesota
+        'Buena Park': { lat: 33.8675, lng: -117.9981 }, // California
+        'Burlington': { lat: 40.0712, lng: -74.8648 }, // New Jersey
+        'Champlin': { lat: 45.1869, lng: -93.3975 }, // Minnesota
+        'Nashua': { lat: 42.7654, lng: -71.4676 }, // New Hampshire
+        'New London': { lat: 41.3556, lng: -72.0995 }, // Connecticut
+        'Pasco': { lat: 46.2396, lng: -119.1006 }, // Washington
+        'Salt Lake City': { lat: 40.7608, lng: -111.8910 }, // Utah
+        'San Marcos': { lat: 29.8833, lng: -97.9414 }, // Texas
+        'Seguin': { lat: 29.5688, lng: -97.9647 }, // Texas
+        'White': { lat: 34.2628, lng: -84.7441 } // Georgia
     };
     
     // Return coordinates if we have them
@@ -1194,7 +1221,12 @@ async function getCoordinates(city, state) {
     try {
         const encodedCity = encodeURIComponent(city);
         const encodedState = encodeURIComponent(state);
-        const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodedCity},${encodedState},USA&limit=1`);
+        
+        // Check if this is a Canadian province
+        const canadianProvinces = ['AB', 'BC', 'MB', 'NB', 'NL', 'NS', 'NT', 'NU', 'ON', 'PE', 'QC', 'SK', 'YT'];
+        const country = canadianProvinces.includes(state) ? 'Canada' : 'USA';
+        
+        const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodedCity},${encodedState},${country}&limit=1`);
         
         if (response.ok) {
             const data = await response.json();

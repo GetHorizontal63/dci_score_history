@@ -160,6 +160,19 @@
     color: #ffffff;
 }
 
+.corps-name-link {
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.corps-name-link:hover {
+    color: #EA6020;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 /* Rank cell styling */
 .rank-cell {
     font-weight: bold;

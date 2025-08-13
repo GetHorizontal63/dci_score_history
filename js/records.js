@@ -1,191 +1,86 @@
 // Records page JavaScript functionality
 
-// Records data for each circuit
-const recordsData = {
-    DCI: [
-        { 
-            category: "Highest Score Ever", 
-            holder: "Blue Devils", 
-            detail: "99.125", 
-            year: "2019",
-            location: "Indianapolis, IN"
-        },
-        { 
-            category: "Longest Win Streak", 
-            holder: "Cadets", 
-            detail: "64 consecutive wins", 
-            year: "1983-1987",
-            location: "Various Locations"
-        },
-        { 
-            category: "Longest Championship Streak", 
-            holder: "Blue Devils", 
-            detail: "4 consecutive titles", 
-            year: "2013-2016",
-            location: "Indianapolis, IN"
-        },
-        { 
-            category: "Longest Medal Streak", 
-            holder: "Santa Clara Vanguard", 
-            detail: "15 consecutive top-3 finishes", 
-            year: "1973-1987",
-            location: "Various Locations"
-        },
-        { 
-            category: "Longest Finalist Streak", 
-            holder: "Blue Devils", 
-            detail: "42 consecutive finals appearances", 
-            year: "1975-2016",
-            location: "Various Locations"
-        },
-        { 
-            category: "Highest Score by 1st Place", 
-            holder: "Blue Devils", 
-            detail: "99.125", 
-            year: "2019",
-            location: "Indianapolis, IN"
-        },
-        { 
-            category: "Highest Score by 2nd Place", 
-            holder: "Santa Clara Vanguard", 
-            detail: "97.825", 
-            year: "2019",
-            location: "Indianapolis, IN"
-        },
-        { 
-            category: "Lowest Score by 1st Place", 
-            holder: "Blue Devils", 
-            detail: "87.10", 
-            year: "1976",
-            location: "Philadelphia, PA"
-        },
-        { 
-            category: "Most Consecutive Caption Wins", 
-            holder: "Phantom Regiment", 
-            detail: "12 consecutive Visual Performance wins", 
-            year: "1996-2008",
-            location: "Various Locations"
-        },
-        { 
-            category: "Lowest Placement to Win Caption", 
-            holder: "Spirit of JSU", 
-            detail: "22nd place - Visual Performance", 
-            year: "2019",
-            location: "Indianapolis, IN"
-        }
-    ],
-    DCA: [
-        { 
-            category: "Highest Score Ever", 
-            holder: "Reading Buccaneers", 
-            detail: "95.100", 
-            year: "2023",
-            location: "Rochester, NY"
-        },
-        { 
-            category: "Longest Championship Streak", 
-            holder: "Reading Buccaneers", 
-            detail: "3 consecutive titles", 
-            year: "2019, 2021, 2023-2024",
-            location: "Rochester, NY"
-        },
-        { 
-            category: "Longest Medal Streak", 
-            holder: "Reading Buccaneers", 
-            detail: "8 consecutive top-3 finishes", 
-            year: "2017-2024",
-            location: "Various Locations"
-        },
-        { 
-            category: "Most Caption Wins", 
-            holder: "Reading Buccaneers", 
-            detail: "Visual Performance specialty", 
-            year: "2015-2024",
-            location: "Various Locations"
-        }
-    ],
-    VFW: [
-        { 
-            category: "Highest Score Ever", 
-            holder: "Anaheim Kingsmen", 
-            detail: "91.90", 
-            year: "1971",
-            location: "Philadelphia, PA"
-        },
-        { 
-            category: "Most Championships", 
-            holder: "27th Lancers", 
-            detail: "2 VFW National Championships", 
-            year: "1968, 1969",
-            location: "Various Locations"
-        },
-        { 
-            category: "Final Championship", 
-            holder: "Anaheim Kingsmen", 
-            detail: "Last VFW National Champions", 
-            year: "1971",
-            location: "Philadelphia, PA"
-        }
-    ],
-    CYO: [
-        { 
-            category: "Highest Score Ever", 
-            holder: "Holy Name Cadets", 
-            detail: "84.60", 
-            year: "1964",
-            location: "New York, NY"
-        },
-        { 
-            category: "Most Championships", 
-            holder: "Holy Name Cadets", 
-            detail: "3 CYO National Championships", 
-            year: "1960, 1962, 1964",
-            location: "Various Locations"
-        },
-        { 
-            category: "Longest Streak", 
-            holder: "Holy Name Cadets", 
-            detail: "3 consecutive finals appearances", 
-            year: "1962-1964",
-            location: "Various Locations"
-        }
-    ],
-    AL: [
-        { 
-            category: "Highest Score Ever", 
-            holder: "Blessed Sacrament Golden Knights", 
-            detail: "85.10", 
-            year: "1966",
-            location: "Chicago, IL"
-        },
-        { 
-            category: "Most Championships", 
-            holder: "Blessed Sacrament Golden Knights", 
-            detail: "3 American Legion Championships", 
-            year: "1962, 1964, 1966",
-            location: "Various Locations"
-        },
-        { 
-            category: "Final Championship", 
-            holder: "Blessed Sacrament Golden Knights", 
-            detail: "Last American Legion Champions", 
-            year: "1966",
-            location: "Chicago, IL"
-        }
-    ]
-};
+// Global variables to store loaded data
+let recordsData = {};
+let circuitNames = {};
 
-// Circuit full names for display
-const circuitNames = {
-    DCI: "DCI Championship Records",
-    DCA: "DCA Championship Records", 
-    VFW: "VFW National Championship Records",
-    CYO: "CYO National Championship Records",
-    AL: "American Legion Championship Records"
-};
+// Load records data from JSON files
+async function loadRecordsData() {
+    try {
+        // Load the records index to get available circuits
+        const indexResponse = await fetch('../data/records/records_index.json');
+        const index = await indexResponse.json();
+        
+        // Load data for each circuit
+        for (const circuit of index.circuits) {
+            if (circuit.active) {
+                const response = await fetch(`../data/records/${circuit.file}`);
+                const data = await response.json();
+                
+                // Combine regular records with top scores as a special record
+                let combinedRecords = [...data.records];
+                
+                // Add top scores as a special record card if we have top scores data
+                if (data.topScores && data.topScores.length > 0) {
+                    const topScoresDetail = formatTopScoresFromData(data.topScores);
+                    const topScoresRecord = {
+                        category: "Top 10 Scores Ever",
+                        holder: "Historical Leaderboard", 
+                        detail: topScoresDetail,
+                        year: "All Years",
+                        location: "Various Locations"
+                    };
+                    // Replace the third record (index 2) with top scores
+                    combinedRecords[2] = topScoresRecord;
+                }
+                
+                recordsData[circuit.code] = combinedRecords;
+                circuitNames[circuit.code] = data.circuitName + " Records";
+            }
+        }
+    } catch (error) {
+        console.error('Error loading records data:', error);
+        // Fallback to empty data
+        recordsData = { DCI: [], DCA: [], VFW: [], CYO: [], AL: [] };
+        circuitNames = {
+            DCI: "DCI Championship Records",
+            DCA: "DCA Championship Records",
+            VFW: "VFW National Championship Records",
+            CYO: "CYO National Championship Records",
+            AL: "American Legion Championship Records"
+        };
+    }
+}
+
+// Format top scores from existing topScores data
+function formatTopScoresFromData(topScores) {
+    // Group by rank to handle ties
+    const groupedByRank = {};
+    topScores.forEach(score => {
+        if (!groupedByRank[score.rank]) {
+            groupedByRank[score.rank] = [];
+        }
+        groupedByRank[score.rank].push(score);
+    });
+    
+    const formattedLines = [];
+    Object.keys(groupedByRank).sort((a, b) => parseInt(a) - parseInt(b)).forEach(rank => {
+        const scores = groupedByRank[rank];
+        if (scores.length === 1) {
+            const s = scores[0];
+            formattedLines.push(`${rank}. ${s.score} - ${s.corps} (${s.year})`);
+        } else {
+            const corpsYears = scores.map(s => `${s.corps} (${s.year})`).join(' & ');
+            formattedLines.push(`${rank}. ${scores[0].score} - ${corpsYears}`);
+        }
+    });
+    
+    return formattedLines.join('\n');
+}
 
 // Initialize the page
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
+    await loadRecordsData();
     setupTabs();
     displayRecords('DCI');
 });
@@ -215,7 +110,7 @@ function displayRecords(circuit) {
     const container = document.getElementById('records-cards-container');
     
     // Update title
-    title.textContent = circuitNames[circuit];
+    title.textContent = circuitNames[circuit] || `${circuit} Records`;
     
     // Clear existing cards
     container.innerHTML = '';
@@ -237,14 +132,14 @@ function displayRecords(circuit) {
             <div class="card-year">${record.category}</div>
             <div class="card-champion">
                 <div class="label">Record Holder</div>
-                <div class="name">${record.holder}</div>
-                <div class="score">${record.detail}</div>
+                <div class="name ${record.category === 'Top 10 Scores Ever' ? 'top-scores-list' : ''}">${record.holder}</div>
+                <div class="score ${record.category === 'Top 10 Scores Ever' ? 'top-scores-detail' : ''}">${record.detail}</div>
             </div>
-            <div class="card-runner-up">
+            ${record.category === 'Top 10 Scores Ever' ? '' : `<div class="card-runner-up">
                 <div class="label">Year</div>
                 <div class="name">${record.year}</div>
                 <div class="score">${record.location}</div>
-            </div>
+            </div>`}
         `;
         
         container.appendChild(card);
@@ -252,9 +147,14 @@ function displayRecords(circuit) {
     
     // If no records, show message
     if (records.length === 0) {
-        const message = document.createElement('div');
-        message.style.cssText = 'text-align: center; color: #888888; font-style: italic; grid-column: 1 / -1; padding: 40px;';
-        message.textContent = `No records available for ${circuit}`;
-        container.appendChild(message);
+        showNoDataMessage(container, circuit, 'records');
     }
+}
+
+// Show no data message
+function showNoDataMessage(container, circuit, dataType) {
+    const message = document.createElement('div');
+    message.style.cssText = 'text-align: center; color: #888888; font-style: italic; grid-column: 1 / -1; padding: 40px;';
+    message.textContent = `No ${dataType} available for ${circuit}`;
+    container.appendChild(message);
 }

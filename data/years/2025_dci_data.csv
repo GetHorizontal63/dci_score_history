@@ -1,4 +1,4 @@
-Date,City,State,Place,Corps,Class,Score,Year
+Date,City,State,Place,Corps,Class,Score,Year,Event_Name
 06/28,Fort Collins,CO,1,Boston Crusaders,World Class,76.2,2025
 06/28,Fort Collins,CO,2,Blue Devils,World Class,75.4,2025
 06/28,Fort Collins,CO,3,Colts,World Class,68.25,2025
@@ -462,20 +462,20 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/03,Downingtown,PA,2,Connecticut Hurricanes,All-Age - World Class,87.8,2025
 08/03,Downingtown,PA,1,White Sabers,All-Age - Open Class,84.65,2025
 08/03,Downingtown,PA,2,Sunrisers,All-Age - Open Class,80.4,2025
-08/04,Marion,IN,1,Calgary Stampede Band,International Class,76.125,2025
-08/04,Marion,IN,2,Calgary Stetson Showband,International Class,66.700,2025
-08/04,Marion,IN,3,Beijing 57 High School,International Class,63.900,2025
-08/04,Marion,IN,4,Calgary Round-Up Band,International Class,62.150,2025
-08/04,Marion,IN,5,High School Affiliated to BIT,International Class,59.400,2025
-08/04,Marion,IN,1,Spartans,Open Class,81.225,2025
-08/04,Marion,IN,2,Gold,Open Class,79.475,2025
-08/04,Marion,IN,3,Battalion,Open Class,79.375,2025
-08/04,Marion,IN,4,Columbians,Open Class,76.525,2025
-08/04,Marion,IN,5,River City Rhythm,Open Class,75.025,2025
-08/04,Marion,IN,6,7th Regiment,Open Class,73.025,2025
-08/04,Marion,IN,7,Raiders,Open Class,72.775,2025
-08/04,Marion,IN,8,Colt Cadets,Open Class,71.050,2025
-08/04,Marion,IN,9,Les Stentors,Open Class,67.300,2025
+08/04,Marion,IN,1,Calgary Stampede Band,International Class,76.125,2025,DCI Open Class Championship Prelims
+08/04,Marion,IN,2,Calgary Stetson Showband,International Class,66.700,2025,DCI Open Class Championship Prelims
+08/04,Marion,IN,3,Beijing 57 High School,International Class,63.900,2025,DCI Open Class Championship Prelims
+08/04,Marion,IN,4,Calgary Round-Up Band,International Class,62.150,2025,DCI Open Class Championship Prelims
+08/04,Marion,IN,5,High School Affiliated to BIT,International Class,59.400,2025,DCI Open Class Championship Prelims
+08/04,Marion,IN,1,Spartans,Open Class,81.225,2025,DCI Open Class Championship Prelims
+08/04,Marion,IN,2,Gold,Open Class,79.475,2025,DCI Open Class Championship Prelims
+08/04,Marion,IN,3,Battalion,Open Class,79.375,2025,DCI Open Class Championship Prelims
+08/04,Marion,IN,4,Columbians,Open Class,76.525,2025,DCI Open Class Championship Prelims
+08/04,Marion,IN,5,River City Rhythm,Open Class,75.025,2025,DCI Open Class Championship Prelims
+08/04,Marion,IN,6,7th Regiment,Open Class,73.025,2025,DCI Open Class Championship Prelims
+08/04,Marion,IN,7,Raiders,Open Class,72.775,2025,DCI Open Class Championship Prelims
+08/04,Marion,IN,8,Colt Cadets,Open Class,71.050,2025,DCI Open Class Championship Prelims
+08/04,Marion,IN,9,Les Stentors,Open Class,67.300,2025,DCI Open Class Championship Prelims
 08/04,Canton,OH,1,Bluecoats,World Class,97.075,2025
 08/04,Canton,OH,2,Boston Crusaders,World Class,96.500,2025
 08/04,Canton,OH,3,Blue Devils,World Class,95.575,2025
@@ -498,119 +498,115 @@ Date,City,State,Place,Corps,Class,Score,Year
 08/04,Pittsburgh,PA,3,Genesis,World Class,79.800,2025
 08/04,Pittsburgh,PA,4,Seattle Cascades,World Class,78.900,2025
 08/04,Pittsburgh,PA,1,Bushwackers,All-Age - World Class,90.450,2025
-08/05,Marion,IN,1,Spartans,Open Class,82.150,2025
-08/05,Marion,IN,2,Gold,Open Class,80.875,2025
-08/05,Marion,IN,3,Battalion,Open Class,79.750,2025
-08/05,Marion,IN,4,Columbians,Open Class,77.775,2025
-08/05,Marion,IN,5,River City Rhythm,Open Class,76.300,2025
-08/05,Marion,IN,6,7th Regiment,Open Class,74.225,2025
-08/05,Marion,IN,7,Raiders,Open Class,73.750,2025
-08/05,Marion,IN,8,Colt Cadets,Open Class,71.050,2025
-08/05,Marion,IN,9,Les Stentors,Open Class,68.350,2025
-08/05,Marion,IN,1,Calgary Stampede Band,International Class,76.800,2025
-08/05,Marion,IN,2,Calgary Stetson Showband,International Class,66.875,2025
-08/05,Marion,IN,3,Beijing 57 High School,International Class,65.300,2025
-08/05,Marion,IN,4,Calgary Round-Up Band,International Class,62.400,2025
-08/05,Marion,IN,5,High School Affiliated to BIT,International Class,60.875,2025
-08/07,Indianapolis,IN,34,High School Affiliated to BIT,International Class,61.750,2025
-08/07,Indianapolis,IN,33,Calgary Round-Up Band,International Class,62.000,2025
-08/07,Indianapolis,IN,32,Beijing 57 High School,International Class,65.500,2025
-08/07,Indianapolis,IN,31,Calgary Stetson Showband,International Class,66.125,2025
-08/07,Indianapolis,IN,30,Les Stentors,Open Class,67.375,2025
-08/07,Indianapolis,IN,29,Colt Cadets,Open Class,70.550,2025
-08/07,Indianapolis,IN,28,Raiders,Open Class,72.200,2025
-08/07,Indianapolis,IN,27,7th Regiment,Open Class,72.375,2025
-08/07,Indianapolis,IN,26,River City Rhythm,Open Class,73.700,2025
-08/07,Indianapolis,IN,25,Columbians,Open Class,74.750,2025
-08/07,Indianapolis,IN,24,Calgary Stampede Band,International Class,76.750,2025
-08/07,Indianapolis,IN,23,Seattle Cascades,World Class,77.500,2025
-08/07,Indianapolis,IN,22,Genesis,World Class,78.075,2025
-08/07,Indianapolis,IN,21,Battalion,Open Class,78.500,2025
-08/07,Indianapolis,IN,20,Gold,Open Class,79.975,2025
-08/07,Indianapolis,IN,19,Spartans,Open Class,81.725,2025
-08/07,Indianapolis,IN,18,Crossmen,World Class,82.500,2025
-08/07,Indianapolis,IN,17,Academy,World Class,82.550,2025
-08/07,Indianapolis,IN,16,Music City,World Class,83.050,2025
-08/07,Indianapolis,IN,15,Pacific Crest,World Class,83.863,2025
-08/07,Indianapolis,IN,14,Madison Scouts,World Class,85.550,2025
-08/07,Indianapolis,IN,13,Spirit of Atlanta,World Class,86.625,2025
-08/07,Indianapolis,IN,12,Blue Knights,World Class,87.600,2025
-08/07,Indianapolis,IN,11,Colts,World Class,88.038,2025
-08/07,Indianapolis,IN,10,Troopers,World Class,90.325,2025
-08/07,Indianapolis,IN,9,Blue Stars,World Class,90.488,2025
-08/07,Indianapolis,IN,8,Cavaliers,World Class,91.163,2025
-08/07,Indianapolis,IN,7,Mandarins,World Class,92.450,2025
-08/07,Indianapolis,IN,6,Phantom Regiment,World Class,93.650,2025
-08/07,Indianapolis,IN,5,Carolina Crown,World Class,94.638,2025
-08/07,Indianapolis,IN,4,Blue Devils,World Class,95.588,2025
-08/07,Indianapolis,IN,3,Vanguard,World Class,95.875,2025
-08/07,Indianapolis,IN,2,Bluecoats,World Class,97.150,2025
-08/07,Indianapolis,IN,1,Boston Crusaders,World Class,97.325,2025
-08/08,Indianapolis,IN,1,7th Regiment,Open Class,,2025
-08/08,Indianapolis,IN,2,Blue Devils,World Class,,2025
-08/08,Indianapolis,IN,3,Blue Knights,World Class,,2025
-08/08,Indianapolis,IN,4,Blue Stars,World Class,,2025
-08/08,Indianapolis,IN,5,Bluecoats,World Class,,2025
-08/08,Indianapolis,IN,6,Boston Crusaders,World Class,,2025
-08/08,Indianapolis,IN,7,Calgary Round-Up Band,International Class,,2025
-08/08,Indianapolis,IN,8,Calgary Stampede Band,International Class,,2025
-08/08,Indianapolis,IN,9,Calgary Stetson Show Band,International Class,,2025
-08/08,Indianapolis,IN,10,Carolina Crown,World Class,,2025
-08/08,Indianapolis,IN,11,Colt Cadets,Open Class,,2025
-08/08,Indianapolis,IN,12,Colts,World Class,,2025
-08/08,Indianapolis,IN,13,Columbians,Open Class,,2025
-08/08,Indianapolis,IN,14,Crossmen,World Class,,2025
-08/08,Indianapolis,IN,15,Genesis,World Class,,2025
-08/08,Indianapolis,IN,16,Gold,Open Class,,2025
-08/08,Indianapolis,IN,17,High School 57,International Class,,2025
-08/08,Indianapolis,IN,18,High School Affiliated to BIT,International Class,,2025
-08/08,Indianapolis,IN,19,Les Stentors,Open Class,,2025
-08/08,Indianapolis,IN,20,Madison Scouts,World Class,,2025
-08/08,Indianapolis,IN,21,Mandarins,World Class,,2025
-08/08,Indianapolis,IN,22,Music City,World Class,,2025
-08/08,Indianapolis,IN,23,Pacific Crest,World Class,,2025
-08/08,Indianapolis,IN,24,Phantom Regiment,World Class,,2025
-08/08,Indianapolis,IN,25,Raiders,Open Class,,2025
-08/08,Indianapolis,IN,26,River City Rhythm,Open Class,,2025
-08/08,Indianapolis,IN,27,Santa Clara Vanguard,World Class,,2025
-08/08,Indianapolis,IN,28,Seattle Cascades,World Class,,2025
-08/08,Indianapolis,IN,29,Spartans,Open Class,,2025
-08/08,Indianapolis,IN,30,Spirit of Atlanta,World Class,,2025
-08/08,Indianapolis,IN,31,The Academy,World Class,,2025
-08/08,Indianapolis,IN,32,The Battalion,Open Class,,2025
-08/08,Indianapolis,IN,33,The Cavaliers,World Class,,2025
-08/08,Indianapolis,IN,34,Troopers,World Class,,2025
-08/09,Indianapolis,IN,1,7th Regiment,Open Class,,2025
-08/09,Indianapolis,IN,2,Blue Devils,World Class,,2025
-08/09,Indianapolis,IN,3,Blue Knights,World Class,,2025
-08/09,Indianapolis,IN,4,Blue Stars,World Class,,2025
-08/09,Indianapolis,IN,5,Bluecoats,World Class,,2025
-08/09,Indianapolis,IN,6,Boston Crusaders,World Class,,2025
-08/09,Indianapolis,IN,7,Calgary Round-Up Band,International Class,,2025
-08/09,Indianapolis,IN,8,Calgary Stampede Showband,International Class,,2025
-08/09,Indianapolis,IN,9,Calgary Stetson Show Band,International Class,,2025
-08/09,Indianapolis,IN,10,Carolina Crown,World Class,,2025
-08/09,Indianapolis,IN,11,Colt Cadets,Open Class,,2025
-08/09,Indianapolis,IN,12,Colts,World Class,,2025
-08/09,Indianapolis,IN,13,Columbians,Open Class,,2025
-08/09,Indianapolis,IN,14,Crossmen,World Class,,2025
-08/09,Indianapolis,IN,15,Genesis,World Class,,2025
-08/09,Indianapolis,IN,16,Gold,Open Class,,2025
-08/09,Indianapolis,IN,17,High School 57,International Class,,2025
-08/09,Indianapolis,IN,18,High School Affiliated to BIT,International Class,,2025
-08/09,Indianapolis,IN,19,Les Stentors,Open Class,,2025
-08/09,Indianapolis,IN,20,Madison Scouts,World Class,,2025
-08/09,Indianapolis,IN,21,Mandarins,World Class,,2025
-08/09,Indianapolis,IN,22,Music City,World Class,,2025
-08/09,Indianapolis,IN,23,Pacific Crest,World Class,,2025
-08/09,Indianapolis,IN,24,Phantom Regiment,World Class,,2025
-08/09,Indianapolis,IN,25,Raiders,Open Class,,2025
-08/09,Indianapolis,IN,26,River City Rhythm,Open Class,,2025
-08/09,Indianapolis,IN,27,Santa Clara Vanguard,World Class,,2025
-08/09,Indianapolis,IN,28,Seattle Cascades,World Class,,2025
-08/09,Indianapolis,IN,29,Spartans,Open Class,,2025
-08/09,Indianapolis,IN,30,Spirit of Atlanta,World Class,,2025
-08/09,Indianapolis,IN,31,The Academy,World Class,,2025
-08/09,Indianapolis,IN,32,The Battalion,Open Class,,2025
-08/09,Indianapolis,IN,33,The Cavaliers,World Class,,2025
-08/09,Indianapolis,IN,34,Troopers,World Class,,2025
+08/05,Marion,IN,1,Spartans,Open Class,82.150,2025,DCI Open Class Championship Finals
+08/05,Marion,IN,2,Gold,Open Class,80.875,2025,DCI Open Class Championship Finals
+08/05,Marion,IN,3,Battalion,Open Class,79.750,2025,DCI Open Class Championship Finals
+08/05,Marion,IN,4,Columbians,Open Class,77.775,2025,DCI Open Class Championship Finals
+08/05,Marion,IN,5,River City Rhythm,Open Class,76.300,2025,DCI Open Class Championship Finals
+08/05,Marion,IN,6,7th Regiment,Open Class,74.225,2025,DCI Open Class Championship Finals
+08/05,Marion,IN,7,Raiders,Open Class,73.750,2025,DCI Open Class Championship Finals
+08/05,Marion,IN,8,Colt Cadets,Open Class,71.050,2025,DCI Open Class Championship Finals
+08/05,Marion,IN,9,Les Stentors,Open Class,68.350,2025,DCI Open Class Championship Finals
+08/05,Marion,IN,1,Calgary Stampede Band,International Class,76.800,2025,DCI Open Class Championship Finals
+08/05,Marion,IN,2,Calgary Stetson Showband,International Class,66.875,2025,DCI Open Class Championship Finals
+08/05,Marion,IN,3,Beijing 57 High School,International Class,65.300,2025,DCI Open Class Championship Finals
+08/05,Marion,IN,4,Calgary Round-Up Band,International Class,62.400,2025,DCI Open Class Championship Finals
+08/05,Marion,IN,5,High School Affiliated to BIT,International Class,60.875,2025,DCI Open Class Championship Finals
+08/07,Indianapolis,IN,34,High School Affiliated to BIT,International Class,61.750,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,33,Calgary Round-Up Band,International Class,62.000,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,32,Beijing 57 High School,International Class,65.500,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,31,Calgary Stetson Showband,International Class,66.125,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,30,Les Stentors,Open Class,67.375,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,29,Colt Cadets,Open Class,70.550,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,28,Raiders,Open Class,72.200,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,27,7th Regiment,Open Class,72.375,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,26,River City Rhythm,Open Class,73.700,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,25,Columbians,Open Class,74.750,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,24,Calgary Stampede Band,International Class,76.750,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,23,Seattle Cascades,World Class,77.500,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,22,Genesis,World Class,78.075,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,21,Battalion,Open Class,78.500,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,20,Gold,Open Class,79.975,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,19,Spartans,Open Class,81.725,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,18,Crossmen,World Class,82.500,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,17,Academy,World Class,82.550,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,16,Music City,World Class,83.050,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,15,Pacific Crest,World Class,83.863,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,14,Madison Scouts,World Class,85.550,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,13,Spirit of Atlanta,World Class,86.625,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,12,Blue Knights,World Class,87.600,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,11,Colts,World Class,88.038,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,10,Troopers,World Class,90.325,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,9,Blue Stars,World Class,90.488,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,8,Cavaliers,World Class,91.163,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,7,Mandarins,World Class,92.450,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,6,Phantom Regiment,World Class,93.650,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,5,Carolina Crown,World Class,94.638,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,4,Blue Devils,World Class,95.588,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,3,Vanguard,World Class,95.875,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,2,Bluecoats,World Class,97.150,2025,DCI World Class World Championship Prelims
+08/07,Indianapolis,IN,1,Boston Crusaders,World Class,97.325,2025,DCI World Class World Championship Prelims
+08/08,Indianapolis,IN,1,Reading Buccaneers,All-Age - World Class,96.375,2025,DCI All-Age Class Championships
+08/08,Indianapolis,IN,2,Hawthorne Caballeros,All-Age - World Class,93.900,2025,DCI All-Age Class Championships
+08/08,Indianapolis,IN,3,Bushwackers,All-Age - World Class,92.575,2025,DCI All-Age Class Championships
+08/08,Indianapolis,IN,4,Atlanta CV,All-Age - World Class,90.900,2025,DCI All-Age Class Championships
+08/08,Indianapolis,IN,5,Connecticut Hurricanes,All-Age - World Class,87.725,2025,DCI All-Age Class Championships
+08/08,Indianapolis,IN,1,Cincinnati Tradition,All-Age - Open Class,90.025,2025,DCI All-Age Class Championships
+08/08,Indianapolis,IN,2,White Sabers,All-Age - Open Class,85.375,2025,DCI All-Age Class Championships
+08/08,Indianapolis,IN,3,Rogues Hollow Regiment,All-Age - Open Class,83.400,2025,DCI All-Age Class Championships
+08/08,Indianapolis,IN,4,Sunrisers,All-Age - Open Class,83.325,2025,DCI All-Age Class Championships
+08/08,Indianapolis,IN,5,Minnesota Brass,All-Age - Open Class,79.550,2025,DCI All-Age Class Championships
+08/08,Indianapolis,IN,6,Northern Lights,All-Age - Open Class,76.425,2025,DCI All-Age Class Championships
+08/08,Indianapolis,IN,1,Govenaires,All-Age - A Class,80.775,2025,DCI All-Age Class Championships
+08/08,Indianapolis,IN,2,Fusion Core,All-Age - A Class,77.075,2025,DCI All-Age Class Championships
+08/08,Indianapolis,IN,3,Columbus Saints,All-Age - A Class,69.675,2025,DCI All-Age Class Championships
+08/08,Indianapolis,IN,1,Bluecoats,World Class,97.763,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,2,Boston Crusaders,World Class,97.575,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,3,Vanguard,World Class,96.063,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,4,Blue Devils,World Class,95.400,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,5,Carolina Crown,World Class,94.238,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,6,Phantom Regiment,World Class,93.950,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,7,Mandarins,World Class,92.525,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,8,Cavaliers,World Class,90.500,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,9,Blue Stars,World Class,90.375,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,10,Troopers,World Class,90.063,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,11,Colts,World Class,88.525,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,12,Blue Knights,World Class,88.275,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,13,Spirit of Atlanta,World Class,86.800,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,14,Madison Scouts,World Class,85.350,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,15,Pacific Crest,World Class,84.825,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,16,Music City,World Class,83.838,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,17,Academy,World Class,83.313,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,18,Spartans,Open Class,82.275,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,19,Crossmen,World Class,82.225,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,20,Gold,Open Class,79.900,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,21,Battalion,Open Class,79.125,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,22,Genesis,World Class,77.700,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,23,Seattle Cascades,World Class,77.050,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,24,Calgary Stampede Band,International Class,75.250,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,25,Columbians,Open Class,74.500,2025,DCI World Class World Championship Semifinals
+08/08,Indianapolis,IN,26,River City Rhythm,Open Class,73.125,2025,DCI World Class World Championship Semifinals
+08/09,Indianapolis,IN,1,Boston Crusaders,World Class,98.425,2025,DCI World Class World Championship Finals
+08/09,Indianapolis,IN,2,Bluecoats,World Class,98.250,2025,DCI World Class World Championship Finals
+08/09,Indianapolis,IN,3,Vanguard,World Class,96.700,2025,DCI World Class World Championship Finals
+08/09,Indianapolis,IN,4,Blue Devils,World Class,95.788,2025,DCI World Class World Championship Finals
+08/09,Indianapolis,IN,5,Carolina Crown,World Class,94.800,2025,DCI World Class World Championship Finals
+08/09,Indianapolis,IN,6,Phantom Regiment,World Class,94.300,2025,DCI World Class World Championship Finals
+08/09,Indianapolis,IN,7,Mandarins,World Class,92.825,2025,DCI World Class World Championship Finals
+08/09,Indianapolis,IN,8,Blue Stars,World Class,91.175,2025,DCI World Class World Championship Finals
+08/09,Indianapolis,IN,9,Cavaliers,World Class,90.800,2025,DCI World Class World Championship Finals
+08/09,Indianapolis,IN,10,Troopers,World Class,90.050,2025,DCI World Class World Championship Finals
+08/09,Indianapolis,IN,11,Colts,World Class,88.050,2025,DCI World Class World Championship Finals
+08/09,Indianapolis,IN,12,Blue Knights,World Class,87.450,2025,DCI World Class World Championship Finals
+08/09,Indianapolis,IN,1,Reading Buccaneers,DCI All-Age Class,97.525,2025,DCI All-Age World Championship Finals
+08/09,Indianapolis,IN,2,Hawthorne Caballeros,DCI All-Age Class,95.775,2025,DCI All-Age World Championship Finals
+08/09,Indianapolis,IN,3,Bushwackers,DCI All-Age Class,94.250,2025,DCI All-Age World Championship Finals
+08/09,Indianapolis,IN,4,Atlanta CV,DCI All-Age Class,91.625,2025,DCI All-Age World Championship Finals
+08/09,Indianapolis,IN,5,Cincinnati Tradition,DCI All-Age Class,90.950,2025,DCI All-Age World Championship Finals
+08/09,Indianapolis,IN,6,Connecticut Hurricanes,DCI All-Age Class,89.550,2025,DCI All-Age World Championship Finals
+08/09,Indianapolis,IN,7,White Sabers,DCI All-Age Class,87.475,2025,DCI All-Age World Championship Finals
+08/09,Indianapolis,IN,8,Rogues Hollow Regiment,DCI All-Age Class,85.925,2025,DCI All-Age World Championship Finals
+08/09,Indianapolis,IN,9,Sunrisers,DCI All-Age Class,83.475,2025,DCI All-Age World Championship Finals
+08/09,Indianapolis,IN,10,Govenaires,DCI All-Age Class,83.075,2025,DCI All-Age World Championship Finals
+08/09,Indianapolis,IN,11,Minnesota Brass,DCI All-Age Class,80.300,2025,DCI All-Age World Championship Finals
+08/09,Indianapolis,IN,12,Fusion Core,DCI All-Age Class,78.325,2025,DCI All-Age World Championship Finals
