@@ -1,0 +1,584 @@
+Date,City,State,Place,Corps,Class,Score,Year,Event_Name
+08/08,Indianapolis,IN,1,Bluecoats,World Class,99.100,2026,DCI World Championship Finals
+08/08,Indianapolis,IN,2,Blue Devils,World Class,97.500,2026,DCI World Championship Finals
+08/08,Indianapolis,IN,3,Carolina Crown,World Class,97.038,2026,DCI World Championship Finals
+08/08,Indianapolis,IN,4,Boston Crusaders,World Class,95.675,2026,DCI World Championship Finals
+08/08,Indianapolis,IN,5,Santa Clara Vanguard,World Class,95.025,2026,DCI World Championship Finals
+08/08,Indianapolis,IN,6,Blue Stars,World Class,94.137,2026,DCI World Championship Finals
+08/08,Indianapolis,IN,7,Phantom Regiment,World Class,92.600,2026,DCI World Championship Finals
+08/08,Indianapolis,IN,8,The Cavaliers,World Class,92.175,2026,DCI World Championship Finals
+08/08,Indianapolis,IN,9,Colts,World Class,90.125,2026,DCI World Championship Finals
+08/08,Indianapolis,IN,10,Spirit of Atlanta,World Class,88.588,2026,DCI World Championship Finals
+08/08,Indianapolis,IN,11,Troopers,World Class,86.950,2026,DCI World Championship Finals
+08/08,Indianapolis,IN,12,Blue Knights,World Class,86.175,2026,DCI World Championship Finals
+08/08,Indianapolis,IN,1,Reading Buccaneers,All Age Class,96.200,2026,DCI All-Age World Championship Finals
+08/08,Indianapolis,IN,2,Hawthorne Caballeros,All Age Class,95.650,2026,DCI All-Age World Championship Finals
+08/08,Indianapolis,IN,3,Atlanta CV,All Age Class,92.650,2026,DCI All-Age World Championship Finals
+08/08,Indianapolis,IN,4,Bushwackers,All Age Class,92.625,2026,DCI All-Age World Championship Finals
+08/08,Indianapolis,IN,5,Cincinnati Tradition,All Age Class,92.200,2026,DCI All-Age World Championship Finals
+08/08,Indianapolis,IN,6,Connecticut Hurricanes,All Age Class,88.425,2026,DCI All-Age World Championship Finals
+08/08,Indianapolis,IN,7,White Sabers,All Age Class,86.700,2026,DCI All-Age World Championship Finals
+08/08,Indianapolis,IN,8,Fusion Core,All Age Class,85.125,2026,DCI All-Age World Championship Finals
+08/08,Indianapolis,IN,9,Rogues Hollow Regiment,All Age Class,85.025,2026,DCI All-Age World Championship Finals
+08/08,Indianapolis,IN,10,Govenaires,All Age Class,82.175,2026,DCI All-Age World Championship Finals
+08/08,Indianapolis,IN,11,Northern Lights Drum & Bugle Corps,All Age Class,80.550,2026,DCI All-Age World Championship Finals
+08/08,Indianapolis,IN,12,Minnesota Brass,All Age Class,79.625,2026,DCI All-Age World Championship Finals
+08/07,Indianapolis,IN,1,Bluecoats,World Class,98.563,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,2,Blue Devils,World Class,96.975,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,3,Carolina Crown,World Class,96.800,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,4,Boston Crusaders,World Class,95.588,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,5,Santa Clara Vanguard,World Class,95.050,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,6,Blue Stars,World Class,93.338,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,7,Phantom Regiment,World Class,93.012,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,8,The Cavaliers,World Class,91.850,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,9,Colts,World Class,90.350,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,10,Spirit of Atlanta,World Class,88.763,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,11,Troopers,World Class,87.950,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,12,Blue Knights,World Class,86.750,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,13,Pacific Crest,World Class,86.663,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,14,Madison Scouts,World Class,86.250,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,15,Crossmen,World Class,83.425,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,16,Music City,World Class,83.400,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,17,The Academy,World Class,82.525,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,18,Blue Devils B,World Class,81.375,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,19,Spartans,World Class,80.788,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,20,The Battalion,World Class,79.225,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,21,Seattle Cascades,World Class,78.563,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,22,Gold,World Class,77.975,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,23,Genesis,World Class,76.675,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,24,Memphis Blues,World Class,75.425,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,25,River City Rhythm,World Class,73.900,2026,DCI World Championship Semifinals
+08/07,Indianapolis,IN,1,Reading Buccaneers,All Age Class,94.700,2026,DCI All-Age World Championship Prelims
+08/07,Indianapolis,IN,2,Hawthorne Caballeros,All Age Class,94.050,2026,DCI All-Age World Championship Prelims
+08/07,Indianapolis,IN,3,Atlanta CV,All Age Class,91.400,2026,DCI All-Age World Championship Prelims
+08/07,Indianapolis,IN,4,Bushwackers,All Age Class,90.975,2026,DCI All-Age World Championship Prelims
+08/07,Indianapolis,IN,5,Cincinnati Tradition,All Age Class,89.900,2026,DCI All-Age World Championship Prelims
+08/07,Indianapolis,IN,6,Connecticut Hurricanes,All Age Class,86.263,2026,DCI All-Age World Championship Prelims
+08/07,Indianapolis,IN,7,White Sabers,All Age Class,84.550,2026,DCI All-Age World Championship Prelims
+08/07,Indianapolis,IN,8,Fusion Core,All Age Class,84.200,2026,DCI All-Age World Championship Prelims
+08/07,Indianapolis,IN,9,Rogues Hollow Regiment,All Age Class,82.775,2026,DCI All-Age World Championship Prelims
+08/07,Indianapolis,IN,10,Govenaires,All Age Class,81.175,2026,DCI All-Age World Championship Prelims
+08/07,Indianapolis,IN,11,Northern Lights Drum & Bugle Corps,All Age Class,79.325,2026,DCI All-Age World Championship Prelims
+08/07,Indianapolis,IN,12,Minnesota Brass,All Age Class,78.275,2026,DCI All-Age World Championship Prelims
+08/07,Indianapolis,IN,13,Sunrisers,All Age Class,73.825,2026,DCI All-Age World Championship Prelims
+08/07,Indianapolis,IN,14,Columbus Saints,All Age Class,73.325,2026,DCI All-Age World Championship Prelims
+08/06,Indianapolis,IN,1,Bluecoats,World Class,98.300,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,2,Blue Devils,World Class,97.025,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,3,Carolina Crown,World Class,96.475,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,4,Boston Crusaders,World Class,95.438,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,5,Santa Clara Vanguard,World Class,94.563,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,6,Blue Stars,World Class,93.200,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,7,Phantom Regiment,World Class,93.063,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,8,The Cavaliers,World Class,92.088,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,9,Colts,World Class,89.938,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,10,Spirit of Atlanta,World Class,88.700,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,11,Troopers,World Class,88.688,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,12,Pacific Crest,World Class,87.350,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,13,Blue Knights,World Class,86.913,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,14,Madison Scouts,World Class,86.550,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,15,Crossmen,World Class,84.363,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,16,Music City,World Class,83.975,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,17,The Academy,World Class,83.363,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,18,Blue Devils B,World Class,81.525,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,19,Spartans,World Class,81.125,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,20,The Battalion,World Class,80.600,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,21,Seattle Cascades,World Class,79.738,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,22,Gold,World Class,79.425,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,23,Genesis,World Class,77.438,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,24,Memphis Blues,World Class,77.225,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,25,River City Rhythm,World Class,75.000,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,26,Columbians,World Class,73.600,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,27,Colt Cadets,World Class,73.350,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,28,Raiders,World Class,71.050,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,29,Les Stentors,World Class,69.800,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,30,7th Regiment,World Class,69.475,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,31,Eclipse,World Class,67.400,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,32,Heat Wave,World Class,64.450,2026,DCI World Championship Prelims
+08/06,Indianapolis,IN,33,Mercedes Marching Band,World Class,61.800,2026,DCI World Championship Prelims
+08/04,Dayton,OH,1,Blue Devils B,Open Class,81.725,2026,DCI Open Class World Championship Finals
+08/04,Dayton,OH,2,The Battalion,Open Class,81.500,2026,DCI Open Class World Championship Finals
+08/04,Dayton,OH,3,Gold,Open Class,80.300,2026,DCI Open Class World Championship Finals
+08/04,Dayton,OH,4,Memphis Blues,Open Class,77.600,2026,DCI Open Class World Championship Finals
+08/04,Dayton,OH,5,River City Rhythm,Open Class,76.675,2026,DCI Open Class World Championship Finals
+08/04,Dayton,OH,6,Columbians,Open Class,75.175,2026,DCI Open Class World Championship Finals
+08/04,Dayton,OH,7,Colt Cadets,Open Class,73.225,2026,DCI Open Class World Championship Finals
+08/04,Dayton,OH,8,Raiders,Open Class,72.025,2026,DCI Open Class World Championship Finals
+08/04,Dayton,OH,9,7th Regiment,Open Class,70.625,2026,DCI Open Class World Championship Finals
+08/04,Dayton,OH,10,Les Stentors,Open Class,69.400,2026,DCI Open Class World Championship Finals
+08/04,Dayton,OH,11,Eclipse,Open Class,67.325,2026,DCI Open Class World Championship Finals
+08/04,Dayton,OH,12,Heat Wave,Open Class,63.950,2026,DCI Open Class World Championship Finals
+08/04,Dayton,OH,1,Mercedes Marching Band,Open Class,61.025,2026,DCI Open Class World Championship Finals
+08/03,Lexington,KY,1,Phantom Regiment,World Class,93.725,2026,DCI Kentucky
+08/03,Lexington,KY,2,The Cavaliers,World Class,93.100,2026,DCI Kentucky
+08/03,Lexington,KY,3,Blue Stars,World Class,92.900,2026,DCI Kentucky
+08/03,Lexington,KY,4,Troopers,World Class,88.850,2026,DCI Kentucky
+08/03,Lexington,KY,5,Spirit of Atlanta,World Class,88.100,2026,DCI Kentucky
+08/03,Lexington,KY,6,Blue Knights,World Class,86.450,2026,DCI Kentucky
+08/03,Lexington,KY,7,Spartans,World Class,79.600,2026,DCI Kentucky
+08/03,Lexington,KY,1,Bushwackers,World Class,91.450,2026,DCI Kentucky
+08/03,Lexington,KY,2,Atlanta CV,World Class,91.200,2026,DCI Kentucky
+08/03,Lexington,KY,3,Connecticut Hurricanes,World Class,84.950,2026,DCI Kentucky
+08/03,Dayton,OH,1,The Battalion,Open Class,80.800,2026,DCI Open Class World Championship Prelims
+08/03,Dayton,OH,2,Gold,Open Class,80.400,2026,DCI Open Class World Championship Prelims
+08/03,Dayton,OH,3,Blue Devils B,Open Class,80.200,2026,DCI Open Class World Championship Prelims
+08/03,Dayton,OH,4,Memphis Blues,Open Class,76.275,2026,DCI Open Class World Championship Prelims
+08/03,Dayton,OH,5,River City Rhythm,Open Class,75.750,2026,DCI Open Class World Championship Prelims
+08/03,Dayton,OH,6,Columbians,Open Class,74.775,2026,DCI Open Class World Championship Prelims
+08/03,Dayton,OH,7,Colt Cadets,Open Class,72.525,2026,DCI Open Class World Championship Prelims
+08/03,Dayton,OH,8,Raiders,Open Class,70.550,2026,DCI Open Class World Championship Prelims
+08/03,Dayton,OH,9,7th Regiment,Open Class,70.200,2026,DCI Open Class World Championship Prelims
+08/03,Dayton,OH,10,Les Stentors,Open Class,68.050,2026,DCI Open Class World Championship Prelims
+08/03,Dayton,OH,11,Eclipse,Open Class,66.425,2026,DCI Open Class World Championship Prelims
+08/03,Dayton,OH,12,Heat Wave,Open Class,62.625,2026,DCI Open Class World Championship Prelims
+08/03,Akron,OH,1,Bluecoats,World Class,97.450,2026,Innovations In Brass
+08/03,Akron,OH,2,Blue Devils,World Class,96.150,2026,Innovations In Brass
+08/03,Akron,OH,3,Carolina Crown,World Class,96.050,2026,Innovations In Brass
+08/03,Akron,OH,4,Boston Crusaders,World Class,95.025,2026,Innovations In Brass
+08/03,Akron,OH,5,Santa Clara Vanguard,World Class,93.950,2026,Innovations In Brass
+08/03,Akron,OH,6,Colts,World Class,89.250,2026,Innovations In Brass
+08/03,Akron,OH,7,Pacific Crest,World Class,87.125,2026,Innovations In Brass
+08/03,Akron,OH,8,Madison Scouts,World Class,86.350,2026,Innovations In Brass
+08/03,Akron,OH,9,Crossmen,World Class,83.650,2026,Innovations In Brass
+08/03,Akron,OH,10,Music City,World Class,83.275,2026,Innovations In Brass
+08/03,Akron,OH,11,The Academy,World Class,82.450,2026,Innovations In Brass
+08/03,Akron,OH,12,Seattle Cascades,World Class,79.325,2026,Innovations In Brass
+08/03,Akron,OH,13,Genesis,World Class,77.800,2026,Innovations In Brass
+08/01,Allentown,PA,1,Carolina Crown,World Class,95.275,2026,DCI Eastern Classic
+08/01,Allentown,PA,2,Boston Crusaders,World Class,94.900,2026,DCI Eastern Classic
+08/01,Allentown,PA,3,Santa Clara Vanguard,World Class,93.763,2026,DCI Eastern Classic
+08/01,Allentown,PA,4,Phantom Regiment,World Class,92.275,2026,DCI Eastern Classic
+08/01,Allentown,PA,5,The Cavaliers,World Class,91.038,2026,DCI Eastern Classic
+08/01,Allentown,PA,6,Pacific Crest,World Class,86.000,2026,DCI Eastern Classic
+08/01,Allentown,PA,7,Madison Scouts,World Class,85.050,2026,DCI Eastern Classic
+08/01,Allentown,PA,8,Crossmen,World Class,82.538,2026,DCI Eastern Classic
+08/01,Allentown,PA,9,The Academy,World Class,82.125,2026,DCI Eastern Classic
+08/01,Allentown,PA,10,Spartans,World Class,78.650,2026,DCI Eastern Classic
+08/01,Allentown,PA,11,Seattle Cascades,World Class,78.275,2026,DCI Eastern Classic
+08/01,Pittsburgh,PA,1,Spirit of Atlanta,World Class,87.550,2026,DCI Pittsburgh
+08/01,Pittsburgh,PA,2,Music City,World Class,83.300,2026,DCI Pittsburgh
+08/01,Pittsburgh,PA,1,Bushwackers,World Class,89.500,2026,DCI Pittsburgh
+08/01,Pittsburgh,PA,2,White Sabers,World Class,83.300,2026,DCI Pittsburgh
+08/01,Pittsburgh,PA,3,Connecticut Hurricanes,World Class,83.200,2026,DCI Pittsburgh
+08/01,Pittsburgh,PA,4,Rogues Hollow Regiment,World Class,81.700,2026,DCI Pittsburgh
+08/01,Pittsburgh,PA,5,Columbus Saints,World Class,74.900,2026,DCI Pittsburgh
+07/31,Allentown,PA,1,Bluecoats,World Class,96.825,2026,DCI Eastern Classic
+07/31,Allentown,PA,2,Blue Devils,World Class,95.450,2026,DCI Eastern Classic
+07/31,Allentown,PA,3,Blue Stars,World Class,92.025,2026,DCI Eastern Classic
+07/31,Allentown,PA,4,Colts,World Class,88.500,2026,DCI Eastern Classic
+07/31,Allentown,PA,5,Troopers,World Class,87.500,2026,DCI Eastern Classic
+07/31,Allentown,PA,6,Spirit of Atlanta,World Class,86.025,2026,DCI Eastern Classic
+07/31,Allentown,PA,7,Blue Knights,World Class,85.863,2026,DCI Eastern Classic
+07/31,Allentown,PA,8,Music City,World Class,81.475,2026,DCI Eastern Classic
+07/31,Allentown,PA,9,Genesis,World Class,76.275,2026,DCI Eastern Classic
+07/31,Allentown,PA,1,Reading Buccaneers,World Class,92.825,2026,DCI Eastern Classic
+07/31,Allentown,PA,2,Hawthorne Caballeros,World Class,91.175,2026,DCI Eastern Classic
+07/31,Allentown,PA,3,Bushwackers,World Class,88.650,2026,DCI Eastern Classic
+07/31,Allendale,MI,1,The Battalion,Open Class,79.200,2026,DCI Michigan
+07/31,Allendale,MI,2,Gold,Open Class,79.100,2026,DCI Michigan
+07/31,Allendale,MI,3,River City Rhythm,Open Class,75.950,2026,DCI Michigan
+07/31,Allendale,MI,4,Memphis Blues,Open Class,75.050,2026,DCI Michigan
+07/31,Allendale,MI,5,Colt Cadets,Open Class,72.150,2026,DCI Michigan
+07/31,Allendale,MI,6,Raiders,Open Class,70.750,2026,DCI Michigan
+07/31,Allendale,MI,7,7th Regiment,Open Class,69.600,2026,DCI Michigan
+07/31,Allendale,MI,8,Les Stentors,Open Class,69.000,2026,DCI Michigan
+07/31,Allendale,MI,9,Heat Wave,Open Class,62.450,2026,DCI Michigan
+07/31,Allendale,MI,1,Northern Lights Drum & Bugle Corps,Open Class,76.850,2026,DCI Michigan
+07/30,Marion,OH,1,Gold,Open Class,78.850,2026,The Marion Open
+07/30,Marion,OH,2,The Battalion,Open Class,78.400,2026,The Marion Open
+07/30,Marion,OH,3,River City Rhythm,Open Class,74.600,2026,The Marion Open
+07/30,Marion,OH,4,Memphis Blues,Open Class,72.150,2026,The Marion Open
+07/30,Marion,OH,5,Colt Cadets,Open Class,69.600,2026,The Marion Open
+07/30,Marion,OH,6,7th Regiment,Open Class,69.500,2026,The Marion Open
+07/30,Marion,OH,7,Raiders,Open Class,69.250,2026,The Marion Open
+07/30,Marion,OH,8,Les Stentors,Open Class,66.100,2026,The Marion Open
+07/30,Marion,OH,9,Heat Wave,Open Class,60.600,2026,The Marion Open
+07/30,Marion,OH,1,Cincinnati Tradition,Open Class,87.350,2026,The Marion Open
+07/30,Lawrence,MA,1,Bluecoats,World Class,96.250,2026,DCI East Coast Showcase
+07/30,Lawrence,MA,2,Boston Crusaders,World Class,94.700,2026,DCI East Coast Showcase
+07/30,Lawrence,MA,3,Phantom Regiment,World Class,92.250,2026,DCI East Coast Showcase
+07/30,Lawrence,MA,4,Pacific Crest,World Class,85.150,2026,DCI East Coast Showcase
+07/30,Lawrence,MA,5,Spartans,World Class,77.950,2026,DCI East Coast Showcase
+07/29,Huntington,WV,1,Santa Clara Vanguard,World Class,92.900,2026,DCI Huntington
+07/29,Huntington,WV,2,The Cavaliers,World Class,89.450,2026,DCI Huntington
+07/29,Huntington,WV,3,Madison Scouts,World Class,84.750,2026,DCI Huntington
+07/29,Huntington,WV,4,Seattle Cascades,World Class,79.150,2026,DCI Huntington
+07/29,Huntington,WV,1,The Battalion,World Class,78.400,2026,DCI Huntington
+07/29,Huntington,WV,2,Gold,World Class,77.400,2026,DCI Huntington
+07/29,Huntington,WV,3,Memphis Blues,World Class,73.600,2026,DCI Huntington
+07/29,Huntington,WV,4,Columbians,World Class,72.350,2026,DCI Huntington
+07/29,Huntington,WV,5,7th Regiment,World Class,69.200,2026,DCI Huntington
+07/29,Salem,VA,1,Carolina Crown,World Class,94.700,2026,Summer Music Games of Southwest Virginia
+07/29,Salem,VA,2,Blue Stars,World Class,91.000,2026,Summer Music Games of Southwest Virginia
+07/29,Salem,VA,3,Spirit of Atlanta,World Class,86.100,2026,Summer Music Games of Southwest Virginia
+07/29,Salem,VA,4,Crossmen,World Class,82.600,2026,Summer Music Games of Southwest Virginia
+07/29,Salem,VA,5,Music City,World Class,81.350,2026,Summer Music Games of Southwest Virginia
+07/29,Salem,VA,6,The Academy,World Class,81.100,2026,Summer Music Games of Southwest Virginia
+07/29,Salem,VA,1,Raiders,World Class,67.800,2026,Summer Music Games of Southwest Virginia
+07/29,Salem,VA,2,Heat Wave,World Class,59.750,2026,Summer Music Games of Southwest Virginia
+07/28,Myrtle Beach,SC,1,Carolina Crown,World Class,93.300,2026,Brass at the Beach
+07/28,Myrtle Beach,SC,2,Blue Stars,World Class,90.100,2026,Brass at the Beach
+07/28,Myrtle Beach,SC,3,Spirit of Atlanta,World Class,85.250,2026,Brass at the Beach
+07/28,Myrtle Beach,SC,4,Crossmen,World Class,82.100,2026,Brass at the Beach
+07/28,Myrtle Beach,SC,5,Music City,World Class,80.050,2026,Brass at the Beach
+07/28,Myrtle Beach,SC,6,The Academy,World Class,79.800,2026,Brass at the Beach
+07/26,Winston-Salem,NC,1,Bluecoats,World Class,94.850,2026,NightBEAT
+07/26,Winston-Salem,NC,2,Blue Devils,World Class,93.400,2026,NightBEAT
+07/26,Winston-Salem,NC,3,Carolina Crown,World Class,92.650,2026,NightBEAT
+07/26,Winston-Salem,NC,4,Blue Stars,World Class,89.900,2026,NightBEAT
+07/26,Winston-Salem,NC,5,Colts,World Class,88.000,2026,NightBEAT
+07/26,Winston-Salem,NC,6,Troopers,World Class,86.450,2026,NightBEAT
+07/26,Winston-Salem,NC,7,Blue Knights,World Class,85.100,2026,NightBEAT
+07/26,Winston-Salem,NC,8,Spirit of Atlanta,World Class,84.350,2026,NightBEAT
+07/26,Winston-Salem,NC,9,The Academy,World Class,81.100,2026,NightBEAT
+07/26,Winston-Salem,NC,10,Music City,World Class,79.050,2026,NightBEAT
+07/26,Winston-Salem,NC,11,Spartans,World Class,76.800,2026,NightBEAT
+07/26,Winston-Salem,NC,1,Heat Wave,World Class,57.800,2026,NightBEAT
+07/26,Winston-Salem,NC,1,Atlanta CV,World Class,84.700,2026,NightBEAT
+07/26,Norton,OH,1,Cincinnati Tradition,All-Age - World Class,84.900,2026,DCI in Motion
+07/26,Norton,OH,2,Rogues Hollow Regiment,All-Age - World Class,78.550,2026,DCI in Motion
+07/26,Norton,OH,1,Gold,All-Age - World Class,74.750,2026,DCI in Motion
+07/26,Norton,OH,2,7th Regiment,All-Age - World Class,67.200,2026,DCI in Motion
+07/26,Norton,OH,3,Les Stentors,All-Age - World Class,64.700,2026,DCI in Motion
+07/25,DeKalb,IL,1,Santa Clara Vanguard,World Class,91.950,2026,Midwestern Championship
+07/25,DeKalb,IL,2,Phantom Regiment,World Class,89.500,2026,Midwestern Championship
+07/25,DeKalb,IL,3,The Cavaliers,World Class,87.725,2026,Midwestern Championship
+07/25,DeKalb,IL,4,Pacific Crest,World Class,83.200,2026,Midwestern Championship
+07/25,DeKalb,IL,5,Madison Scouts,World Class,83.000,2026,Midwestern Championship
+07/25,DeKalb,IL,6,Seattle Cascades,World Class,75.025,2026,Midwestern Championship
+07/25,DeKalb,IL,7,Genesis,World Class,74.725,2026,Midwestern Championship
+07/25,DeKalb,IL,1,River City Rhythm,World Class,70.650,2026,Midwestern Championship
+07/25,DeKalb,IL,2,Columbians,World Class,69.725,2026,Midwestern Championship
+07/25,DeKalb,IL,3,Colt Cadets,World Class,66.750,2026,Midwestern Championship
+07/25,DeKalb,IL,1,Govenaires,World Class,79.250,2026,Midwestern Championship
+07/25,DeKalb,IL,2,Northern Lights Drum & Bugle Corps,World Class,73.825,2026,Midwestern Championship
+07/25,Atlanta,GA,1,Bluecoats,World Class,94.725,2026,DCI Southeastern Championship
+07/25,Atlanta,GA,2,Blue Devils,World Class,93.413,2026,DCI Southeastern Championship
+07/25,Atlanta,GA,3,Carolina Crown,World Class,93.075,2026,DCI Southeastern Championship
+07/25,Atlanta,GA,4,Boston Crusaders,World Class,92.375,2026,DCI Southeastern Championship
+07/25,Atlanta,GA,5,Blue Stars,World Class,89.425,2026,DCI Southeastern Championship
+07/25,Atlanta,GA,6,Colts,World Class,87.075,2026,DCI Southeastern Championship
+07/25,Atlanta,GA,7,Troopers,World Class,85.025,2026,DCI Southeastern Championship
+07/25,Atlanta,GA,8,Blue Knights,World Class,84.075,2026,DCI Southeastern Championship
+07/25,Atlanta,GA,9,Spirit of Atlanta,World Class,83.425,2026,DCI Southeastern Championship
+07/25,Atlanta,GA,10,Crossmen,World Class,80.350,2026,DCI Southeastern Championship
+07/25,Atlanta,GA,11,Music City,World Class,79.250,2026,DCI Southeastern Championship
+07/25,Atlanta,GA,12,The Academy,World Class,78.250,2026,DCI Southeastern Championship
+07/25,Atlanta,GA,13,Spartans,World Class,75.000,2026,DCI Southeastern Championship
+07/25,Atlanta,GA,1,Memphis Blues,World Class,69.900,2026,DCI Southeastern Championship
+07/25,Atlanta,GA,1,Atlanta CV,World Class,83.425,2026,DCI Southeastern Championship
+07/25,Atlanta,GA,2,Fusion Core,World Class,76.125,2026,DCI Southeastern Championship
+07/25,Sheffield,PA,1,The Battalion,Open Class,75.700,2026,Music on the Mountain
+07/25,Sheffield,PA,2,Gold,Open Class,74.650,2026,Music on the Mountain
+07/25,Sheffield,PA,3,Raiders,Open Class,66.450,2026,Music on the Mountain
+07/25,Sheffield,PA,4,7th Regiment,Open Class,65.950,2026,Music on the Mountain
+07/25,Sheffield,PA,5,Les Stentors,Open Class,63.100,2026,Music on the Mountain
+07/25,Sheffield,PA,1,Cincinnati Tradition,Open Class,81.550,2026,Music on the Mountain
+07/25,Sheffield,PA,2,Rogues Hollow Regiment,Open Class,75.550,2026,Music on the Mountain
+07/25,Mt. Olive,NJ,1,Reading Buccaneers,All-Age - World Class,91.500,2026,Bushwackers Invitational
+07/25,Mt. Olive,NJ,2,Hawthorne Caballeros,All-Age - World Class,90.300,2026,Bushwackers Invitational
+07/25,Mt. Olive,NJ,3,Bushwackers,All-Age - World Class,87.300,2026,Bushwackers Invitational
+07/25,Mt. Olive,NJ,4,Connecticut Hurricanes,All-Age - World Class,79.950,2026,Bushwackers Invitational
+07/25,Mt. Olive,NJ,5,Sunrisers,All-Age - World Class,72.200,2026,Bushwackers Invitational
+07/24,Birmingham,AL,1,Blue Stars,World Class,89.500,2026,DCI Birmingham
+07/24,Birmingham,AL,2,Troopers,World Class,85.550,2026,DCI Birmingham
+07/24,Birmingham,AL,3,Blue Knights,World Class,84.800,2026,DCI Birmingham
+07/24,Birmingham,AL,4,Crossmen,World Class,79.750,2026,DCI Birmingham
+07/24,Birmingham,AL,5,The Academy,World Class,78.150,2026,DCI Birmingham
+07/24,Birmingham,AL,6,Spartans,World Class,74.650,2026,DCI Birmingham
+07/24,Birmingham,AL,1,Memphis Blues,World Class,69.600,2026,DCI Birmingham
+07/24,Birmingham,AL,2,Heat Wave,World Class,61.850,2026,DCI Birmingham
+07/24,Birmingham,AL,1,Atlanta CV,World Class,84.600,2026,DCI Birmingham
+07/24,Birmingham,AL,2,Fusion Core,World Class,77.450,2026,DCI Birmingham
+07/24,Birmingham,AL,1,Apollo,World Class,74.667,2026,DCI Birmingham
+07/24,Madison,WI,1,Santa Clara Vanguard,World Class,91.650,2026,Drums on Parade
+07/24,Madison,WI,2,Phantom Regiment,World Class,89.000,2026,Drums on Parade
+07/24,Madison,WI,3,The Cavaliers,World Class,88.400,2026,Drums on Parade
+07/24,Madison,WI,4,Pacific Crest,World Class,82.500,2026,Drums on Parade
+07/24,Madison,WI,5,Madison Scouts,World Class,81.850,2026,Drums on Parade
+07/24,Madison,WI,6,Genesis,World Class,74.050,2026,Drums on Parade
+07/24,Madison,WI,7,Seattle Cascades,World Class,74.000,2026,Drums on Parade
+07/24,Madison,WI,1,Colt Cadets,World Class,65.600,2026,Drums on Parade
+07/24,Madison,WI,1,Govenaires,World Class,77.600,2026,Drums on Parade
+07/24,Murfreesboro,TN,1,Bluecoats,World Class,94.300,2026,DCI Middle Tennessee
+07/24,Murfreesboro,TN,2,Blue Devils,World Class,92.300,2026,DCI Middle Tennessee
+07/24,Murfreesboro,TN,2,Boston Crusaders,World Class,92.300,2026,DCI Middle Tennessee
+07/24,Murfreesboro,TN,4,Carolina Crown,World Class,92.200,2026,DCI Middle Tennessee
+07/24,Murfreesboro,TN,5,Colts,World Class,84.900,2026,DCI Middle Tennessee
+07/24,Murfreesboro,TN,6,Spirit of Atlanta,World Class,82.750,2026,DCI Middle Tennessee
+07/24,Murfreesboro,TN,7,Music City,World Class,78.900,2026,DCI Middle Tennessee
+07/24,Central Square,NY,1,White Sabers,All-Age - World Class,80.900,2026,DCI Syracuse
+07/24,Central Square,NY,1,The Battalion,All-Age - World Class,74.850,2026,DCI Syracuse
+07/24,Central Square,NY,2,Raiders,All-Age - World Class,67.400,2026,DCI Syracuse
+07/24,Central Square,NY,3,7th Regiment,All-Age - World Class,66.950,2026,DCI Syracuse
+07/24,Central Square,NY,4,Les Stentors,All-Age - World Class,64.500,2026,DCI Syracuse
+07/22,Evansville,IN,1,Santa Clara Vanguard,World Class,91.300,2026,Drums on the Ohio
+07/22,Evansville,IN,2,Phantom Regiment,World Class,88.850,2026,Drums on the Ohio
+07/22,Evansville,IN,3,Colts,World Class,84.300,2026,Drums on the Ohio
+07/22,Evansville,IN,4,Pacific Crest,World Class,81.200,2026,Drums on the Ohio
+07/22,Evansville,IN,5,Seattle Cascades,World Class,74.250,2026,Drums on the Ohio
+07/22,Evansville,IN,6,Genesis,World Class,74.150,2026,Drums on the Ohio
+07/22,Evansville,IN,1,The Battalion,World Class,71.950,2026,Drums on the Ohio
+07/22,Evansville,IN,2,Gold,World Class,71.350,2026,Drums on the Ohio
+07/22,Hattiesburg,MS,1,Blue Devils,World Class,92.950,2026,DCI Southern Mississippi
+07/22,Hattiesburg,MS,2,Blue Stars,World Class,88.550,2026,DCI Southern Mississippi
+07/22,Hattiesburg,MS,3,Troopers,World Class,84.550,2026,DCI Southern Mississippi
+07/22,Hattiesburg,MS,4,Blue Knights,World Class,84.000,2026,DCI Southern Mississippi
+07/22,Hattiesburg,MS,5,Spirit of Atlanta,World Class,82.100,2026,DCI Southern Mississippi
+07/22,Hattiesburg,MS,6,Crossmen,World Class,78.750,2026,DCI Southern Mississippi
+07/22,Champlin,MN,1,River City Rhythm,Open Class,69.950,2026,March On!
+07/22,Champlin,MN,2,Columbians,Open Class,67.700,2026,March On!
+07/22,Champlin,MN,3,Colt Cadets,Open Class,65.650,2026,March On!
+07/22,Champlin,MN,1,Govenaires,Open Class,77.300,2026,March On!
+07/22,Champlin,MN,2,Minnesota Brass,Open Class,69.000,2026,March On!
+07/21,Belleville,IL,1,Santa Clara Vanguard,World Class,90.700,2026,DCI St. Louis
+07/21,Belleville,IL,2,The Cavaliers,World Class,88.050,2026,DCI St. Louis
+07/21,Belleville,IL,3,Madison Scouts,World Class,82.650,2026,DCI St. Louis
+07/21,Belleville,IL,4,Music City,World Class,77.900,2026,DCI St. Louis
+07/21,Belleville,IL,5,Seattle Cascades,World Class,73.300,2026,DCI St. Louis
+07/21,Belleville,IL,1,Gold,World Class,72.050,2026,DCI St. Louis
+07/21,Belleville,IL,2,The Battalion,World Class,71.150,2026,DCI St. Louis
+07/20,McKinney,TX,1,Carolina Crown,World Class,91.350,2026,DCI McKinney
+07/20,McKinney,TX,2,Blue Stars,World Class,87.800,2026,DCI McKinney
+07/20,McKinney,TX,2,Phantom Regiment,World Class,87.800,2026,DCI McKinney
+07/20,McKinney,TX,4,Troopers,World Class,83.350,2026,DCI McKinney
+07/20,McKinney,TX,5,Spirit of Atlanta,World Class,80.950,2026,DCI McKinney
+07/20,McKinney,TX,6,Crossmen,World Class,77.450,2026,DCI McKinney
+07/20,McKinney,TX,1,Zephyrus,World Class,68.200,2026,DCI McKinney
+07/19,Bedford,TX,1,Blue Devils,World Class,91.650,2026,DCI Dallas
+07/19,Bedford,TX,2,The Cavaliers,World Class,87.100,2026,DCI Dallas
+07/19,Bedford,TX,3,Colts,World Class,84.000,2026,DCI Dallas
+07/19,Bedford,TX,4,Blue Knights,World Class,83.150,2026,DCI Dallas
+07/19,Bedford,TX,5,Madison Scouts,World Class,80.900,2026,DCI Dallas
+07/19,Bedford,TX,6,Pacific Crest,World Class,80.700,2026,DCI Dallas
+07/19,Bedford,TX,7,Music City,World Class,76.600,2026,DCI Dallas
+07/19,Bedford,TX,8,The Academy,World Class,75.900,2026,DCI Dallas
+07/19,Bedford,TX,9,Spartans,World Class,72.850,2026,DCI Dallas
+07/19,Bedford,TX,1,Zephyrus,World Class,67.800,2026,DCI Dallas
+07/19,Bedford,TX,2,Arsenal,World Class,64.300,2026,DCI Dallas
+07/18,San Antonio,TX,1,Bluecoats,World Class,93.050,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,2,Boston Crusaders,World Class,90.888,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,3,Blue Devils,World Class,90.825,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,4,Carolina Crown,World Class,90.425,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,5,Santa Clara Vanguard,World Class,88.838,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,6,Phantom Regiment,World Class,87.363,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,7,Blue Stars,World Class,86.113,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,8,The Cavaliers,World Class,85.225,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,9,Colts,World Class,82.413,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,10,Blue Knights,World Class,82.400,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,11,Troopers,World Class,81.150,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,12,Madison Scouts,World Class,80.425,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,13,Pacific Crest,World Class,80.000,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,14,Spirit of Atlanta,World Class,79.900,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,15,Crossmen,World Class,77.125,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,16,The Academy,World Class,76.000,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,17,Music City,World Class,75.725,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,18,Spartans,World Class,72.850,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,19,Genesis,World Class,71.875,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,20,Seattle Cascades,World Class,71.550,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,1,Gold,World Class,70.475,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,2,Zephyrus,World Class,67.700,2026,DCI Southwestern Championship
+07/18,San Antonio,TX,3,Arsenal,World Class,64.375,2026,DCI Southwestern Championship
+07/18,Landisville,PA,1,Reading Buccaneers,All-Age - World Class,86.950,2026,The Buccaneer Classic
+07/18,Landisville,PA,2,Bushwackers,All-Age - World Class,84.200,2026,The Buccaneer Classic
+07/18,Landisville,PA,3,White Sabers,All-Age - World Class,78.300,2026,The Buccaneer Classic
+07/18,Landisville,PA,4,Sunrisers,All-Age - World Class,70.200,2026,The Buccaneer Classic
+07/18,Landisville,PA,1,Raiders,All-Age - World Class,64.150,2026,The Buccaneer Classic
+07/18,Landisville,PA,2,Les Stentors,All-Age - World Class,60.550,2026,The Buccaneer Classic
+07/17,Houston,TX,1,Bluecoats,World Class,91.150,2026,DCI Houston
+07/17,Houston,TX,2,Boston Crusaders,World Class,89.500,2026,DCI Houston
+07/17,Houston,TX,3,Blue Devils,World Class,88.700,2026,DCI Houston
+07/17,Houston,TX,4,Carolina Crown,World Class,88.500,2026,DCI Houston
+07/17,Houston,TX,5,Blue Stars,World Class,85.000,2026,DCI Houston
+07/17,Houston,TX,6,The Cavaliers,World Class,83.900,2026,DCI Houston
+07/17,Houston,TX,7,Crossmen,World Class,77.650,2026,DCI Houston
+07/17,Houston,TX,8,The Academy,World Class,76.800,2026,DCI Houston
+07/17,Houston,TX,9,Genesis,World Class,73.050,2026,DCI Houston
+07/17,Houston,TX,10,Spartans,World Class,73.000,2026,DCI Houston
+07/16,Denton,TX,1,Bluecoats,World Class,90.400,2026,DCI Denton
+07/16,Denton,TX,2,Boston Crusaders,World Class,88.600,2026,DCI Denton
+07/16,Denton,TX,3,Carolina Crown,World Class,88.050,2026,DCI Denton
+07/16,Denton,TX,4,Santa Clara Vanguard,World Class,86.800,2026,DCI Denton
+07/16,Denton,TX,5,Phantom Regiment,World Class,85.650,2026,DCI Denton
+07/16,Denton,TX,6,Spirit of Atlanta,World Class,79.450,2026,DCI Denton
+07/16,Denton,TX,7,Seattle Cascades,World Class,70.900,2026,DCI Denton
+07/16,Denton,TX,1,Zephyrus,World Class,64.800,2026,DCI Denton
+07/16,Killeen,TX,1,Blue Knights,World Class,82.500,2026,DCI Central Texas
+07/16,Killeen,TX,2,Colts,World Class,82.400,2026,DCI Central Texas
+07/16,Killeen,TX,3,Madison Scouts,World Class,80.450,2026,DCI Central Texas
+07/16,Killeen,TX,4,Pacific Crest,World Class,79.500,2026,DCI Central Texas
+07/16,Killeen,TX,5,Music City,World Class,76.400,2026,DCI Central Texas
+07/16,Killeen,TX,6,Genesis,World Class,72.500,2026,DCI Central Texas
+07/16,Killeen,TX,1,Gold,World Class,69.900,2026,DCI Central Texas
+07/16,Killeen,TX,2,Arsenal,World Class,65.100,2026,DCI Central Texas
+07/14,Albuquerque,NM,1,Bluecoats,World Class,89.300,2026,DCI New Mexico
+07/14,Albuquerque,NM,2,Pacific Crest,World Class,77.700,2026,DCI New Mexico
+07/14,Albuquerque,NM,3,The Academy,World Class,74.950,2026,DCI New Mexico
+07/14,Albuquerque,NM,4,Seattle Cascades,World Class,70.600,2026,DCI New Mexico
+07/14,Albuquerque,NM,1,Arsenal,World Class,62.100,2026,DCI New Mexico
+07/14,Hutchinson,KS,1,Blue Stars,World Class,84.250,2026,DCI Hutchinson
+07/14,Hutchinson,KS,2,Troopers,World Class,81.800,2026,DCI Hutchinson
+07/14,Hutchinson,KS,3,Blue Knights,World Class,80.250,2026,DCI Hutchinson
+07/14,Hutchinson,KS,4,Madison Scouts,World Class,78.850,2026,DCI Hutchinson
+07/14,Hutchinson,KS,5,Music City,World Class,73.800,2026,DCI Hutchinson
+07/14,Hutchinson,KS,6,Spartans,World Class,72.250,2026,DCI Hutchinson
+07/14,Broken Arrow,OK,1,Boston Crusaders,World Class,87.600,2026,DCI Broken Arrow
+07/14,Broken Arrow,OK,2,Carolina Crown,World Class,87.150,2026,DCI Broken Arrow
+07/14,Broken Arrow,OK,3,Phantom Regiment,World Class,85.000,2026,DCI Broken Arrow
+07/14,Broken Arrow,OK,4,The Cavaliers,World Class,83.350,2026,DCI Broken Arrow
+07/14,Broken Arrow,OK,5,Colts,World Class,79.650,2026,DCI Broken Arrow
+07/14,Broken Arrow,OK,6,Spirit of Atlanta,World Class,78.450,2026,DCI Broken Arrow
+07/14,Broken Arrow,OK,7,Crossmen,World Class,75.850,2026,DCI Broken Arrow
+07/14,Broken Arrow,OK,1,Zephyrus,World Class,63.150,2026,DCI Broken Arrow
+07/13,Olathe,KS,1,Phantom Regiment,World Class,84.300,2026,Brass Impact
+07/13,Olathe,KS,2,Blue Stars,World Class,83.200,2026,Brass Impact
+07/13,Olathe,KS,3,Troopers,World Class,79.550,2026,Brass Impact
+07/13,Olathe,KS,4,Colts,World Class,78.300,2026,Brass Impact
+07/13,Olathe,KS,5,Madison Scouts,World Class,78.100,2026,Brass Impact
+07/13,Olathe,KS,6,Crossmen,World Class,75.150,2026,Brass Impact
+07/13,Olathe,KS,7,Spartans,World Class,71.250,2026,Brass Impact
+07/13,Olathe,KS,1,Colt Cadets,World Class,63.100,2026,Brass Impact
+07/12,Buena Park,CA,1,Blue Devils B,Open Class,72.500,2026,So Cal Classic: Open Class Pacific Championship Finals
+07/12,Buena Park,CA,2,Gold,Open Class,69.700,2026,So Cal Classic: Open Class Pacific Championship Finals
+07/12,Buena Park,CA,3,Impulse,Open Class,68.100,2026,So Cal Classic: Open Class Pacific Championship Finals
+07/12,Buena Park,CA,4,Golden Empire,Open Class,64.950,2026,So Cal Classic: Open Class Pacific Championship Finals
+07/12,Buena Park,CA,5,Blue Devils C,Open Class,64.850,2026,So Cal Classic: Open Class Pacific Championship Finals
+07/11,Pasadena,CA,1,Bluecoats,World Class,87.575,2026,Drum Corps at the Rose Bowl
+07/11,Pasadena,CA,2,Blue Devils,World Class,86.675,2026,Drum Corps at the Rose Bowl
+07/11,Pasadena,CA,3,Santa Clara Vanguard,World Class,84.650,2026,Drum Corps at the Rose Bowl
+07/11,Pasadena,CA,4,Pacific Crest,World Class,76.225,2026,Drum Corps at the Rose Bowl
+07/11,Pasadena,CA,5,The Academy,World Class,74.600,2026,Drum Corps at the Rose Bowl
+07/11,Pasadena,CA,6,Seattle Cascades,World Class,70.075,2026,Drum Corps at the Rose Bowl
+07/11,Pasadena,CA,1,Blue Devils B,World Class,71.125,2026,Drum Corps at the Rose Bowl
+07/11,Pasadena,CA,2,Gold,World Class,68.275,2026,Drum Corps at the Rose Bowl
+07/11,Pasadena,CA,3,Impulse,World Class,66.400,2026,Drum Corps at the Rose Bowl
+07/11,Pasadena,CA,4,Golden Empire,World Class,64.100,2026,Drum Corps at the Rose Bowl
+07/11,Pasadena,CA,5,Blue Devils C,World Class,63.750,2026,Drum Corps at the Rose Bowl
+07/11,Whitewater,WI,1,Phantom Regiment,World Class,83.350,2026,The Whitewater Classic
+07/11,Whitewater,WI,2,Blue Stars,World Class,81.925,2026,The Whitewater Classic
+07/11,Whitewater,WI,3,The Cavaliers,World Class,80.975,2026,The Whitewater Classic
+07/11,Whitewater,WI,4,Troopers,World Class,77.925,2026,The Whitewater Classic
+07/11,Whitewater,WI,5,Blue Knights,World Class,77.150,2026,The Whitewater Classic
+07/11,Whitewater,WI,6,Madison Scouts,World Class,76.925,2026,The Whitewater Classic
+07/11,Whitewater,WI,7,Crossmen,World Class,73.500,2026,The Whitewater Classic
+07/11,Whitewater,WI,8,Spartans,World Class,71.250,2026,The Whitewater Classic
+07/11,Whitewater,WI,9,Genesis,World Class,69.875,2026,The Whitewater Classic
+07/11,Whitewater,WI,1,River City Rhythm,World Class,66.725,2026,The Whitewater Classic
+07/11,Whitewater,WI,2,Eclipse,World Class,64.250,2026,The Whitewater Classic
+07/11,Clifton,NJ,1,Reading Buccaneers,All-Age - World Class,84.050,2026,Drum Corps Grand Prix
+07/11,Clifton,NJ,2,Hawthorne Caballeros,All-Age - World Class,83.250,2026,Drum Corps Grand Prix
+07/11,Clifton,NJ,3,Bushwackers,All-Age - World Class,80.500,2026,Drum Corps Grand Prix
+07/11,Clifton,NJ,4,White Sabers,All-Age - World Class,75.300,2026,Drum Corps Grand Prix
+07/11,Clifton,NJ,5,Connecticut Hurricanes,All-Age - World Class,73.650,2026,Drum Corps Grand Prix
+07/11,Clifton,NJ,1,Raiders,All-Age - World Class,59.550,2026,Drum Corps Grand Prix
+07/11,Clifton,NJ,2,7th Regiment,All-Age - World Class,58.750,2026,Drum Corps Grand Prix
+07/11,Clifton,NJ,3,Les Stentors,All-Age - World Class,56.800,2026,Drum Corps Grand Prix
+07/10,Walnut,CA,1,Bluecoats,World Class,86.750,2026,Western Corps Connection
+07/10,Walnut,CA,2,Blue Devils,World Class,85.250,2026,Western Corps Connection
+07/10,Walnut,CA,3,Santa Clara Vanguard,World Class,83.700,2026,Western Corps Connection
+07/10,Walnut,CA,4,Pacific Crest,World Class,74.100,2026,Western Corps Connection
+07/10,Walnut,CA,5,The Academy,World Class,73.300,2026,Western Corps Connection
+07/10,Walnut,CA,6,Seattle Cascades,World Class,68.850,2026,Western Corps Connection
+07/10,Walnut,CA,1,Blue Devils B,World Class,69.300,2026,Western Corps Connection
+07/10,Walnut,CA,2,Gold,World Class,67.800,2026,Western Corps Connection
+07/10,Walnut,CA,3,Impulse,World Class,65.550,2026,Western Corps Connection
+07/10,Walnut,CA,4,Golden Empire,World Class,63.500,2026,Western Corps Connection
+07/10,Walnut,CA,5,Blue Devils C,World Class,62.250,2026,Western Corps Connection
+07/10,Dubuque,IA,1,Blue Stars,World Class,80.800,2026,Music on the March
+07/10,Dubuque,IA,2,Colts,World Class,78.250,2026,Music on the March
+07/10,Dubuque,IA,3,Blue Knights,World Class,77.100,2026,Music on the March
+07/10,Dubuque,IA,4,Madison Scouts,World Class,75.700,2026,Music on the March
+07/10,Dubuque,IA,5,Genesis,World Class,70.200,2026,Music on the March
+07/10,Dubuque,IA,1,River City Rhythm,World Class,65.250,2026,Music on the March
+07/10,Dubuque,IA,2,Colt Cadets,World Class,61.100,2026,Music on the March
+07/10,Lisle,IL,1,Phantom Regiment,World Class,80.800,2026,Cavalcade of Brass
+07/10,Lisle,IL,2,The Cavaliers,World Class,79.100,2026,Cavalcade of Brass
+07/10,Lisle,IL,3,Troopers,World Class,76.600,2026,Cavalcade of Brass
+07/10,Lisle,IL,4,Crossmen,World Class,72.350,2026,Cavalcade of Brass
+07/10,Lisle,IL,5,Spartans,World Class,70.250,2026,Cavalcade of Brass
+07/10,Lisle,IL,1,Eclipse,World Class,64.050,2026,Cavalcade of Brass
+07/10,Lisle,IL,1,Northern Lights Drum & Bugle Corps,World Class,74.000,2026,Cavalcade of Brass
+07/09,Santa Clarita,CA,1,Bluecoats,World Class,85.300,2026,Gold Showcase
+07/09,Santa Clarita,CA,2,Blue Devils,World Class,84.300,2026,Gold Showcase
+07/09,Santa Clarita,CA,3,Santa Clara Vanguard,World Class,82.950,2026,Gold Showcase
+07/09,Santa Clarita,CA,4,Pacific Crest,World Class,71.800,2026,Gold Showcase
+07/09,Santa Clarita,CA,5,The Academy,World Class,71.650,2026,Gold Showcase
+07/09,Santa Clarita,CA,1,Blue Devils B,World Class,68.750,2026,Gold Showcase
+07/09,Santa Clarita,CA,2,Gold,World Class,66.150,2026,Gold Showcase
+07/09,Santa Clarita,CA,3,Golden Empire,World Class,63.000,2026,Gold Showcase
+07/09,Santa Clarita,CA,4,Blue Devils C,World Class,61.700,2026,Gold Showcase
+07/09,Muscle Shoals,AL,1,Boston Crusaders,World Class,84.550,2026,DCI Northern Alabama
+07/09,Muscle Shoals,AL,2,Spirit of Atlanta,World Class,76.300,2026,DCI Northern Alabama
+07/09,Muscle Shoals,AL,3,Music City,World Class,71.550,2026,DCI Northern Alabama
+07/09,Muscle Shoals,AL,1,Memphis Blues,World Class,64.250,2026,DCI Northern Alabama
+07/09,Muscle Shoals,AL,1,Atlanta CV,World Class,75.200,2026,DCI Northern Alabama
+07/08,Newnan,GA,1,Boston Crusaders,World Class,83.850,2026,Drums Across America
+07/08,Newnan,GA,2,Spirit of Atlanta,World Class,75.050,2026,Drums Across America
+07/08,Newnan,GA,3,Music City,World Class,70.350,2026,Drums Across America
+07/08,Newnan,GA,1,Atlanta CV,World Class,72.350,2026,Drums Across America
+07/07,Mankato,MN,1,The Cavaliers,World Class,77.950,2026,The Kiwanis Thunder of Drums
+07/07,Mankato,MN,2,Colts,World Class,75.050,2026,The Kiwanis Thunder of Drums
+07/07,Mankato,MN,3,Blue Knights,World Class,74.500,2026,The Kiwanis Thunder of Drums
+07/07,Mankato,MN,4,Madison Scouts,World Class,73.300,2026,The Kiwanis Thunder of Drums
+07/07,Mankato,MN,5,Genesis,World Class,67.850,2026,The Kiwanis Thunder of Drums
+07/07,Mankato,MN,1,River City Rhythm,World Class,63.300,2026,The Kiwanis Thunder of Drums
+07/07,Sevierville,TN,1,Boston Crusaders,World Class,83.050,2026,Drums Across the Smokies
+07/07,Sevierville,TN,2,Carolina Crown,World Class,82.100,2026,Drums Across the Smokies
+07/07,Sevierville,TN,3,Spirit of Atlanta,World Class,72.850,2026,Drums Across the Smokies
+07/07,Sevierville,TN,4,Music City,World Class,68.850,2026,Drums Across the Smokies
+07/05,Stanford,CA,1,Bluecoats,World Class,83.950,2026,DCI West
+07/05,Stanford,CA,2,Blue Devils,World Class,82.050,2026,DCI West
+07/05,Stanford,CA,3,Santa Clara Vanguard,World Class,81.150,2026,DCI West
+07/05,Stanford,CA,4,The Academy,World Class,69.250,2026,DCI West
+07/05,Stanford,CA,5,Seattle Cascades,World Class,64.200,2026,DCI West
+07/05,Stanford,CA,1,Blue Devils B,World Class,67.700,2026,DCI West
+07/05,Stanford,CA,2,Gold,World Class,64.550,2026,DCI West
+07/05,Stanford,CA,3,Impulse,World Class,62.100,2026,DCI West
+07/05,Stanford,CA,4,Blue Devils C,World Class,61.200,2026,DCI West
+07/05,Stanford,CA,5,Golden Empire,World Class,60.750,2026,DCI West
+07/05,La Crosse,WI,1,Phantom Regiment,World Class,79.200,2026,River City Rhapsody
+07/05,La Crosse,WI,2,Blue Stars,World Class,77.400,2026,River City Rhapsody
+07/05,La Crosse,WI,3,The Cavaliers,World Class,75.250,2026,River City Rhapsody
+07/05,La Crosse,WI,4,Troopers,World Class,73.750,2026,River City Rhapsody
+07/05,La Crosse,WI,5,Colts,World Class,73.000,2026,River City Rhapsody
+07/05,La Crosse,WI,6,Madison Scouts,World Class,72.500,2026,River City Rhapsody
+07/05,La Crosse,WI,1,River City Rhythm,World Class,61.450,2026,River City Rhapsody
+07/05,La Crosse,WI,1,Govenaires,World Class,70.150,2026,River City Rhapsody
+07/03,Sacramento,CA,1,Bluecoats,World Class,82.200,2026,DCI Capital Classic
+07/03,Sacramento,CA,2,Santa Clara Vanguard,World Class,80.300,2026,DCI Capital Classic
+07/03,Sacramento,CA,3,The Academy,World Class,68.300,2026,DCI Capital Classic
+07/03,Sacramento,CA,4,Seattle Cascades,World Class,63.250,2026,DCI Capital Classic
+07/03,Sacramento,CA,1,Gold,World Class,63.650,2026,DCI Capital Classic
+07/03,Sacramento,CA,2,Golden Empire,World Class,59.800,2026,DCI Capital Classic
+07/03,Sacramento,CA,3,Impulse,World Class,59.250,2026,DCI Capital Classic
+07/01,Portland,OR,1,Santa Clara Vanguard,World Class,79.100,2026,Northwest Youth Music Games Portland
+07/01,Portland,OR,2,Seattle Cascades,World Class,63.000,2026,Northwest Youth Music Games Portland
+07/01,Portland,OR,1,The Battalion,World Class,63.000,2026,Northwest Youth Music Games Portland
+07/01,Portland,OR,2,Gems,World Class,58.950,2026,Northwest Youth Music Games Portland
+07/01,Portland,OR,3,Columbians,World Class,58.850,2026,Northwest Youth Music Games Portland
+07/01,Portland,OR,4,Impulse,World Class,58.000,2026,Northwest Youth Music Games Portland
+07/01,Omaha,NE,1,Phantom Regiment,World Class,76.400,2026,Drums Across Nebraska
+07/01,Omaha,NE,2,Troopers,World Class,71.850,2026,Drums Across Nebraska
+07/01,Omaha,NE,3,Blue Knights,World Class,70.850,2026,Drums Across Nebraska
+07/01,Omaha,NE,4,Colts,World Class,69.700,2026,Drums Across Nebraska
+07/01,Omaha,NE,5,Genesis,World Class,63.200,2026,Drums Across Nebraska
+07/01,Omaha,NE,1,Colt Cadets,World Class,55.450,2026,Drums Across Nebraska
+06/30,Seattle,WA,1,Santa Clara Vanguard,World Class,77.550,2026,Northwest Youth Music Games Seattle
+06/30,Seattle,WA,2,Seattle Cascades,World Class,62.650,2026,Northwest Youth Music Games Seattle
+06/30,Seattle,WA,1,The Battalion,World Class,63.300,2026,Northwest Youth Music Games Seattle
+06/30,Seattle,WA,2,Gems,World Class,57.700,2026,Northwest Youth Music Games Seattle
+06/30,Seattle,WA,3,Columbians,World Class,57.200,2026,Northwest Youth Music Games Seattle
+06/30,Seattle,WA,4,Impulse,World Class,56.950,2026,Northwest Youth Music Games Seattle
+06/28,Ogden,UT,1,Blue Devils,World Class,77.250,2026,Corps Encore
+06/28,Ogden,UT,2,Troopers,World Class,69.400,2026,Corps Encore
+06/28,Ogden,UT,3,Blue Knights,World Class,69.000,2026,Corps Encore
+06/28,Ogden,UT,4,Genesis,World Class,62.150,2026,Corps Encore
+06/27,Shelton,CT,1,Reading Buccaneers,All-Age - World Class,80.950,2026,Barnum Festival: Champions on Parade
+06/27,Shelton,CT,2,Hawthorne Caballeros,All-Age - World Class,78.700,2026,Barnum Festival: Champions on Parade
+06/27,Shelton,CT,3,Bushwackers,All-Age - World Class,76.800,2026,Barnum Festival: Champions on Parade
+06/27,Shelton,CT,4,Connecticut Hurricanes,All-Age - World Class,71.350,2026,Barnum Festival: Champions on Parade
+06/27,Shelton,CT,1,7th Regiment,All-Age - World Class,47.250,2026,Barnum Festival: Champions on Parade
+06/27,Fort Collins,CO,1,Blue Devils,World Class,75.650,2026,Drums Along the Rockies
+06/27,Fort Collins,CO,2,Phantom Regiment,World Class,72.650,2026,Drums Along the Rockies
+06/27,Fort Collins,CO,3,Troopers,World Class,67.850,2026,Drums Along the Rockies
+06/27,Fort Collins,CO,4,Blue Knights,World Class,67.550,2026,Drums Along the Rockies
+06/27,Fort Collins,CO,5,Genesis,World Class,60.350,2026,Drums Along the Rockies
