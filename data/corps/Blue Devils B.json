@@ -13,7 +13,8 @@
    {"circuit": "DCI Open Class", "year": 2010, "score": 97.550, "showTitle": "Space"},
    {"circuit": "DCI Open Class", "year": 2011, "score": 95.000, "showTitle": "Syncronicity"},
    {"circuit": "DCI Open Class", "year": 2014, "score": 82.650, "showTitle": "Noir [nuvo]"},
-   {"circuit": "DCI Open Class", "year": 2016, "score": 79.900, "showTitle": "To The Moon"}
+   {"circuit": "DCI Open Class", "year": 2016, "score": 79.900, "showTitle": "To The Moon"},
+   {"circuit": "DCI Open Class", "year": 2026, "score": 81.725, "showTitle": "Mise En Place"}
  ],
  "captionAwards": [],
  "website": "",
@@ -71,6 +72,7 @@
    {"year": 2022, "showTitle": "I AM", "repertoire": "Original Music by John Meehan, Sean Clark & Chavadith Tantavirojn", "placement": "3rd Place Open Class / 22nd Place World Class", "score": 81.588},
    {"year": 2023, "showTitle": "Fathers of Electricity", "repertoire": "Original Music by John Meehan, Sean Clark & Chavadith Tantavirojn", "placement": "Did not attend DCI", "score": null},
    {"year": 2024, "showTitle": "Sacred Geometry", "repertoire": "Ordo Virtutum by Hildegard von Bingen / O Magnum Mysterium by Tomas Luis de Victoria / Geometry by Sean Clark and Chavadith Tantavirojn / Primacy of Number by Philip Glass / Stabat Mater by Jean-Charles Gandrille / The Laws of Nature by Sean Clark and Chavadith Tantavirojn / Once Upon a Castle by Michael Daughtry", "placement": "2nd Place Open Class / 20th Place World Class", "score": 82.475},
-   {"year": 2025, "showTitle": "Lethologica", "repertoire": "Music by John Meehan, Chavadith Tantavirojn, Sean Clark, Fred Strum, Depeche Mode, and Lynyrd Skynard", "placement": "Did not attend DCI", "score": null}
+   {"year": 2025, "showTitle": "Lethologica", "repertoire": "Music by John Meehan, Chavadith Tantavirojn, Sean Clark, Fred Strum, Depeche Mode, and Lynyrd Skynard", "placement": "Did not attend DCI", "score": null},
+   {"year": 2009, "showTitle": "Mise En Place", "repertoire": "Everything in Its Right Place by Radiohead / Fly With Me by Ibrahim Maalouf / Alone in a Crowd by Jeff Beal / Come What May (from Moulin Rogue!) by David Baerwald & Kevin Gilbert / Rush by Seatbelts / Closing Time by Dan Wilson (Semisonic)", "placement": "1st Place Open Class / 18th Place World Class", "score": 81.725}
  ]
 }

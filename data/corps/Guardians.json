@@ -24,6 +24,11 @@
      "city": "San Antonio",
      "state": "TX", 
      "year": "2022-2024"
+   },
+   {
+     "city": "McKinney",
+     "state": "TX", 
+     "year": "2026-Present"
    }
  ],
  "formerNames": [
@@ -35,7 +40,7 @@
  "currentClass": "Inactive",
  "historicClasses": [
    {"circuit": "DCI", "years": "2013", "className": "SoundSport"},
-   {"circuit": "DCI", "years": "2014-2024", "className": "Open Class"}
+   {"circuit": "DCI", "years": "2014-Present", "className": "Open Class"}
  ],
  "shows": [
    {"year": 2013, "showTitle": "The Eternal Quest", "repertoire": "Apocalyptic (Symphony No. 8) by Anton Bruckner / Symphony No. 2 (Resurrection) by Gustav Mahler / Nimrod (from Enigma Variations) by Edward Elgar / Children's March (Over the Hills and Far Away) by Percy Grainger", "placement": "Did not attend DCI", "score": null},
@@ -48,6 +53,7 @@
    {"year": 2021, "showTitle": "Contrary", "repertoire": "Theme from The Phantom of the Opera by Andrew Lloyd Webber / Back That Azz Up by Juvenile / Careless Whisper by George Michael & Andrew Ridgely (Wham!) / Work It by Missy Elliott / Original Music by Ben Hylton, Matt Penland, & Tyler Sammons", "placement": "No scored competitions", "score": null},
    {"year": 2022, "showTitle": "From Scratch...", "repertoire": "Turning Tables by Adele / Total Eclipse of the Heart by Bonnie Tyler / Y'all Get Back Now by Big Freedia / Original Music by Ben Hylton, Matt Penland & Tyler Sammons", "placement": "5th Place Open Class / 24th Place World Class", "score": 79.213},
    {"year": 2023, "showTitle": "i know the end.", "repertoire": "Sound & Color by Alabama Shakes / X. Adjuah (I Own The Night) by Chief Xian aTunde Adjuah (Christian Scott) / Everything in its Right Place by Radiohead / Welcome to the Black Parade by My Chemical Romance / Original Music by Ben Hylton, Matt Penland & Tyler Sammons", "placement": "6th Place Open Class / 27th Place World Class", "score": 72.688},
-   {"year": 2024, "showTitle": "Going Places", "repertoire": "Clutch by Andrew David Perkins / Like Kids (from Cirque du Soleil's \"Volta\") by M83 / The Beating of our Hearts (from The Symphony of Us) by Pinar Toprak / What You Mean to Me (from Finding Neverland) by Scott Frankel", "placement": "Did not attend DCI", "score": null}
+   {"year": 2024, "showTitle": "Going Places", "repertoire": "Clutch by Andrew David Perkins / Like Kids (from Cirque du Soleil's \"Volta\") by M83 / The Beating of our Hearts (from The Symphony of Us) by Pinar Toprak / What You Mean to Me (from Finding Neverland) by Scott Frankel", "placement": "Did not attend DCI", "score": null},
+   {"year": 2026, "showTitle": "Welcome to Texas", "repertoire": "The Big County Main Theme by Jerome Moross / The Magnificent Seven Main Theme by Elmer Bernstein / Cowboy Take me Away by The Chicks / Texas! by Charlie Daniels / William Tell Overture by Gioachino Rossini", "placement": "Did not attend DCI", "score": null}
  ]
 }
